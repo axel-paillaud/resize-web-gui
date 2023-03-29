@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'syne';
+    src: url('../fonts/Syne-Regular.ttf');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'syne';
+    src: url('../fonts/Syne-Bold.ttf');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'work-sans';
+    src: url('../fonts/WorkSans-Regular.ttf');
+    font-weight: normal;
+}
