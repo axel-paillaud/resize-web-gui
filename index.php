@@ -80,6 +80,8 @@
             <hr class="my-24">
             <button class="btn-disable">Resize and convert</button>
         </form>
+        <button id="test">Test</button>
     </main>
+    <script src="assets/script.js"></script>
 </body>
 </html>
