@@ -20,7 +20,7 @@
                 </label>
             </div>
             <label class="label-field m-separate-field" for="rename">Rename output</label>
-            <input id="rename" name="rename" type="text" maxlength="255">
+            <input class="input-field" id="rename" name="rename" type="text" maxlength="255">
             <!-- Output size start here -->
             <div class="m-separate-field">Output size</div>
             <div class="checkbox-container">

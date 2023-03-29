@@ -23,7 +23,8 @@ h1 {
 }
 
 hr {
-    width: 100%;
+    border-top-width: 0;
+    border-color: #b3b3b3;
 }
 
 /* margin class */
@@ -38,7 +39,7 @@ hr {
 
 .m-separate-field {
     margin-top: 32px;
-    margin-bottom: 8px;
+    margin-bottom: 16px;
 }
 
 .hidden {
@@ -79,6 +80,19 @@ hr {
     display: block;
 }
 
+.input-field {
+    font-family: 'work-sans';
+    width: 100%;
+    box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.10);
+    border: none;
+    padding: 8px;
+}
+
+.input-field:focus {
+    outline: 2px solid #9cb0bb;
+}
+
 .checkbox-container {
     display: flex;
+    column-gap: 24px;
 }
