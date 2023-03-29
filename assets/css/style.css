@@ -33,8 +33,8 @@ hr {
     margin-bottom: 24px;
 }
 
-.m-32 {
-    margin: 32px;
+.mb-16 {
+    margin-bottom: 16px;
 }
 
 .m-separate-field {
@@ -57,8 +57,17 @@ hr {
 }
 
 .btn-disable {
+    font-family: 'work-sans';
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
     display: block;
     margin: 0 auto;
+    border-radius: 50px;
+    padding: 16px 32px;
+    background-color: #a7a7a7;
+    cursor: pointer;
+    border: none;
 }
 
 .form-container {
@@ -95,4 +104,8 @@ hr {
 .checkbox-container {
     display: flex;
     column-gap: 24px;
+}
+
+input[type=checkbox] {
+    box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.25);
 }

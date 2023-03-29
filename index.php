@@ -10,7 +10,7 @@
 </head>
 <body>
     <main>
-        <h1 class="m-32">Resize web</h1>
+        <h1 class="mb-16">Resize web</h1>
         <form class="form-container" id="form" method="post" enctype="multipart/form-data">
             <div id="add-img" class="add-img-container">
                 <img src="assets/picture-svgrepo.svg" alt="Add images graphics">
