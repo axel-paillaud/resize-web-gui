@@ -1,0 +1,24 @@
+/* reset default style */
+body {
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    background-color: #e1d0a5;
+}
+
+main {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.form-container {
+    padding: 10px;
+}
