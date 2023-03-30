@@ -1,0 +1,13 @@
+- Grid system to display thumbnails images inside the light red container
+" Add picture(s)".
+    - When only one image, display one big image that take all the height of the
+    container
+    - When we have multiple image, display all in a grid that fit inside the
+    light red container
+
+When we click on submit button :
+    - Do again a checkInput to see if at least one checkbox in each field is checked,
+    and if at least one image is upload.
+    - Add a check valid image to see if the file is really an image file
+    - create formData object, add all form field inside the formData
+    - Send it to PHP backend
