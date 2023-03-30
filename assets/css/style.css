@@ -27,6 +27,12 @@ hr {
     border-color: #b3b3b3;
 }
 
+fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
 /* margin class */
 .my-24 {
     margin-top: 24px;

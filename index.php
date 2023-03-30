@@ -23,63 +23,67 @@
             <input class="input-field" id="rename" name="rename" type="text"
                 placeholder="Not required. If omitted, the images will keep their original names" maxlength="255">
             <!-- Output size start here -->
-            <div class="m-separate-field">Output size</div>
-            <div class="checkbox-container">
-                <div>
-                    <input type="checkbox" id="size-1920" name="size-1920">
-                    <label for="size-1920">1920</label>
+            <fieldset>
+                <legend class="m-separate-field">Output size</legend>
+                <div class="checkbox-container">
+                    <div>
+                        <input type="checkbox" id="size-1920" name="size">
+                        <label for="size-1920">1920</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="size-1539" name="size">
+                        <label for="size-1539">1536</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="size-1280" name="size">
+                        <label for="size-1280">1280</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="size-1024" name="size">
+                        <label for="size-1024">1024</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="size-768" name="size">
+                        <label for="size-768">768</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="size-640" name="size">
+                        <label for="size-640">640</label>
+                    </div>
                 </div>
-                <div>
-                    <input type="checkbox" id="size-1539" name="size-1539">
-                    <label for="size-1539">1536</label>
-                </div>
-                <div>
-                    <input type="checkbox" id="size-1280" name="size-1280">
-                    <label for="size-1280">1280</label>
-                </div>
-                <div>
-                    <input type="checkbox" id="size-1024" name="size-1024">
-                    <label for="size-1024">1024</label>
-                </div>
-                <div>
-                    <input type="checkbox" id="size-768" name="size-768">
-                    <label for="size-768">768</label>
-                </div>
-                <div>
-                    <input type="checkbox" id="size-640" name="size-640">
-                    <label for="size-640">640</label>
-                </div>
-            </div>
+            </fieldset>
             <!-- Output format start here -->
-            <div class="m-separate-field">Output format</div>
-            <div class="checkbox-container">
-                <div>
-                    <input type="checkbox" id="format-avif" name="format-avif">
-                    <label for="format-avif">AVIF</label>
+            <fieldset>
+                <legend class="m-separate-field">Output format</legend>
+                <div class="checkbox-container">
+                    <div>
+                        <input type="checkbox" id="format-avif" name="format">
+                        <label for="format-avif">AVIF</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="format-webp" name="format">
+                        <label for="format-webp">WebP</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="format-png" name="format">
+                        <label for="format-png">PNG</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="format-jpg" name="format">
+                        <label for="format-jpg">JPG</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="format-gif" name="format">
+                        <label for="format-gif">GIF</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="format-svg" name="format">
+                        <label for="format-svg">SVG</label>
+                    </div>
                 </div>
-                <div>
-                    <input type="checkbox" id="format-webp" name="format-webp">
-                    <label for="format-webp">WebP</label>
-                </div>
-                <div>
-                    <input type="checkbox" id="format-png" name="format-png">
-                    <label for="format-png">PNG</label>
-                </div>
-                <div>
-                    <input type="checkbox" id="format-jpg" name="format-jpg">
-                    <label for="format-jpg">JPG</label>
-                </div>
-                <div>
-                    <input type="checkbox" id="format-gif" name="format-gif">
-                    <label for="format-gif">GIF</label>
-                </div>
-                <div>
-                    <input type="checkbox" id="format-svg" name="format-svg">
-                    <label for="format-svg">SVG</label>
-                </div>
-            </div>
+            </fieldset>
             <hr class="my-24">
-            <button class="btn-disable">Resize and convert</button>
+            <button id="submit" class="btn-disable" disabled>Resize and convert</button>
         </form>
     </main>
     <script src="assets/script.js"></script>
