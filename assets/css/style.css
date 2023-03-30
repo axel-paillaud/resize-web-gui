@@ -97,6 +97,7 @@ input[type=checkbox] {
     color: white;
     max-width: 476px;
     transition: all 0.3s;
+    white-space: nowrap;
 }
 
 .fa-mark {

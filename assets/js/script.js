@@ -143,15 +143,15 @@ function getFormData(form) {
     }
     form["size"].forEach(size => {
         if (size.checked === true) {
-            formData.append("size", size.value);
+            formData.append("size[]", size.value);
         }
     });
     form["format"].forEach(format => {
         if (format.checked === true) {
-            formData.append("format", format.value);
+            formData.append("format[]", format.value);
         }
     });
-    for (const image of form["image-file"].files) {
+    for (const image of form["image-file[]"].files) {
         formData.append("image", image);
     }
     
@@ -162,6 +162,9 @@ async function fetchDataToApi(formData) {
     fetch("src/api.php", {
         method: "POST",
         body: formData,
+        headers: {
+            'Content-type': 'multipart/form-data'
+        }
     })
     .then(function(res) {
         if (res.ok) {
