@@ -83,7 +83,7 @@
                 </div>
             </fieldset>
             <hr class="my-24">
-            <button id="submit" class="btn-disable" disabled>Resize and convert</button>
+            <button id="submit" class="submit-btn" disabled>Resize and convert</button>
         </form>
     </main>
     <script src="assets/script.js"></script>

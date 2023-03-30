@@ -30,6 +30,10 @@ function validateImage(name) {
 function enableSubmit(submitBtn, isCheckSize, isCheckFormat, isFile) {
     if (isCheckSize && isCheckFormat && isFile) {
         submitBtn.disabled = false;
+        submitBtn.style.backgroundColor = "#590004";
+    }
+    else {
+        submitBtn.style.backgroundColor = "#a7a7a7";
     }
 }
 
@@ -40,5 +44,7 @@ const validateInput = function (event) {
     enableSubmit(submitBtn, isCheckSize, isCheckFormat, isFile);
 }
 
-
 form.addEventListener('change', validateInput);
+
+// We also want to check if input is valid when we reload the page
+window.addEventListener('DOMContentLoaded', validateInput);

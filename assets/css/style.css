@@ -62,7 +62,7 @@ fieldset {
     cursor: pointer;
 }
 
-.btn-disable {
+.submit-btn {
     font-family: 'work-sans';
     font-weight: bold;
     font-size: 16px;
@@ -74,6 +74,7 @@ fieldset {
     background-color: #a7a7a7;
     cursor: pointer;
     border: none;
+    transition: background-color 0.3s;
 }
 
 .form-container {
