@@ -1,25 +1,58 @@
 Array
 (
-    [rename] => qsdf
     [size] => Array
         (
             [0] => 1920
             [1] => 1539
             [2] => 1280
-            [3] => 1024
-            [4] => 768
-            [5] => 640
         )
 
     [format] => Array
         (
             [0] => avif
             [1] => webp
+            [2] => gif
         )
 
 )
 
 Array
 (
+    [name] => Array
+        (
+            [0] => Capture d’écran du 2023-03-03 08-39-12.png
+            [1] => Capture d’écran du 2023-03-03 15-10-46.png
+        )
+
+    [full_path] => Array
+        (
+            [0] => Capture d’écran du 2023-03-03 08-39-12.png
+            [1] => Capture d’écran du 2023-03-03 15-10-46.png
+        )
+
+    [type] => Array
+        (
+            [0] => image/png
+            [1] => image/png
+        )
+
+    [tmp_name] => Array
+        (
+            [0] => /tmp/phpQAzQak
+            [1] => /tmp/phpLXTMgr
+        )
+
+    [error] => Array
+        (
+            [0] => 0
+            [1] => 0
+        )
+
+    [size] => Array
+        (
+            [0] => 818408
+            [1] => 108122
+        )
+
 )
 

@@ -151,10 +151,9 @@ function getFormData(form) {
             formData.append("format[]", format.value);
         }
     });
-    for (const image of form["image-file[]"].files) {
-        formData.append("image", image);
+    for (const image of form["image-file"].files) {
+        formData.append("image[]", image);
     }
-    
     return formData;
 }
 
@@ -162,9 +161,6 @@ async function fetchDataToApi(formData) {
     fetch("src/api.php", {
         method: "POST",
         body: formData,
-        headers: {
-            'Content-type': 'multipart/form-data'
-        }
     })
     .then(function(res) {
         if (res.ok) {
