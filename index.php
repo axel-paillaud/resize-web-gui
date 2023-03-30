@@ -15,7 +15,7 @@
             <div id="add-img" class="add-img-container">
                 <img src="assets/images/picture-svgrepo.svg" alt="Add images graphics">
                 <label for="image-file" class="btn">
-                    <input type="file" id="image-file" name="image-file" class="hidden" accept="image/*" required multiple>
+                    <input type="file" id="image-file" name="image-file[]" class="hidden" accept="image/*" required multiple>
                     + Add picture(s)
                 </label>
             </div>
@@ -85,7 +85,6 @@
             <hr class="my-24">
             <button id="submit" class="submit-btn" disabled>Resize and convert</button>
             <div id="js-error-msg"></div>
-            <!--<div id="js-error-msg" class="error-msg">etset<img class="fa-mark" src="assets/images/xmark-solid.svg" alt="x mark to close error message"></div>-->
         </form>
     </main>
     <script src="assets/script.js"></script>

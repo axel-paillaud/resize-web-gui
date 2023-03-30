@@ -69,6 +69,17 @@ function validateCheckbox(name) {
     return isChecked;
 }
 
+function validateImage(name) {
+    let fileLength = form[name].files.length;
+    
+    for (let i = 0; i < fileLength; i++) {
+        if (!form[name].files[i].type.startsWith("image/")) {
+            return false;
+        }
+    }
+    return true;
+}
+
 function checkImage(name) {
     let isFile = false;
     if (form[name].files && form[name].files[0]) {
@@ -104,13 +115,32 @@ function validateInput() {
     let isCheckSize = validateCheckbox("size");
     let isCheckFormat = validateCheckbox("format");
     let isFile = checkImage("image-file");
-    displayErrorMsg("hello");
+    let isValidImage = validateImage("image-file");
+    console.log(isValidImage);
+    if (!isCheckSize) {
+        displayErrorMsg("Error : You need to check at least one image size");
+        return false;
+    }
+    else if (!isCheckFormat) {
+        displayErrorMsg("Error : You need to check at least one image format");
+        return false;
+    }
+    else if (!isFile) {
+        displayErrorMsg("Error : You need to upload at least one image file");
+        return false;
+    }
+    else if (!isValidImage) {
+        displayErrorMsg('Error : One file is not of type "image"');
+        return false;
+    }
 }
 
 const triggerSubmit = function (event) {
     event.preventDefault();
     if (event.type === 'click' || event.key === 'Enter') {
-        validateInput();
+        let isValidInput = validateInput();
+        if (!isValidInput)
+            return;
     }
 }
 
