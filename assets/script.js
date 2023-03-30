@@ -31,9 +31,11 @@ function enableSubmit(submitBtn, isCheckSize, isCheckFormat, isFile) {
     if (isCheckSize && isCheckFormat && isFile) {
         submitBtn.disabled = false;
         submitBtn.style.backgroundColor = "#590004";
+        submitBtn.style.cursor = "pointer";
     }
     else {
         submitBtn.style.backgroundColor = "#a7a7a7";
+        submitBtn.style.cursor = "default";
     }
 }
 
