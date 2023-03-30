@@ -116,7 +116,6 @@ function validateInput() {
     let isCheckFormat = validateCheckbox("format");
     let isFile = checkImage("image-file");
     let isValidImage = validateImage("image-file");
-    console.log(isValidImage);
     if (!isCheckSize) {
         displayErrorMsg("Error : You need to check at least one image size");
         return false;
@@ -133,6 +132,48 @@ function validateInput() {
         displayErrorMsg('Error : One file is not of type "image"');
         return false;
     }
+    return true;
+}
+
+function getFormData(form) {
+    let formData = new FormData();
+
+    if (form["rename"]. value !== "") {
+        formData.append("rename", form["rename"].value);
+    }
+    form["size"].forEach(size => {
+        if (size.checked === true) {
+            formData.append("size", size.value);
+        }
+    });
+    form["format"].forEach(format => {
+        if (format.checked === true) {
+            formData.append("format", format.value);
+        }
+    });
+    for (const image of form["image-file"].files) {
+        formData.append("image", image);
+    }
+    
+    return formData;
+}
+
+async function fetchDataToApi(formData) {
+    fetch("src/api.php", {
+        method: "POST",
+        body: formData,
+    })
+    .then(function(res) {
+        if (res.ok) {
+            console.log(res.text());
+        }
+    })
+}
+
+function sendForm() {
+    let formData = getFormData(form);
+
+    fetchDataToApi(formData);
 }
 
 const triggerSubmit = function (event) {
@@ -141,6 +182,9 @@ const triggerSubmit = function (event) {
         let isValidInput = validateInput();
         if (!isValidInput)
             return;
+        else {
+            sendForm();
+        }
     }
 }
 

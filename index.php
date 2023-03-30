@@ -27,27 +27,27 @@
                 <legend class="m-separate-field">Output size</legend>
                 <div class="checkbox-container">
                     <div>
-                        <input type="checkbox" id="size-1920" name="size">
+                        <input value="1920" type="checkbox" id="size-1920" name="size">
                         <label for="size-1920">1920</label>
                     </div>
                     <div>
-                        <input type="checkbox" id="size-1539" name="size">
+                        <input value="1539" type="checkbox" id="size-1539" name="size">
                         <label for="size-1539">1536</label>
                     </div>
                     <div>
-                        <input type="checkbox" id="size-1280" name="size">
+                        <input value="1280" type="checkbox" id="size-1280" name="size">
                         <label for="size-1280">1280</label>
                     </div>
                     <div>
-                        <input type="checkbox" id="size-1024" name="size">
+                        <input value="1024" type="checkbox" id="size-1024" name="size">
                         <label for="size-1024">1024</label>
                     </div>
                     <div>
-                        <input type="checkbox" id="size-768" name="size">
+                        <input value="768" type="checkbox" id="size-768" name="size">
                         <label for="size-768">768</label>
                     </div>
                     <div>
-                        <input type="checkbox" id="size-640" name="size">
+                        <input value="640" type="checkbox" id="size-640" name="size">
                         <label for="size-640">640</label>
                     </div>
                 </div>
@@ -57,27 +57,27 @@
                 <legend class="m-separate-field">Output format</legend>
                 <div class="checkbox-container">
                     <div>
-                        <input type="checkbox" id="format-avif" name="format">
+                        <input value="avif" type="checkbox" id="format-avif" name="format">
                         <label for="format-avif">AVIF</label>
                     </div>
                     <div>
-                        <input type="checkbox" id="format-webp" name="format">
+                        <input value="webp" type="checkbox" id="format-webp" name="format">
                         <label for="format-webp">WebP</label>
                     </div>
                     <div>
-                        <input type="checkbox" id="format-png" name="format">
+                        <input value="png" type="checkbox" id="format-png" name="format">
                         <label for="format-png">PNG</label>
                     </div>
                     <div>
-                        <input type="checkbox" id="format-jpg" name="format">
+                        <input value="jpg" type="checkbox" id="format-jpg" name="format">
                         <label for="format-jpg">JPG</label>
                     </div>
                     <div>
-                        <input type="checkbox" id="format-gif" name="format">
+                        <input value="gif" type="checkbox" id="format-gif" name="format">
                         <label for="format-gif">GIF</label>
                     </div>
                     <div>
-                        <input type="checkbox" id="format-svg" name="format">
+                        <input value="svg" type="checkbox" id="format-svg" name="format">
                         <label for="format-svg">SVG</label>
                     </div>
                 </div>
@@ -87,6 +87,6 @@
             <div id="js-error-msg"></div>
         </form>
     </main>
-    <script src="assets/script.js"></script>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
