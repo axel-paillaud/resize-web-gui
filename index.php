@@ -16,11 +16,12 @@
                 <img src="assets/picture-svgrepo.svg" alt="Add images graphics">
                 <label for="image-file" class="btn">
                     <input type="file" id="image-file" name="image-file" class="hidden" accept="image/*" required multiple>
-                    + Ajouter une photo
+                    + Add picture(s)
                 </label>
             </div>
             <label class="label-field m-separate-field" for="rename">Rename output</label>
-            <input class="input-field" id="rename" name="rename" type="text" maxlength="255">
+            <input class="input-field" id="rename" name="rename" type="text"
+                placeholder="Not required. If omitted, the images will keep their original names" maxlength="255">
             <!-- Output size start here -->
             <div class="m-separate-field">Output size</div>
             <div class="checkbox-container">
@@ -80,7 +81,6 @@
             <hr class="my-24">
             <button class="btn-disable">Resize and convert</button>
         </form>
-        <button id="test">Test</button>
     </main>
     <script src="assets/script.js"></script>
 </body>
