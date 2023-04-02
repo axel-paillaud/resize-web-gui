@@ -11,13 +11,13 @@ else {
 
 $files = $_FILES["image"];
 
-function resizeImg($image, int $size, string $fileName, string $fileExtension)
+function resizeImg($image, int $size, string $fileName, string $dirName)
 {
-    global $dirName;
     $cloneImage = $image->clone();
     $cloneImage->resizeImage($size, 0, imagick::FILTER_LANCZOS, 0.5);
-    $cloneImage->writeImage("./$dirName/original/$fileName-$size.$fileExtension");
-    echo "Write $fileName-$size.$fileExtension in ./$dirName/original/\n";
+    print_log("Resize $fileName to $size\n");
+    $cloneImage->writeImage("$dirName/$fileName");
+    print_log("Write $fileName in $dirName\n");
     return $cloneImage;
 }
 
@@ -61,7 +61,8 @@ for ($i = 0; $i < count($files["name"]); $i++)
     }
     else
     {
-
+        $image = new Imagick($files["tmp_name"]);
+        resizeImg($image, 1920, "output", "./resize_images");
     }
 }
 
