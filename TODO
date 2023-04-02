@@ -12,6 +12,10 @@ When we click on submit button :
     - create formData object, add all form field inside the formData
     - Send it to PHP backend
 
-Test if value of HTML form is set to 100 instead of "100", do we have integer ?
+To get only data image, instead of write on disk : $imageData = $image->getImageBlob();
+
+Try resizeweb cli at work, to see if quality settings works.
 
 Inno setup for Windows, Appimage for Linux
+
+

@@ -25,6 +25,7 @@ function resizeImg($image, int $size, string $filename)
 function convertImg($image, string $quality, string $format, string $fileName) 
 {
     $image->setOption('quality', $quality);
+    $image->setImageCompressionQuality($quality); /* ? this one ? */
     $image->setImageFormat($format);
     print_log("Convert $fileName to $format\n");
     return $image;
