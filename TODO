@@ -11,3 +11,7 @@ When we click on submit button :
     - Add a check valid image to see if the file is really an image file
     - create formData object, add all form field inside the formData
     - Send it to PHP backend
+
+
+
+Inno setup for Windows, Appimage for Linux

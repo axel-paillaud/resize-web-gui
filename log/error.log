@@ -271,3 +271,48 @@ edward-cisneros-3_h6-1NPDGw-unsplash.jpg
 Thursday 30th of March 2023 05:46:29 PM
 The uploaded file exceeds the upload_max_filesize directive in php.ini
 
+Thursday 30th of March 2023 06:56:14 PM
+Array
+(
+    [name] => Array
+        (
+            [0] => edward-cisneros-3_h6-1NPDGw-unsplash.jpg
+        )
+
+    [full_path] => Array
+        (
+            [0] => edward-cisneros-3_h6-1NPDGw-unsplash.jpg
+        )
+
+    [type] => Array
+        (
+            [0] => 
+        )
+
+    [tmp_name] => Array
+        (
+            [0] => 
+        )
+
+    [error] => Array
+        (
+            [0] => 1
+        )
+
+    [size] => Array
+        (
+            [0] => 0
+        )
+
+)
+
+
+Thursday 30th of March 2023 06:56:14 PM
+Failed to create directories ...
+
+Thursday 30th of March 2023 06:56:14 PM
+edward-cisneros-3_h6-1NPDGw-unsplash.jpg
+
+Thursday 30th of March 2023 06:56:14 PM
+The uploaded file exceeds the upload_max_filesize directive in php.ini
+

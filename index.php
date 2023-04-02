@@ -54,6 +54,35 @@
             </fieldset>
             <!-- Output format start here -->
             <fieldset>
+                <legend class="m-separate-field">Quality</legend>
+                <div class="checkbox-container">
+                    <div>
+                        <input value="100" type="radio" id="quality-100" name="quality">
+                        <label for="format-avif">100</label>
+                    </div>
+                    <div>
+                        <input value="webp" type="checkbox" id="format-webp" name="format">
+                        <label for="format-webp">WebP</label>
+                    </div>
+                    <div>
+                        <input value="png" type="checkbox" id="format-png" name="format">
+                        <label for="format-png">PNG</label>
+                    </div>
+                    <div>
+                        <input value="jpg" type="checkbox" id="format-jpg" name="format">
+                        <label for="format-jpg">JPG</label>
+                    </div>
+                    <div>
+                        <input value="gif" type="checkbox" id="format-gif" name="format">
+                        <label for="format-gif">GIF</label>
+                    </div>
+                    <div>
+                        <input value="svg" type="checkbox" id="format-svg" name="format">
+                        <label for="format-svg">SVG</label>
+                    </div>
+                </div>
+            </fieldset>
+            <fieldset>
                 <legend class="m-separate-field">Output format</legend>
                 <div class="checkbox-container">
                     <div>

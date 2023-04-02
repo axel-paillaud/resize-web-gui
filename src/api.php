@@ -10,9 +10,9 @@ else {
 }
 
 $files = $_FILES["image"];
-print_log($files);
 
-function resizeImg($image, int $size, string $fileName, string $fileExtension) {
+function resizeImg($image, int $size, string $fileName, string $fileExtension)
+{
     global $dirName;
     $cloneImage = $image->clone();
     $cloneImage->resizeImage($size, 0, imagick::FILTER_LANCZOS, 0.5);
@@ -21,7 +21,8 @@ function resizeImg($image, int $size, string $fileName, string $fileExtension) {
     return $cloneImage;
 }
 
-function convertImg($image, int $size, string $format, string $fileName) {
+function convertImg($image, int $size, string $format, string $fileName) 
+{
     global $dirName;
     $image->setOption('quality', '80');
     $image->setImageFormat($format);
@@ -29,11 +30,18 @@ function convertImg($image, int $size, string $format, string $fileName) {
     echo "Write $fileName-$size.avif in ./$dirName/avif/\n";
 }
 
-function createDir(string $dirName, string $path) {
+function createDir(string $dirName, string $path) 
+{
     if (!mkdir($path . $dirName, 0775, true)) {
-        print_log("./error.log", "Failed to create directories ...");
+        print_log("Failed to create directories ...");
         return;
     }
+}
+
+if (!extension_loaded('imagick'))
+{
+    print_log("Error : imagick extension is not loaded.");
+    die();
 }
 
 createDir("resize_images", "./");
@@ -53,7 +61,7 @@ for ($i = 0; $i < count($files["name"]); $i++)
     }
     else
     {
-        
+
     }
 }
 
