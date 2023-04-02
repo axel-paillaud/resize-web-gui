@@ -151,6 +151,11 @@ function getFormData(form) {
             formData.append("format[]", format.value);
         }
     });
+    form["quality"].forEach(quality => {
+        if (quality.checked === true) {
+            formData.append("quality", quality.value);
+        }
+    });
     for (const image of form["image-file"].files) {
         formData.append("image[]", image);
     }

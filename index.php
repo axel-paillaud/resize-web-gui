@@ -87,23 +87,23 @@
                 <legend class="m-separate-field">Quality</legend>
                 <div class="checkbox-container">
                     <div>
-                        <input value=100 type="radio" id="quality-100" name="quality">
+                        <input value="100" type="radio" id="quality-100" name="quality">
                         <label for="quality-100">100</label>
                     </div>
                     <div>
-                        <input value=80 type="radio" id="quality-80" name="quality" checked>
+                        <input value="80" type="radio" id="quality-80" name="quality" checked>
                         <label for="quality-80">80</label>
                     </div>
                     <div>
-                        <input value=60 type="radio" id="quality-60" name="quality">
+                        <input value="60" type="radio" id="quality-60" name="quality">
                         <label for="quality-60">60</label>
                     </div>
                     <div>
-                        <input value=40 type="radio" id="quality-40" name="quality">
+                        <input value="40" type="radio" id="quality-40" name="quality">
                         <label for="quality-40">40</label>
                     </div>
                     <div>
-                        <input value=20 type="radio" id="quality-20" name="quality">
+                        <input value="20" type="radio" id="quality-20" name="quality">
                         <label for="quality-20">20</label>
                     </div>
                 </div>
