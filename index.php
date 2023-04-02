@@ -54,35 +54,6 @@
             </fieldset>
             <!-- Output format start here -->
             <fieldset>
-                <legend class="m-separate-field">Quality</legend>
-                <div class="checkbox-container">
-                    <div>
-                        <input value="100" type="radio" id="quality-100" name="quality">
-                        <label for="format-avif">100</label>
-                    </div>
-                    <div>
-                        <input value="webp" type="checkbox" id="format-webp" name="format">
-                        <label for="format-webp">WebP</label>
-                    </div>
-                    <div>
-                        <input value="png" type="checkbox" id="format-png" name="format">
-                        <label for="format-png">PNG</label>
-                    </div>
-                    <div>
-                        <input value="jpg" type="checkbox" id="format-jpg" name="format">
-                        <label for="format-jpg">JPG</label>
-                    </div>
-                    <div>
-                        <input value="gif" type="checkbox" id="format-gif" name="format">
-                        <label for="format-gif">GIF</label>
-                    </div>
-                    <div>
-                        <input value="svg" type="checkbox" id="format-svg" name="format">
-                        <label for="format-svg">SVG</label>
-                    </div>
-                </div>
-            </fieldset>
-            <fieldset>
                 <legend class="m-separate-field">Output format</legend>
                 <div class="checkbox-container">
                     <div>
@@ -108,6 +79,32 @@
                     <div>
                         <input value="svg" type="checkbox" id="format-svg" name="format">
                         <label for="format-svg">SVG</label>
+                    </div>
+                </div>
+            </fieldset>
+            <!-- Quality start here -->
+            <fieldset>
+                <legend class="m-separate-field">Quality</legend>
+                <div class="checkbox-container">
+                    <div>
+                        <input value=100 type="radio" id="quality-100" name="quality">
+                        <label for="quality-100">100</label>
+                    </div>
+                    <div>
+                        <input value=80 type="radio" id="quality-80" name="quality" checked>
+                        <label for="quality-80">80</label>
+                    </div>
+                    <div>
+                        <input value=60 type="radio" id="quality-60" name="quality">
+                        <label for="quality-60">60</label>
+                    </div>
+                    <div>
+                        <input value=40 type="radio" id="quality-40" name="quality">
+                        <label for="quality-40">40</label>
+                    </div>
+                    <div>
+                        <input value=20 type="radio" id="quality-20" name="quality">
+                        <label for="quality-20">20</label>
                     </div>
                 </div>
             </fieldset>
