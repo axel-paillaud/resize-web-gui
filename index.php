@@ -84,7 +84,7 @@
             </fieldset>
             <!-- Quality start here -->
             <fieldset>
-                <legend class="m-separate-field">Quality</legend>
+                <legend class="m-separate-field">Compression quality</legend>
                 <div class="checkbox-container">
                     <div>
                         <input value="100" type="radio" id="quality-100" name="quality">

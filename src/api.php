@@ -12,7 +12,8 @@ else {
 $files = $_FILES["image"];
 $formats = $_POST["format"];
 $sizes = $_POST["size"];
-$quality = $_POST["quality"];
+$quality = intval($_POST["quality"]);
+print_log($quality);
 
 function resizeImg($image, int $size, string $filename)
 {
@@ -24,8 +25,7 @@ function resizeImg($image, int $size, string $filename)
 
 function convertImg($image, string $quality, string $format, string $fileName) 
 {
-    $image->setOption('quality', $quality);
-    $image->setImageCompressionQuality($quality); /* ? this one ? */
+    /* $image->setCompressionQuality($quality); */
     $image->setImageFormat($format);
     print_log("Convert $fileName to $format\n");
     return $image;
@@ -64,6 +64,8 @@ for ($i = 0; $i < count($files["name"]); $i++)
     else
     {
         $image = new Imagick($files["tmp_name"]);
+        $image->setImageCompressionQuality($quality);
+        $image->setCompressionQuality($quality);
 
         /* for each format, do */
         for ($i = 0; $i < count($formats); $i++)
@@ -79,9 +81,9 @@ for ($i = 0; $i < count($files["name"]); $i++)
                 $convertedImg->writeImage("$formatFolder $filename-$sizes[$j].$formats[$i]");
             }
         }
-    }
 
-    $image->destroy();
+        $image->destroy();
+    }
 }
 
 /* if ($_SERVER["REQUEST_METHOD"] === "POST") {
