@@ -37,6 +37,7 @@ function createDir(string $dirName, string $path)
         print_log("Failed to create directories ...");
         return;
     }
+    return  $path . $dirName . "/";
 }
 
 if (!extension_loaded('imagick'))
@@ -45,7 +46,8 @@ if (!extension_loaded('imagick'))
     die();
 }
 
-createDir("resize_images", "./");
+/* all new folder ierarchy with new image start at root directory */
+$rootDirectory = createDir("resize_images", ".");
 
 /* For each images, do */
 for ($i = 0; $i < count($files["name"]); $i++)
@@ -58,7 +60,6 @@ for ($i = 0; $i < count($files["name"]); $i++)
     print_log($files["size"][$i]); */
     if ($files["error"][$i] !== 0)
     {
-        print_log($files["name"][$i]);
         print_log($phpFileUploadErrors[$files["error"][$i]]);
     }
     else
@@ -67,11 +68,13 @@ for ($i = 0; $i < count($files["name"]); $i++)
         $image->setImageCompressionQuality($quality);
         $image->setCompressionQuality($quality);
 
+        $filenameDirectory = createDir("$filename-$i", "/$rootDirectory");
+
         /* for each format, do */
         for ($i = 0; $i < count($formats); $i++)
         {
-            createDir($formats[$i], "./resize_images/");
-            $formatFolder = "./resize_images/$formats[$i]/";
+            createDir($formats[$i], "./resize_images/$filename-$i/");
+            $formatFolder = "./resize_images/$filename-$i/$formats[$i]/";
 
             /* for each size, do */
             for ($j = 0; $j < count($sizes); $j++)
