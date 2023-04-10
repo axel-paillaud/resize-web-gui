@@ -95,6 +95,8 @@ for ($i = 0; $i < count($files["name"]); $i++)
     }
 }
 
+$zip = new ZipArchive();
+
 /* if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $send = json_encode("hello");
 

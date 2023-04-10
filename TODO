@@ -12,9 +12,12 @@ When we click on submit button :
     - create formData object, add all form field inside the formData
     - Send it to PHP backend
 
-To get only data image, instead of write on disk : $imageData = $image->getImageBlob();
+Check if we can add an entire folder with file to zipArchive. If, create zipArchive
+at the end of the php script, and add the folder and subfolders to it.
+If not, create zipArchive at the beginning of nested loop to convert img, and add
+each new folder and file to zipArchive.
 
-Try resizeweb cli at work, to see if quality settings works.
+To get only data image, instead of write on disk : $imageData = $image->getImageBlob();
 
 Inno setup for Windows, Appimage for Linux
 
