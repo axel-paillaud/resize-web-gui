@@ -3,17 +3,23 @@ include_once "functions.php";
 include_once "file_error_code.php";
 
 if (isset($_POST["rename"]) && !empty($_POST["rename"])) {
-    $filename = $_POST["rename"];
+    $rename = $_POST["rename"];
 }
 else {
-    $filename = "output";
+    $rename = "output";
 }
 
 $files = $_FILES["image"];
 $formats = $_POST["format"];
 $sizes = $_POST["size"];
+$filenames = $files["name"];
 $quality = intval($_POST["quality"]);
-print_log($quality);
+
+/* we only want the filename without the extension */
+foreach ($filenames as &$filename)
+{
+    $filename = pathinfo($filename, PATHINFO_FILENAME);
+}
 
 function resizeImg($image, int $size, string $filename)
 {
@@ -67,20 +73,21 @@ for ($i = 0; $i < count($files["name"]); $i++)
         $image->setImageCompressionQuality($quality);
         $image->setCompressionQuality($quality);
 
-        createDir("$filename-$i", "./resize_images/");
+        $filenameFolder = $filenames[$i] . "-" . $i;
+        createDir($filenameFolder, "./resize_images/");
 
         /* for each format, do */
         for ($k = 0; $k < count($formats); $k++)
         {
-            createDir($formats[$k], "./resize_images/$filename-$i/");
-            $formatFolder = "./resize_images/$filename-$i/$formats[$k]/";
+            createDir($formats[$k], "./resize_images/$filenameFolder/");
+            $formatFolder = "./resize_images/$filenameFolder/$formats[$k]/";
 
             /* for each size, do */
             for ($j = 0; $j < count($sizes); $j++)
             {
-                $resizedImg = resizeImg($image, $sizes[$j], $filename);
-                $convertedImg = convertImg($resizedImg, $quality, $formats[$k], $filename);
-                $convertedImg->writeImage($formatFolder . "$filename-$sizes[$j].$formats[$k]");
+                $resizedImg = resizeImg($image, $sizes[$j], $rename);
+                $convertedImg = convertImg($resizedImg, $quality, $formats[$k], $rename);
+                $convertedImg->writeImage($formatFolder . "$rename-$sizes[$j].$formats[$k]");
             }
         }
 
