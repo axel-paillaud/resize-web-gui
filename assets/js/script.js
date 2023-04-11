@@ -162,7 +162,7 @@ function getFormData(form) {
     return formData;
 }
 
-async function fetchDataToApi(formData) {
+function fetchDataToApi(formData) {
     fetch("src/api.php", {
         method: "POST",
         body: formData,
