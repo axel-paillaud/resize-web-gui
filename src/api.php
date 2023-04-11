@@ -25,7 +25,7 @@ function resizeImg($image, int $size, string $filename)
 {
     $cloneImage = $image->clone();
     $cloneImage->resizeImage($size, 0, imagick::FILTER_LANCZOS, 0.5);
-    print_log("Resize $filename to $size\n");
+    print_log("Resize $filename to $size");
     return $cloneImage;
 }
 
@@ -33,7 +33,7 @@ function convertImg($image, string $quality, string $format, string $fileName)
 {
     /* $image->setCompressionQuality($quality); */
     $image->setImageFormat($format);
-    print_log("Convert $fileName to $format\n");
+    print_log("Convert $fileName to $format");
     return $image;
 }
 
@@ -66,7 +66,10 @@ if (count($files["name"]) === 1)
     $convertedImg = convertImg($resizedImg, $quality, $formats[0], $rename);
 
     $imagePath = "./resize_images/" . $rename . "-" .$sizes[0] . "." . $formats[0];
+    print_log($imagePath);
     $convertedImg->writeImage($imagePath);
+
+    $image->destroy();
 
     $imageType = mime_content_type($imagePath);
     header('Content-type: ' . $imageType);
@@ -111,7 +114,7 @@ else
 
 
 // TODO
-$zip = new ZipArchive();
+// $zip = new ZipArchive();
 
 /* if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $send = json_encode("hello");

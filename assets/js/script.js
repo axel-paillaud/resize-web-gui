@@ -169,8 +169,11 @@ async function fetchDataToApi(formData) {
     })
     .then(function(res) {
         if (res.ok) {
-            console.log(res.text());
+            return res.blob();
         }
+    })
+    .then(function(blob) {
+        console.log(blob);
     })
 }
 
