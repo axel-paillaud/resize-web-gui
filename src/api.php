@@ -54,46 +54,61 @@ if (!extension_loaded('imagick'))
 /* all new folder ierarchy with new image start at root directory */
 createDir("resize_images", "./");
 
-/* For each images, do */
-for ($i = 0; $i < count($files["name"]); $i++)
+/* if we have only one image, don't zip folder, convert image and send it
+directly to the client */
+if (count($files["name"]) === 1)
 {
-/*     print_log($files["name"][$i]);
-    print_log($files["full_path"][$i]);
-    print_log($files["type"][$i]);
-    print_log($files["tmp_name"][$i]);
-    print_log($files["error"][$i]);
-    print_log($files["size"][$i]); */
-    if ($files["error"][$i] !== 0)
-    {
-        print_log($phpFileUploadErrors[$files["error"][$i]]);
-    }
-    else
-    {
-        $image = new Imagick($files["tmp_name"]);
-        $image->setImageCompressionQuality($quality);
-        $image->setCompressionQuality($quality);
+    $image = new Imagick($files["tmp_name"]);
+    $image->setImageCompressionQuality($quality);
+    $image->setCompressionQuality($quality);
 
-        $filenameFolder = $filenames[$i] . "-" . $i;
-        createDir($filenameFolder, "./resize_images/");
+    $resizedImg = resizeImg($image, $sizes[0], $rename);
+    $convertedImg = convertImg($resizedImg, $quality, $formats[0], $rename);
 
-        /* for each format, do */
-        for ($k = 0; $k < count($formats); $k++)
+    $imagePath = "./resize_images/" . $rename . "-" .$sizes[0] . "." . $formats[0];
+    $convertedImg->writeImage($imagePath);
+
+    $imageType = mime_content_type($imagePath);
+    header('Content-type: ' . $imageType);
+    readfile($imagePath);
+}
+else
+{
+    /* For each images, do */
+    for ($i = 0; $i < count($files["name"]); $i++)
+    {
+        if ($files["error"][$i] !== 0)
         {
-            createDir($formats[$k], "./resize_images/$filenameFolder/");
-            $formatFolder = "./resize_images/$filenameFolder/$formats[$k]/";
-
-            /* for each size, do */
-            for ($j = 0; $j < count($sizes); $j++)
-            {
-                $resizedImg = resizeImg($image, $sizes[$j], $rename);
-                $convertedImg = convertImg($resizedImg, $quality, $formats[$k], $rename);
-                $convertedImg->writeImage($formatFolder . "$rename-$sizes[$j].$formats[$k]");
-            }
+            print_log($phpFileUploadErrors[$files["error"][$i]]);
         }
+        else
+        {
+            $image = new Imagick($files["tmp_name"]);
+            $image->setImageCompressionQuality($quality);
+            $image->setCompressionQuality($quality);
 
-        $image->destroy();
+            $filenameFolder = $filenames[$i] . "-" . $i;
+            createDir($filenameFolder, "./resize_images/");
+
+            /* for each format, do */
+            for ($k = 0; $k < count($formats); $k++)
+            {
+                createDir($formats[$k], "./resize_images/$filenameFolder/");
+                $formatFolder = "./resize_images/$filenameFolder/$formats[$k]/";
+
+                /* for each size, do */
+                for ($j = 0; $j < count($sizes); $j++)
+                {
+                    $resizedImg = resizeImg($image, $sizes[$j], $rename);
+                    $convertedImg = convertImg($resizedImg, $quality, $formats[$k], $rename);
+                    $convertedImg->writeImage($formatFolder . "$rename-$sizes[$j].$formats[$k]");
+                }
+            }
+            $image->destroy();
+        }
     }
 }
+
 
 // TODO
 $zip = new ZipArchive();
