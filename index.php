@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Resize Web</title>
 </head>
+
 <body>
     <main>
         <h1 class="mb-16">Resize web</h1>
@@ -20,8 +22,7 @@
                 </label>
             </div>
             <label class="label-field m-separate-field" for="rename">Rename output</label>
-            <input class="input-field" id="rename" name="rename" type="text"
-                placeholder="Not required. If omitted, the images will keep their original names" maxlength="255">
+            <input class="input-field" id="rename" name="rename" type="text" placeholder="Not required. If omitted, the images will keep their original names" maxlength="255">
             <!-- Output size start here -->
             <fieldset>
                 <legend class="m-separate-field">Output size</legend>
@@ -110,9 +111,10 @@
             </fieldset>
             <hr class="my-24">
             <button id="submit" class="submit-btn" disabled>Resize and convert</button>
-            <div id="js-error-msg"></div>
+            <div id="js-container" class="container-btn"></div>
         </form>
     </main>
     <script src="assets/js/script.js"></script>
 </body>
+
 </html>

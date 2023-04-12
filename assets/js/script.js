@@ -7,7 +7,7 @@ const logTest = function (event) {
 }
 
 function displayErrorMsg(message) {
-    let msgErrorContainer = document.getElementById("js-error-msg");
+    let msgErrorContainer = document.getElementById("js-container");
     let closeIcon = createXmark();
 
     hideSubmitBtn(submitBtn);
@@ -30,7 +30,7 @@ function createXmark() {
 
 const closeMsgError = function(event) {
     if (event.type === 'click' || event.key === 'Enter') {
-        let msgErrorContainer = document.getElementById("js-error-msg");
+        let msgErrorContainer = document.getElementById("js-container");
         let closeIcon = document.getElementById("js-close-icon");
 
         msgErrorContainer.style.opacity = 0;
@@ -88,17 +88,42 @@ function checkImage(name) {
     return isFile;
 }
 
+function setBtnStyleToEnable(submitBtn, content) {
+    submitBtn.style.backgroundColor = "#590004";
+    submitBtn.style.cursor = "pointer";
+    submitBtn.style.pointerEvents = "fill";
+    submitBtn.innerText = content;
+}
+
+function setBtnStyleToDisable(submitBtn, content) {
+    submitBtn.style.backgroundColor = "#a7a7a7";
+    submitBtn.style.cursor = "default";
+    submitBtn.style.pointerEvents = "none";
+    submitBtn.innerText = content;
+}
+
+function updateBtnToDownload(btn, downloadElement)
+{
+    let url = URL.createObjectURL(downloadElement);
+    let container = document.getElementById("js-container");
+    let link = document.createElement("a");
+    link.setAttribute('download', 'output');
+    link.href = url;
+    link.innerText = "Download";
+    link.classList.add("btn-heavy");
+
+    btn.style.display = "none";
+    container.appendChild(link);
+
+}
+
 function enableSubmit(submitBtn, isCheckSize, isCheckFormat, isFile) {
     if (isCheckSize && isCheckFormat && isFile) {
         submitBtn.disabled = false;
-        submitBtn.style.backgroundColor = "#590004";
-        submitBtn.style.cursor = "pointer";
-        submitBtn.style.pointerEvents = "fill";
+        setBtnStyleToEnable(submitBtn, "Resize and convert");
     }
     else {
-        submitBtn.style.backgroundColor = "#a7a7a7";
-        submitBtn.style.cursor = "default";
-        submitBtn.style.pointerEvents = "none";
+        setBtnStyleToDisable(submitBtn, "Resize and convert");
     }
 }
 
@@ -169,10 +194,13 @@ function fetchDataToApi(formData) {
     })
     .then(function(res) {
         if (res.ok) {
+            const contentType = res.headers.get('Content-Type');
             return res.blob();
         }
     })
     .then(function(blob) {
+        setBtnStyleToEnable(submitBtn, "Download");
+        updateBtnToDownload(submitBtn, blob);
         console.log(blob);
     })
 }
