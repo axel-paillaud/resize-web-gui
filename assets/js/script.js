@@ -121,6 +121,8 @@ function updateBtnToDownload(btn, url, filename)
 function enableSubmit(submitBtn, isCheckSize, isCheckFormat, isFile) {
     if (isCheckSize && isCheckFormat && isFile) {
         submitBtn.disabled = false;
+        submitBtn.style.display = null;
+        document.getElementById("js-container").replaceChildren();
         setBtnStyleToEnable(submitBtn, "Resize and convert");
     }
     else {
@@ -200,7 +202,7 @@ function fetchDataToApi(formData) {
     })
     .then(function(filename) {
         setBtnStyleToEnable(submitBtn, "Download");
-        let downloadBtn = updateBtnToDownload(submitBtn, "src/resize_images/" + filename, filename);
+        updateBtnToDownload(submitBtn, "src/resize_images/" + filename, filename);
         window.addEventListener('keydown', triggerDownload);
     })
 }
@@ -218,8 +220,6 @@ const triggerSubmit = function (event) {
         if (!isValidInput)
             return;
         else {
-            submitBtn.removeEventListener('click', triggerSubmit);
-            submitBtn.removeEventListener('keydown', triggerSubmit);
             sendForm();
         }
     }
