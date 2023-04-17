@@ -51,9 +51,7 @@ if (!extension_loaded('imagick')) {
 
 /* if resize_images folder already exists, delete it to start with empty directory */
 if (file_exists("./resize_images")) {
-    if (!unlink("./resize_images/output-1539.jpg")) {
-        print_log("Impossible to delete file ...");
-    }
+    deleteFiles("./resize_images");
 }
 
 /* all new folder hierarchy with new image start at root directory */

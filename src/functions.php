@@ -23,8 +23,12 @@ function deleteFiles($folder)
         if (is_dir($file)) { // recursive function
             deleteFiles($file);
         } else {
-            unlink($file);
+            if (!unlink($file)) {
+                print_log("Impossible to delete file ...");
+            }
         }
     }
-    rmdir($folder);
+    if (!rmdir($folder)) {
+        print_log("Impossible to delete folder ...");
+    }
 }
