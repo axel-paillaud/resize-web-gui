@@ -7,7 +7,6 @@ if (isset($_POST["rename"]) && !empty($_POST["rename"])) {
 } else {
     $rename = "output";
 }
-print_log($rename);
 
 $files = $_FILES["image"];
 $formats = $_POST["format"];
@@ -36,14 +35,6 @@ function convertImg($image, string $quality, string $format, string $fileName)
     return $image;
 }
 
-function createDir(string $dirName, string $path)
-{
-    if (!mkdir($path . $dirName, 0775, true)) {
-        print_log("Failed to create directories ...");
-        return;
-    }
-}
-
 if (!extension_loaded('imagick')) {
     print_log("Error : imagick extension is not loaded.");
     die();
@@ -56,6 +47,7 @@ if (file_exists("./resize_images")) {
 
 /* all new folder hierarchy with new image start at root directory */
 createDir("resize_images", base_path("/"));
+$resizeImagesFolder = base_path("/resize_images");
 
 /* if we have only one image, don't zip folder, convert image and send it
 directly to the client */
@@ -74,11 +66,20 @@ if (count($files["name"]) === 1) {
     $image->destroy();
 
     /* empty PHP buffer, and receive only name of new image */
-    //ob_clean();
+    ob_clean();
     header('Content-type: application/json');
-
     echo $newImageName;
 } else {
+
+    /* create zip archive for download after resize/convert */
+    $zip = new ZipArchive();
+    $zipFilename = "resize_images.zip";
+    $zipPath = $resizeImagesFolder . "/" . $zipFilename;
+
+    if (!$zip->open($zipPath, ZipArchive::CREATE)) {
+        print_log("Impossible to create zip archives '$zipFilename'");
+    }
+
     /* For each images, do */
     for ($i = 0; $i < count($files["name"]); $i++) {
         if ($files["error"][$i] !== 0) {
@@ -90,6 +91,7 @@ if (count($files["name"]) === 1) {
 
             $filenameFolder = $filenames[$i] . "-" . $i;
             createDir($filenameFolder, "./resize_images/");
+            //$zip->addFile("./resize_images/$filenameFolder", $zipPath);
 
             /* for each format, do */
             for ($k = 0; $k < count($formats); $k++) {
@@ -106,15 +108,23 @@ if (count($files["name"]) === 1) {
             $image->destroy();
         }
     }
+
+    /*     $files = new RecursiveIteratorIterator(new RecursiveDirectoryIterator($resizeImagesFolder));
+    foreach ($files as $file) {
+        // ignore empty folder
+        if (!$file->isDir()) {
+            print_log($file);
+            // obtenir le chemin du fichier source
+            $filePath = $file->getrealPath();
+            print_log("here is filepath for source file : " . $filePath);
+
+            // créer un chemin relatif pour l'archive ZIP
+            $relativePath = substr($filePath, strlen($resizeImagesFolder) + 1);
+            print_log("here is relative path for zip archive : " . $relativePath);
+
+            // ajouter le fichier à l'archive ZIP
+            $zip->addFile($filePath, $relativePath);
+            print_log($zip);
+        }
+    } */
 }
-
-
-// TODO
-// $zip = new ZipArchive();
-
-/* if ($_SERVER["REQUEST_METHOD"] === "POST") {
-    $send = json_encode("hello");
-
-    header("Content-type: application/json");
-    echo $send;
-} */

@@ -201,6 +201,7 @@ function fetchDataToApi(formData) {
         }
     })
     .then(function(filename) {
+        console.log(filename);
         setBtnStyleToEnable(submitBtn, "Download");
         updateBtnToDownload(submitBtn, "src/resize_images/" + filename, filename);
         window.addEventListener('keydown', triggerDownload);

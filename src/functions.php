@@ -32,3 +32,11 @@ function deleteFiles($folder)
         print_log("Impossible to delete folder ...");
     }
 }
+
+function createDir(string $dirName, string $path)
+{
+    if (!mkdir($path . $dirName, 0775, true)) {
+        print_log("Failed to create directories ...");
+        return;
+    }
+}

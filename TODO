@@ -21,5 +21,6 @@ To get only data image, instead of write on disk : $imageData = $image->getImage
 
 Inno setup for Windows, Appimage for Linux
 
-Bug : when you have download button and you press enter, we have another download
-button appear, and this is for each time we press enter
+Find a solution to don't have 109239082398232 line of error.log (maybe create error<date>.log)
+
+We don't only want zip for multiple images, but also for multiple size or format ( = multiple images also)

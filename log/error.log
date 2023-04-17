@@ -1,153 +1,1264 @@
-Monday 17th of April 2023 05:53:52 PM
-test
-
-Monday 17th of April 2023 05:53:52 PM
-Resize test to 1920
-
-Monday 17th of April 2023 05:53:52 PM
-Convert test to avif
-
-Monday 17th of April 2023 05:58:58 PM
-test
-
-Monday 17th of April 2023 05:58:58 PM
-Resize test to 1920
-
-Monday 17th of April 2023 05:58:58 PM
-Convert test to avif
-
-Monday 17th of April 2023 05:59:11 PM
-test
-
-Monday 17th of April 2023 05:59:11 PM
-Resize test to 1920
-
-Monday 17th of April 2023 05:59:11 PM
-Convert test to avif
-
-Monday 17th of April 2023 06:00:39 PM
-test
-
-Monday 17th of April 2023 06:00:40 PM
-Resize test to 1024
-
-Monday 17th of April 2023 06:00:40 PM
-Convert test to png
-
-Monday 17th of April 2023 06:01:17 PM
-test
-
-Monday 17th of April 2023 06:01:17 PM
-Resize test to 1024
-
-Monday 17th of April 2023 06:01:17 PM
-Convert test to png
-
-Monday 17th of April 2023 06:02:28 PM
-test
-
-Monday 17th of April 2023 06:02:29 PM
-Resize test to 1024
-
-Monday 17th of April 2023 06:02:29 PM
-Convert test to png
-
-Monday 17th of April 2023 06:04:05 PM
-test
-
-Monday 17th of April 2023 06:04:05 PM
-Resize test to 1024
-
-Monday 17th of April 2023 06:04:05 PM
-Convert test to png
-
-Monday 17th of April 2023 06:05:52 PM
-test
-
-Monday 17th of April 2023 06:05:52 PM
-Resize test to 1024
-
-Monday 17th of April 2023 06:05:52 PM
-Convert test to png
-
-Monday 17th of April 2023 06:06:15 PM
-output
-
-Monday 17th of April 2023 06:06:15 PM
+Monday 17th of April 2023 06:57:41 PM
 Resize output to 1280
 
-Monday 17th of April 2023 06:06:15 PM
+Monday 17th of April 2023 06:57:41 PM
 Convert output to png
 
-Monday 17th of April 2023 06:10:56 PM
-output
+Monday 17th of April 2023 06:57:41 PM
+Resize output to 1024
 
-Monday 17th of April 2023 06:10:57 PM
+Monday 17th of April 2023 06:57:41 PM
+Convert output to png
+
+Monday 17th of April 2023 06:57:42 PM
 Resize output to 1280
 
-Monday 17th of April 2023 06:10:57 PM
-Convert output to png
+Monday 17th of April 2023 06:57:42 PM
+Convert output to jpg
 
-Monday 17th of April 2023 06:11:01 PM
-output
+Monday 17th of April 2023 06:57:42 PM
+Resize output to 1024
 
-Monday 17th of April 2023 06:11:02 PM
+Monday 17th of April 2023 06:57:42 PM
+Convert output to jpg
+
+Monday 17th of April 2023 06:57:42 PM
 Resize output to 1280
 
-Monday 17th of April 2023 06:11:02 PM
+Monday 17th of April 2023 06:57:42 PM
 Convert output to png
 
-Monday 17th of April 2023 06:11:09 PM
-test
+Monday 17th of April 2023 06:57:43 PM
+Resize output to 1024
 
-Monday 17th of April 2023 06:11:10 PM
-Resize test to 1280
+Monday 17th of April 2023 06:57:43 PM
+Convert output to png
 
-Monday 17th of April 2023 06:11:10 PM
-Convert test to png
+Monday 17th of April 2023 06:57:44 PM
+Resize output to 1280
 
-Monday 17th of April 2023 06:11:20 PM
-test-test
+Monday 17th of April 2023 06:57:44 PM
+Convert output to jpg
 
-Monday 17th of April 2023 06:11:20 PM
-Resize test-test to 1280
+Monday 17th of April 2023 06:57:44 PM
+Resize output to 1024
 
-Monday 17th of April 2023 06:11:20 PM
-Convert test-test to jpg
+Monday 17th of April 2023 06:57:44 PM
+Convert output to jpg
 
-Monday 17th of April 2023 06:12:45 PM
-test-test
+Monday 17th of April 2023 06:57:44 PM
+SplFileInfo Object
+(
+    [pathName:SplFileInfo:private] => /home/shaun/dev/projects/resize-web-gui/src/resize_images/Capture d’écran du 2023-03-03 08-21-04-1/png/output-1024.png
+    [fileName:SplFileInfo:private] => output-1024.png
+)
 
-Monday 17th of April 2023 06:12:45 PM
-Resize test-test to 1280
 
-Monday 17th of April 2023 06:12:45 PM
-Convert test-test to jpg
+Monday 17th of April 2023 06:57:44 PM
+here is filepath for source file : /home/shaun/dev/projects/resize-web-gui/src/resize_images/Capture d’écran du 2023-03-03 08-21-04-1/png/output-1024.png
 
-Monday 17th of April 2023 06:12:51 PM
-test-test
+Monday 17th of April 2023 06:57:44 PM
+here is relative path for zip archive : Capture d’écran du 2023-03-03 08-21-04-1/png/output-1024.png
 
-Monday 17th of April 2023 06:12:52 PM
-Resize test-test to 1280
+Monday 17th of April 2023 06:57:44 PM
+ZipArchive Object
+(
+    [lastId] => 16
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 21
+    [filename] => /home/shaun/dev/projects/resize-web-gui/src/resize_images.zip
+    [comment] => 
+)
 
-Monday 17th of April 2023 06:12:52 PM
-Convert test-test to png
 
-Monday 17th of April 2023 06:13:01 PM
-test-test
+Monday 17th of April 2023 06:57:44 PM
+SplFileInfo Object
+(
+    [pathName:SplFileInfo:private] => /home/shaun/dev/projects/resize-web-gui/src/resize_images/Capture d’écran du 2023-03-03 08-21-04-1/png/output-1280.png
+    [fileName:SplFileInfo:private] => output-1280.png
+)
 
-Monday 17th of April 2023 06:13:01 PM
-Resize test-test to 1280
 
-Monday 17th of April 2023 06:13:01 PM
-Convert test-test to png
+Monday 17th of April 2023 06:57:44 PM
+here is filepath for source file : /home/shaun/dev/projects/resize-web-gui/src/resize_images/Capture d’écran du 2023-03-03 08-21-04-1/png/output-1280.png
 
-Monday 17th of April 2023 06:14:12 PM
-monTest
+Monday 17th of April 2023 06:57:44 PM
+here is relative path for zip archive : Capture d’écran du 2023-03-03 08-21-04-1/png/output-1280.png
 
-Monday 17th of April 2023 06:14:12 PM
-Resize monTest to 1280
+Monday 17th of April 2023 06:57:44 PM
+ZipArchive Object
+(
+    [lastId] => 13
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 21
+    [filename] => /home/shaun/dev/projects/resize-web-gui/src/resize_images.zip
+    [comment] => 
+)
 
-Monday 17th of April 2023 06:14:12 PM
-Convert monTest to png
+
+Monday 17th of April 2023 06:57:44 PM
+SplFileInfo Object
+(
+    [pathName:SplFileInfo:private] => /home/shaun/dev/projects/resize-web-gui/src/resize_images/Capture d’écran du 2023-03-03 08-21-04-1/jpg/output-1024.jpg
+    [fileName:SplFileInfo:private] => output-1024.jpg
+)
+
+
+Monday 17th of April 2023 06:57:44 PM
+here is filepath for source file : /home/shaun/dev/projects/resize-web-gui/src/resize_images/Capture d’écran du 2023-03-03 08-21-04-1/jpg/output-1024.jpg
+
+Monday 17th of April 2023 06:57:44 PM
+here is relative path for zip archive : Capture d’écran du 2023-03-03 08-21-04-1/jpg/output-1024.jpg
+
+Monday 17th of April 2023 06:57:44 PM
+ZipArchive Object
+(
+    [lastId] => 17
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 21
+    [filename] => /home/shaun/dev/projects/resize-web-gui/src/resize_images.zip
+    [comment] => 
+)
+
+
+Monday 17th of April 2023 06:57:44 PM
+SplFileInfo Object
+(
+    [pathName:SplFileInfo:private] => /home/shaun/dev/projects/resize-web-gui/src/resize_images/Capture d’écran du 2023-03-03 08-21-04-1/jpg/output-1280.jpg
+    [fileName:SplFileInfo:private] => output-1280.jpg
+)
+
+
+Monday 17th of April 2023 06:57:44 PM
+here is filepath for source file : /home/shaun/dev/projects/resize-web-gui/src/resize_images/Capture d’écran du 2023-03-03 08-21-04-1/jpg/output-1280.jpg
+
+Monday 17th of April 2023 06:57:44 PM
+here is relative path for zip archive : Capture d’écran du 2023-03-03 08-21-04-1/jpg/output-1280.jpg
+
+Monday 17th of April 2023 06:57:44 PM
+ZipArchive Object
+(
+    [lastId] => 8
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 21
+    [filename] => /home/shaun/dev/projects/resize-web-gui/src/resize_images.zip
+    [comment] => 
+)
+
+
+Monday 17th of April 2023 06:57:44 PM
+SplFileInfo Object
+(
+    [pathName:SplFileInfo:private] => /home/shaun/dev/projects/resize-web-gui/src/resize_images/Capture d’écran du 2023-03-03 08-20-48-0/png/output-1024.png
+    [fileName:SplFileInfo:private] => output-1024.png
+)
+
+
+Monday 17th of April 2023 06:57:44 PM
+here is filepath for source file : /home/shaun/dev/projects/resize-web-gui/src/resize_images/Capture d’écran du 2023-03-03 08-20-48-0/png/output-1024.png
+
+Monday 17th of April 2023 06:57:44 PM
+here is relative path for zip archive : Capture d’écran du 2023-03-03 08-20-48-0/png/output-1024.png
+
+Monday 17th of April 2023 06:57:44 PM
+ZipArchive Object
+(
+    [lastId] => 18
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 21
+    [filename] => /home/shaun/dev/projects/resize-web-gui/src/resize_images.zip
+    [comment] => 
+)
+
+
+Monday 17th of April 2023 06:57:44 PM
+SplFileInfo Object
+(
+    [pathName:SplFileInfo:private] => /home/shaun/dev/projects/resize-web-gui/src/resize_images/Capture d’écran du 2023-03-03 08-20-48-0/png/output-1280.png
+    [fileName:SplFileInfo:private] => output-1280.png
+)
+
+
+Monday 17th of April 2023 06:57:44 PM
+here is filepath for source file : /home/shaun/dev/projects/resize-web-gui/src/resize_images/Capture d’écran du 2023-03-03 08-20-48-0/png/output-1280.png
+
+Monday 17th of April 2023 06:57:44 PM
+here is relative path for zip archive : Capture d’écran du 2023-03-03 08-20-48-0/png/output-1280.png
+
+Monday 17th of April 2023 06:57:44 PM
+ZipArchive Object
+(
+    [lastId] => 15
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 21
+    [filename] => /home/shaun/dev/projects/resize-web-gui/src/resize_images.zip
+    [comment] => 
+)
+
+
+Monday 17th of April 2023 06:57:44 PM
+SplFileInfo Object
+(
+    [pathName:SplFileInfo:private] => /home/shaun/dev/projects/resize-web-gui/src/resize_images/Capture d’écran du 2023-03-03 08-20-48-0/jpg/output-1024.jpg
+    [fileName:SplFileInfo:private] => output-1024.jpg
+)
+
+
+Monday 17th of April 2023 06:57:44 PM
+here is filepath for source file : /home/shaun/dev/projects/resize-web-gui/src/resize_images/Capture d’écran du 2023-03-03 08-20-48-0/jpg/output-1024.jpg
+
+Monday 17th of April 2023 06:57:44 PM
+here is relative path for zip archive : Capture d’écran du 2023-03-03 08-20-48-0/jpg/output-1024.jpg
+
+Monday 17th of April 2023 06:57:44 PM
+ZipArchive Object
+(
+    [lastId] => 19
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 21
+    [filename] => /home/shaun/dev/projects/resize-web-gui/src/resize_images.zip
+    [comment] => 
+)
+
+
+Monday 17th of April 2023 06:57:44 PM
+SplFileInfo Object
+(
+    [pathName:SplFileInfo:private] => /home/shaun/dev/projects/resize-web-gui/src/resize_images/Capture d’écran du 2023-03-03 08-20-48-0/jpg/output-1280.jpg
+    [fileName:SplFileInfo:private] => output-1280.jpg
+)
+
+
+Monday 17th of April 2023 06:57:44 PM
+here is filepath for source file : /home/shaun/dev/projects/resize-web-gui/src/resize_images/Capture d’écran du 2023-03-03 08-20-48-0/jpg/output-1280.jpg
+
+Monday 17th of April 2023 06:57:44 PM
+here is relative path for zip archive : Capture d’écran du 2023-03-03 08-20-48-0/jpg/output-1280.jpg
+
+Monday 17th of April 2023 06:57:44 PM
+ZipArchive Object
+(
+    [lastId] => 10
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 21
+    [filename] => /home/shaun/dev/projects/resize-web-gui/src/resize_images.zip
+    [comment] => 
+)
+
+
+Monday 17th of April 2023 06:59:09 PM
+Resize output to 1280
+
+Monday 17th of April 2023 06:59:09 PM
+Convert output to png
+
+Monday 17th of April 2023 06:59:10 PM
+Resize output to 1024
+
+Monday 17th of April 2023 06:59:10 PM
+Convert output to png
+
+Monday 17th of April 2023 06:59:10 PM
+Resize output to 1280
+
+Monday 17th of April 2023 06:59:10 PM
+Convert output to jpg
+
+Monday 17th of April 2023 06:59:11 PM
+Resize output to 1024
+
+Monday 17th of April 2023 06:59:11 PM
+Convert output to jpg
+
+Monday 17th of April 2023 06:59:11 PM
+Resize output to 1280
+
+Monday 17th of April 2023 06:59:11 PM
+Convert output to png
+
+Monday 17th of April 2023 06:59:12 PM
+Resize output to 1024
+
+Monday 17th of April 2023 06:59:12 PM
+Convert output to png
+
+Monday 17th of April 2023 06:59:12 PM
+Resize output to 1280
+
+Monday 17th of April 2023 06:59:12 PM
+Convert output to jpg
+
+Monday 17th of April 2023 06:59:13 PM
+Resize output to 1024
+
+Monday 17th of April 2023 06:59:13 PM
+Convert output to jpg
+
+Monday 17th of April 2023 06:59:13 PM
+SplFileInfo Object
+(
+    [pathName:SplFileInfo:private] => /home/shaun/dev/projects/resize-web-gui/src/resize_images/Capture d’écran du 2023-03-03 08-21-04-1/png/output-1024.png
+    [fileName:SplFileInfo:private] => output-1024.png
+)
+
+
+Monday 17th of April 2023 06:59:13 PM
+here is filepath for source file : /home/shaun/dev/projects/resize-web-gui/src/resize_images/Capture d’écran du 2023-03-03 08-21-04-1/png/output-1024.png
+
+Monday 17th of April 2023 06:59:13 PM
+here is relative path for zip archive : Capture d’écran du 2023-03-03 08-21-04-1/png/output-1024.png
+
+Monday 17th of April 2023 06:59:13 PM
+ZipArchive Object
+(
+    [lastId] => 0
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 1
+    [filename] => /home/shaun/dev/projects/resize-web-gui/src/resize_images/resize_images.zip
+    [comment] => 
+)
+
+
+Monday 17th of April 2023 06:59:13 PM
+SplFileInfo Object
+(
+    [pathName:SplFileInfo:private] => /home/shaun/dev/projects/resize-web-gui/src/resize_images/Capture d’écran du 2023-03-03 08-21-04-1/png/output-1280.png
+    [fileName:SplFileInfo:private] => output-1280.png
+)
+
+
+Monday 17th of April 2023 06:59:13 PM
+here is filepath for source file : /home/shaun/dev/projects/resize-web-gui/src/resize_images/Capture d’écran du 2023-03-03 08-21-04-1/png/output-1280.png
+
+Monday 17th of April 2023 06:59:13 PM
+here is relative path for zip archive : Capture d’écran du 2023-03-03 08-21-04-1/png/output-1280.png
+
+Monday 17th of April 2023 06:59:13 PM
+ZipArchive Object
+(
+    [lastId] => 1
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 2
+    [filename] => /home/shaun/dev/projects/resize-web-gui/src/resize_images/resize_images.zip
+    [comment] => 
+)
+
+
+Monday 17th of April 2023 06:59:13 PM
+SplFileInfo Object
+(
+    [pathName:SplFileInfo:private] => /home/shaun/dev/projects/resize-web-gui/src/resize_images/Capture d’écran du 2023-03-03 08-21-04-1/jpg/output-1024.jpg
+    [fileName:SplFileInfo:private] => output-1024.jpg
+)
+
+
+Monday 17th of April 2023 06:59:13 PM
+here is filepath for source file : /home/shaun/dev/projects/resize-web-gui/src/resize_images/Capture d’écran du 2023-03-03 08-21-04-1/jpg/output-1024.jpg
+
+Monday 17th of April 2023 06:59:13 PM
+here is relative path for zip archive : Capture d’écran du 2023-03-03 08-21-04-1/jpg/output-1024.jpg
+
+Monday 17th of April 2023 06:59:13 PM
+ZipArchive Object
+(
+    [lastId] => 2
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 3
+    [filename] => /home/shaun/dev/projects/resize-web-gui/src/resize_images/resize_images.zip
+    [comment] => 
+)
+
+
+Monday 17th of April 2023 06:59:13 PM
+SplFileInfo Object
+(
+    [pathName:SplFileInfo:private] => /home/shaun/dev/projects/resize-web-gui/src/resize_images/Capture d’écran du 2023-03-03 08-21-04-1/jpg/output-1280.jpg
+    [fileName:SplFileInfo:private] => output-1280.jpg
+)
+
+
+Monday 17th of April 2023 06:59:13 PM
+here is filepath for source file : /home/shaun/dev/projects/resize-web-gui/src/resize_images/Capture d’écran du 2023-03-03 08-21-04-1/jpg/output-1280.jpg
+
+Monday 17th of April 2023 06:59:13 PM
+here is relative path for zip archive : Capture d’écran du 2023-03-03 08-21-04-1/jpg/output-1280.jpg
+
+Monday 17th of April 2023 06:59:13 PM
+ZipArchive Object
+(
+    [lastId] => 3
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 4
+    [filename] => /home/shaun/dev/projects/resize-web-gui/src/resize_images/resize_images.zip
+    [comment] => 
+)
+
+
+Monday 17th of April 2023 06:59:13 PM
+SplFileInfo Object
+(
+    [pathName:SplFileInfo:private] => /home/shaun/dev/projects/resize-web-gui/src/resize_images/Capture d’écran du 2023-03-03 08-20-48-0/png/output-1024.png
+    [fileName:SplFileInfo:private] => output-1024.png
+)
+
+
+Monday 17th of April 2023 06:59:13 PM
+here is filepath for source file : /home/shaun/dev/projects/resize-web-gui/src/resize_images/Capture d’écran du 2023-03-03 08-20-48-0/png/output-1024.png
+
+Monday 17th of April 2023 06:59:13 PM
+here is relative path for zip archive : Capture d’écran du 2023-03-03 08-20-48-0/png/output-1024.png
+
+Monday 17th of April 2023 06:59:13 PM
+ZipArchive Object
+(
+    [lastId] => 4
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 5
+    [filename] => /home/shaun/dev/projects/resize-web-gui/src/resize_images/resize_images.zip
+    [comment] => 
+)
+
+
+Monday 17th of April 2023 06:59:13 PM
+SplFileInfo Object
+(
+    [pathName:SplFileInfo:private] => /home/shaun/dev/projects/resize-web-gui/src/resize_images/Capture d’écran du 2023-03-03 08-20-48-0/png/output-1280.png
+    [fileName:SplFileInfo:private] => output-1280.png
+)
+
+
+Monday 17th of April 2023 06:59:13 PM
+here is filepath for source file : /home/shaun/dev/projects/resize-web-gui/src/resize_images/Capture d’écran du 2023-03-03 08-20-48-0/png/output-1280.png
+
+Monday 17th of April 2023 06:59:13 PM
+here is relative path for zip archive : Capture d’écran du 2023-03-03 08-20-48-0/png/output-1280.png
+
+Monday 17th of April 2023 06:59:13 PM
+ZipArchive Object
+(
+    [lastId] => 5
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 6
+    [filename] => /home/shaun/dev/projects/resize-web-gui/src/resize_images/resize_images.zip
+    [comment] => 
+)
+
+
+Monday 17th of April 2023 06:59:13 PM
+SplFileInfo Object
+(
+    [pathName:SplFileInfo:private] => /home/shaun/dev/projects/resize-web-gui/src/resize_images/Capture d’écran du 2023-03-03 08-20-48-0/jpg/output-1024.jpg
+    [fileName:SplFileInfo:private] => output-1024.jpg
+)
+
+
+Monday 17th of April 2023 06:59:13 PM
+here is filepath for source file : /home/shaun/dev/projects/resize-web-gui/src/resize_images/Capture d’écran du 2023-03-03 08-20-48-0/jpg/output-1024.jpg
+
+Monday 17th of April 2023 06:59:13 PM
+here is relative path for zip archive : Capture d’écran du 2023-03-03 08-20-48-0/jpg/output-1024.jpg
+
+Monday 17th of April 2023 06:59:13 PM
+ZipArchive Object
+(
+    [lastId] => 6
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 7
+    [filename] => /home/shaun/dev/projects/resize-web-gui/src/resize_images/resize_images.zip
+    [comment] => 
+)
+
+
+Monday 17th of April 2023 06:59:13 PM
+SplFileInfo Object
+(
+    [pathName:SplFileInfo:private] => /home/shaun/dev/projects/resize-web-gui/src/resize_images/Capture d’écran du 2023-03-03 08-20-48-0/jpg/output-1280.jpg
+    [fileName:SplFileInfo:private] => output-1280.jpg
+)
+
+
+Monday 17th of April 2023 06:59:13 PM
+here is filepath for source file : /home/shaun/dev/projects/resize-web-gui/src/resize_images/Capture d’écran du 2023-03-03 08-20-48-0/jpg/output-1280.jpg
+
+Monday 17th of April 2023 06:59:13 PM
+here is relative path for zip archive : Capture d’écran du 2023-03-03 08-20-48-0/jpg/output-1280.jpg
+
+Monday 17th of April 2023 06:59:13 PM
+ZipArchive Object
+(
+    [lastId] => 7
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 8
+    [filename] => /home/shaun/dev/projects/resize-web-gui/src/resize_images/resize_images.zip
+    [comment] => 
+)
+
+
+Monday 17th of April 2023 06:59:42 PM
+Resize output to 1280
+
+Monday 17th of April 2023 06:59:42 PM
+Convert output to png
+
+Monday 17th of April 2023 06:59:42 PM
+Resize output to 1024
+
+Monday 17th of April 2023 06:59:42 PM
+Convert output to png
+
+Monday 17th of April 2023 06:59:43 PM
+Resize output to 1280
+
+Monday 17th of April 2023 06:59:43 PM
+Convert output to jpg
+
+Monday 17th of April 2023 06:59:43 PM
+Resize output to 1024
+
+Monday 17th of April 2023 06:59:43 PM
+Convert output to jpg
+
+Monday 17th of April 2023 06:59:43 PM
+Resize output to 1280
+
+Monday 17th of April 2023 06:59:43 PM
+Convert output to png
+
+Monday 17th of April 2023 06:59:44 PM
+Resize output to 1024
+
+Monday 17th of April 2023 06:59:44 PM
+Convert output to png
+
+Monday 17th of April 2023 06:59:44 PM
+Resize output to 1280
+
+Monday 17th of April 2023 06:59:44 PM
+Convert output to jpg
+
+Monday 17th of April 2023 06:59:45 PM
+Resize output to 1024
+
+Monday 17th of April 2023 06:59:45 PM
+Convert output to jpg
+
+Monday 17th of April 2023 06:59:45 PM
+SplFileInfo Object
+(
+    [pathName:SplFileInfo:private] => /home/shaun/dev/projects/resize-web-gui/src/resize_images/Capture d’écran du 2023-03-03 08-21-04-1/png/output-1024.png
+    [fileName:SplFileInfo:private] => output-1024.png
+)
+
+
+Monday 17th of April 2023 06:59:45 PM
+here is filepath for source file : /home/shaun/dev/projects/resize-web-gui/src/resize_images/Capture d’écran du 2023-03-03 08-21-04-1/png/output-1024.png
+
+Monday 17th of April 2023 06:59:45 PM
+here is relative path for zip archive : Capture d’écran du 2023-03-03 08-21-04-1/png/output-1024.png
+
+Monday 17th of April 2023 06:59:45 PM
+ZipArchive Object
+(
+    [lastId] => 0
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 1
+    [filename] => /home/shaun/dev/projects/resize-web-gui/src/resize_imagesresize_images.zip
+    [comment] => 
+)
+
+
+Monday 17th of April 2023 06:59:45 PM
+SplFileInfo Object
+(
+    [pathName:SplFileInfo:private] => /home/shaun/dev/projects/resize-web-gui/src/resize_images/Capture d’écran du 2023-03-03 08-21-04-1/png/output-1280.png
+    [fileName:SplFileInfo:private] => output-1280.png
+)
+
+
+Monday 17th of April 2023 06:59:45 PM
+here is filepath for source file : /home/shaun/dev/projects/resize-web-gui/src/resize_images/Capture d’écran du 2023-03-03 08-21-04-1/png/output-1280.png
+
+Monday 17th of April 2023 06:59:45 PM
+here is relative path for zip archive : Capture d’écran du 2023-03-03 08-21-04-1/png/output-1280.png
+
+Monday 17th of April 2023 06:59:45 PM
+ZipArchive Object
+(
+    [lastId] => 1
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 2
+    [filename] => /home/shaun/dev/projects/resize-web-gui/src/resize_imagesresize_images.zip
+    [comment] => 
+)
+
+
+Monday 17th of April 2023 06:59:45 PM
+SplFileInfo Object
+(
+    [pathName:SplFileInfo:private] => /home/shaun/dev/projects/resize-web-gui/src/resize_images/Capture d’écran du 2023-03-03 08-21-04-1/jpg/output-1024.jpg
+    [fileName:SplFileInfo:private] => output-1024.jpg
+)
+
+
+Monday 17th of April 2023 06:59:45 PM
+here is filepath for source file : /home/shaun/dev/projects/resize-web-gui/src/resize_images/Capture d’écran du 2023-03-03 08-21-04-1/jpg/output-1024.jpg
+
+Monday 17th of April 2023 06:59:45 PM
+here is relative path for zip archive : Capture d’écran du 2023-03-03 08-21-04-1/jpg/output-1024.jpg
+
+Monday 17th of April 2023 06:59:45 PM
+ZipArchive Object
+(
+    [lastId] => 2
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 3
+    [filename] => /home/shaun/dev/projects/resize-web-gui/src/resize_imagesresize_images.zip
+    [comment] => 
+)
+
+
+Monday 17th of April 2023 06:59:45 PM
+SplFileInfo Object
+(
+    [pathName:SplFileInfo:private] => /home/shaun/dev/projects/resize-web-gui/src/resize_images/Capture d’écran du 2023-03-03 08-21-04-1/jpg/output-1280.jpg
+    [fileName:SplFileInfo:private] => output-1280.jpg
+)
+
+
+Monday 17th of April 2023 06:59:45 PM
+here is filepath for source file : /home/shaun/dev/projects/resize-web-gui/src/resize_images/Capture d’écran du 2023-03-03 08-21-04-1/jpg/output-1280.jpg
+
+Monday 17th of April 2023 06:59:45 PM
+here is relative path for zip archive : Capture d’écran du 2023-03-03 08-21-04-1/jpg/output-1280.jpg
+
+Monday 17th of April 2023 06:59:45 PM
+ZipArchive Object
+(
+    [lastId] => 3
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 4
+    [filename] => /home/shaun/dev/projects/resize-web-gui/src/resize_imagesresize_images.zip
+    [comment] => 
+)
+
+
+Monday 17th of April 2023 06:59:45 PM
+SplFileInfo Object
+(
+    [pathName:SplFileInfo:private] => /home/shaun/dev/projects/resize-web-gui/src/resize_images/Capture d’écran du 2023-03-03 08-20-48-0/png/output-1024.png
+    [fileName:SplFileInfo:private] => output-1024.png
+)
+
+
+Monday 17th of April 2023 06:59:45 PM
+here is filepath for source file : /home/shaun/dev/projects/resize-web-gui/src/resize_images/Capture d’écran du 2023-03-03 08-20-48-0/png/output-1024.png
+
+Monday 17th of April 2023 06:59:45 PM
+here is relative path for zip archive : Capture d’écran du 2023-03-03 08-20-48-0/png/output-1024.png
+
+Monday 17th of April 2023 06:59:45 PM
+ZipArchive Object
+(
+    [lastId] => 4
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 5
+    [filename] => /home/shaun/dev/projects/resize-web-gui/src/resize_imagesresize_images.zip
+    [comment] => 
+)
+
+
+Monday 17th of April 2023 06:59:45 PM
+SplFileInfo Object
+(
+    [pathName:SplFileInfo:private] => /home/shaun/dev/projects/resize-web-gui/src/resize_images/Capture d’écran du 2023-03-03 08-20-48-0/png/output-1280.png
+    [fileName:SplFileInfo:private] => output-1280.png
+)
+
+
+Monday 17th of April 2023 06:59:45 PM
+here is filepath for source file : /home/shaun/dev/projects/resize-web-gui/src/resize_images/Capture d’écran du 2023-03-03 08-20-48-0/png/output-1280.png
+
+Monday 17th of April 2023 06:59:45 PM
+here is relative path for zip archive : Capture d’écran du 2023-03-03 08-20-48-0/png/output-1280.png
+
+Monday 17th of April 2023 06:59:45 PM
+ZipArchive Object
+(
+    [lastId] => 5
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 6
+    [filename] => /home/shaun/dev/projects/resize-web-gui/src/resize_imagesresize_images.zip
+    [comment] => 
+)
+
+
+Monday 17th of April 2023 06:59:45 PM
+SplFileInfo Object
+(
+    [pathName:SplFileInfo:private] => /home/shaun/dev/projects/resize-web-gui/src/resize_images/Capture d’écran du 2023-03-03 08-20-48-0/jpg/output-1024.jpg
+    [fileName:SplFileInfo:private] => output-1024.jpg
+)
+
+
+Monday 17th of April 2023 06:59:45 PM
+here is filepath for source file : /home/shaun/dev/projects/resize-web-gui/src/resize_images/Capture d’écran du 2023-03-03 08-20-48-0/jpg/output-1024.jpg
+
+Monday 17th of April 2023 06:59:45 PM
+here is relative path for zip archive : Capture d’écran du 2023-03-03 08-20-48-0/jpg/output-1024.jpg
+
+Monday 17th of April 2023 06:59:45 PM
+ZipArchive Object
+(
+    [lastId] => 6
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 7
+    [filename] => /home/shaun/dev/projects/resize-web-gui/src/resize_imagesresize_images.zip
+    [comment] => 
+)
+
+
+Monday 17th of April 2023 06:59:45 PM
+SplFileInfo Object
+(
+    [pathName:SplFileInfo:private] => /home/shaun/dev/projects/resize-web-gui/src/resize_images/Capture d’écran du 2023-03-03 08-20-48-0/jpg/output-1280.jpg
+    [fileName:SplFileInfo:private] => output-1280.jpg
+)
+
+
+Monday 17th of April 2023 06:59:45 PM
+here is filepath for source file : /home/shaun/dev/projects/resize-web-gui/src/resize_images/Capture d’écran du 2023-03-03 08-20-48-0/jpg/output-1280.jpg
+
+Monday 17th of April 2023 06:59:45 PM
+here is relative path for zip archive : Capture d’écran du 2023-03-03 08-20-48-0/jpg/output-1280.jpg
+
+Monday 17th of April 2023 06:59:45 PM
+ZipArchive Object
+(
+    [lastId] => 7
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 8
+    [filename] => /home/shaun/dev/projects/resize-web-gui/src/resize_imagesresize_images.zip
+    [comment] => 
+)
+
+
+Monday 17th of April 2023 07:00:01 PM
+Resize output to 1280
+
+Monday 17th of April 2023 07:00:01 PM
+Convert output to png
+
+Monday 17th of April 2023 07:00:02 PM
+Resize output to 1024
+
+Monday 17th of April 2023 07:00:02 PM
+Convert output to png
+
+Monday 17th of April 2023 07:00:02 PM
+Resize output to 1280
+
+Monday 17th of April 2023 07:00:02 PM
+Convert output to jpg
+
+Monday 17th of April 2023 07:00:03 PM
+Resize output to 1024
+
+Monday 17th of April 2023 07:00:03 PM
+Convert output to jpg
+
+Monday 17th of April 2023 07:00:03 PM
+Resize output to 1280
+
+Monday 17th of April 2023 07:00:03 PM
+Convert output to png
+
+Monday 17th of April 2023 07:00:04 PM
+Resize output to 1024
+
+Monday 17th of April 2023 07:00:04 PM
+Convert output to png
+
+Monday 17th of April 2023 07:00:04 PM
+Resize output to 1280
+
+Monday 17th of April 2023 07:00:04 PM
+Convert output to jpg
+
+Monday 17th of April 2023 07:00:04 PM
+Resize output to 1024
+
+Monday 17th of April 2023 07:00:04 PM
+Convert output to jpg
+
+Monday 17th of April 2023 07:00:04 PM
+SplFileInfo Object
+(
+    [pathName:SplFileInfo:private] => /home/shaun/dev/projects/resize-web-gui/src/resize_images/Capture d’écran du 2023-03-03 08-21-04-1/png/output-1024.png
+    [fileName:SplFileInfo:private] => output-1024.png
+)
+
+
+Monday 17th of April 2023 07:00:04 PM
+here is filepath for source file : /home/shaun/dev/projects/resize-web-gui/src/resize_images/Capture d’écran du 2023-03-03 08-21-04-1/png/output-1024.png
+
+Monday 17th of April 2023 07:00:04 PM
+here is relative path for zip archive : Capture d’écran du 2023-03-03 08-21-04-1/png/output-1024.png
+
+Monday 17th of April 2023 07:00:04 PM
+ZipArchive Object
+(
+    [lastId] => 0
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 1
+    [filename] => /home/shaun/dev/projects/resize-web-gui/src/resize_images/resize_images.zip
+    [comment] => 
+)
+
+
+Monday 17th of April 2023 07:00:04 PM
+SplFileInfo Object
+(
+    [pathName:SplFileInfo:private] => /home/shaun/dev/projects/resize-web-gui/src/resize_images/Capture d’écran du 2023-03-03 08-21-04-1/png/output-1280.png
+    [fileName:SplFileInfo:private] => output-1280.png
+)
+
+
+Monday 17th of April 2023 07:00:04 PM
+here is filepath for source file : /home/shaun/dev/projects/resize-web-gui/src/resize_images/Capture d’écran du 2023-03-03 08-21-04-1/png/output-1280.png
+
+Monday 17th of April 2023 07:00:04 PM
+here is relative path for zip archive : Capture d’écran du 2023-03-03 08-21-04-1/png/output-1280.png
+
+Monday 17th of April 2023 07:00:04 PM
+ZipArchive Object
+(
+    [lastId] => 1
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 2
+    [filename] => /home/shaun/dev/projects/resize-web-gui/src/resize_images/resize_images.zip
+    [comment] => 
+)
+
+
+Monday 17th of April 2023 07:00:04 PM
+SplFileInfo Object
+(
+    [pathName:SplFileInfo:private] => /home/shaun/dev/projects/resize-web-gui/src/resize_images/Capture d’écran du 2023-03-03 08-21-04-1/jpg/output-1024.jpg
+    [fileName:SplFileInfo:private] => output-1024.jpg
+)
+
+
+Monday 17th of April 2023 07:00:04 PM
+here is filepath for source file : /home/shaun/dev/projects/resize-web-gui/src/resize_images/Capture d’écran du 2023-03-03 08-21-04-1/jpg/output-1024.jpg
+
+Monday 17th of April 2023 07:00:04 PM
+here is relative path for zip archive : Capture d’écran du 2023-03-03 08-21-04-1/jpg/output-1024.jpg
+
+Monday 17th of April 2023 07:00:04 PM
+ZipArchive Object
+(
+    [lastId] => 2
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 3
+    [filename] => /home/shaun/dev/projects/resize-web-gui/src/resize_images/resize_images.zip
+    [comment] => 
+)
+
+
+Monday 17th of April 2023 07:00:04 PM
+SplFileInfo Object
+(
+    [pathName:SplFileInfo:private] => /home/shaun/dev/projects/resize-web-gui/src/resize_images/Capture d’écran du 2023-03-03 08-21-04-1/jpg/output-1280.jpg
+    [fileName:SplFileInfo:private] => output-1280.jpg
+)
+
+
+Monday 17th of April 2023 07:00:04 PM
+here is filepath for source file : /home/shaun/dev/projects/resize-web-gui/src/resize_images/Capture d’écran du 2023-03-03 08-21-04-1/jpg/output-1280.jpg
+
+Monday 17th of April 2023 07:00:04 PM
+here is relative path for zip archive : Capture d’écran du 2023-03-03 08-21-04-1/jpg/output-1280.jpg
+
+Monday 17th of April 2023 07:00:04 PM
+ZipArchive Object
+(
+    [lastId] => 3
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 4
+    [filename] => /home/shaun/dev/projects/resize-web-gui/src/resize_images/resize_images.zip
+    [comment] => 
+)
+
+
+Monday 17th of April 2023 07:00:04 PM
+SplFileInfo Object
+(
+    [pathName:SplFileInfo:private] => /home/shaun/dev/projects/resize-web-gui/src/resize_images/Capture d’écran du 2023-03-03 08-20-48-0/png/output-1024.png
+    [fileName:SplFileInfo:private] => output-1024.png
+)
+
+
+Monday 17th of April 2023 07:00:04 PM
+here is filepath for source file : /home/shaun/dev/projects/resize-web-gui/src/resize_images/Capture d’écran du 2023-03-03 08-20-48-0/png/output-1024.png
+
+Monday 17th of April 2023 07:00:04 PM
+here is relative path for zip archive : Capture d’écran du 2023-03-03 08-20-48-0/png/output-1024.png
+
+Monday 17th of April 2023 07:00:04 PM
+ZipArchive Object
+(
+    [lastId] => 4
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 5
+    [filename] => /home/shaun/dev/projects/resize-web-gui/src/resize_images/resize_images.zip
+    [comment] => 
+)
+
+
+Monday 17th of April 2023 07:00:04 PM
+SplFileInfo Object
+(
+    [pathName:SplFileInfo:private] => /home/shaun/dev/projects/resize-web-gui/src/resize_images/Capture d’écran du 2023-03-03 08-20-48-0/png/output-1280.png
+    [fileName:SplFileInfo:private] => output-1280.png
+)
+
+
+Monday 17th of April 2023 07:00:04 PM
+here is filepath for source file : /home/shaun/dev/projects/resize-web-gui/src/resize_images/Capture d’écran du 2023-03-03 08-20-48-0/png/output-1280.png
+
+Monday 17th of April 2023 07:00:04 PM
+here is relative path for zip archive : Capture d’écran du 2023-03-03 08-20-48-0/png/output-1280.png
+
+Monday 17th of April 2023 07:00:04 PM
+ZipArchive Object
+(
+    [lastId] => 5
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 6
+    [filename] => /home/shaun/dev/projects/resize-web-gui/src/resize_images/resize_images.zip
+    [comment] => 
+)
+
+
+Monday 17th of April 2023 07:00:04 PM
+SplFileInfo Object
+(
+    [pathName:SplFileInfo:private] => /home/shaun/dev/projects/resize-web-gui/src/resize_images/Capture d’écran du 2023-03-03 08-20-48-0/jpg/output-1024.jpg
+    [fileName:SplFileInfo:private] => output-1024.jpg
+)
+
+
+Monday 17th of April 2023 07:00:04 PM
+here is filepath for source file : /home/shaun/dev/projects/resize-web-gui/src/resize_images/Capture d’écran du 2023-03-03 08-20-48-0/jpg/output-1024.jpg
+
+Monday 17th of April 2023 07:00:04 PM
+here is relative path for zip archive : Capture d’écran du 2023-03-03 08-20-48-0/jpg/output-1024.jpg
+
+Monday 17th of April 2023 07:00:04 PM
+ZipArchive Object
+(
+    [lastId] => 6
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 7
+    [filename] => /home/shaun/dev/projects/resize-web-gui/src/resize_images/resize_images.zip
+    [comment] => 
+)
+
+
+Monday 17th of April 2023 07:00:04 PM
+SplFileInfo Object
+(
+    [pathName:SplFileInfo:private] => /home/shaun/dev/projects/resize-web-gui/src/resize_images/Capture d’écran du 2023-03-03 08-20-48-0/jpg/output-1280.jpg
+    [fileName:SplFileInfo:private] => output-1280.jpg
+)
+
+
+Monday 17th of April 2023 07:00:04 PM
+here is filepath for source file : /home/shaun/dev/projects/resize-web-gui/src/resize_images/Capture d’écran du 2023-03-03 08-20-48-0/jpg/output-1280.jpg
+
+Monday 17th of April 2023 07:00:04 PM
+here is relative path for zip archive : Capture d’écran du 2023-03-03 08-20-48-0/jpg/output-1280.jpg
+
+Monday 17th of April 2023 07:00:04 PM
+ZipArchive Object
+(
+    [lastId] => 7
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 8
+    [filename] => /home/shaun/dev/projects/resize-web-gui/src/resize_images/resize_images.zip
+    [comment] => 
+)
+
+
+Monday 17th of April 2023 07:04:47 PM
+Resize output to 1280
+
+Monday 17th of April 2023 07:04:47 PM
+Convert output to png
+
+Monday 17th of April 2023 07:04:48 PM
+Resize output to 1024
+
+Monday 17th of April 2023 07:04:48 PM
+Convert output to png
+
+Monday 17th of April 2023 07:04:49 PM
+Resize output to 1280
+
+Monday 17th of April 2023 07:04:49 PM
+Convert output to jpg
+
+Monday 17th of April 2023 07:04:49 PM
+Resize output to 1024
+
+Monday 17th of April 2023 07:04:49 PM
+Convert output to jpg
+
+Monday 17th of April 2023 07:04:49 PM
+Resize output to 1280
+
+Monday 17th of April 2023 07:04:49 PM
+Convert output to png
+
+Monday 17th of April 2023 07:04:50 PM
+Resize output to 1024
+
+Monday 17th of April 2023 07:04:50 PM
+Convert output to png
+
+Monday 17th of April 2023 07:04:50 PM
+Resize output to 1280
+
+Monday 17th of April 2023 07:04:50 PM
+Convert output to jpg
+
+Monday 17th of April 2023 07:04:51 PM
+Resize output to 1024
+
+Monday 17th of April 2023 07:04:51 PM
+Convert output to jpg
+
+Monday 17th of April 2023 07:06:07 PM
+Resize output to 1280
+
+Monday 17th of April 2023 07:06:07 PM
+Convert output to png
+
+Monday 17th of April 2023 07:06:08 PM
+Resize output to 1024
+
+Monday 17th of April 2023 07:06:08 PM
+Convert output to png
+
+Monday 17th of April 2023 07:06:09 PM
+Resize output to 1280
+
+Monday 17th of April 2023 07:06:09 PM
+Convert output to jpg
+
+Monday 17th of April 2023 07:06:09 PM
+Resize output to 1024
+
+Monday 17th of April 2023 07:06:09 PM
+Convert output to jpg
+
+Monday 17th of April 2023 07:06:09 PM
+Resize output to 1280
+
+Monday 17th of April 2023 07:06:09 PM
+Convert output to png
+
+Monday 17th of April 2023 07:06:10 PM
+Resize output to 1024
+
+Monday 17th of April 2023 07:06:10 PM
+Convert output to png
+
+Monday 17th of April 2023 07:06:11 PM
+Resize output to 1280
+
+Monday 17th of April 2023 07:06:11 PM
+Convert output to jpg
+
+Monday 17th of April 2023 07:06:11 PM
+Resize output to 1024
+
+Monday 17th of April 2023 07:06:11 PM
+Convert output to jpg
+
+Monday 17th of April 2023 07:07:32 PM
+Resize output to 1280
+
+Monday 17th of April 2023 07:07:32 PM
+Convert output to png
+
+Monday 17th of April 2023 07:07:32 PM
+Resize output to 1024
+
+Monday 17th of April 2023 07:07:32 PM
+Convert output to png
+
+Monday 17th of April 2023 07:07:33 PM
+Resize output to 1280
+
+Monday 17th of April 2023 07:07:33 PM
+Convert output to jpg
+
+Monday 17th of April 2023 07:07:33 PM
+Resize output to 1024
+
+Monday 17th of April 2023 07:07:33 PM
+Convert output to jpg
+
+Monday 17th of April 2023 07:07:34 PM
+Resize output to 1280
+
+Monday 17th of April 2023 07:07:34 PM
+Convert output to png
+
+Monday 17th of April 2023 07:07:34 PM
+Resize output to 1024
+
+Monday 17th of April 2023 07:07:34 PM
+Convert output to png
+
+Monday 17th of April 2023 07:07:35 PM
+Resize output to 1280
+
+Monday 17th of April 2023 07:07:35 PM
+Convert output to jpg
+
+Monday 17th of April 2023 07:07:35 PM
+Resize output to 1024
+
+Monday 17th of April 2023 07:07:35 PM
+Convert output to jpg
+
+Monday 17th of April 2023 07:08:25 PM
+Resize output to 1280
+
+Monday 17th of April 2023 07:08:25 PM
+Convert output to png
+
+Monday 17th of April 2023 07:08:25 PM
+Resize output to 1024
+
+Monday 17th of April 2023 07:08:25 PM
+Convert output to png
+
+Monday 17th of April 2023 07:08:26 PM
+Resize output to 1280
+
+Monday 17th of April 2023 07:08:26 PM
+Convert output to jpg
+
+Monday 17th of April 2023 07:08:26 PM
+Resize output to 1024
+
+Monday 17th of April 2023 07:08:26 PM
+Convert output to jpg
+
+Monday 17th of April 2023 07:08:27 PM
+Resize output to 1280
+
+Monday 17th of April 2023 07:08:27 PM
+Convert output to png
+
+Monday 17th of April 2023 07:08:27 PM
+Resize output to 1024
+
+Monday 17th of April 2023 07:08:27 PM
+Convert output to png
+
+Monday 17th of April 2023 07:08:28 PM
+Resize output to 1280
+
+Monday 17th of April 2023 07:08:28 PM
+Convert output to jpg
+
+Monday 17th of April 2023 07:08:28 PM
+Resize output to 1024
+
+Monday 17th of April 2023 07:08:28 PM
+Convert output to jpg
+
+Monday 17th of April 2023 07:09:16 PM
+Resize output to 1280
+
+Monday 17th of April 2023 07:09:16 PM
+Convert output to png
+
+Monday 17th of April 2023 07:09:17 PM
+Resize output to 1024
+
+Monday 17th of April 2023 07:09:17 PM
+Convert output to png
+
+Monday 17th of April 2023 07:09:17 PM
+Resize output to 1280
+
+Monday 17th of April 2023 07:09:17 PM
+Convert output to jpg
+
+Monday 17th of April 2023 07:09:18 PM
+Resize output to 1024
+
+Monday 17th of April 2023 07:09:18 PM
+Convert output to jpg
+
+Monday 17th of April 2023 07:09:18 PM
+Resize output to 1280
+
+Monday 17th of April 2023 07:09:18 PM
+Convert output to png
+
+Monday 17th of April 2023 07:09:19 PM
+Resize output to 1024
+
+Monday 17th of April 2023 07:09:19 PM
+Convert output to png
+
+Monday 17th of April 2023 07:09:19 PM
+Resize output to 1280
+
+Monday 17th of April 2023 07:09:19 PM
+Convert output to jpg
+
+Monday 17th of April 2023 07:09:19 PM
+Resize output to 1024
+
+Monday 17th of April 2023 07:09:19 PM
+Convert output to jpg
 
