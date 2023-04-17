@@ -21,4 +21,5 @@ To get only data image, instead of write on disk : $imageData = $image->getImage
 
 Inno setup for Windows, Appimage for Linux
 
-
+Bug : when you have download button and you press enter, we have another download
+button appear, and this is for each time we press enter

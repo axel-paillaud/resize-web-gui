@@ -58,27 +58,27 @@
                 <legend class="m-separate-field">Output format</legend>
                 <div class="checkbox-container">
                     <div>
-                        <input value="AVIF" type="checkbox" id="format-avif" name="format">
+                        <input value="avif" type="checkbox" id="format-avif" name="format">
                         <label for="format-avif">AVIF</label>
                     </div>
                     <div>
-                        <input value="WEBP" type="checkbox" id="format-webp" name="format">
+                        <input value="webp" type="checkbox" id="format-webp" name="format">
                         <label for="format-webp">WebP</label>
                     </div>
                     <div>
-                        <input value="PNG" type="checkbox" id="format-png" name="format">
+                        <input value="png" type="checkbox" id="format-png" name="format">
                         <label for="format-png">PNG</label>
                     </div>
                     <div>
-                        <input value="JPG" type="checkbox" id="format-jpg" name="format">
+                        <input value="jpg" type="checkbox" id="format-jpg" name="format">
                         <label for="format-jpg">JPG</label>
                     </div>
                     <div>
-                        <input value="GIF" type="checkbox" id="format-gif" name="format">
+                        <input value="gif" type="checkbox" id="format-gif" name="format">
                         <label for="format-gif">GIF</label>
                     </div>
                     <div>
-                        <input value="SVG" type="checkbox" id="format-svg" name="format">
+                        <input value="svg" type="checkbox" id="format-svg" name="format">
                         <label for="format-svg">SVG</label>
                     </div>
                 </div>
