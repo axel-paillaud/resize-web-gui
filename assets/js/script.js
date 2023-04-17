@@ -110,10 +110,12 @@ function updateBtnToDownload(btn, url, filename)
     link.href = url;
     link.innerText = "Download";
     link.classList.add("btn-heavy");
+    link.id = "download-btn";
 
     btn.style.display = "none";
+    btn.disabled = true;
     container.appendChild(link);
-
+    return link;
 }
 
 function enableSubmit(submitBtn, isCheckSize, isCheckFormat, isFile) {
@@ -187,7 +189,7 @@ function getFormData(form) {
 }
 
 function fetchDataToApi(formData) {
-    fetch("src/api.php", {
+    fetch("src/resizeweb.api.php", {
         method: "POST",
         body: formData,
     })
@@ -197,8 +199,10 @@ function fetchDataToApi(formData) {
         }
     })
     .then(function(filename) {
+        console.log(filename);
         setBtnStyleToEnable(submitBtn, "Download");
-        updateBtnToDownload(submitBtn, "src/resize_images/" + filename, filename);
+        let downloadBtn = updateBtnToDownload(submitBtn, "src/resize_images/" + filename, filename);
+        window.addEventListener('keydown', triggerDownload);
     })
 }
 
@@ -215,8 +219,17 @@ const triggerSubmit = function (event) {
         if (!isValidInput)
             return;
         else {
+            submitBtn.removeEventListener('click', triggerSubmit);
+            submitBtn.removeEventListener('keydown', triggerSubmit);
             sendForm();
         }
+    }
+}
+
+const triggerDownload = function (event) {
+    if (event.key === 'Enter' || event.key === ' ') {
+        document.getElementById("download-btn").click();
+        window.removeEventListener('keydown', triggerDownload);
     }
 }
 

@@ -49,7 +49,14 @@ if (!extension_loaded('imagick')) {
     die();
 }
 
-/* all new folder ierarchy with new image start at root directory */
+/* if resize_images folder already exists, delete it to start with empty directory */
+if (file_exists("./resize_images")) {
+    if (!unlink("./resize_images/output-1539.jpg")) {
+        print_log("Impossible to delete file ...");
+    }
+}
+
+/* all new folder hierarchy with new image start at root directory */
 createDir("resize_images", base_path("/"));
 
 /* if we have only one image, don't zip folder, convert image and send it
@@ -69,7 +76,7 @@ if (count($files["name"]) === 1) {
     $image->destroy();
 
     /* empty PHP buffer, and receive only name of new image */
-    ob_clean();
+    //ob_clean();
     header('Content-type: application/json');
 
     echo $newImageName;

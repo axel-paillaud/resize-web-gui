@@ -15,3 +15,16 @@ function base_path($path)
 {
     return BASE_PATH . $path;
 }
+
+function deleteFiles($folder)
+{
+    $files = glob($folder . '/*');
+    foreach ($files as $file) {
+        if (is_dir($file)) { // recursive function
+            deleteFiles($file);
+        } else {
+            unlink($file);
+        }
+    }
+    rmdir($folder);
+}
