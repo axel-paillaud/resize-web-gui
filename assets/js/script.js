@@ -102,12 +102,11 @@ function setBtnStyleToDisable(submitBtn, content) {
     submitBtn.innerText = content;
 }
 
-function updateBtnToDownload(btn, downloadElement)
+function updateBtnToDownload(btn, url, filename)
 {
-    let url = URL.createObjectURL(downloadElement);
     let container = document.getElementById("js-container");
     let link = document.createElement("a");
-    link.setAttribute('download', 'output');
+    link.setAttribute('download', filename);
     link.href = url;
     link.innerText = "Download";
     link.classList.add("btn-heavy");
@@ -194,12 +193,12 @@ function fetchDataToApi(formData) {
     })
     .then(function(res) {
         if (res.ok) {
-            return res.blob();
+            return res.text();
         }
     })
-    .then(function(blob) {
+    .then(function(filename) {
         setBtnStyleToEnable(submitBtn, "Download");
-        updateBtnToDownload(submitBtn, "/src/resize_images/output-1024.JPG");
+        updateBtnToDownload(submitBtn, "src/resize_images/" + filename, filename);
     })
 }
 

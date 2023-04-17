@@ -7,6 +7,7 @@ if (isset($_POST["rename"]) && !empty($_POST["rename"])) {
 } else {
     $rename = "output";
 }
+print_log($rename);
 
 $files = $_FILES["image"];
 $formats = $_POST["format"];
@@ -49,7 +50,7 @@ if (!extension_loaded('imagick')) {
 }
 
 /* all new folder ierarchy with new image start at root directory */
-createDir("resize_images", "./");
+createDir("resize_images", base_path("/"));
 
 /* if we have only one image, don't zip folder, convert image and send it
 directly to the client */
@@ -60,20 +61,18 @@ if (count($files["name"]) === 1) {
 
     $resizedImg = resizeImg($image, $sizes[0], $rename);
     $convertedImg = convertImg($resizedImg, $quality, $formats[0], $rename);
+    $newImageName = $rename . "-" . $sizes[0] . "." . $formats[0];
 
-    $imagePath = "./resize_images/" . $rename . "-" . $sizes[0] . "." . $formats[0];
-    print_log($imagePath);
+    $imagePath = base_path("/resize_images/" . $newImageName);
     $convertedImg->writeImage($imagePath);
 
     $image->destroy();
 
-    $imageContent = file_get_contents($imagePath);
+    /* empty PHP buffer, and receive only name of new image */
+    ob_clean();
+    header('Content-type: application/json');
 
-    $imageType = mime_content_type($imagePath);
-    header('Content-type: ' . $imageType);
-    header('Content-length: ' . strlen($imageContent));
-
-    echo $imageContent;
+    echo $newImageName;
 } else {
     /* For each images, do */
     for ($i = 0; $i < count($files["name"]); $i++) {
