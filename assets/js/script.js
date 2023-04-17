@@ -194,14 +194,12 @@ function fetchDataToApi(formData) {
     })
     .then(function(res) {
         if (res.ok) {
-            const contentType = res.headers.get('Content-Type');
             return res.blob();
         }
     })
     .then(function(blob) {
         setBtnStyleToEnable(submitBtn, "Download");
-        updateBtnToDownload(submitBtn, blob);
-        console.log(blob);
+        updateBtnToDownload(submitBtn, "/src/resize_images/output-1024.JPG");
     })
 }
 
