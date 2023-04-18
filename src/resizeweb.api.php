@@ -82,49 +82,49 @@ if (count($files["name"]) === 1) {
 
     /* For each images, do */
     for ($i = 0; $i < count($files["name"]); $i++) {
-        if ($files["error"][$i] !== 0) {
+        if ($files["error"][$i] !== 0) 
+        {
             print_log($phpFileUploadErrors[$files["error"][$i]]);
-        } else {
-            $image = new Imagick($files["tmp_name"]);
-            $image->setImageCompressionQuality($quality);
-            $image->setCompressionQuality($quality);
-
+        }
+        else 
+        {
             $filenameFolder = $filenames[$i] . "-" . $i;
-            createDir($filenameFolder, "./resize_images/");
-            //$zip->addFile("./resize_images/$filenameFolder", $zipPath);
+            createDir($filenameFolder, $resizeImagesFolder . "/");
 
             /* for each format, do */
-            for ($k = 0; $k < count($formats); $k++) {
+            for ($k = 0; $k < count($formats); $k++)
+            {
                 createDir($formats[$k], "./resize_images/$filenameFolder/");
-                $formatFolder = "./resize_images/$filenameFolder/$formats[$k]/";
+                $formatFolder = "./resize_images/" . $filenameFolder . "/" . $formats[$k] . "/";
 
                 /* for each size, do */
-                for ($j = 0; $j < count($sizes); $j++) {
+                for ($j = 0; $j < count($sizes); $j++) 
+                {
+
+                    $image = new Imagick($files["tmp_name"][$i]);
+                    $image->setImageCompressionQuality($quality);
+                    $image->setCompressionQuality($quality);
+
+                    $newImageName = $rename . "-" . $sizes[$j] . "." . $formats[$k];
+
                     $resizedImg = resizeImg($image, $sizes[$j], $rename);
                     $convertedImg = convertImg($resizedImg, $quality, $formats[$k], $rename);
-                    $convertedImg->writeImage($formatFolder . "$rename-$sizes[$j].$formats[$k]");
+                    $convertedImg->writeImage($formatFolder . $newImageName);
+
+                    if(!$zip->addFile($formatFolder . $newImageName)) 
+                    {
+                        print_log("Impossible to zip file" . $newImageName);
+                    }
+
+                    $image->destroy();
                 }
             }
-            $image->destroy();
         }
     }
+    $zip->close();
 
-    /*     $files = new RecursiveIteratorIterator(new RecursiveDirectoryIterator($resizeImagesFolder));
-    foreach ($files as $file) {
-        // ignore empty folder
-        if (!$file->isDir()) {
-            print_log($file);
-            // obtenir le chemin du fichier source
-            $filePath = $file->getrealPath();
-            print_log("here is filepath for source file : " . $filePath);
-
-            // créer un chemin relatif pour l'archive ZIP
-            $relativePath = substr($filePath, strlen($resizeImagesFolder) + 1);
-            print_log("here is relative path for zip archive : " . $relativePath);
-
-            // ajouter le fichier à l'archive ZIP
-            $zip->addFile($filePath, $relativePath);
-            print_log($zip);
-        }
-    } */
+    ob_clean();
+    header('Content-type: application/json');
+    print_log($zipPath);
+    echo $zipFilename;
 }
