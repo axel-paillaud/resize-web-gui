@@ -125,6 +125,5 @@ if (count($files["name"]) === 1) {
 
     ob_clean();
     header('Content-type: application/json');
-    print_log($zipPath);
     echo $zipFilename;
 }
