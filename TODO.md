@@ -1,3 +1,5 @@
+# TODO List
+
 - Grid system to display thumbnails images inside the light red container
 " Add picture(s)".
     - When only one image, display one big image that take all the height of the
@@ -21,10 +23,10 @@ To get only data image, instead of write on disk : $imageData = $image->getImage
 
 Inno setup for Windows, Appimage for Linux
 
-- Find a solution to don't have 109239082398232 line of error.log (maybe create error<date>.log)
+- [x] ~~We don't only want zip for multiple images, but also for multiple size or format ( = multiple images also)~~
+  
+- [ ] Find a solution to don't have 109239082398232 line of error.log (maybe create error<date>.log)
 
-- We don't only want zip for multiple images, but also for multiple size or format ( = multiple images also)
-
-- Catch error file for single image too
-
-- Instead of output-768.jpg, I thinks its better to keep the original image name
+- [ ] Catch error file for single image too
+  
+- [ ] Instead of output-768.jpg, I thinks its better to keep the original image name

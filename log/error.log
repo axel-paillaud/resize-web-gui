@@ -1,49 +1,33 @@
-Wednesday 19th of April 2023 09:37:49 AM
+Wednesday 19th of April 2023 10:16:38 AM
 Array
 (
-    [0] => 
+    [0] => lyon.jpg
 )
 
 
-Wednesday 19th of April 2023 09:43:56 AM
+Wednesday 19th of April 2023 10:16:38 AM
+Resize output to 1024
+
+Wednesday 19th of April 2023 10:16:38 AM
+Convert output to jpg
+
+Wednesday 19th of April 2023 10:17:00 AM
 Array
 (
-    [name] => Array
-        (
-            [0] => marseille.jpg
-        )
-
-    [full_path] => Array
-        (
-            [0] => marseille.jpg
-        )
-
-    [type] => Array
-        (
-            [0] => 
-        )
-
-    [tmp_name] => Array
-        (
-            [0] => 
-        )
-
-    [error] => Array
-        (
-            [0] => 1
-        )
-
-    [size] => Array
-        (
-            [0] => 0
-        )
-
+    [0] => lyon.jpg
 )
 
 
-Wednesday 19th of April 2023 09:49:49 AM
-Resize output to 768
+Wednesday 19th of April 2023 10:17:00 AM
+Array
+(
+    [0] => lyon
+)
 
-Wednesday 19th of April 2023 09:49:49 AM
+
+Wednesday 19th of April 2023 10:17:01 AM
+Resize output to 1024
+
+Wednesday 19th of April 2023 10:17:01 AM
 Convert output to jpg
 
