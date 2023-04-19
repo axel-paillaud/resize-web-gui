@@ -2,13 +2,10 @@
 include_once "functions.php";
 include_once "file_error_code.php";
 
-/* Check the value of upload_max_file and post_max_size. If it's too low, send
-warning message */
-$upload_max_filesize = ini_get('upload_max_filesize');
-$post_max_size = ini_get('post_max_size');
-$max_file_uploads = ini_get('max_file_uploads');
-print_log($_FILES);
-print_log($_POST);
+/* check php.ini value like upload_max_filesize or post_max_size, throw
+warning if limit is set */
+
+check_php_config();
 
 if (isset($_POST["rename"]) && !empty($_POST["rename"])) 
 {
@@ -22,6 +19,7 @@ $filenames = $files["name"];
 $quality = intval($_POST["quality"]);
 
 /* we only want the filename without the extension */
+
 foreach ($filenames as &$filename) 
 {
     $filename = pathinfo($filename, PATHINFO_FILENAME);
@@ -37,7 +35,6 @@ function resizeImg($image, int $size, string $filename)
 
 function convertImg($image, string $quality, string $format, string $fileName)
 {
-    /* $image->setCompressionQuality($quality); */
     $image->setImageFormat($format);
     print_log("Convert $fileName to $format");
     return $image;
@@ -50,17 +47,20 @@ if (!extension_loaded('imagick'))
 }
 
 /* if resize_images folder already exists, delete it to start with empty directory */
+
 if (file_exists("./resize_images")) 
 {
     deleteFiles("./resize_images");
 }
 
 /* all new folder hierarchy with new image start at root directory */
+
 createDir("resize_images", base_path("/"));
 $resizeImagesFolder = base_path("/resize_images");
 
 /* if we have only one image, don't zip folder, convert image and send it
 directly to the client */
+
 if (count($files["name"]) === 1) 
 {
     
@@ -90,6 +90,7 @@ if (count($files["name"]) === 1)
     $image->destroy();
 
     /* empty PHP buffer, and receive only name of new image */
+
     ob_clean();
     header('Content-type: application/json');
     echo $newFullImageName;
@@ -98,6 +99,7 @@ else
 {
 
     /* create zip archive for download after resize/convert */
+
     $zip = new ZipArchive();
     $zipFilename = "resize_images.zip";
     $zipPath = $resizeImagesFolder . "/" . $zipFilename;
@@ -107,6 +109,7 @@ else
     }
 
     /* For each images, do */
+
     for ($i = 0; $i < count($files["name"]); $i++) {
         if ($files["error"][$i] !== 0) 
         {
@@ -117,12 +120,14 @@ else
         createDir($filenameFolder, $resizeImagesFolder . "/");
 
         /* for each format, do */
+
         for ($k = 0; $k < count($formats); $k++)
         {
             createDir($formats[$k], "./resize_images/$filenameFolder/");
             $formatFolder = "./resize_images/" . $filenameFolder . "/" . $formats[$k] . "/";
 
             /* for each size, do */
+            
             for ($j = 0; $j < count($sizes); $j++) 
             {
 
