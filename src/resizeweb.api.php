@@ -2,6 +2,12 @@
 include_once "functions.php";
 include_once "file_error_code.php";
 
+/* Check the value of upload_max_file and post_max_size. If it's too low, send
+warning message */
+$upload_max_filesize = ini_get('upload_max_filesize');
+$post_max_size = ini_get('post_max_size');
+$max_file_uploads = ini_get('max_file_uploads');
+
 if (isset($_POST["rename"]) && !empty($_POST["rename"])) 
 {
     $rename = $_POST["rename"];
@@ -56,7 +62,7 @@ directly to the client */
 if (count($files["name"]) === 1) 
 {
     
-    if ($files["error"][$i] !== 0) 
+    if ($files["error"][0] !== 0) 
     {
         print_log($phpFileUploadErrors[$files["error"][$i]]);
         die();
