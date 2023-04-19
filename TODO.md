@@ -14,6 +14,9 @@ When we click on submit button :
     - create formData object, add all form field inside the formData
     - Send it to PHP backend
 
+We need to set in php.ini file upload_max_filesize to infinite value (0),
+but also dont forget `post_max_size` , which is about upload multiple file
+
 Check if we can add an entire folder with file to zipArchive. If, create zipArchive
 at the end of the php script, and add the folder and subfolders to it.
 If not, create zipArchive at the beginning of nested loop to convert img, and add

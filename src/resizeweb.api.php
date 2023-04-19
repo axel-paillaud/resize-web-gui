@@ -6,6 +6,8 @@ if (isset($_POST["rename"]) && !empty($_POST["rename"])) {
     $rename = $_POST["rename"];
 }
 
+print_log($_FILES);
+
 $files = $_FILES["image"];
 $formats = $_POST["format"];
 $sizes = $_POST["size"];
@@ -111,10 +113,17 @@ if (count($files["name"]) === 1) {
                     $image->setImageCompressionQuality($quality);
                     $image->setCompressionQuality($quality);
 
-                    $newImageName = $rename . "-" . $sizes[$j] . "." . $formats[$k];
+                    if (isset($rename) && !empty($rename)) {
+                        $filename = $rename;
+                    }
+                    else {
+                        $filename = $filenames[$i];
+                    }
 
-                    $resizedImg = resizeImg($image, $sizes[$j], $rename);
-                    $convertedImg = convertImg($resizedImg, $quality, $formats[$k], $rename);
+                    $newImageName = $filename . "-" . $sizes[$j] . "." . $formats[$k];
+
+                    $resizedImg = resizeImg($image, $sizes[$j], $filename);
+                    $convertedImg = convertImg($resizedImg, $quality, $formats[$k], $filename);
                     $convertedImg->writeImage($formatFolder . $newImageName);
 
                     if(!$zip->addFile($formatFolder . $newImageName)) 
