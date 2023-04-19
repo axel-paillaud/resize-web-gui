@@ -7,6 +7,8 @@ warning message */
 $upload_max_filesize = ini_get('upload_max_filesize');
 $post_max_size = ini_get('post_max_size');
 $max_file_uploads = ini_get('max_file_uploads');
+print_log($_FILES);
+print_log($_POST);
 
 if (isset($_POST["rename"]) && !empty($_POST["rename"])) 
 {

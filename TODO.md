@@ -36,5 +36,7 @@ Inno setup for Windows, Appimage for Linux
   
 - [x] ~~Instead of output-768.jpg, I thinks its better to keep the original image name~~
 
+- [ ] Find also all "set_timeout" parameters, to set it to infinite 
+
 - [ ] Add code to check if `upload_max_filesize` and `post_max_size` are set to infinite.
 If not, throw an error. 
