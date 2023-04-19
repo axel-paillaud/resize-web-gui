@@ -289,3 +289,109 @@ Resize test to 1024
 Wednesday 19th of April 2023 12:57:12 PM
 Convert test to jpg
 
+Wednesday 19th of April 2023 01:01:50 PM
+Array
+(
+    [image] => Array
+        (
+            [name] => Array
+                (
+                    [0] => lyon.jpg
+                    [1] => marseille.jpg
+                    [2] => output-768.jpg
+                    [3] => paris.jpg
+                    [4] => paris-resize.jpg
+                    [5] => toulouse.jpg
+                )
+
+            [full_path] => Array
+                (
+                    [0] => lyon.jpg
+                    [1] => marseille.jpg
+                    [2] => output-768.jpg
+                    [3] => paris.jpg
+                    [4] => paris-resize.jpg
+                    [5] => toulouse.jpg
+                )
+
+            [type] => Array
+                (
+                    [0] => image/jpeg
+                    [1] => image/jpeg
+                    [2] => image/jpeg
+                    [3] => image/jpeg
+                    [4] => image/jpeg
+                    [5] => image/jpeg
+                )
+
+            [tmp_name] => Array
+                (
+                    [0] => /tmp/phpswzSNb
+                    [1] => /tmp/phptb5onB
+                    [2] => /tmp/phptYAjxD
+                    [3] => /tmp/phptJ3p7U
+                    [4] => /tmp/phpW13eqU
+                    [5] => /tmp/php9aZscg
+                )
+
+            [error] => Array
+                (
+                    [0] => 0
+                    [1] => 0
+                    [2] => 0
+                    [3] => 0
+                    [4] => 0
+                    [5] => 0
+                )
+
+            [size] => Array
+                (
+                    [0] => 425698
+                    [1] => 2972222
+                    [2] => 43666
+                    [3] => 8498942
+                    [4] => 83751
+                    [5] => 67879
+                )
+
+        )
+
+)
+
+
+Wednesday 19th of April 2023 01:01:50 PM
+Resize lyon to 1024
+
+Wednesday 19th of April 2023 01:01:50 PM
+Convert lyon to jpg
+
+Wednesday 19th of April 2023 01:01:51 PM
+Resize marseille to 1024
+
+Wednesday 19th of April 2023 01:01:51 PM
+Convert marseille to jpg
+
+Wednesday 19th of April 2023 01:01:51 PM
+Resize output-768 to 1024
+
+Wednesday 19th of April 2023 01:01:51 PM
+Convert output-768 to jpg
+
+Wednesday 19th of April 2023 01:01:51 PM
+Resize paris to 1024
+
+Wednesday 19th of April 2023 01:01:51 PM
+Convert paris to jpg
+
+Wednesday 19th of April 2023 01:01:52 PM
+Resize paris-resize to 1024
+
+Wednesday 19th of April 2023 01:01:52 PM
+Convert paris-resize to jpg
+
+Wednesday 19th of April 2023 01:01:52 PM
+Resize paris-resize to 1024
+
+Wednesday 19th of April 2023 01:01:52 PM
+Convert paris-resize to jpg
+
