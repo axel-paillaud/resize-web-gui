@@ -2,11 +2,10 @@
 include_once "functions.php";
 include_once "file_error_code.php";
 
-if (isset($_POST["rename"]) && !empty($_POST["rename"])) {
+if (isset($_POST["rename"]) && !empty($_POST["rename"])) 
+{
     $rename = $_POST["rename"];
 }
-
-print_log($_FILES);
 
 $files = $_FILES["image"];
 $formats = $_POST["format"];
@@ -15,7 +14,8 @@ $filenames = $files["name"];
 $quality = intval($_POST["quality"]);
 
 /* we only want the filename without the extension */
-foreach ($filenames as &$filename) {
+foreach ($filenames as &$filename) 
+{
     $filename = pathinfo($filename, PATHINFO_FILENAME);
 }
 
@@ -35,13 +35,15 @@ function convertImg($image, string $quality, string $format, string $fileName)
     return $image;
 }
 
-if (!extension_loaded('imagick')) {
+if (!extension_loaded('imagick')) 
+{
     print_log("Error : imagick extension is not loaded.");
     die();
 }
 
 /* if resize_images folder already exists, delete it to start with empty directory */
-if (file_exists("./resize_images")) {
+if (file_exists("./resize_images")) 
+{
     deleteFiles("./resize_images");
 }
 
@@ -51,8 +53,14 @@ $resizeImagesFolder = base_path("/resize_images");
 
 /* if we have only one image, don't zip folder, convert image and send it
 directly to the client */
-if (count($files["name"]) === 1) {
-    // TODO : catch code error file and print it to log
+if (count($files["name"]) === 1) 
+{
+    
+    if ($files["error"][$i] !== 0) 
+    {
+        print_log($phpFileUploadErrors[$files["error"][$i]]);
+        die();
+    }
     $image = new Imagick($files["tmp_name"]);
     $image->setImageCompressionQuality($quality);
     $image->setCompressionQuality($quality);
@@ -77,7 +85,9 @@ if (count($files["name"]) === 1) {
     ob_clean();
     header('Content-type: application/json');
     echo $newFullImageName;
-} else {
+} 
+else 
+{
 
     /* create zip archive for download after resize/convert */
     $zip = new ZipArchive();
@@ -93,46 +103,44 @@ if (count($files["name"]) === 1) {
         if ($files["error"][$i] !== 0) 
         {
             print_log($phpFileUploadErrors[$files["error"][$i]]);
+            die();
         }
-        else 
+        $filenameFolder = $filenames[$i] . "-" . $i;
+        createDir($filenameFolder, $resizeImagesFolder . "/");
+
+        /* for each format, do */
+        for ($k = 0; $k < count($formats); $k++)
         {
-            $filenameFolder = $filenames[$i] . "-" . $i;
-            createDir($filenameFolder, $resizeImagesFolder . "/");
+            createDir($formats[$k], "./resize_images/$filenameFolder/");
+            $formatFolder = "./resize_images/" . $filenameFolder . "/" . $formats[$k] . "/";
 
-            /* for each format, do */
-            for ($k = 0; $k < count($formats); $k++)
+            /* for each size, do */
+            for ($j = 0; $j < count($sizes); $j++) 
             {
-                createDir($formats[$k], "./resize_images/$filenameFolder/");
-                $formatFolder = "./resize_images/" . $filenameFolder . "/" . $formats[$k] . "/";
 
-                /* for each size, do */
-                for ($j = 0; $j < count($sizes); $j++) 
-                {
+                $image = new Imagick($files["tmp_name"][$i]);
+                $image->setImageCompressionQuality($quality);
+                $image->setCompressionQuality($quality);
 
-                    $image = new Imagick($files["tmp_name"][$i]);
-                    $image->setImageCompressionQuality($quality);
-                    $image->setCompressionQuality($quality);
-
-                    if (isset($rename) && !empty($rename)) {
-                        $filename = $rename;
-                    }
-                    else {
-                        $filename = $filenames[$i];
-                    }
-
-                    $newImageName = $filename . "-" . $sizes[$j] . "." . $formats[$k];
-
-                    $resizedImg = resizeImg($image, $sizes[$j], $filename);
-                    $convertedImg = convertImg($resizedImg, $quality, $formats[$k], $filename);
-                    $convertedImg->writeImage($formatFolder . $newImageName);
-
-                    if(!$zip->addFile($formatFolder . $newImageName)) 
-                    {
-                        print_log("Impossible to zip file" . $newImageName);
-                    }
-
-                    $image->destroy();
+                if (isset($rename) && !empty($rename)) {
+                    $filename = $rename;
                 }
+                else {
+                    $filename = $filenames[$i];
+                }
+
+                $newImageName = $filename . "-" . $sizes[$j] . "." . $formats[$k];
+
+                $resizedImg = resizeImg($image, $sizes[$j], $filename);
+                $convertedImg = convertImg($resizedImg, $quality, $formats[$k], $filename);
+                $convertedImg->writeImage($formatFolder . $newImageName);
+
+                if(!$zip->addFile($formatFolder . $newImageName)) 
+                {
+                    print_log("Impossible to zip file" . $newImageName);
+                }
+
+                $image->destroy();
             }
         }
     }

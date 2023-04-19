@@ -30,6 +30,11 @@ Inno setup for Windows, Appimage for Linux
   
 - [ ] Find a solution to don't have 109239082398232 line of error.log (maybe create error<date>.log)
 
-- [ ] Catch error file for single image too
+- [ ] We also have to send message to front if errors appear 
+
+- [x] ~~Catch error file for single image too~~
   
-- [ ] Instead of output-768.jpg, I thinks its better to keep the original image name
+- [x] ~~Instead of output-768.jpg, I thinks its better to keep the original image name~~
+
+- [ ] Add code to check if `upload_max_filesize` and `post_max_size` are set to infinite.
+If not, throw an error. 
