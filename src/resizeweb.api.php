@@ -4,8 +4,6 @@ include_once "file_error_code.php";
 
 if (isset($_POST["rename"]) && !empty($_POST["rename"])) {
     $rename = $_POST["rename"];
-} else {
-    $rename = "output";
 }
 
 $files = $_FILES["image"];
@@ -57,11 +55,18 @@ if (count($files["name"]) === 1) {
     $image->setImageCompressionQuality($quality);
     $image->setCompressionQuality($quality);
 
-    $resizedImg = resizeImg($image, $sizes[0], $rename);
-    $convertedImg = convertImg($resizedImg, $quality, $formats[0], $rename);
-    $newImageName = $rename . "-" . $sizes[0] . "." . $formats[0];
+    if (isset($rename) && !empty($rename)) {
+        $filename = $rename;
+    }
+    else {
+        $filename = $filenames[0];
+    }
 
-    $imagePath = base_path("/resize_images/" . $newImageName);
+    $resizedImg = resizeImg($image, $sizes[0], $filename);
+    $convertedImg = convertImg($resizedImg, $quality, $formats[0], $filename);
+    $newFullImageName = $filename . "-" . $sizes[0] . "." . $formats[0];
+
+    $imagePath = base_path("/resize_images/" . $newFullImageName);
     $convertedImg->writeImage($imagePath);
 
     $image->destroy();
@@ -69,7 +74,7 @@ if (count($files["name"]) === 1) {
     /* empty PHP buffer, and receive only name of new image */
     ob_clean();
     header('Content-type: application/json');
-    echo $newImageName;
+    echo $newFullImageName;
 } else {
 
     /* create zip archive for download after resize/convert */
