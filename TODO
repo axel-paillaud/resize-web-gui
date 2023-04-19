@@ -21,6 +21,10 @@ To get only data image, instead of write on disk : $imageData = $image->getImage
 
 Inno setup for Windows, Appimage for Linux
 
-Find a solution to don't have 109239082398232 line of error.log (maybe create error<date>.log)
+- Find a solution to don't have 109239082398232 line of error.log (maybe create error<date>.log)
 
-We don't only want zip for multiple images, but also for multiple size or format ( = multiple images also)
+- We don't only want zip for multiple images, but also for multiple size or format ( = multiple images also)
+
+- Catch error file for single image too
+
+- Instead of output-768.jpg, I thinks its better to keep the original image name

@@ -52,6 +52,7 @@ $resizeImagesFolder = base_path("/resize_images");
 /* if we have only one image, don't zip folder, convert image and send it
 directly to the client */
 if (count($files["name"]) === 1) {
+    // TODO : catch code error file and print it to log
     $image = new Imagick($files["tmp_name"]);
     $image->setImageCompressionQuality($quality);
     $image->setCompressionQuality($quality);
