@@ -7,6 +7,14 @@ warning if limit is set */
 
 check_php_config();
 
+if (empty($_POST) || empty($_FILES))
+{
+    print_log("Error: Form data is empty. Abort");
+    die();
+}
+print_log($_POST);
+print_log($_FILES);
+
 if (isset($_POST["rename"]) && !empty($_POST["rename"])) 
 {
     $rename = $_POST["rename"];
@@ -127,7 +135,7 @@ else
             $formatFolder = "./resize_images/" . $filenameFolder . "/" . $formats[$k] . "/";
 
             /* for each size, do */
-            
+
             for ($j = 0; $j < count($sizes); $j++) 
             {
 

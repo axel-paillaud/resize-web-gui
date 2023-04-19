@@ -56,7 +56,7 @@ function check_php_config()
     }
     if ($post_max_size != 0)
     {
-        print_log("Warning: PHP upload max filesize have this current limit: "
+        print_log("Warning: PHP post max size have this current limit: "
         . $post_max_size);
     }
     if ($max_file_uploads != 9999)
