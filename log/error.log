@@ -7,3 +7,81 @@ Warning: PHP post max size have this current limit: 9G
 Wednesday 19th of April 2023 03:07:05 PM
 
 
+Friday 21st of April 2023 05:57:56 PM
+Warning: PHP upload max filesize have this current limit: 10M
+
+Friday 21st of April 2023 05:57:56 PM
+Warning: PHP post max size have this current limit: 8M
+
+Friday 21st of April 2023 05:57:56 PM
+Warning: PHP max file uploads have this current limit: 20
+
+Friday 21st of April 2023 05:57:56 PM
+Warning: PHP max file uploads have this current limit: 30
+
+Friday 21st of April 2023 05:57:56 PM
+Warning: PHP max ipnut time have this current limit: 60
+
+Friday 21st of April 2023 05:57:56 PM
+Array
+(
+    [size] => Array
+        (
+            [0] => 1280
+        )
+
+    [format] => Array
+        (
+            [0] => png
+        )
+
+    [quality] => 80
+)
+
+
+Friday 21st of April 2023 05:57:56 PM
+Array
+(
+    [image] => Array
+        (
+            [name] => Array
+                (
+                    [0] => 000847289_896x598_c.jpg
+                )
+
+            [full_path] => Array
+                (
+                    [0] => 000847289_896x598_c.jpg
+                )
+
+            [type] => Array
+                (
+                    [0] => image/jpeg
+                )
+
+            [tmp_name] => Array
+                (
+                    [0] => /tmp/phpPOVvnc
+                )
+
+            [error] => Array
+                (
+                    [0] => 0
+                )
+
+            [size] => Array
+                (
+                    [0] => 58941
+                )
+
+        )
+
+)
+
+
+Friday 21st of April 2023 05:57:56 PM
+Resize 000847289_896x598_c to 1280
+
+Friday 21st of April 2023 05:57:56 PM
+Convert 000847289_896x598_c to png
+

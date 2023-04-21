@@ -53,6 +53,20 @@
                     </div>
                 </div>
             </fieldset>
+            <!-- Width or Height start here -->
+            <fieldset>
+                <legend class="m-separate-field">Resize by width or height ?</legend>
+                <div class="checkbox-container">
+                    <div>
+                        <input value="width" type="radio" id="width" name="side">
+                        <label for="width">Width</label>
+                    </div>
+                    <div>
+                        <input value="height" type="radio" id="height" name="side">
+                        <label for="height">Height</label>
+                    </div>
+                </div>
+            </fieldset>
             <!-- Output format start here -->
             <fieldset>
                 <legend class="m-separate-field">Output format</legend>
@@ -112,6 +126,7 @@
             <hr class="my-24">
             <button id="submit" class="submit-btn" disabled>Resize and convert</button>
             <div id="js-container" class="container-btn"></div>
+            <div id="js-message">Here is a message</div>
         </form>
     </main>
     <script src="assets/js/script.js"></script>

@@ -39,4 +39,8 @@ Inno setup for Windows, Appimage for Linux
 - [ ] Find also all "set_timeout" parameters, to set it to infinite 
 
 - [ ] Add code to check if `upload_max_filesize` and `post_max_size` are set to infinite.
+
+- [ ] Resize by width or height -> only added in HTML, handle it in JavaScript and PHP.
+
+
 If not, throw an error. 
