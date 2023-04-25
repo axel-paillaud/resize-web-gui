@@ -85,3 +85,73 @@ Resize 000847289_896x598_c to 1280
 Friday 21st of April 2023 05:57:56 PM
 Convert 000847289_896x598_c to png
 
+Tuesday 25th of April 2023 03:01:31 PM
+Warning: PHP upload max filesize have this current limit: 5M
+
+Tuesday 25th of April 2023 03:01:31 PM
+Warning: PHP post max size have this current limit: 9G
+
+Tuesday 25th of April 2023 03:01:31 PM
+Array
+(
+    [rename] => rayonnage-a-palette-resize
+    [size] => Array
+        (
+            [0] => 640
+        )
+
+    [format] => Array
+        (
+            [0] => avif
+        )
+
+    [quality] => 80
+)
+
+
+Tuesday 25th of April 2023 03:01:31 PM
+Array
+(
+    [image] => Array
+        (
+            [name] => Array
+                (
+                    [0] => rayonnage-a-palette.jpg
+                )
+
+            [full_path] => Array
+                (
+                    [0] => rayonnage-a-palette.jpg
+                )
+
+            [type] => Array
+                (
+                    [0] => image/jpeg
+                )
+
+            [tmp_name] => Array
+                (
+                    [0] => /tmp/phpPKnpQR
+                )
+
+            [error] => Array
+                (
+                    [0] => 0
+                )
+
+            [size] => Array
+                (
+                    [0] => 59096
+                )
+
+        )
+
+)
+
+
+Tuesday 25th of April 2023 03:01:31 PM
+Resize rayonnage-a-palette-resize to 640
+
+Tuesday 25th of April 2023 03:01:31 PM
+Convert rayonnage-a-palette-resize to avif
+
