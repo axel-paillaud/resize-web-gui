@@ -42,5 +42,7 @@ Inno setup for Windows, Appimage for Linux
 
 - [ ] Resize by width or height -> only added in HTML, handle it in JavaScript and PHP.
 
+- [ ] Make drag and drop files possible.
+
 
 If not, throw an error. 
