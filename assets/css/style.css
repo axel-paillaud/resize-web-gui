@@ -105,6 +105,11 @@ input[type=checkbox], input[type=radio] {
     display: flex;
 }
 
+.message {
+    text-align: center;
+    margin-top: 24px;
+}
+
 .error-msg {
     background-color: #b51e24;
     padding: 8px 40px 8px 8px;

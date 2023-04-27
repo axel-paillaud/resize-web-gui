@@ -126,7 +126,7 @@
             <hr class="my-24">
             <button id="submit" class="submit-btn" disabled>Resize and convert</button>
             <div id="js-container" class="container-btn"></div>
-            <div id="js-message">Here is a message</div>
+            <div id="js-message" class="message">Here is a message</div>
         </form>
     </main>
     <script src="assets/js/script.js"></script>
