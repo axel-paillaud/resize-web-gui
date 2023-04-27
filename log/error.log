@@ -1,157 +1,117 @@
-Wednesday 19th of April 2023 03:07:05 PM
-Warning: PHP upload max filesize have this current limit: 5M
+Thursday 27th of April 2023 04:34:39 PM
+Warning: PHP upload max filesize have this current limit: 2M
 
-Wednesday 19th of April 2023 03:07:05 PM
-Warning: PHP post max size have this current limit: 9G
-
-Wednesday 19th of April 2023 03:07:05 PM
-
-
-Friday 21st of April 2023 05:57:56 PM
-Warning: PHP upload max filesize have this current limit: 10M
-
-Friday 21st of April 2023 05:57:56 PM
+Thursday 27th of April 2023 04:34:39 PM
 Warning: PHP post max size have this current limit: 8M
 
-Friday 21st of April 2023 05:57:56 PM
+Thursday 27th of April 2023 04:34:39 PM
 Warning: PHP max file uploads have this current limit: 20
 
-Friday 21st of April 2023 05:57:56 PM
+Thursday 27th of April 2023 04:34:39 PM
 Warning: PHP max file uploads have this current limit: 30
 
-Friday 21st of April 2023 05:57:56 PM
+Thursday 27th of April 2023 04:34:39 PM
 Warning: PHP max ipnut time have this current limit: 60
 
-Friday 21st of April 2023 05:57:56 PM
-Array
-(
-    [size] => Array
-        (
-            [0] => 1280
-        )
+Thursday 27th of April 2023 04:34:39 PM
+2
 
-    [format] => Array
-        (
-            [0] => png
-        )
+Thursday 27th of April 2023 04:34:39 PM
+1
 
-    [quality] => 80
-)
+Thursday 27th of April 2023 04:34:39 PM
+1
 
+Thursday 27th of April 2023 04:34:39 PM
+false
 
-Friday 21st of April 2023 05:57:56 PM
-Array
-(
-    [image] => Array
-        (
-            [name] => Array
-                (
-                    [0] => 000847289_896x598_c.jpg
-                )
+Thursday 27th of April 2023 04:34:39 PM
+Resize test to 1280
 
-            [full_path] => Array
-                (
-                    [0] => 000847289_896x598_c.jpg
-                )
+Thursday 27th of April 2023 04:34:39 PM
+Convert test to webp
 
-            [type] => Array
-                (
-                    [0] => image/jpeg
-                )
+Thursday 27th of April 2023 04:34:39 PM
+Resize test to 1280
 
-            [tmp_name] => Array
-                (
-                    [0] => /tmp/phpPOVvnc
-                )
+Thursday 27th of April 2023 04:34:39 PM
+Convert test to webp
 
-            [error] => Array
-                (
-                    [0] => 0
-                )
+Thursday 27th of April 2023 04:36:30 PM
+Warning: PHP upload max filesize have this current limit: 2M
 
-            [size] => Array
-                (
-                    [0] => 58941
-                )
+Thursday 27th of April 2023 04:36:30 PM
+Warning: PHP post max size have this current limit: 8M
 
-        )
+Thursday 27th of April 2023 04:36:30 PM
+Warning: PHP max file uploads have this current limit: 20
 
-)
+Thursday 27th of April 2023 04:36:30 PM
+Warning: PHP max file uploads have this current limit: 30
 
+Thursday 27th of April 2023 04:36:30 PM
+Warning: PHP max ipnut time have this current limit: 60
 
-Friday 21st of April 2023 05:57:56 PM
-Resize 000847289_896x598_c to 1280
+Thursday 27th of April 2023 04:36:31 PM
+Resize test to 1280
 
-Friday 21st of April 2023 05:57:56 PM
-Convert 000847289_896x598_c to png
+Thursday 27th of April 2023 04:36:31 PM
+Convert test to webp
 
-Tuesday 25th of April 2023 03:01:31 PM
-Warning: PHP upload max filesize have this current limit: 5M
+Thursday 27th of April 2023 04:36:31 PM
+Resize test to 1024
 
-Tuesday 25th of April 2023 03:01:31 PM
-Warning: PHP post max size have this current limit: 9G
+Thursday 27th of April 2023 04:36:31 PM
+Convert test to webp
 
-Tuesday 25th of April 2023 03:01:31 PM
-Array
-(
-    [rename] => rayonnage-a-palette-resize
-    [size] => Array
-        (
-            [0] => 640
-        )
+Thursday 27th of April 2023 04:36:48 PM
+Warning: PHP upload max filesize have this current limit: 2M
 
-    [format] => Array
-        (
-            [0] => avif
-        )
+Thursday 27th of April 2023 04:36:48 PM
+Warning: PHP post max size have this current limit: 8M
 
-    [quality] => 80
-)
+Thursday 27th of April 2023 04:36:48 PM
+Warning: PHP max file uploads have this current limit: 20
 
+Thursday 27th of April 2023 04:36:48 PM
+Warning: PHP max file uploads have this current limit: 30
 
-Tuesday 25th of April 2023 03:01:31 PM
-Array
-(
-    [image] => Array
-        (
-            [name] => Array
-                (
-                    [0] => rayonnage-a-palette.jpg
-                )
+Thursday 27th of April 2023 04:36:48 PM
+Warning: PHP max ipnut time have this current limit: 60
 
-            [full_path] => Array
-                (
-                    [0] => rayonnage-a-palette.jpg
-                )
+Thursday 27th of April 2023 04:36:48 PM
+Resize test to 1920
 
-            [type] => Array
-                (
-                    [0] => image/jpeg
-                )
+Thursday 27th of April 2023 04:36:48 PM
+Convert test to webp
 
-            [tmp_name] => Array
-                (
-                    [0] => /tmp/phpPKnpQR
-                )
+Thursday 27th of April 2023 04:36:49 PM
+Resize test to 1539
 
-            [error] => Array
-                (
-                    [0] => 0
-                )
+Thursday 27th of April 2023 04:36:49 PM
+Convert test to webp
 
-            [size] => Array
-                (
-                    [0] => 59096
-                )
+Thursday 27th of April 2023 04:36:49 PM
+Resize test to 1280
 
-        )
+Thursday 27th of April 2023 04:36:49 PM
+Convert test to webp
 
-)
+Thursday 27th of April 2023 04:36:49 PM
+Resize test to 1024
 
+Thursday 27th of April 2023 04:36:49 PM
+Convert test to webp
 
-Tuesday 25th of April 2023 03:01:31 PM
-Resize rayonnage-a-palette-resize to 640
+Thursday 27th of April 2023 04:36:49 PM
+Resize test to 768
 
-Tuesday 25th of April 2023 03:01:31 PM
-Convert rayonnage-a-palette-resize to avif
+Thursday 27th of April 2023 04:36:49 PM
+Convert test to webp
+
+Thursday 27th of April 2023 04:36:49 PM
+Resize test to 640
+
+Thursday 27th of April 2023 04:36:49 PM
+Convert test to webp
 

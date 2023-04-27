@@ -12,8 +12,6 @@ if (empty($_POST) || empty($_FILES))
     print_log("Error: Form data is empty. Abort");
     die();
 }
-print_log($_POST);
-print_log($_FILES);
 
 if (isset($_POST["rename"]) && !empty($_POST["rename"])) 
 {
@@ -69,7 +67,9 @@ $resizeImagesFolder = base_path("/resize_images");
 /* if we have only one image, don't zip folder, convert image and send it
 directly to the client */
 
-if (count($files["name"]) === 1) 
+$single_file = check_single_file($files["name"], $formats, $sizes);
+
+if ($single_file) 
 {
     
     if ($files["error"][0] !== 0) 
