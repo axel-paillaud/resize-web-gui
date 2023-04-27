@@ -55,10 +55,12 @@ foreach ($filenames as &$filename)
     $filename = pathinfo($filename, PATHINFO_FILENAME);
 }
 
-function resizeImg($image, int $size, string $filename)
+function resizeImg($image, int $width, int $height, string $filename)
 {
     $cloneImage = $image->clone();
-    $cloneImage->resizeImage($size, 0, imagick::FILTER_LANCZOS, 0.5);
+    $cloneImage->resizeImage($width, $height, imagick::FILTER_LANCZOS, 0.5);
+    if ($width != 0) $size = $width;
+    else $size = $height;
     print_log("Resize $filename to $size");
     return $cloneImage;
 }
@@ -106,7 +108,7 @@ if ($single_file)
         $filename = $filenames[0];
     }
 
-    $resizedImg = resizeImg($image, $sizes[0], $filename);
+    $resizedImg = resizeImg($image, $width[0], $height[0], $filename);
     $convertedImg = convertImg($resizedImg, $quality, $formats[0], $filename);
     $newFullImageName = $filename . "-" . $sizes[0] . "." . $formats[0];
 
@@ -170,7 +172,7 @@ else
 
                 $newImageName = $filename . "-" . $sizes[$j] . "." . $formats[$k];
 
-                $resizedImg = resizeImg($image, $sizes[$j], $filename);
+                $resizedImg = resizeImg($image, $width[$j], $height[$j], $filename);
                 $convertedImg = convertImg($resizedImg, $quality, $formats[$k], $filename);
                 $convertedImg->writeImage($formatFolder . $newImageName);
 
