@@ -40,7 +40,7 @@ Inno setup for Windows, Appimage for Linux
 
 - [ ] Add code to check if `upload_max_filesize` and `post_max_size` are set to infinite.
 
-- [ ] Resize by width or height -> only added in HTML, handle it in JavaScript and PHP.
+- ~~[x] Resize by width or height -> only added in HTML, handle it in JavaScript and PHP.~~
 
 - [ ] Make drag and drop files possible.
 
