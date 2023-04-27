@@ -184,6 +184,7 @@ function getFormData(form) {
             formData.append("quality", quality.value);
         }
     });
+    formData.append("side", form["side"].value);
     for (const image of form["image-file"].files) {
         formData.append("image[]", image);
     }

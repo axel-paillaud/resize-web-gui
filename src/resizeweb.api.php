@@ -2,6 +2,12 @@
 include_once "functions.php";
 include_once "file_error_code.php";
 
+if (!extension_loaded('imagick')) 
+{
+    print_log("Error : imagick extension is not loaded.");
+    die();
+}
+
 /* check php.ini value like upload_max_filesize or post_max_size, throw
 warning if limit is set */
 
@@ -20,9 +26,27 @@ if (isset($_POST["rename"]) && !empty($_POST["rename"]))
 
 $files = $_FILES["image"];
 $formats = $_POST["format"];
+$side = $_POST["side"];
 $sizes = $_POST["size"];
 $filenames = $files["name"];
 $quality = intval($_POST["quality"]);
+
+if ($side === 'width' || !isset($side) || empty($side))
+{
+    foreach ($sizes as $size)
+    {
+        $width[] = $size;
+        $height[] = 0;
+    }
+}
+else
+{
+    foreach($sizes as $size)
+    {
+        $width[] = 0;
+        $height[] = $size;
+    }
+}
 
 /* we only want the filename without the extension */
 
@@ -44,12 +68,6 @@ function convertImg($image, string $quality, string $format, string $fileName)
     $image->setImageFormat($format);
     print_log("Convert $fileName to $format");
     return $image;
-}
-
-if (!extension_loaded('imagick')) 
-{
-    print_log("Error : imagick extension is not loaded.");
-    die();
 }
 
 /* if resize_images folder already exists, delete it to start with empty directory */
