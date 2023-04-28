@@ -200,20 +200,23 @@ function fetchDataToApi(formData) {
         if (res.ok) {
             const reader = res.body.getReader();
             let buffer = "";
+            let textDecoder = new TextDecoder();
+            let messageContainer = document.getElementById("js-message");
             const read = () => {
                 return reader.read().then(({ done, value }) => {
                   if (done) {
-                    console.log(buffer);
-                    console.log('Fin de la lecture');
+                    setBtnStyleToEnable(submitBtn, "Download");
+                    // when PHP script is over, the buffer correspond to the name of the file we want to download.
+                    updateBtnToDownload(submitBtn, "src/resize_images/" + buffer, buffer);
+                    window.addEventListener('keydown', triggerDownload);
                     return;
                   }
+
+                  // empty buffer
                   buffer = "";
-                  buffer += new TextDecoder().decode(value);
+                  buffer = textDecoder.decode(value);
                   console.log(buffer);
-          
-/*                   for (const message of messages) {
-                    console.log('Nouveau message :' + message);
-                  } */
+                  messageContainer.textContent = buffer;
 
                   return read();
                 });
@@ -222,11 +225,8 @@ function fetchDataToApi(formData) {
             return read();
         }
     })
-    .then(function(filename) {
-        console.log(filename);
-        setBtnStyleToEnable(submitBtn, "Download");
-        updateBtnToDownload(submitBtn, "src/resize_images/" + filename, filename);
-        window.addEventListener('keydown', triggerDownload);
+    .catch((error) => {
+        console.log(error);
     })
 }
 

@@ -75,8 +75,6 @@ function convertImg($image, string $quality, string $format, string $fileName)
 {
     $image->setImageFormat($format);
     print_log("Convert $fileName to $format");
-    echo "Convert $fileName to $format\n";
-    ob_flush();
     return $image;
 }
 
