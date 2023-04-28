@@ -2,6 +2,10 @@
 include_once "functions.php";
 include_once "file_error_code.php";
 
+ob_implicit_flush(true);
+
+header('Content-type: application/json');
+
 if (!extension_loaded('imagick')) 
 {
     print_log("Error : imagick extension is not loaded.");
@@ -62,6 +66,8 @@ function resizeImg($image, int $width, int $height, string $filename)
     if ($width != 0) $size = $width;
     else $size = $height;
     print_log("Resize $filename to $size");
+    echo "Resize $filename to $size\n";
+    ob_flush();
     return $cloneImage;
 }
 
@@ -69,6 +75,8 @@ function convertImg($image, string $quality, string $format, string $fileName)
 {
     $image->setImageFormat($format);
     print_log("Convert $fileName to $format");
+    echo "Convert $fileName to $format\n";
+    ob_flush();
     return $image;
 }
 
@@ -120,7 +128,6 @@ if ($single_file)
     /* empty PHP buffer, and receive only name of new image */
 
     ob_clean();
-    header('Content-type: application/json');
     echo $newFullImageName;
 } 
 else 
@@ -188,6 +195,5 @@ else
     $zip->close();
 
     ob_clean();
-    header('Content-type: application/json');
     echo $zipFilename;
 }

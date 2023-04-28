@@ -198,7 +198,28 @@ function fetchDataToApi(formData) {
     })
     .then(function(res) {
         if (res.ok) {
-            return res.text();
+            const reader = res.body.getReader();
+            let buffer = "";
+            const read = () => {
+                return reader.read().then(({ done, value }) => {
+                  if (done) {
+                    console.log(buffer);
+                    console.log('Fin de la lecture');
+                    return;
+                  }
+                  buffer = "";
+                  buffer += new TextDecoder().decode(value);
+                  console.log(buffer);
+          
+/*                   for (const message of messages) {
+                    console.log('Nouveau message :' + message);
+                  } */
+
+                  return read();
+                });
+              };
+
+            return read();
         }
     })
     .then(function(filename) {
@@ -242,7 +263,7 @@ window.addEventListener('DOMContentLoaded', checkInput);
 submitBtn.addEventListener('click', triggerSubmit);
 submitBtn.addEventListener('keydown', triggerSubmit);
 
-const evtSource = new EventSource('../../src/message.api.php');
+/* const evtSource = new EventSource('../../src/message.api.php');
 
 console.log(evtSource.withCredentials);
 console.log(evtSource.readyState);
@@ -261,4 +282,4 @@ evtSource.onopen = function() {
 
   evtSource.onerror = function() {
     console.log("EventSource failed.");
-  };
+  }; */
