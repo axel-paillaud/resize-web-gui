@@ -241,3 +241,24 @@ window.addEventListener('DOMContentLoaded', checkInput);
 
 submitBtn.addEventListener('click', triggerSubmit);
 submitBtn.addEventListener('keydown', triggerSubmit);
+
+const evtSource = new EventSource('../../src/message.api.php');
+
+console.log(evtSource.withCredentials);
+console.log(evtSource.readyState);
+console.log(evtSource.url);
+
+evtSource.onopen = function() {
+    console.log("Connection to server opened.");
+  };
+
+
+  evtSource.onmessage = function(e) {
+    const newElement = document.createElement("li");
+
+    console.log(e.data);
+  };
+
+  evtSource.onerror = function() {
+    console.log("EventSource failed.");
+  };
