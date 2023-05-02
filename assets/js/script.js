@@ -202,6 +202,7 @@ function fetchDataToApi(formData) {
             let buffer = "";
             let textDecoder = new TextDecoder();
             let messageContainer = document.getElementById("js-message");
+            messageContainer.style.display = "block";
             const read = () => {
                 return reader.read().then(({ done, value }) => {
                   if (done) {
