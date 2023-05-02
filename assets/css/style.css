@@ -107,7 +107,7 @@ input[type=checkbox], input[type=radio] {
 
 .message {
     text-align: center;
-    margin-top: 24px;
+    max-width: 475px;
 }
 
 .error-msg {
@@ -144,6 +144,7 @@ input[type=checkbox], input[type=radio] {
 
 .form-container {
     position: relative;
+    min-height: 830px;
     padding: 48px 96px;
     background-color: white;
     border-radius: 24px 24px 0 0;
