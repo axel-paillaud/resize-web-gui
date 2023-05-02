@@ -9,3 +9,9 @@
     src: url('../fonts/WorkSans-Regular.ttf');
     font-weight: normal;
 }
+
+@font-face {
+    font-family: 'work-sans';
+    src: url('../fonts/WorkSans-Bold.ttf');
+    font-weight: 700;
+}

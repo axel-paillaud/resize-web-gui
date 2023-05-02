@@ -216,7 +216,7 @@ function fetchDataToApi(formData) {
                   buffer = "";
                   buffer = textDecoder.decode(value);
                   console.log(buffer);
-                  messageContainer.textContent = buffer;
+                  messageContainer.innerHTML = buffer;
 
                   return read();
                 });
