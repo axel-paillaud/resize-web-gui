@@ -66,7 +66,6 @@ function resizeImg($image, int $width, int $height, string $filename)
     if ($width != 0) $size = $width;
     else $size = $height;
     print_log("Resize $filename to $size");
-    echo "Resize <b>$filename</b> to <b>$size</b>\n";
     ob_flush();
     return $cloneImage;
 }
@@ -180,6 +179,7 @@ else
                 $resizedImg = resizeImg($image, $width[$j], $height[$j], $filename);
                 $convertedImg = convertImg($resizedImg, $quality, $formats[$k], $filename);
                 $convertedImg->writeImage($formatFolder . $newImageName);
+                echo "Resize <b>$filename</b> to <b>$newImageName\n";
 
                 if(!$zip->addFile($formatFolder . $newImageName)) 
                 {

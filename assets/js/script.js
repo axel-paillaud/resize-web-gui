@@ -206,6 +206,7 @@ function fetchDataToApi(formData) {
             const read = () => {
                 return reader.read().then(({ done, value }) => {
                   if (done) {
+                    messageContainer.style.display = "none";
                     setBtnStyleToEnable(submitBtn, "Download");
                     // when PHP script is over, the buffer correspond to the name of the file we want to download.
                     updateBtnToDownload(submitBtn, "src/resize_images/" + buffer, buffer);
