@@ -202,7 +202,6 @@ function fetchDataToApi(formData) {
             let buffer = "";
             let textDecoder = new TextDecoder();
             let messageContainer = document.getElementById("js-message");
-            submitBtn.style.display = "none";
             messageContainer.style.display = "block";
             const read = () => {
                 return reader.read().then(({ done, value }) => {
@@ -246,6 +245,7 @@ const triggerSubmit = function (event) {
         if (!isValidInput)
             return;
         else {
+            submitBtn.style.display = "none";
             sendForm();
         }
     }
