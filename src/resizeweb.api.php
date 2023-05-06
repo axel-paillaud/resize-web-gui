@@ -179,7 +179,7 @@ else
                 $resizedImg = resizeImg($image, $width[$j], $height[$j], $filename);
                 $convertedImg = convertImg($resizedImg, $quality, $formats[$k], $filename);
                 $convertedImg->writeImage($formatFolder . $newImageName);
-                echo "Resize <b>$filename</b> to <b>$newImageName\n";
+                echo "Resize <b>$filenames[$i]</b> to <b>$newImageName\n";
 
                 if(!$zip->addFile($formatFolder . $newImageName)) 
                 {
