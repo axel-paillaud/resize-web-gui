@@ -108,6 +108,7 @@ input[type=checkbox], input[type=radio] {
 .message {
     text-align: center;
     max-width: 475px;
+    margin-top: 8px;
 }
 
 .error-msg {
@@ -187,10 +188,10 @@ input[type=checkbox], input[type=radio] {
     width: 30px;
     height: 30px;
     animation: spin 1.5s cubic-bezier(.79,.14,.15,.86) infinite;
+    margin: 0 auto;
 }
 
 @keyframes spin {
     0% { transform: rotate(0deg); }
-    /* 75% { transform: rotate(300deg); } */
     100% { transform: rotate(360deg); }
 }

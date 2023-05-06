@@ -1,5 +1,6 @@
 let form = document.getElementById("form");
 let submitBtn = document.getElementById("submit");
+const loader = document.getElementById("js-loader");
 
 const logTest = function (event) {
     event.preventDefault();
@@ -207,6 +208,7 @@ function fetchDataToApi(formData) {
                 return reader.read().then(({ done, value }) => {
                   if (done) {
                     messageContainer.style.display = "none";
+                    loader.classList.remove("loader");
                     setBtnStyleToEnable(submitBtn, "Download");
                     // when PHP script is over, the buffer correspond to the name of the file we want to download.
                     updateBtnToDownload(submitBtn, "src/resize_images/" + buffer, buffer);
@@ -246,6 +248,7 @@ const triggerSubmit = function (event) {
             return;
         else {
             submitBtn.style.display = "none";
+            loader.classList.add("loader");
             sendForm();
         }
     }
