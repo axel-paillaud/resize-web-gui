@@ -127,6 +127,7 @@
             <button id="submit" class="submit-btn" disabled>Resize and convert</button>
             <div id="js-container" class="container-btn"></div>
             <div id="js-message" class="message" style="display: none;"></div>
+            <div id="js-loader" class="loader"></div>
         </form>
     </main>
     <script src="assets/js/script.js"></script>
