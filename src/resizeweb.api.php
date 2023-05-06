@@ -174,6 +174,8 @@ else
                     $filename = $filenames[$i];
                 }
 
+                print_log($filenames);
+
                 $newImageName = $filename . "-" . $sizes[$j] . "." . $formats[$k];
 
                 $resizedImg = resizeImg($image, $width[$j], $height[$j], $filename);
