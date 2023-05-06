@@ -218,8 +218,11 @@ function fetchDataToApi(formData) {
 
                   // empty buffer
                   buffer = "";
+                  messageContainer.classList.add("fade-top-animation");
+                  setTimeout(() => {
+                    messageContainer.classList.remove("fade-top-animation");
+                  }, 200);
                   buffer = textDecoder.decode(value);
-                  console.log(buffer);
                   messageContainer.innerHTML = buffer;
 
                   return read();
