@@ -1,210 +1,132 @@
-Saturday 6th of May 2023 10:13:37 PM
+Saturday 6th of May 2023 10:20:23 PM
 Warning: PHP upload max filesize have this current limit: 10M
 
-Saturday 6th of May 2023 10:13:37 PM
+Saturday 6th of May 2023 10:20:23 PM
 Warning: PHP post max size have this current limit: 8M
 
-Saturday 6th of May 2023 10:13:37 PM
+Saturday 6th of May 2023 10:20:23 PM
 Warning: PHP max file uploads have this current limit: 20
 
-Saturday 6th of May 2023 10:13:37 PM
+Saturday 6th of May 2023 10:20:23 PM
 Warning: PHP max file uploads have this current limit: 30
 
-Saturday 6th of May 2023 10:13:37 PM
+Saturday 6th of May 2023 10:20:23 PM
 Warning: PHP max ipnut time have this current limit: 60
 
-Saturday 6th of May 2023 10:13:37 PM
+Saturday 6th of May 2023 10:20:23 PM
 Array
 (
     [0] => IMG_20190821_201200
 )
 
 
-Saturday 6th of May 2023 10:13:38 PM
-Resize IMG_20190821_201200 to 1539
+Saturday 6th of May 2023 10:20:24 PM
+Resize test to 1539
 
-Saturday 6th of May 2023 10:13:38 PM
-Convert IMG_20190821_201200 to webp
+Saturday 6th of May 2023 10:20:24 PM
+Convert test to png
 
-Saturday 6th of May 2023 10:13:38 PM
+Saturday 6th of May 2023 10:20:28 PM
 Array
 (
-    [0] => IMG_20190821_201200
+    [0] => test
 )
 
 
-Saturday 6th of May 2023 10:13:39 PM
-Resize IMG_20190821_201200 to 1280
+Saturday 6th of May 2023 10:20:29 PM
+Resize test to 1280
 
-Saturday 6th of May 2023 10:13:39 PM
-Convert IMG_20190821_201200 to webp
+Saturday 6th of May 2023 10:20:29 PM
+Convert test to png
 
-Saturday 6th of May 2023 10:13:40 PM
+Saturday 6th of May 2023 10:20:31 PM
 Array
 (
-    [0] => IMG_20190821_201200
+    [0] => test
 )
 
 
-Saturday 6th of May 2023 10:13:40 PM
-Resize IMG_20190821_201200 to 1024
+Saturday 6th of May 2023 10:20:32 PM
+Resize test to 1024
 
-Saturday 6th of May 2023 10:13:40 PM
-Convert IMG_20190821_201200 to webp
+Saturday 6th of May 2023 10:20:32 PM
+Convert test to png
 
-Saturday 6th of May 2023 10:13:41 PM
+Saturday 6th of May 2023 10:20:33 PM
 Array
 (
-    [0] => IMG_20190821_201200
+    [0] => test
 )
 
 
-Saturday 6th of May 2023 10:13:41 PM
-Resize IMG_20190821_201200 to 1539
+Saturday 6th of May 2023 10:20:34 PM
+Resize test to 1539
 
-Saturday 6th of May 2023 10:13:41 PM
-Convert IMG_20190821_201200 to png
+Saturday 6th of May 2023 10:20:34 PM
+Convert test to jpg
 
-Saturday 6th of May 2023 10:13:46 PM
+Saturday 6th of May 2023 10:20:34 PM
 Array
 (
-    [0] => IMG_20190821_201200
+    [0] => test
 )
 
 
-Saturday 6th of May 2023 10:13:46 PM
-Resize IMG_20190821_201200 to 1280
+Saturday 6th of May 2023 10:20:35 PM
+Resize test to 1280
 
-Saturday 6th of May 2023 10:13:46 PM
-Convert IMG_20190821_201200 to png
+Saturday 6th of May 2023 10:20:35 PM
+Convert test to jpg
 
-Saturday 6th of May 2023 10:13:49 PM
+Saturday 6th of May 2023 10:20:35 PM
 Array
 (
-    [0] => IMG_20190821_201200
+    [0] => test
 )
 
 
-Saturday 6th of May 2023 10:13:49 PM
-Resize IMG_20190821_201200 to 1024
+Saturday 6th of May 2023 10:20:35 PM
+Resize test to 1024
 
-Saturday 6th of May 2023 10:13:49 PM
-Convert IMG_20190821_201200 to png
+Saturday 6th of May 2023 10:20:35 PM
+Convert test to jpg
 
-Saturday 6th of May 2023 10:13:51 PM
+Saturday 6th of May 2023 10:20:35 PM
 Array
 (
-    [0] => IMG_20190821_201200
+    [0] => test
 )
 
 
-Saturday 6th of May 2023 10:13:51 PM
-Resize IMG_20190821_201200 to 1539
+Saturday 6th of May 2023 10:20:36 PM
+Resize test to 1539
 
-Saturday 6th of May 2023 10:13:51 PM
-Convert IMG_20190821_201200 to jpg
+Saturday 6th of May 2023 10:20:36 PM
+Convert test to gif
 
-Saturday 6th of May 2023 10:13:51 PM
+Saturday 6th of May 2023 10:20:37 PM
 Array
 (
-    [0] => IMG_20190821_201200
+    [0] => test
 )
 
 
-Saturday 6th of May 2023 10:13:52 PM
-Resize IMG_20190821_201200 to 1280
+Saturday 6th of May 2023 10:20:38 PM
+Resize test to 1280
 
-Saturday 6th of May 2023 10:13:52 PM
-Convert IMG_20190821_201200 to jpg
+Saturday 6th of May 2023 10:20:38 PM
+Convert test to gif
 
-Saturday 6th of May 2023 10:13:52 PM
+Saturday 6th of May 2023 10:20:38 PM
 Array
 (
-    [0] => IMG_20190821_201200
+    [0] => test
 )
 
 
-Saturday 6th of May 2023 10:13:53 PM
-Resize IMG_20190821_201200 to 1024
+Saturday 6th of May 2023 10:20:39 PM
+Resize test to 1024
 
-Saturday 6th of May 2023 10:13:53 PM
-Convert IMG_20190821_201200 to jpg
-
-Saturday 6th of May 2023 10:13:53 PM
-Array
-(
-    [0] => IMG_20190821_201200
-)
-
-
-Saturday 6th of May 2023 10:13:53 PM
-Resize IMG_20190821_201200 to 1539
-
-Saturday 6th of May 2023 10:13:53 PM
-Convert IMG_20190821_201200 to gif
-
-Saturday 6th of May 2023 10:13:55 PM
-Array
-(
-    [0] => IMG_20190821_201200
-)
-
-
-Saturday 6th of May 2023 10:13:55 PM
-Resize IMG_20190821_201200 to 1280
-
-Saturday 6th of May 2023 10:13:55 PM
-Convert IMG_20190821_201200 to gif
-
-Saturday 6th of May 2023 10:13:56 PM
-Array
-(
-    [0] => IMG_20190821_201200
-)
-
-
-Saturday 6th of May 2023 10:13:57 PM
-Resize IMG_20190821_201200 to 1024
-
-Saturday 6th of May 2023 10:13:57 PM
-Convert IMG_20190821_201200 to gif
-
-Saturday 6th of May 2023 10:13:58 PM
-Array
-(
-    [0] => IMG_20190821_201200
-)
-
-
-Saturday 6th of May 2023 10:13:58 PM
-Resize IMG_20190821_201200 to 1539
-
-Saturday 6th of May 2023 10:13:58 PM
-Convert IMG_20190821_201200 to svg
-
-Saturday 6th of May 2023 10:13:59 PM
-Array
-(
-    [0] => IMG_20190821_201200
-)
-
-
-Saturday 6th of May 2023 10:13:59 PM
-Resize IMG_20190821_201200 to 1280
-
-Saturday 6th of May 2023 10:13:59 PM
-Convert IMG_20190821_201200 to svg
-
-Saturday 6th of May 2023 10:13:59 PM
-Array
-(
-    [0] => IMG_20190821_201200
-)
-
-
-Saturday 6th of May 2023 10:14:00 PM
-Resize IMG_20190821_201200 to 1024
-
-Saturday 6th of May 2023 10:14:00 PM
-Convert IMG_20190821_201200 to svg
+Saturday 6th of May 2023 10:20:39 PM
+Convert test to gif
 
