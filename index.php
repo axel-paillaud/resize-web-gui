@@ -58,7 +58,7 @@
                 <legend class="m-separate-field">Resize by width or height ?</legend>
                 <div class="checkbox-container">
                     <div>
-                        <input value="width" type="radio" id="width" name="side">
+                        <input value="width" type="radio" id="width" name="side" checked>
                         <label for="width">Width</label>
                     </div>
                     <div>
