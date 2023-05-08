@@ -172,9 +172,10 @@ input[type=checkbox], input[type=radio] {
     max-width: 477px;
     padding: 16px;
     background-color: #eed7d8;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(2, auto);
+    grid-template-columns: repeat(auto-fit,minmax(0, 1fr));
     grid-gap: 4px;
+    justify-items: center;
+    align-items: center;
 }
 
 /* grid-template-columns: repeat(auto-fit, minmax(0, 1fr)); */
