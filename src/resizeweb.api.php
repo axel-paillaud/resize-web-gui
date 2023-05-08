@@ -173,7 +173,7 @@ else
                     $filename = $rename;
                 }
                 else {
-                    $filename = $filenames[$i];
+                    $filename = &$filenames[$i];
                 }
 
                 $newImageName = $filename . "-" . $sizes[$j] . "." . $formats[$k];
