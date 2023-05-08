@@ -44,6 +44,8 @@ Inno setup for Windows, Appimage for Linux
 
 - [ ] Make drag and drop files possible.
 
+- [ ] Make "add picture's" btn focusable 
+
 - [x] Sometime, width is not checked. See that, and by default in PHP api, check it.
   - [ ] Note : checked by default OK. Now see PHP API
 

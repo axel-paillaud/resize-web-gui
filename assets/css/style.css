@@ -14,6 +14,7 @@ body {
 
 main {
     height: 100%;
+    padding: 16px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -158,10 +159,30 @@ input[type=checkbox], input[type=radio] {
 
 .add-img-container {
     padding: 32px 64px;
+    height: 190px;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #eed7d8;
+}
+
+.list-img-container {
+    display: grid;
+    height: 190px;
+    max-width: 477px;
+    padding: 16px;
+    background-color: #eed7d8;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, auto);
+    grid-gap: 4px;
+}
+
+/* grid-template-columns: repeat(auto-fit, minmax(0, 1fr)); */
+
+.list-img-container > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .label-field {

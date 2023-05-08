@@ -14,7 +14,7 @@
     <main>
         <h1 class="mb-16">Resize web</h1>
         <form class="form-container" id="form" method="post" enctype="multipart/form-data">
-            <div id="add-img" class="add-img-container">
+            <div id="js-add-img-container" class="add-img-container">
                 <img src="assets/images/picture-svgrepo.svg" alt="Add images graphics">
                 <label for="image-file" class="btn">
                     <input type="file" id="image-file" name="image-file[]" class="hidden" accept="image/*" required multiple>
@@ -129,6 +129,7 @@
             <div id="js-loader"></div>
             <div id="js-message" class="message" style="display: none;"></div>
         </form>
+        <button id="js-add-test-img">Add test image</button>
     </main>
     <script src="assets/js/script.js"></script>
 </body>

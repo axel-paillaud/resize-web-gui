@@ -1,6 +1,7 @@
 let form = document.getElementById("form");
 let submitBtn = document.getElementById("submit");
 const loader = document.getElementById("js-loader");
+const addImgBtn = document.getElementById("image-file");
 
 const logTest = function (event) {
     event.preventDefault();
@@ -119,6 +120,30 @@ function updateBtnToDownload(btn, url, filename)
     return link;
 }
 
+/**
+ * Update user image start here
+ */
+
+function addTestImg(addImgContainer) {
+    let addTestImgBtn = document.getElementById("js-add-test-img");
+    addTestImgBtn.addEventListener('click', () => {
+        let img = document.createElement("img");
+        img.setAttribute("src", "assets/images/test_image.jpg")
+        addImgContainer.appendChild(img);
+    });
+}
+
+const updateImgContainer = function () {
+    addImgContainer = document.getElementById("js-add-img-container");
+
+    for (let child of addImgContainer.children) {
+        child.style.display = "none";
+    }
+
+    addImgContainer.classList.replace("add-img-container", "list-img-container");
+    addTestImg(addImgContainer);
+}
+
 function enableSubmit(submitBtn, isCheckSize, isCheckFormat, isFile) {
     if (isCheckSize && isCheckFormat && isFile) {
         submitBtn.disabled = false;
@@ -140,6 +165,7 @@ const checkInput = function () {
 
 // Validate input is for when the form is send, and validate image input.
 // If input is not ok, display an error msg
+
 function validateInput() {
     let isCheckSize = validateCheckbox("size");
     let isCheckFormat = validateCheckbox("format");
@@ -268,6 +294,10 @@ form.addEventListener('change', checkInput);
 
 // We also want to check if input is valid when we reload the page
 window.addEventListener('DOMContentLoaded', checkInput);
+
+// Update thumbnail when user add images
+
+addImgBtn.addEventListener('change', updateImgContainer);
 
 submitBtn.addEventListener('click', triggerSubmit);
 submitBtn.addEventListener('keydown', triggerSubmit);
