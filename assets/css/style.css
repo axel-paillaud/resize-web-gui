@@ -178,11 +178,21 @@ input[type=checkbox], input[type=radio] {
     align-items: center;
 }
 
-/* grid-template-columns: repeat(auto-fit, minmax(0, 1fr)); */
-
 .list-img-container > img {
     width: 100%;
     height: 100%;
+    object-fit: cover;
+}
+
+.single-img-container {
+    height: 190px;
+    max-width: 477px;
+    background-color: #eed7d8;
+}
+
+.single-img-container > img {
+    height: 100%;
+    width: 50%;
     object-fit: cover;
 }
 
