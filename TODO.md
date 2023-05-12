@@ -50,9 +50,13 @@ Inno setup for Windows, Appimage for Linux
 
 - [ ] Play text animation on resize info to each new text 
 
-- [ ] After resize, we have to flush input files
+- [ ] If we first resize img, not download but reload the page, then download, we don't have thumbnail
+but we can resize. If we resize, we have a display bug with "add picture's" btn + success message.
+Maybe we can empty form on reload ? 
 
-- [ ] If we change form after download, it does not reset imgContainer
+- [x] ~~After resize, we have to flush input files~~
+
+- [x] ~~If we change form after download, it does not reset imgContainer~~
 
 - [ ] Sometime, the image is not on the same order between PHP file and imgContainer  
 

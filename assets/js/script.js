@@ -3,6 +3,7 @@ let submitBtn = document.getElementById("submit");
 const loader = document.getElementById("js-loader");
 const userInput = document.getElementById("image-file");
 let imgContainer = document.getElementById("js-add-img-container");
+let indexToDelete = 2;
 
 const logTest = function (event) {
     event.preventDefault();
@@ -95,6 +96,9 @@ function validateImage(name) {
 }
 
 function countImage(name) {
+    if (!form[name]) {
+        return;
+    }
     let fileLength = form[name].files.length;
     return fileLength;
 }
@@ -138,6 +142,11 @@ function updateBtnToDownload(btn, url, filename)
     btn.disabled = true;
     container.appendChild(link);
     return link;
+}
+
+function deleteAllClass(elt) {
+    let classList = elt.classList;
+    elt.classList.remove(...classList);
 }
 
 function showValidMessage() {
@@ -202,16 +211,20 @@ function deleteImgContainer() {
 
 const updateImgContainer = function () {
     userInput.removeEventListener('change', updateImgContainer);
+    form.removeEventListener('change', updateImgContainer);
+    let classList = imgContainer.classList;
+    imgContainer.classList.remove(...classList);
+    indexToDelete = 2;
     hideLabelImgContainer();
 
     let numberOfImg = countImage("image-file");
     
     if (numberOfImg === 1) {
-        imgContainer.classList.replace("add-img-container", "single-img-container");
+        imgContainer.classList.add("single-img-container");
         updateThumbnail(imgContainer, numberOfImg, userInput);
     }
     else if (numberOfImg < 32) {
-        imgContainer.classList.replace("add-img-container", "list-img-container");
+        imgContainer.classList.add("list-img-container");
         if (numberOfImg > 12) {
             imgContainer.style.gridTemplateColumns = "repeat(auto-fit,minmax(15%, 1fr))";
         }
@@ -233,10 +246,11 @@ function getActualFilename(message) {
     return filename;
 }
 
-let indexToDelete = 2;
-
 function deleteThumbnail() {
     let imgChildren = imgContainer.children[indexToDelete];
+    if (!imgChildren) {
+        return;
+    }
     imgChildren.style.animation = "fadeOutTop 0.3s";
     setTimeout(() => {
         imgChildren.style.visibility = "hidden";
@@ -343,6 +357,7 @@ function fetchDataToApi(formData) {
                     // when PHP script is over, the buffer correspond to the name of the file we want to download.
                     updateBtnToDownload(submitBtn, "src/resize_images/" + buffer, buffer);
                     document.getElementById("download-btn").addEventListener("click", resetForm);
+                    form.addEventListener('change', updateImgContainer);
                     window.addEventListener('keydown', triggerDownload);
                     return;
                   }
