@@ -1,7 +1,7 @@
 let form = document.getElementById("form");
 let submitBtn = document.getElementById("submit");
 const loader = document.getElementById("js-loader");
-const addImgBtn = document.getElementById("image-file");
+const userInput = document.getElementById("image-file");
 
 const logTest = function (event) {
     event.preventDefault();
@@ -82,6 +82,11 @@ function validateImage(name) {
     return true;
 }
 
+function countImage(name) {
+    let fileLength = form[name].files.length;
+    return fileLength;
+}
+
 function checkImage(name) {
     let isFile = false;
     if (form[name].files && form[name].files[0]) {
@@ -122,15 +127,19 @@ function updateBtnToDownload(btn, url, filename)
 
 /**
  * Update user image start here
+ * We don't set the same CSS class if we have one or more images added by user
  */
 
-function addTestImg(addImgContainer) {
-    let addTestImgBtn = document.getElementById("js-add-test-img");
-    addTestImgBtn.addEventListener('click', () => {
-        let img = document.createElement("img");
-        img.setAttribute("src", "assets/images/test_image.jpg")
-        addImgContainer.appendChild(img);
-    });
+function updateThumbnail(imgContainer, numberOfImg, userImg) {
+    for (let i = 0; i < numberOfImg; i++) {
+        let img = document.createElement('img');
+
+        imgContainer.appendChild(img);
+
+        const reader = new FileReader();
+        reader.onload = (e) => { img.src = e.target.result; };
+        reader.readAsDataURL(userImg.files[i]);
+    }
 }
 
 const updateImgContainer = function () {
@@ -140,8 +149,19 @@ const updateImgContainer = function () {
         child.style.display = "none";
     }
 
-    addImgContainer.classList.replace("add-img-container", "list-img-container");
-    addTestImg(addImgContainer);
+    let numberOfImg = countImage("image-file");
+    
+    if (numberOfImg === 1) {
+        addImgContainer.classList.replace("add-img-container", "single-img-container");
+        updateThumbnail(addImgContainer, numberOfImg, userInput);
+    }
+    else if (numberOfImg < 38) {
+        addImgContainer.classList.replace("add-img-container", "list-img-container");
+        updateThumbnail(addImgContainer, numberOfImg, userInput);
+    }
+    else {
+        addImgContainer.classList.add("text-img-container");
+    }
 }
 
 function enableSubmit(submitBtn, isCheckSize, isCheckFormat, isFile) {
@@ -297,7 +317,7 @@ window.addEventListener('DOMContentLoaded', checkInput);
 
 // Update thumbnail when user add images
 
-addImgBtn.addEventListener('change', updateImgContainer);
+userInput.addEventListener('change', updateImgContainer);
 
 submitBtn.addEventListener('click', triggerSubmit);
 submitBtn.addEventListener('keydown', triggerSubmit);

@@ -169,13 +169,11 @@ input[type=checkbox], input[type=radio] {
 .list-img-container {
     display: grid;
     height: 190px;
+    grid-gap: 8px;
     max-width: 477px;
-    padding: 16px;
+    padding: 0 16px;
     background-color: #eed7d8;
-    grid-template-columns: repeat(auto-fit,minmax(0, 1fr));
-    grid-gap: 4px;
-    justify-items: center;
-    align-items: center;
+    grid-template-columns: repeat(auto-fit,minmax(25%, 1fr));
 }
 
 .list-img-container > img {
@@ -188,6 +186,17 @@ input[type=checkbox], input[type=radio] {
     height: 190px;
     max-width: 477px;
     background-color: #eed7d8;
+    display: flex;
+    justify-content: center;
+}
+
+/*
+* If we have more than 38 images, display only text
+*/
+.text-img-container {
+    justify-content: center;
+    font-size: 24px;
+    font-family: syne;
 }
 
 .single-img-container > img {
