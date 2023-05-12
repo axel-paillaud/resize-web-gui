@@ -40,7 +40,7 @@ const closeMsgError = function(event) {
         setTimeout(function() {
             msgErrorContainer.classList.remove("error-msg");
             msgErrorContainer.replaceChildren();
-            showSubmitBtn(submitBtn);
+            showSubmitBtn();
 
             closeIcon.removeEventListener('click', closeMsgError);
             window.removeEventListener('keydown', closeMsgError);
@@ -53,9 +53,20 @@ function hideSubmitBtn(submitBtn) {
     submitBtn.style.visibility = "hidden";
 }
 
-function showSubmitBtn(submitBtn) {
+function showSubmitBtn() {
     submitBtn.style.opacity = 1;
     submitBtn.style.visibility = "visible";
+}
+
+function displaySubmitBtn() {
+    submitBtn.style.display = "block";
+}
+
+function deleteChildren(elt) {
+    let children = elt.children;
+    for (let i = 0; i < children.length; i++) {
+        children[i].remove();
+    }
 }
 
 // Check function is to ensure that at least one checkbox is checked,
@@ -90,6 +101,9 @@ function countImage(name) {
 
 function checkImage(name) {
     let isFile = false;
+    if (!form[name]) {
+        return false;
+    }
     if (form[name].files && form[name].files[0]) {
         isFile = true;
     }
@@ -153,7 +167,7 @@ function updateThumbnail(imgContainer, numberOfImg, userImg) {
     }
 }
 
-function resetImgContainer() {
+const resetForm = () => {
     // We have to reset this index, because it is still increment by the number of delete img
     indexToDelete = 2;
     imgContainer.children[imgContainer.children.length - 1].remove();
@@ -162,6 +176,8 @@ function resetImgContainer() {
     imgContainer.classList.add("add-img-container");
     showLabelImgContainer();
     form.reset();
+    deleteChildren(document.getElementById("js-container"));
+    displaySubmitBtn();
     userInput.addEventListener('change', updateImgContainer);
     checkInput();
 }
@@ -326,7 +342,7 @@ function fetchDataToApi(formData) {
                     setBtnStyleToEnable(submitBtn, "Download");
                     // when PHP script is over, the buffer correspond to the name of the file we want to download.
                     updateBtnToDownload(submitBtn, "src/resize_images/" + buffer, buffer);
-                    document.getElementById("download-btn").addEventListener("click", resetImgContainer);
+                    document.getElementById("download-btn").addEventListener("click", resetForm);
                     window.addEventListener('keydown', triggerDownload);
                     return;
                   }
@@ -385,7 +401,6 @@ const triggerSubmit = function (event) {
 const triggerDownload = function (event) {
     if (event.key === 'Enter' || event.key === ' ') {
         document.getElementById("download-btn").click();
-        resetImgContainer();
         window.removeEventListener('keydown', triggerDownload);
     }
 }
