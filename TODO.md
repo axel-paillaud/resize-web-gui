@@ -50,6 +50,8 @@ Inno setup for Windows, Appimage for Linux
 
 - [ ] Play text animation on resize info to each new text 
 
+- [ ] After resize, we have to flush input files
+
 - [x] Sometime, width is not checked. See that, and by default in PHP api, check it.
   - [ ] Note : checked by default OK. Now see PHP API
 
