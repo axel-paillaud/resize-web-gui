@@ -52,6 +52,10 @@ Inno setup for Windows, Appimage for Linux
 
 - [ ] After resize, we have to flush input files
 
+- [ ] If we change form after download, it does not reset imgContainer
+
+- [ ] Sometime, the image is not on the same order between PHP file and imgContainer  
+
 - [x] Sometime, width is not checked. See that, and by default in PHP api, check it.
   - [ ] Note : checked by default OK. Now see PHP API
 

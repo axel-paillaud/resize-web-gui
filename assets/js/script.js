@@ -161,6 +161,7 @@ function resetImgContainer() {
     imgContainer.classList.remove(...classList);
     imgContainer.classList.add("add-img-container");
     showLabelImgContainer();
+    form.reset();
     userInput.addEventListener('change', updateImgContainer);
     checkInput();
 }
