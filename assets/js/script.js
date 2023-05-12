@@ -2,6 +2,7 @@ let form = document.getElementById("form");
 let submitBtn = document.getElementById("submit");
 const loader = document.getElementById("js-loader");
 const userInput = document.getElementById("image-file");
+let imgContainer = document.getElementById("js-add-img-container");
 
 const logTest = function (event) {
     event.preventDefault();
@@ -144,32 +145,56 @@ function updateThumbnail(imgContainer, numberOfImg, userImg) {
     }
 }
 
-const updateImgContainer = function () {
-    addImgContainer = document.getElementById("js-add-img-container");
-
-    for (let child of addImgContainer.children) {
+function hideLabelImgContainer() {
+    for (let child of imgContainer.children) {
         child.style.display = "none";
     }
+}
+
+function deleteImgContainer() {
+    while(imgContainer.children.length !== 2) {
+        imgContainer.children[imgContainer.children.length - 1].remove();
+    }
+}
+
+const updateImgContainer = function () {
+    hideLabelImgContainer();
 
     let numberOfImg = countImage("image-file");
     
     if (numberOfImg === 1) {
-        addImgContainer.classList.replace("add-img-container", "single-img-container");
-        updateThumbnail(addImgContainer, numberOfImg, userInput);
+        imgContainer.classList.replace("add-img-container", "single-img-container");
+        updateThumbnail(imgContainer, numberOfImg, userInput);
     }
     else if (numberOfImg < 32) {
-        addImgContainer.classList.replace("add-img-container", "list-img-container");
-        if (numberOfImg > 9 && numberOfImg < 12) {
-            addImgContainer.style.gridTemplateColumns = "repeat(auto-fit,minmax(20%, 1fr))";
+        imgContainer.classList.replace("add-img-container", "list-img-container");
+        if (numberOfImg > 12) {
+            imgContainer.style.gridTemplateColumns = "repeat(auto-fit,minmax(15%, 1fr))";
         }
-        else if (numberOfImg > 12) {
-            addImgContainer.style.gridTemplateColumns = "repeat(auto-fit,minmax(15%, 1fr))";
+        else if (numberOfImg > 9) {
+            imgContainer.style.gridTemplateColumns = "repeat(auto-fit,minmax(20%, 1fr))";
         }
-        updateThumbnail(addImgContainer, numberOfImg, userInput);
+        updateThumbnail(imgContainer, numberOfImg, userInput);
     }
     else {
-        addImgContainer.classList.add("text-img-container");
+        imgContainer.classList.add("text-img-container");
     }
+}
+
+function getActualFilename(message) {
+    if (message === "resize_images.zip") {
+        return;
+    }
+    let filename = message.split("<b>")[1].split("</b>")[0];
+    return filename;
+}
+
+let indexToDelete = 2;
+
+function deleteThumbnail() {
+    const imgContainer = document.getElementById("js-add-img-container");
+    imgContainer.children[indexToDelete].style.visibility = "hidden";
+    indexToDelete++;
 }
 
 function enableSubmit(submitBtn, isCheckSize, isCheckFormat, isFile) {
@@ -255,12 +280,14 @@ function fetchDataToApi(formData) {
         if (res.ok) {
             const reader = res.body.getReader();
             let buffer = "";
+            let stackFilename = "";
             let textDecoder = new TextDecoder();
             let messageContainer = document.getElementById("js-message");
             messageContainer.style.display = "block";
             const read = () => {
                 return reader.read().then(({ done, value }) => {
                   if (done) {
+                    deleteImgContainer();
                     messageContainer.style.display = "none";
                     loader.classList.remove("loader");
                     setBtnStyleToEnable(submitBtn, "Download");
@@ -278,6 +305,16 @@ function fetchDataToApi(formData) {
                   }, 200);
                   buffer = textDecoder.decode(value);
                   messageContainer.innerHTML = buffer;
+
+                  // Check if we have to delete one thumbnail image or not
+                  // To do this, we check wether the name of the file has changed or not
+
+                  let actualFilename = getActualFilename(buffer);
+                  if (actualFilename !== stackFilename && stackFilename !== "") {
+                    deleteThumbnail();
+                  }
+
+                  stackFilename = getActualFilename(buffer);
 
                   return read();
                 });

@@ -113,7 +113,7 @@ input[type=checkbox], input[type=radio] {
 }
 
 .fade-top-animation {
-    animation: fadeTop 0.2s;
+    animation: fadeInTop 0.2s;
 }
 
 .error-msg {
@@ -243,9 +243,14 @@ input[type=checkbox], input[type=radio] {
     100% { transform: rotate(360deg); }
 }
 
-@keyframes fadeTop {
+@keyframes fadeInTop {
     from { transform: translateY(8px); opacity: 0; }
     to { transform: translateY(0px); opacity: 1; }
+}
+
+@keyframes fadeOutTop {
+    from { transform: translateY(0px); opacity: 1; }
+    to { transform: translateY(-8px); opacity: 0; }
 }
 
 @keyframes fadeIn {

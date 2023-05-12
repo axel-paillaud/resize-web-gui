@@ -46,6 +46,8 @@ Inno setup for Windows, Appimage for Linux
 
 - [ ] Make "add picture's" btn focusable 
 
+- [ ] Play text animation on resize info to each new text 
+
 - [x] Sometime, width is not checked. See that, and by default in PHP api, check it.
   - [ ] Note : checked by default OK. Now see PHP API
 
