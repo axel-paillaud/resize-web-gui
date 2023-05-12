@@ -129,6 +129,7 @@ function updateBtnToDownload(btn, url, filename)
 function showValidMessage() {
     let p = document.createElement("p");
     p.textContent = "Done ! Click 'Download' button to download image(s)";
+    p.classList.add("fade-top-animation");
 
     imgContainer.appendChild(p);
 }
@@ -152,9 +153,27 @@ function updateThumbnail(imgContainer, numberOfImg, userImg) {
     }
 }
 
+function resetImgContainer() {
+    // We have to reset this index, because it is still increment by the number of delete img
+    indexToDelete = 2;
+    imgContainer.children[imgContainer.children.length - 1].remove();
+    let classList = imgContainer.classList;
+    imgContainer.classList.remove(...classList);
+    imgContainer.classList.add("add-img-container");
+    showLabelImgContainer();
+    userInput.addEventListener('change', updateImgContainer);
+    checkInput();
+}
+
 function hideLabelImgContainer() {
     for (let child of imgContainer.children) {
         child.style.display = "none";
+    }
+}
+
+function showLabelImgContainer() {
+    for (let child of imgContainer.children) {
+        child.style.display = "block";
     }
 }
 
@@ -306,6 +325,7 @@ function fetchDataToApi(formData) {
                     setBtnStyleToEnable(submitBtn, "Download");
                     // when PHP script is over, the buffer correspond to the name of the file we want to download.
                     updateBtnToDownload(submitBtn, "src/resize_images/" + buffer, buffer);
+                    document.getElementById("download-btn").addEventListener("click", resetImgContainer);
                     window.addEventListener('keydown', triggerDownload);
                     return;
                   }
@@ -364,6 +384,7 @@ const triggerSubmit = function (event) {
 const triggerDownload = function (event) {
     if (event.key === 'Enter' || event.key === ' ') {
         document.getElementById("download-btn").click();
+        resetImgContainer();
         window.removeEventListener('keydown', triggerDownload);
     }
 }
