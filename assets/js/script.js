@@ -126,6 +126,13 @@ function updateBtnToDownload(btn, url, filename)
     return link;
 }
 
+function showValidMessage() {
+    let p = document.createElement("p");
+    p.textContent = "Done ! Click 'Download' button to download image(s)";
+
+    imgContainer.appendChild(p);
+}
+
 /**
  * Update user image start here
  * We don't set the same CSS class if we have one or more images added by user
@@ -158,6 +165,7 @@ function deleteImgContainer() {
 }
 
 const updateImgContainer = function () {
+    userInput.removeEventListener('change', updateImgContainer);
     hideLabelImgContainer();
 
     let numberOfImg = countImage("image-file");
@@ -192,8 +200,11 @@ function getActualFilename(message) {
 let indexToDelete = 2;
 
 function deleteThumbnail() {
-    const imgContainer = document.getElementById("js-add-img-container");
-    imgContainer.children[indexToDelete].style.visibility = "hidden";
+    let imgChildren = imgContainer.children[indexToDelete];
+    imgChildren.style.animation = "fadeOutTop 0.3s";
+    setTimeout(() => {
+        imgChildren.style.visibility = "hidden";
+    }, 300);
     indexToDelete++;
 }
 
@@ -288,6 +299,8 @@ function fetchDataToApi(formData) {
                 return reader.read().then(({ done, value }) => {
                   if (done) {
                     deleteImgContainer();
+                    imgContainer.classList.add("light-text-img-container");
+                    showValidMessage();
                     messageContainer.style.display = "none";
                     loader.classList.remove("loader");
                     setBtnStyleToEnable(submitBtn, "Download");
