@@ -154,7 +154,7 @@ input[type=checkbox], input[type=radio] {
 
 .form-container {
     position: relative;
-    min-height: 835px;
+    height: 840px;
     padding: 48px 96px;
     background-color: white;
     border-radius: 24px 24px 0 0;
