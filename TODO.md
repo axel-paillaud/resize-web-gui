@@ -46,7 +46,7 @@ Inno setup for Windows, Appimage for Linux
 
 - [ ] Make "add picture's" btn focusable 
 
-- [ ] Sometime, the window "move" when the text take two line instead of one. 
+- [x] ~~Sometime, the window "move" when the text take two line instead of one.~~
 
 - [ ] Play text animation on resize info to each new text 
 
