@@ -129,7 +129,6 @@
             <div id="js-loader"></div>
             <div id="js-message" class="message" style="display: none;"></div>
         </form>
-        <button id="js-add-test-img">Add test image</button>
     </main>
     <script src="assets/js/script.js"></script>
 </body>

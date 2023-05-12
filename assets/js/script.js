@@ -133,11 +133,13 @@ function updateBtnToDownload(btn, url, filename)
 function updateThumbnail(imgContainer, numberOfImg, userImg) {
     for (let i = 0; i < numberOfImg; i++) {
         let img = document.createElement('img');
-
-        imgContainer.appendChild(img);
+        img.setAttribute("alt", "");
 
         const reader = new FileReader();
-        reader.onload = (e) => { img.src = e.target.result; };
+        reader.onload = (e) => {
+            img.src = e.target.result;
+            imgContainer.appendChild(img);
+        };
         reader.readAsDataURL(userImg.files[i]);
     }
 }
@@ -155,8 +157,14 @@ const updateImgContainer = function () {
         addImgContainer.classList.replace("add-img-container", "single-img-container");
         updateThumbnail(addImgContainer, numberOfImg, userInput);
     }
-    else if (numberOfImg < 38) {
+    else if (numberOfImg < 32) {
         addImgContainer.classList.replace("add-img-container", "list-img-container");
+        if (numberOfImg > 9 && numberOfImg < 12) {
+            addImgContainer.style.gridTemplateColumns = "repeat(auto-fit,minmax(20%, 1fr))";
+        }
+        else if (numberOfImg > 12) {
+            addImgContainer.style.gridTemplateColumns = "repeat(auto-fit,minmax(15%, 1fr))";
+        }
         updateThumbnail(addImgContainer, numberOfImg, userInput);
     }
     else {
