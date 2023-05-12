@@ -52,7 +52,7 @@ Inno setup for Windows, Appimage for Linux
 
 - [ ] If we first resize img, not download but reload the page, then download, we don't have thumbnail
 but we can resize. If we resize, we have a display bug with "add picture's" btn + success message.
-Maybe we can empty form on reload ? 
+Maybe we can empty form on reload ? I have to find a solution to reset only input file.
 
 - [x] ~~After resize, we have to flush input files~~
 
