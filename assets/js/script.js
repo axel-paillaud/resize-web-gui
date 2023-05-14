@@ -184,7 +184,6 @@ const resetForm = () => {
     imgContainer.classList.remove(...classList);
     imgContainer.classList.add("add-img-container");
     showLabelImgContainer();
-    /* form.reset(); */
     userInput.value = "";
     deleteChildren(document.getElementById("js-container"));
     displaySubmitBtn();
@@ -425,6 +424,11 @@ form.addEventListener('change', checkInput);
 
 // We also want to check if input is valid when we reload the page
 window.addEventListener('DOMContentLoaded', checkInput);
+
+// On every reload, we want to flush user images input
+window.addEventListener('DOMContentLoaded', () => {
+    userInput.value = "";
+})
 
 // Update thumbnail when user add images
 
