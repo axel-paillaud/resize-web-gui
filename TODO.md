@@ -48,7 +48,7 @@ Inno setup for Windows, Appimage for Linux
 
 - [x] ~~Sometime, the window "move" when the text take two line instead of one.~~
 
-- [ ] Play text animation on resize info to each new text 
+- [x] ~~Play text animation on resize info to each new text~~
 
 - [ ] Rework animation of error message : do the same animation of information text on resize image (remove absolute position)
 

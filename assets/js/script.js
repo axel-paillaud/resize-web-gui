@@ -176,15 +176,15 @@ function updateThumbnail(numberOfImg, userImg) {
     }
 }
 
-function textInfo(message) {
-    if (imgContainer.lastElementChild.tagName === "P") {
-        imgContainer.lastElementChild.remove();
+function textInfo(element, message) {
+    if (element.lastElementChild !== null && element.lastElementChild.tagName === "P") {
+        element.lastElementChild.remove();
     }
     let p = document.createElement("p");
     p.innerHTML = message;
     p.classList.add("fade-top-animation");
 
-    imgContainer.appendChild(p);
+    element.appendChild(p);
 }
 
 const resetForm = () => {
@@ -246,7 +246,7 @@ const updateImgContainer = function () {
     }
     else {
         imgContainer.classList.add("text-img-container");
-        textInfo(`${numberOfImg} images added`);
+        textInfo(imgContainer, `${numberOfImg} images added`);
     }
 }
 
@@ -357,7 +357,7 @@ function fetchDataToApi(formData) {
             let numberOfImg = countImage("image-file");
             let tooMuchImage = false;
             if (numberOfImg > 32) {
-                textInfo(`${numberOfImg} images left`);
+                textInfo(imgContainer, `${numberOfImg} images left`);
                 tooMuchImage = true;
             };
             let textDecoder = new TextDecoder();
@@ -382,12 +382,13 @@ function fetchDataToApi(formData) {
 
                   // empty buffer
                   buffer = "";
-                  messageContainer.classList.add("fade-top-animation");
+/*                   messageContainer.classList.add("fade-top-animation");
                   setTimeout(() => {
                     messageContainer.classList.remove("fade-top-animation");
-                  }, 200);
+                  }, 200); */
                   buffer = textDecoder.decode(value);
-                  messageContainer.innerHTML = buffer;
+                  /* messageContainer.innerHTML = buffer; */
+                  textInfo(messageContainer, buffer);
 
                   // Check if we have to delete one thumbnail image or not
                   // To do this, we check wether the name of the current file has changed or not
@@ -396,7 +397,7 @@ function fetchDataToApi(formData) {
                   if (actualFilename !== stackFilename && stackFilename !== "") {
                     if (tooMuchImage) {
                         numberOfImg--;
-                        textInfo(`${numberOfImg} images left`);
+                        textInfo(imgContainer, `${numberOfImg} images left`);
                     }
                     else {
                         deleteThumbnail();

@@ -8792,3 +8792,7072 @@ Array
 )
 
 
+Sunday 14th of May 2023 02:59:53 PM
+Warning: PHP max file uploads have this current limit: 30
+
+Sunday 14th of May 2023 02:59:53 PM
+Warning: PHP max input time have this current limit: 60
+
+Sunday 14th of May 2023 02:59:53 PM
+Array
+(
+    [0] => image_1
+    [1] => image_1 (3e copie)
+    [2] => image_1 (4e copie)
+    [3] => image_1 (5e copie)
+    [4] => image_1 (6e copie)
+    [5] => image_1 (7e copie)
+    [6] => image_1 (8e copie)
+    [7] => image_1 (9e copie)
+    [8] => image_1 (10e copie)
+    [9] => image_1 (11e copie)
+    [10] => image_1 (autre copie)
+    [11] => image_1 (copie)
+    [12] => image_2
+    [13] => image_2 (3e copie)
+    [14] => image_2 (4e copie)
+    [15] => image_2 (5e copie)
+    [16] => image_2 (6e copie)
+    [17] => image_2 (7e copie)
+    [18] => image_2 (8e copie)
+    [19] => image_2 (9e copie)
+    [20] => image_2 (10e copie)
+    [21] => image_2 (11e copie)
+    [22] => image_2 (autre copie)
+    [23] => image_2 (copie)
+    [24] => image_3
+    [25] => image_3 (3e copie)
+    [26] => image_3 (4e copie)
+    [27] => image_3 (5e copie)
+    [28] => image_3 (6e copie)
+    [29] => image_3 (7e copie)
+    [30] => image_3 (8e copie)
+    [31] => image_3 (9e copie)
+    [32] => image_3 (10e copie)
+    [33] => image_3 (11e copie)
+    [34] => image_3 (autre copie)
+    [35] => image_3 (copie)
+    [36] => image_4
+    [37] => image_4 (3e copie)
+    [38] => image_4 (4e copie)
+)
+
+
+Sunday 14th of May 2023 02:59:54 PM
+Resize test to 1024
+
+Sunday 14th of May 2023 02:59:54 PM
+Convert test to jpg
+
+Sunday 14th of May 2023 02:59:54 PM
+Array
+(
+    [0] => image_1
+    [1] => image_1 (3e copie)
+    [2] => image_1 (4e copie)
+    [3] => image_1 (5e copie)
+    [4] => image_1 (6e copie)
+    [5] => image_1 (7e copie)
+    [6] => image_1 (8e copie)
+    [7] => image_1 (9e copie)
+    [8] => image_1 (10e copie)
+    [9] => image_1 (11e copie)
+    [10] => image_1 (autre copie)
+    [11] => image_1 (copie)
+    [12] => image_2
+    [13] => image_2 (3e copie)
+    [14] => image_2 (4e copie)
+    [15] => image_2 (5e copie)
+    [16] => image_2 (6e copie)
+    [17] => image_2 (7e copie)
+    [18] => image_2 (8e copie)
+    [19] => image_2 (9e copie)
+    [20] => image_2 (10e copie)
+    [21] => image_2 (11e copie)
+    [22] => image_2 (autre copie)
+    [23] => image_2 (copie)
+    [24] => image_3
+    [25] => image_3 (3e copie)
+    [26] => image_3 (4e copie)
+    [27] => image_3 (5e copie)
+    [28] => image_3 (6e copie)
+    [29] => image_3 (7e copie)
+    [30] => image_3 (8e copie)
+    [31] => image_3 (9e copie)
+    [32] => image_3 (10e copie)
+    [33] => image_3 (11e copie)
+    [34] => image_3 (autre copie)
+    [35] => image_3 (copie)
+    [36] => image_4
+    [37] => image_4 (3e copie)
+    [38] => test
+)
+
+
+Sunday 14th of May 2023 02:59:55 PM
+Resize test to 1024
+
+Sunday 14th of May 2023 02:59:55 PM
+Convert test to jpg
+
+Sunday 14th of May 2023 02:59:55 PM
+Array
+(
+    [0] => image_1
+    [1] => image_1 (3e copie)
+    [2] => image_1 (4e copie)
+    [3] => image_1 (5e copie)
+    [4] => image_1 (6e copie)
+    [5] => image_1 (7e copie)
+    [6] => image_1 (8e copie)
+    [7] => image_1 (9e copie)
+    [8] => image_1 (10e copie)
+    [9] => image_1 (11e copie)
+    [10] => image_1 (autre copie)
+    [11] => image_1 (copie)
+    [12] => image_2
+    [13] => image_2 (3e copie)
+    [14] => image_2 (4e copie)
+    [15] => image_2 (5e copie)
+    [16] => image_2 (6e copie)
+    [17] => image_2 (7e copie)
+    [18] => image_2 (8e copie)
+    [19] => image_2 (9e copie)
+    [20] => image_2 (10e copie)
+    [21] => image_2 (11e copie)
+    [22] => image_2 (autre copie)
+    [23] => image_2 (copie)
+    [24] => image_3
+    [25] => image_3 (3e copie)
+    [26] => image_3 (4e copie)
+    [27] => image_3 (5e copie)
+    [28] => image_3 (6e copie)
+    [29] => image_3 (7e copie)
+    [30] => image_3 (8e copie)
+    [31] => image_3 (9e copie)
+    [32] => image_3 (10e copie)
+    [33] => image_3 (11e copie)
+    [34] => image_3 (autre copie)
+    [35] => image_3 (copie)
+    [36] => image_4
+    [37] => image_4 (3e copie)
+    [38] => test
+)
+
+
+Sunday 14th of May 2023 02:59:55 PM
+Resize test to 1024
+
+Sunday 14th of May 2023 02:59:55 PM
+Convert test to jpg
+
+Sunday 14th of May 2023 02:59:56 PM
+Array
+(
+    [0] => image_1
+    [1] => image_1 (3e copie)
+    [2] => image_1 (4e copie)
+    [3] => image_1 (5e copie)
+    [4] => image_1 (6e copie)
+    [5] => image_1 (7e copie)
+    [6] => image_1 (8e copie)
+    [7] => image_1 (9e copie)
+    [8] => image_1 (10e copie)
+    [9] => image_1 (11e copie)
+    [10] => image_1 (autre copie)
+    [11] => image_1 (copie)
+    [12] => image_2
+    [13] => image_2 (3e copie)
+    [14] => image_2 (4e copie)
+    [15] => image_2 (5e copie)
+    [16] => image_2 (6e copie)
+    [17] => image_2 (7e copie)
+    [18] => image_2 (8e copie)
+    [19] => image_2 (9e copie)
+    [20] => image_2 (10e copie)
+    [21] => image_2 (11e copie)
+    [22] => image_2 (autre copie)
+    [23] => image_2 (copie)
+    [24] => image_3
+    [25] => image_3 (3e copie)
+    [26] => image_3 (4e copie)
+    [27] => image_3 (5e copie)
+    [28] => image_3 (6e copie)
+    [29] => image_3 (7e copie)
+    [30] => image_3 (8e copie)
+    [31] => image_3 (9e copie)
+    [32] => image_3 (10e copie)
+    [33] => image_3 (11e copie)
+    [34] => image_3 (autre copie)
+    [35] => image_3 (copie)
+    [36] => image_4
+    [37] => image_4 (3e copie)
+    [38] => test
+)
+
+
+Sunday 14th of May 2023 02:59:56 PM
+Resize test to 1024
+
+Sunday 14th of May 2023 02:59:56 PM
+Convert test to jpg
+
+Sunday 14th of May 2023 02:59:56 PM
+Array
+(
+    [0] => image_1
+    [1] => image_1 (3e copie)
+    [2] => image_1 (4e copie)
+    [3] => image_1 (5e copie)
+    [4] => image_1 (6e copie)
+    [5] => image_1 (7e copie)
+    [6] => image_1 (8e copie)
+    [7] => image_1 (9e copie)
+    [8] => image_1 (10e copie)
+    [9] => image_1 (11e copie)
+    [10] => image_1 (autre copie)
+    [11] => image_1 (copie)
+    [12] => image_2
+    [13] => image_2 (3e copie)
+    [14] => image_2 (4e copie)
+    [15] => image_2 (5e copie)
+    [16] => image_2 (6e copie)
+    [17] => image_2 (7e copie)
+    [18] => image_2 (8e copie)
+    [19] => image_2 (9e copie)
+    [20] => image_2 (10e copie)
+    [21] => image_2 (11e copie)
+    [22] => image_2 (autre copie)
+    [23] => image_2 (copie)
+    [24] => image_3
+    [25] => image_3 (3e copie)
+    [26] => image_3 (4e copie)
+    [27] => image_3 (5e copie)
+    [28] => image_3 (6e copie)
+    [29] => image_3 (7e copie)
+    [30] => image_3 (8e copie)
+    [31] => image_3 (9e copie)
+    [32] => image_3 (10e copie)
+    [33] => image_3 (11e copie)
+    [34] => image_3 (autre copie)
+    [35] => image_3 (copie)
+    [36] => image_4
+    [37] => image_4 (3e copie)
+    [38] => test
+)
+
+
+Sunday 14th of May 2023 02:59:57 PM
+Resize test to 1024
+
+Sunday 14th of May 2023 02:59:57 PM
+Convert test to jpg
+
+Sunday 14th of May 2023 02:59:57 PM
+Array
+(
+    [0] => image_1
+    [1] => image_1 (3e copie)
+    [2] => image_1 (4e copie)
+    [3] => image_1 (5e copie)
+    [4] => image_1 (6e copie)
+    [5] => image_1 (7e copie)
+    [6] => image_1 (8e copie)
+    [7] => image_1 (9e copie)
+    [8] => image_1 (10e copie)
+    [9] => image_1 (11e copie)
+    [10] => image_1 (autre copie)
+    [11] => image_1 (copie)
+    [12] => image_2
+    [13] => image_2 (3e copie)
+    [14] => image_2 (4e copie)
+    [15] => image_2 (5e copie)
+    [16] => image_2 (6e copie)
+    [17] => image_2 (7e copie)
+    [18] => image_2 (8e copie)
+    [19] => image_2 (9e copie)
+    [20] => image_2 (10e copie)
+    [21] => image_2 (11e copie)
+    [22] => image_2 (autre copie)
+    [23] => image_2 (copie)
+    [24] => image_3
+    [25] => image_3 (3e copie)
+    [26] => image_3 (4e copie)
+    [27] => image_3 (5e copie)
+    [28] => image_3 (6e copie)
+    [29] => image_3 (7e copie)
+    [30] => image_3 (8e copie)
+    [31] => image_3 (9e copie)
+    [32] => image_3 (10e copie)
+    [33] => image_3 (11e copie)
+    [34] => image_3 (autre copie)
+    [35] => image_3 (copie)
+    [36] => image_4
+    [37] => image_4 (3e copie)
+    [38] => test
+)
+
+
+Sunday 14th of May 2023 02:59:58 PM
+Resize test to 1024
+
+Sunday 14th of May 2023 02:59:58 PM
+Convert test to jpg
+
+Sunday 14th of May 2023 02:59:58 PM
+Array
+(
+    [0] => image_1
+    [1] => image_1 (3e copie)
+    [2] => image_1 (4e copie)
+    [3] => image_1 (5e copie)
+    [4] => image_1 (6e copie)
+    [5] => image_1 (7e copie)
+    [6] => image_1 (8e copie)
+    [7] => image_1 (9e copie)
+    [8] => image_1 (10e copie)
+    [9] => image_1 (11e copie)
+    [10] => image_1 (autre copie)
+    [11] => image_1 (copie)
+    [12] => image_2
+    [13] => image_2 (3e copie)
+    [14] => image_2 (4e copie)
+    [15] => image_2 (5e copie)
+    [16] => image_2 (6e copie)
+    [17] => image_2 (7e copie)
+    [18] => image_2 (8e copie)
+    [19] => image_2 (9e copie)
+    [20] => image_2 (10e copie)
+    [21] => image_2 (11e copie)
+    [22] => image_2 (autre copie)
+    [23] => image_2 (copie)
+    [24] => image_3
+    [25] => image_3 (3e copie)
+    [26] => image_3 (4e copie)
+    [27] => image_3 (5e copie)
+    [28] => image_3 (6e copie)
+    [29] => image_3 (7e copie)
+    [30] => image_3 (8e copie)
+    [31] => image_3 (9e copie)
+    [32] => image_3 (10e copie)
+    [33] => image_3 (11e copie)
+    [34] => image_3 (autre copie)
+    [35] => image_3 (copie)
+    [36] => image_4
+    [37] => image_4 (3e copie)
+    [38] => test
+)
+
+
+Sunday 14th of May 2023 02:59:59 PM
+Resize test to 1024
+
+Sunday 14th of May 2023 02:59:59 PM
+Convert test to jpg
+
+Sunday 14th of May 2023 02:59:59 PM
+Array
+(
+    [0] => image_1
+    [1] => image_1 (3e copie)
+    [2] => image_1 (4e copie)
+    [3] => image_1 (5e copie)
+    [4] => image_1 (6e copie)
+    [5] => image_1 (7e copie)
+    [6] => image_1 (8e copie)
+    [7] => image_1 (9e copie)
+    [8] => image_1 (10e copie)
+    [9] => image_1 (11e copie)
+    [10] => image_1 (autre copie)
+    [11] => image_1 (copie)
+    [12] => image_2
+    [13] => image_2 (3e copie)
+    [14] => image_2 (4e copie)
+    [15] => image_2 (5e copie)
+    [16] => image_2 (6e copie)
+    [17] => image_2 (7e copie)
+    [18] => image_2 (8e copie)
+    [19] => image_2 (9e copie)
+    [20] => image_2 (10e copie)
+    [21] => image_2 (11e copie)
+    [22] => image_2 (autre copie)
+    [23] => image_2 (copie)
+    [24] => image_3
+    [25] => image_3 (3e copie)
+    [26] => image_3 (4e copie)
+    [27] => image_3 (5e copie)
+    [28] => image_3 (6e copie)
+    [29] => image_3 (7e copie)
+    [30] => image_3 (8e copie)
+    [31] => image_3 (9e copie)
+    [32] => image_3 (10e copie)
+    [33] => image_3 (11e copie)
+    [34] => image_3 (autre copie)
+    [35] => image_3 (copie)
+    [36] => image_4
+    [37] => image_4 (3e copie)
+    [38] => test
+)
+
+
+Sunday 14th of May 2023 02:59:59 PM
+Resize test to 1024
+
+Sunday 14th of May 2023 02:59:59 PM
+Convert test to jpg
+
+Sunday 14th of May 2023 02:59:59 PM
+Array
+(
+    [0] => image_1
+    [1] => image_1 (3e copie)
+    [2] => image_1 (4e copie)
+    [3] => image_1 (5e copie)
+    [4] => image_1 (6e copie)
+    [5] => image_1 (7e copie)
+    [6] => image_1 (8e copie)
+    [7] => image_1 (9e copie)
+    [8] => image_1 (10e copie)
+    [9] => image_1 (11e copie)
+    [10] => image_1 (autre copie)
+    [11] => image_1 (copie)
+    [12] => image_2
+    [13] => image_2 (3e copie)
+    [14] => image_2 (4e copie)
+    [15] => image_2 (5e copie)
+    [16] => image_2 (6e copie)
+    [17] => image_2 (7e copie)
+    [18] => image_2 (8e copie)
+    [19] => image_2 (9e copie)
+    [20] => image_2 (10e copie)
+    [21] => image_2 (11e copie)
+    [22] => image_2 (autre copie)
+    [23] => image_2 (copie)
+    [24] => image_3
+    [25] => image_3 (3e copie)
+    [26] => image_3 (4e copie)
+    [27] => image_3 (5e copie)
+    [28] => image_3 (6e copie)
+    [29] => image_3 (7e copie)
+    [30] => image_3 (8e copie)
+    [31] => image_3 (9e copie)
+    [32] => image_3 (10e copie)
+    [33] => image_3 (11e copie)
+    [34] => image_3 (autre copie)
+    [35] => image_3 (copie)
+    [36] => image_4
+    [37] => image_4 (3e copie)
+    [38] => test
+)
+
+
+Sunday 14th of May 2023 03:00:00 PM
+Resize test to 1024
+
+Sunday 14th of May 2023 03:00:00 PM
+Convert test to jpg
+
+Sunday 14th of May 2023 03:00:01 PM
+Array
+(
+    [0] => image_1
+    [1] => image_1 (3e copie)
+    [2] => image_1 (4e copie)
+    [3] => image_1 (5e copie)
+    [4] => image_1 (6e copie)
+    [5] => image_1 (7e copie)
+    [6] => image_1 (8e copie)
+    [7] => image_1 (9e copie)
+    [8] => image_1 (10e copie)
+    [9] => image_1 (11e copie)
+    [10] => image_1 (autre copie)
+    [11] => image_1 (copie)
+    [12] => image_2
+    [13] => image_2 (3e copie)
+    [14] => image_2 (4e copie)
+    [15] => image_2 (5e copie)
+    [16] => image_2 (6e copie)
+    [17] => image_2 (7e copie)
+    [18] => image_2 (8e copie)
+    [19] => image_2 (9e copie)
+    [20] => image_2 (10e copie)
+    [21] => image_2 (11e copie)
+    [22] => image_2 (autre copie)
+    [23] => image_2 (copie)
+    [24] => image_3
+    [25] => image_3 (3e copie)
+    [26] => image_3 (4e copie)
+    [27] => image_3 (5e copie)
+    [28] => image_3 (6e copie)
+    [29] => image_3 (7e copie)
+    [30] => image_3 (8e copie)
+    [31] => image_3 (9e copie)
+    [32] => image_3 (10e copie)
+    [33] => image_3 (11e copie)
+    [34] => image_3 (autre copie)
+    [35] => image_3 (copie)
+    [36] => image_4
+    [37] => image_4 (3e copie)
+    [38] => test
+)
+
+
+Sunday 14th of May 2023 03:00:02 PM
+Resize test to 1024
+
+Sunday 14th of May 2023 03:00:02 PM
+Convert test to jpg
+
+Sunday 14th of May 2023 03:00:02 PM
+Array
+(
+    [0] => image_1
+    [1] => image_1 (3e copie)
+    [2] => image_1 (4e copie)
+    [3] => image_1 (5e copie)
+    [4] => image_1 (6e copie)
+    [5] => image_1 (7e copie)
+    [6] => image_1 (8e copie)
+    [7] => image_1 (9e copie)
+    [8] => image_1 (10e copie)
+    [9] => image_1 (11e copie)
+    [10] => image_1 (autre copie)
+    [11] => image_1 (copie)
+    [12] => image_2
+    [13] => image_2 (3e copie)
+    [14] => image_2 (4e copie)
+    [15] => image_2 (5e copie)
+    [16] => image_2 (6e copie)
+    [17] => image_2 (7e copie)
+    [18] => image_2 (8e copie)
+    [19] => image_2 (9e copie)
+    [20] => image_2 (10e copie)
+    [21] => image_2 (11e copie)
+    [22] => image_2 (autre copie)
+    [23] => image_2 (copie)
+    [24] => image_3
+    [25] => image_3 (3e copie)
+    [26] => image_3 (4e copie)
+    [27] => image_3 (5e copie)
+    [28] => image_3 (6e copie)
+    [29] => image_3 (7e copie)
+    [30] => image_3 (8e copie)
+    [31] => image_3 (9e copie)
+    [32] => image_3 (10e copie)
+    [33] => image_3 (11e copie)
+    [34] => image_3 (autre copie)
+    [35] => image_3 (copie)
+    [36] => image_4
+    [37] => image_4 (3e copie)
+    [38] => test
+)
+
+
+Sunday 14th of May 2023 03:00:03 PM
+Resize test to 1024
+
+Sunday 14th of May 2023 03:00:03 PM
+Convert test to jpg
+
+Sunday 14th of May 2023 03:00:03 PM
+Array
+(
+    [0] => image_1
+    [1] => image_1 (3e copie)
+    [2] => image_1 (4e copie)
+    [3] => image_1 (5e copie)
+    [4] => image_1 (6e copie)
+    [5] => image_1 (7e copie)
+    [6] => image_1 (8e copie)
+    [7] => image_1 (9e copie)
+    [8] => image_1 (10e copie)
+    [9] => image_1 (11e copie)
+    [10] => image_1 (autre copie)
+    [11] => image_1 (copie)
+    [12] => image_2
+    [13] => image_2 (3e copie)
+    [14] => image_2 (4e copie)
+    [15] => image_2 (5e copie)
+    [16] => image_2 (6e copie)
+    [17] => image_2 (7e copie)
+    [18] => image_2 (8e copie)
+    [19] => image_2 (9e copie)
+    [20] => image_2 (10e copie)
+    [21] => image_2 (11e copie)
+    [22] => image_2 (autre copie)
+    [23] => image_2 (copie)
+    [24] => image_3
+    [25] => image_3 (3e copie)
+    [26] => image_3 (4e copie)
+    [27] => image_3 (5e copie)
+    [28] => image_3 (6e copie)
+    [29] => image_3 (7e copie)
+    [30] => image_3 (8e copie)
+    [31] => image_3 (9e copie)
+    [32] => image_3 (10e copie)
+    [33] => image_3 (11e copie)
+    [34] => image_3 (autre copie)
+    [35] => image_3 (copie)
+    [36] => image_4
+    [37] => image_4 (3e copie)
+    [38] => test
+)
+
+
+Sunday 14th of May 2023 03:00:04 PM
+Resize test to 1024
+
+Sunday 14th of May 2023 03:00:04 PM
+Convert test to jpg
+
+Sunday 14th of May 2023 03:00:04 PM
+Array
+(
+    [0] => image_1
+    [1] => image_1 (3e copie)
+    [2] => image_1 (4e copie)
+    [3] => image_1 (5e copie)
+    [4] => image_1 (6e copie)
+    [5] => image_1 (7e copie)
+    [6] => image_1 (8e copie)
+    [7] => image_1 (9e copie)
+    [8] => image_1 (10e copie)
+    [9] => image_1 (11e copie)
+    [10] => image_1 (autre copie)
+    [11] => image_1 (copie)
+    [12] => image_2
+    [13] => image_2 (3e copie)
+    [14] => image_2 (4e copie)
+    [15] => image_2 (5e copie)
+    [16] => image_2 (6e copie)
+    [17] => image_2 (7e copie)
+    [18] => image_2 (8e copie)
+    [19] => image_2 (9e copie)
+    [20] => image_2 (10e copie)
+    [21] => image_2 (11e copie)
+    [22] => image_2 (autre copie)
+    [23] => image_2 (copie)
+    [24] => image_3
+    [25] => image_3 (3e copie)
+    [26] => image_3 (4e copie)
+    [27] => image_3 (5e copie)
+    [28] => image_3 (6e copie)
+    [29] => image_3 (7e copie)
+    [30] => image_3 (8e copie)
+    [31] => image_3 (9e copie)
+    [32] => image_3 (10e copie)
+    [33] => image_3 (11e copie)
+    [34] => image_3 (autre copie)
+    [35] => image_3 (copie)
+    [36] => image_4
+    [37] => image_4 (3e copie)
+    [38] => test
+)
+
+
+Sunday 14th of May 2023 03:00:05 PM
+Resize test to 1024
+
+Sunday 14th of May 2023 03:00:18 PM
+Warning: PHP max file uploads have this current limit: 30
+
+Sunday 14th of May 2023 03:00:18 PM
+Warning: PHP max input time have this current limit: 60
+
+Sunday 14th of May 2023 03:00:18 PM
+Array
+(
+    [0] => image_1
+    [1] => image_1 (3e copie)
+    [2] => image_1 (4e copie)
+    [3] => image_1 (5e copie)
+    [4] => image_1 (6e copie)
+    [5] => image_1 (7e copie)
+    [6] => image_1 (8e copie)
+    [7] => image_1 (9e copie)
+    [8] => image_1 (10e copie)
+    [9] => image_1 (11e copie)
+    [10] => image_1 (autre copie)
+    [11] => image_1 (copie)
+    [12] => image_2
+    [13] => image_2 (3e copie)
+    [14] => image_2 (4e copie)
+    [15] => image_2 (5e copie)
+    [16] => image_2 (6e copie)
+    [17] => image_2 (7e copie)
+    [18] => image_2 (8e copie)
+    [19] => image_2 (9e copie)
+    [20] => image_2 (10e copie)
+    [21] => image_2 (11e copie)
+    [22] => image_2 (autre copie)
+    [23] => image_2 (copie)
+    [24] => image_3
+    [25] => image_3 (3e copie)
+    [26] => image_3 (4e copie)
+    [27] => image_3 (5e copie)
+    [28] => image_3 (6e copie)
+    [29] => image_3 (7e copie)
+    [30] => image_3 (8e copie)
+    [31] => image_3 (9e copie)
+    [32] => image_3 (10e copie)
+    [33] => image_3 (11e copie)
+    [34] => image_3 (autre copie)
+    [35] => image_3 (copie)
+    [36] => image_4
+    [37] => image_4 (3e copie)
+    [38] => image_4 (4e copie)
+    [39] => image_4 (5e copie)
+    [40] => image_4 (6e copie)
+    [41] => image_4 (7e copie)
+    [42] => image_4 (8e copie)
+    [43] => image_4 (9e copie)
+    [44] => image_4 (10e copie)
+    [45] => image_4 (11e copie)
+    [46] => image_4 (autre copie)
+    [47] => image_4 (copie)
+    [48] => image_5
+    [49] => image_5 (3e copie)
+    [50] => image_5 (4e copie)
+    [51] => image_5 (5e copie)
+    [52] => image_5 (6e copie)
+    [53] => image_5 (7e copie)
+    [54] => image_5 (8e copie)
+    [55] => image_5 (9e copie)
+    [56] => image_5 (10e copie)
+    [57] => image_5 (11e copie)
+    [58] => image_5 (autre copie)
+    [59] => image_5 (copie)
+    [60] => image_6
+    [61] => image_6 (3e copie)
+    [62] => image_6 (4e copie)
+    [63] => image_6 (5e copie)
+    [64] => image_6 (6e copie)
+    [65] => image_6 (7e copie)
+    [66] => image_6 (8e copie)
+    [67] => image_6 (9e copie)
+)
+
+
+Sunday 14th of May 2023 03:00:19 PM
+Resize test to 1024
+
+Sunday 14th of May 2023 03:00:19 PM
+Convert test to jpg
+
+Sunday 14th of May 2023 03:00:19 PM
+Array
+(
+    [0] => image_1
+    [1] => image_1 (3e copie)
+    [2] => image_1 (4e copie)
+    [3] => image_1 (5e copie)
+    [4] => image_1 (6e copie)
+    [5] => image_1 (7e copie)
+    [6] => image_1 (8e copie)
+    [7] => image_1 (9e copie)
+    [8] => image_1 (10e copie)
+    [9] => image_1 (11e copie)
+    [10] => image_1 (autre copie)
+    [11] => image_1 (copie)
+    [12] => image_2
+    [13] => image_2 (3e copie)
+    [14] => image_2 (4e copie)
+    [15] => image_2 (5e copie)
+    [16] => image_2 (6e copie)
+    [17] => image_2 (7e copie)
+    [18] => image_2 (8e copie)
+    [19] => image_2 (9e copie)
+    [20] => image_2 (10e copie)
+    [21] => image_2 (11e copie)
+    [22] => image_2 (autre copie)
+    [23] => image_2 (copie)
+    [24] => image_3
+    [25] => image_3 (3e copie)
+    [26] => image_3 (4e copie)
+    [27] => image_3 (5e copie)
+    [28] => image_3 (6e copie)
+    [29] => image_3 (7e copie)
+    [30] => image_3 (8e copie)
+    [31] => image_3 (9e copie)
+    [32] => image_3 (10e copie)
+    [33] => image_3 (11e copie)
+    [34] => image_3 (autre copie)
+    [35] => image_3 (copie)
+    [36] => image_4
+    [37] => image_4 (3e copie)
+    [38] => image_4 (4e copie)
+    [39] => image_4 (5e copie)
+    [40] => image_4 (6e copie)
+    [41] => image_4 (7e copie)
+    [42] => image_4 (8e copie)
+    [43] => image_4 (9e copie)
+    [44] => image_4 (10e copie)
+    [45] => image_4 (11e copie)
+    [46] => image_4 (autre copie)
+    [47] => image_4 (copie)
+    [48] => image_5
+    [49] => image_5 (3e copie)
+    [50] => image_5 (4e copie)
+    [51] => image_5 (5e copie)
+    [52] => image_5 (6e copie)
+    [53] => image_5 (7e copie)
+    [54] => image_5 (8e copie)
+    [55] => image_5 (9e copie)
+    [56] => image_5 (10e copie)
+    [57] => image_5 (11e copie)
+    [58] => image_5 (autre copie)
+    [59] => image_5 (copie)
+    [60] => image_6
+    [61] => image_6 (3e copie)
+    [62] => image_6 (4e copie)
+    [63] => image_6 (5e copie)
+    [64] => image_6 (6e copie)
+    [65] => image_6 (7e copie)
+    [66] => image_6 (8e copie)
+    [67] => test
+)
+
+
+Sunday 14th of May 2023 03:00:20 PM
+Resize test to 1024
+
+Sunday 14th of May 2023 03:00:20 PM
+Convert test to jpg
+
+Sunday 14th of May 2023 03:00:20 PM
+Array
+(
+    [0] => image_1
+    [1] => image_1 (3e copie)
+    [2] => image_1 (4e copie)
+    [3] => image_1 (5e copie)
+    [4] => image_1 (6e copie)
+    [5] => image_1 (7e copie)
+    [6] => image_1 (8e copie)
+    [7] => image_1 (9e copie)
+    [8] => image_1 (10e copie)
+    [9] => image_1 (11e copie)
+    [10] => image_1 (autre copie)
+    [11] => image_1 (copie)
+    [12] => image_2
+    [13] => image_2 (3e copie)
+    [14] => image_2 (4e copie)
+    [15] => image_2 (5e copie)
+    [16] => image_2 (6e copie)
+    [17] => image_2 (7e copie)
+    [18] => image_2 (8e copie)
+    [19] => image_2 (9e copie)
+    [20] => image_2 (10e copie)
+    [21] => image_2 (11e copie)
+    [22] => image_2 (autre copie)
+    [23] => image_2 (copie)
+    [24] => image_3
+    [25] => image_3 (3e copie)
+    [26] => image_3 (4e copie)
+    [27] => image_3 (5e copie)
+    [28] => image_3 (6e copie)
+    [29] => image_3 (7e copie)
+    [30] => image_3 (8e copie)
+    [31] => image_3 (9e copie)
+    [32] => image_3 (10e copie)
+    [33] => image_3 (11e copie)
+    [34] => image_3 (autre copie)
+    [35] => image_3 (copie)
+    [36] => image_4
+    [37] => image_4 (3e copie)
+    [38] => image_4 (4e copie)
+    [39] => image_4 (5e copie)
+    [40] => image_4 (6e copie)
+    [41] => image_4 (7e copie)
+    [42] => image_4 (8e copie)
+    [43] => image_4 (9e copie)
+    [44] => image_4 (10e copie)
+    [45] => image_4 (11e copie)
+    [46] => image_4 (autre copie)
+    [47] => image_4 (copie)
+    [48] => image_5
+    [49] => image_5 (3e copie)
+    [50] => image_5 (4e copie)
+    [51] => image_5 (5e copie)
+    [52] => image_5 (6e copie)
+    [53] => image_5 (7e copie)
+    [54] => image_5 (8e copie)
+    [55] => image_5 (9e copie)
+    [56] => image_5 (10e copie)
+    [57] => image_5 (11e copie)
+    [58] => image_5 (autre copie)
+    [59] => image_5 (copie)
+    [60] => image_6
+    [61] => image_6 (3e copie)
+    [62] => image_6 (4e copie)
+    [63] => image_6 (5e copie)
+    [64] => image_6 (6e copie)
+    [65] => image_6 (7e copie)
+    [66] => image_6 (8e copie)
+    [67] => test
+)
+
+
+Sunday 14th of May 2023 03:00:20 PM
+Resize test to 1024
+
+Sunday 14th of May 2023 03:00:20 PM
+Convert test to jpg
+
+Sunday 14th of May 2023 03:00:20 PM
+Array
+(
+    [0] => image_1
+    [1] => image_1 (3e copie)
+    [2] => image_1 (4e copie)
+    [3] => image_1 (5e copie)
+    [4] => image_1 (6e copie)
+    [5] => image_1 (7e copie)
+    [6] => image_1 (8e copie)
+    [7] => image_1 (9e copie)
+    [8] => image_1 (10e copie)
+    [9] => image_1 (11e copie)
+    [10] => image_1 (autre copie)
+    [11] => image_1 (copie)
+    [12] => image_2
+    [13] => image_2 (3e copie)
+    [14] => image_2 (4e copie)
+    [15] => image_2 (5e copie)
+    [16] => image_2 (6e copie)
+    [17] => image_2 (7e copie)
+    [18] => image_2 (8e copie)
+    [19] => image_2 (9e copie)
+    [20] => image_2 (10e copie)
+    [21] => image_2 (11e copie)
+    [22] => image_2 (autre copie)
+    [23] => image_2 (copie)
+    [24] => image_3
+    [25] => image_3 (3e copie)
+    [26] => image_3 (4e copie)
+    [27] => image_3 (5e copie)
+    [28] => image_3 (6e copie)
+    [29] => image_3 (7e copie)
+    [30] => image_3 (8e copie)
+    [31] => image_3 (9e copie)
+    [32] => image_3 (10e copie)
+    [33] => image_3 (11e copie)
+    [34] => image_3 (autre copie)
+    [35] => image_3 (copie)
+    [36] => image_4
+    [37] => image_4 (3e copie)
+    [38] => image_4 (4e copie)
+    [39] => image_4 (5e copie)
+    [40] => image_4 (6e copie)
+    [41] => image_4 (7e copie)
+    [42] => image_4 (8e copie)
+    [43] => image_4 (9e copie)
+    [44] => image_4 (10e copie)
+    [45] => image_4 (11e copie)
+    [46] => image_4 (autre copie)
+    [47] => image_4 (copie)
+    [48] => image_5
+    [49] => image_5 (3e copie)
+    [50] => image_5 (4e copie)
+    [51] => image_5 (5e copie)
+    [52] => image_5 (6e copie)
+    [53] => image_5 (7e copie)
+    [54] => image_5 (8e copie)
+    [55] => image_5 (9e copie)
+    [56] => image_5 (10e copie)
+    [57] => image_5 (11e copie)
+    [58] => image_5 (autre copie)
+    [59] => image_5 (copie)
+    [60] => image_6
+    [61] => image_6 (3e copie)
+    [62] => image_6 (4e copie)
+    [63] => image_6 (5e copie)
+    [64] => image_6 (6e copie)
+    [65] => image_6 (7e copie)
+    [66] => image_6 (8e copie)
+    [67] => test
+)
+
+
+Sunday 14th of May 2023 03:00:21 PM
+Resize test to 1024
+
+Sunday 14th of May 2023 03:00:21 PM
+Convert test to jpg
+
+Sunday 14th of May 2023 03:00:21 PM
+Array
+(
+    [0] => image_1
+    [1] => image_1 (3e copie)
+    [2] => image_1 (4e copie)
+    [3] => image_1 (5e copie)
+    [4] => image_1 (6e copie)
+    [5] => image_1 (7e copie)
+    [6] => image_1 (8e copie)
+    [7] => image_1 (9e copie)
+    [8] => image_1 (10e copie)
+    [9] => image_1 (11e copie)
+    [10] => image_1 (autre copie)
+    [11] => image_1 (copie)
+    [12] => image_2
+    [13] => image_2 (3e copie)
+    [14] => image_2 (4e copie)
+    [15] => image_2 (5e copie)
+    [16] => image_2 (6e copie)
+    [17] => image_2 (7e copie)
+    [18] => image_2 (8e copie)
+    [19] => image_2 (9e copie)
+    [20] => image_2 (10e copie)
+    [21] => image_2 (11e copie)
+    [22] => image_2 (autre copie)
+    [23] => image_2 (copie)
+    [24] => image_3
+    [25] => image_3 (3e copie)
+    [26] => image_3 (4e copie)
+    [27] => image_3 (5e copie)
+    [28] => image_3 (6e copie)
+    [29] => image_3 (7e copie)
+    [30] => image_3 (8e copie)
+    [31] => image_3 (9e copie)
+    [32] => image_3 (10e copie)
+    [33] => image_3 (11e copie)
+    [34] => image_3 (autre copie)
+    [35] => image_3 (copie)
+    [36] => image_4
+    [37] => image_4 (3e copie)
+    [38] => image_4 (4e copie)
+    [39] => image_4 (5e copie)
+    [40] => image_4 (6e copie)
+    [41] => image_4 (7e copie)
+    [42] => image_4 (8e copie)
+    [43] => image_4 (9e copie)
+    [44] => image_4 (10e copie)
+    [45] => image_4 (11e copie)
+    [46] => image_4 (autre copie)
+    [47] => image_4 (copie)
+    [48] => image_5
+    [49] => image_5 (3e copie)
+    [50] => image_5 (4e copie)
+    [51] => image_5 (5e copie)
+    [52] => image_5 (6e copie)
+    [53] => image_5 (7e copie)
+    [54] => image_5 (8e copie)
+    [55] => image_5 (9e copie)
+    [56] => image_5 (10e copie)
+    [57] => image_5 (11e copie)
+    [58] => image_5 (autre copie)
+    [59] => image_5 (copie)
+    [60] => image_6
+    [61] => image_6 (3e copie)
+    [62] => image_6 (4e copie)
+    [63] => image_6 (5e copie)
+    [64] => image_6 (6e copie)
+    [65] => image_6 (7e copie)
+    [66] => image_6 (8e copie)
+    [67] => test
+)
+
+
+Sunday 14th of May 2023 03:00:22 PM
+Resize test to 1024
+
+Sunday 14th of May 2023 03:00:22 PM
+Convert test to jpg
+
+Sunday 14th of May 2023 03:00:22 PM
+Array
+(
+    [0] => image_1
+    [1] => image_1 (3e copie)
+    [2] => image_1 (4e copie)
+    [3] => image_1 (5e copie)
+    [4] => image_1 (6e copie)
+    [5] => image_1 (7e copie)
+    [6] => image_1 (8e copie)
+    [7] => image_1 (9e copie)
+    [8] => image_1 (10e copie)
+    [9] => image_1 (11e copie)
+    [10] => image_1 (autre copie)
+    [11] => image_1 (copie)
+    [12] => image_2
+    [13] => image_2 (3e copie)
+    [14] => image_2 (4e copie)
+    [15] => image_2 (5e copie)
+    [16] => image_2 (6e copie)
+    [17] => image_2 (7e copie)
+    [18] => image_2 (8e copie)
+    [19] => image_2 (9e copie)
+    [20] => image_2 (10e copie)
+    [21] => image_2 (11e copie)
+    [22] => image_2 (autre copie)
+    [23] => image_2 (copie)
+    [24] => image_3
+    [25] => image_3 (3e copie)
+    [26] => image_3 (4e copie)
+    [27] => image_3 (5e copie)
+    [28] => image_3 (6e copie)
+    [29] => image_3 (7e copie)
+    [30] => image_3 (8e copie)
+    [31] => image_3 (9e copie)
+    [32] => image_3 (10e copie)
+    [33] => image_3 (11e copie)
+    [34] => image_3 (autre copie)
+    [35] => image_3 (copie)
+    [36] => image_4
+    [37] => image_4 (3e copie)
+    [38] => image_4 (4e copie)
+    [39] => image_4 (5e copie)
+    [40] => image_4 (6e copie)
+    [41] => image_4 (7e copie)
+    [42] => image_4 (8e copie)
+    [43] => image_4 (9e copie)
+    [44] => image_4 (10e copie)
+    [45] => image_4 (11e copie)
+    [46] => image_4 (autre copie)
+    [47] => image_4 (copie)
+    [48] => image_5
+    [49] => image_5 (3e copie)
+    [50] => image_5 (4e copie)
+    [51] => image_5 (5e copie)
+    [52] => image_5 (6e copie)
+    [53] => image_5 (7e copie)
+    [54] => image_5 (8e copie)
+    [55] => image_5 (9e copie)
+    [56] => image_5 (10e copie)
+    [57] => image_5 (11e copie)
+    [58] => image_5 (autre copie)
+    [59] => image_5 (copie)
+    [60] => image_6
+    [61] => image_6 (3e copie)
+    [62] => image_6 (4e copie)
+    [63] => image_6 (5e copie)
+    [64] => image_6 (6e copie)
+    [65] => image_6 (7e copie)
+    [66] => image_6 (8e copie)
+    [67] => test
+)
+
+
+Sunday 14th of May 2023 03:00:23 PM
+Resize test to 1024
+
+Sunday 14th of May 2023 03:00:23 PM
+Convert test to jpg
+
+Sunday 14th of May 2023 03:00:23 PM
+Array
+(
+    [0] => image_1
+    [1] => image_1 (3e copie)
+    [2] => image_1 (4e copie)
+    [3] => image_1 (5e copie)
+    [4] => image_1 (6e copie)
+    [5] => image_1 (7e copie)
+    [6] => image_1 (8e copie)
+    [7] => image_1 (9e copie)
+    [8] => image_1 (10e copie)
+    [9] => image_1 (11e copie)
+    [10] => image_1 (autre copie)
+    [11] => image_1 (copie)
+    [12] => image_2
+    [13] => image_2 (3e copie)
+    [14] => image_2 (4e copie)
+    [15] => image_2 (5e copie)
+    [16] => image_2 (6e copie)
+    [17] => image_2 (7e copie)
+    [18] => image_2 (8e copie)
+    [19] => image_2 (9e copie)
+    [20] => image_2 (10e copie)
+    [21] => image_2 (11e copie)
+    [22] => image_2 (autre copie)
+    [23] => image_2 (copie)
+    [24] => image_3
+    [25] => image_3 (3e copie)
+    [26] => image_3 (4e copie)
+    [27] => image_3 (5e copie)
+    [28] => image_3 (6e copie)
+    [29] => image_3 (7e copie)
+    [30] => image_3 (8e copie)
+    [31] => image_3 (9e copie)
+    [32] => image_3 (10e copie)
+    [33] => image_3 (11e copie)
+    [34] => image_3 (autre copie)
+    [35] => image_3 (copie)
+    [36] => image_4
+    [37] => image_4 (3e copie)
+    [38] => image_4 (4e copie)
+    [39] => image_4 (5e copie)
+    [40] => image_4 (6e copie)
+    [41] => image_4 (7e copie)
+    [42] => image_4 (8e copie)
+    [43] => image_4 (9e copie)
+    [44] => image_4 (10e copie)
+    [45] => image_4 (11e copie)
+    [46] => image_4 (autre copie)
+    [47] => image_4 (copie)
+    [48] => image_5
+    [49] => image_5 (3e copie)
+    [50] => image_5 (4e copie)
+    [51] => image_5 (5e copie)
+    [52] => image_5 (6e copie)
+    [53] => image_5 (7e copie)
+    [54] => image_5 (8e copie)
+    [55] => image_5 (9e copie)
+    [56] => image_5 (10e copie)
+    [57] => image_5 (11e copie)
+    [58] => image_5 (autre copie)
+    [59] => image_5 (copie)
+    [60] => image_6
+    [61] => image_6 (3e copie)
+    [62] => image_6 (4e copie)
+    [63] => image_6 (5e copie)
+    [64] => image_6 (6e copie)
+    [65] => image_6 (7e copie)
+    [66] => image_6 (8e copie)
+    [67] => test
+)
+
+
+Sunday 14th of May 2023 03:00:24 PM
+Resize test to 1024
+
+Sunday 14th of May 2023 03:00:24 PM
+Convert test to jpg
+
+Sunday 14th of May 2023 03:00:24 PM
+Array
+(
+    [0] => image_1
+    [1] => image_1 (3e copie)
+    [2] => image_1 (4e copie)
+    [3] => image_1 (5e copie)
+    [4] => image_1 (6e copie)
+    [5] => image_1 (7e copie)
+    [6] => image_1 (8e copie)
+    [7] => image_1 (9e copie)
+    [8] => image_1 (10e copie)
+    [9] => image_1 (11e copie)
+    [10] => image_1 (autre copie)
+    [11] => image_1 (copie)
+    [12] => image_2
+    [13] => image_2 (3e copie)
+    [14] => image_2 (4e copie)
+    [15] => image_2 (5e copie)
+    [16] => image_2 (6e copie)
+    [17] => image_2 (7e copie)
+    [18] => image_2 (8e copie)
+    [19] => image_2 (9e copie)
+    [20] => image_2 (10e copie)
+    [21] => image_2 (11e copie)
+    [22] => image_2 (autre copie)
+    [23] => image_2 (copie)
+    [24] => image_3
+    [25] => image_3 (3e copie)
+    [26] => image_3 (4e copie)
+    [27] => image_3 (5e copie)
+    [28] => image_3 (6e copie)
+    [29] => image_3 (7e copie)
+    [30] => image_3 (8e copie)
+    [31] => image_3 (9e copie)
+    [32] => image_3 (10e copie)
+    [33] => image_3 (11e copie)
+    [34] => image_3 (autre copie)
+    [35] => image_3 (copie)
+    [36] => image_4
+    [37] => image_4 (3e copie)
+    [38] => image_4 (4e copie)
+    [39] => image_4 (5e copie)
+    [40] => image_4 (6e copie)
+    [41] => image_4 (7e copie)
+    [42] => image_4 (8e copie)
+    [43] => image_4 (9e copie)
+    [44] => image_4 (10e copie)
+    [45] => image_4 (11e copie)
+    [46] => image_4 (autre copie)
+    [47] => image_4 (copie)
+    [48] => image_5
+    [49] => image_5 (3e copie)
+    [50] => image_5 (4e copie)
+    [51] => image_5 (5e copie)
+    [52] => image_5 (6e copie)
+    [53] => image_5 (7e copie)
+    [54] => image_5 (8e copie)
+    [55] => image_5 (9e copie)
+    [56] => image_5 (10e copie)
+    [57] => image_5 (11e copie)
+    [58] => image_5 (autre copie)
+    [59] => image_5 (copie)
+    [60] => image_6
+    [61] => image_6 (3e copie)
+    [62] => image_6 (4e copie)
+    [63] => image_6 (5e copie)
+    [64] => image_6 (6e copie)
+    [65] => image_6 (7e copie)
+    [66] => image_6 (8e copie)
+    [67] => test
+)
+
+
+Sunday 14th of May 2023 03:00:26 PM
+Resize test to 1024
+
+Sunday 14th of May 2023 03:00:26 PM
+Convert test to jpg
+
+Sunday 14th of May 2023 03:00:26 PM
+Array
+(
+    [0] => image_1
+    [1] => image_1 (3e copie)
+    [2] => image_1 (4e copie)
+    [3] => image_1 (5e copie)
+    [4] => image_1 (6e copie)
+    [5] => image_1 (7e copie)
+    [6] => image_1 (8e copie)
+    [7] => image_1 (9e copie)
+    [8] => image_1 (10e copie)
+    [9] => image_1 (11e copie)
+    [10] => image_1 (autre copie)
+    [11] => image_1 (copie)
+    [12] => image_2
+    [13] => image_2 (3e copie)
+    [14] => image_2 (4e copie)
+    [15] => image_2 (5e copie)
+    [16] => image_2 (6e copie)
+    [17] => image_2 (7e copie)
+    [18] => image_2 (8e copie)
+    [19] => image_2 (9e copie)
+    [20] => image_2 (10e copie)
+    [21] => image_2 (11e copie)
+    [22] => image_2 (autre copie)
+    [23] => image_2 (copie)
+    [24] => image_3
+    [25] => image_3 (3e copie)
+    [26] => image_3 (4e copie)
+    [27] => image_3 (5e copie)
+    [28] => image_3 (6e copie)
+    [29] => image_3 (7e copie)
+    [30] => image_3 (8e copie)
+    [31] => image_3 (9e copie)
+    [32] => image_3 (10e copie)
+    [33] => image_3 (11e copie)
+    [34] => image_3 (autre copie)
+    [35] => image_3 (copie)
+    [36] => image_4
+    [37] => image_4 (3e copie)
+    [38] => image_4 (4e copie)
+    [39] => image_4 (5e copie)
+    [40] => image_4 (6e copie)
+    [41] => image_4 (7e copie)
+    [42] => image_4 (8e copie)
+    [43] => image_4 (9e copie)
+    [44] => image_4 (10e copie)
+    [45] => image_4 (11e copie)
+    [46] => image_4 (autre copie)
+    [47] => image_4 (copie)
+    [48] => image_5
+    [49] => image_5 (3e copie)
+    [50] => image_5 (4e copie)
+    [51] => image_5 (5e copie)
+    [52] => image_5 (6e copie)
+    [53] => image_5 (7e copie)
+    [54] => image_5 (8e copie)
+    [55] => image_5 (9e copie)
+    [56] => image_5 (10e copie)
+    [57] => image_5 (11e copie)
+    [58] => image_5 (autre copie)
+    [59] => image_5 (copie)
+    [60] => image_6
+    [61] => image_6 (3e copie)
+    [62] => image_6 (4e copie)
+    [63] => image_6 (5e copie)
+    [64] => image_6 (6e copie)
+    [65] => image_6 (7e copie)
+    [66] => image_6 (8e copie)
+    [67] => test
+)
+
+
+Sunday 14th of May 2023 03:00:26 PM
+Resize test to 1024
+
+Sunday 14th of May 2023 03:00:26 PM
+Convert test to jpg
+
+Sunday 14th of May 2023 03:00:26 PM
+Array
+(
+    [0] => image_1
+    [1] => image_1 (3e copie)
+    [2] => image_1 (4e copie)
+    [3] => image_1 (5e copie)
+    [4] => image_1 (6e copie)
+    [5] => image_1 (7e copie)
+    [6] => image_1 (8e copie)
+    [7] => image_1 (9e copie)
+    [8] => image_1 (10e copie)
+    [9] => image_1 (11e copie)
+    [10] => image_1 (autre copie)
+    [11] => image_1 (copie)
+    [12] => image_2
+    [13] => image_2 (3e copie)
+    [14] => image_2 (4e copie)
+    [15] => image_2 (5e copie)
+    [16] => image_2 (6e copie)
+    [17] => image_2 (7e copie)
+    [18] => image_2 (8e copie)
+    [19] => image_2 (9e copie)
+    [20] => image_2 (10e copie)
+    [21] => image_2 (11e copie)
+    [22] => image_2 (autre copie)
+    [23] => image_2 (copie)
+    [24] => image_3
+    [25] => image_3 (3e copie)
+    [26] => image_3 (4e copie)
+    [27] => image_3 (5e copie)
+    [28] => image_3 (6e copie)
+    [29] => image_3 (7e copie)
+    [30] => image_3 (8e copie)
+    [31] => image_3 (9e copie)
+    [32] => image_3 (10e copie)
+    [33] => image_3 (11e copie)
+    [34] => image_3 (autre copie)
+    [35] => image_3 (copie)
+    [36] => image_4
+    [37] => image_4 (3e copie)
+    [38] => image_4 (4e copie)
+    [39] => image_4 (5e copie)
+    [40] => image_4 (6e copie)
+    [41] => image_4 (7e copie)
+    [42] => image_4 (8e copie)
+    [43] => image_4 (9e copie)
+    [44] => image_4 (10e copie)
+    [45] => image_4 (11e copie)
+    [46] => image_4 (autre copie)
+    [47] => image_4 (copie)
+    [48] => image_5
+    [49] => image_5 (3e copie)
+    [50] => image_5 (4e copie)
+    [51] => image_5 (5e copie)
+    [52] => image_5 (6e copie)
+    [53] => image_5 (7e copie)
+    [54] => image_5 (8e copie)
+    [55] => image_5 (9e copie)
+    [56] => image_5 (10e copie)
+    [57] => image_5 (11e copie)
+    [58] => image_5 (autre copie)
+    [59] => image_5 (copie)
+    [60] => image_6
+    [61] => image_6 (3e copie)
+    [62] => image_6 (4e copie)
+    [63] => image_6 (5e copie)
+    [64] => image_6 (6e copie)
+    [65] => image_6 (7e copie)
+    [66] => image_6 (8e copie)
+    [67] => test
+)
+
+
+Sunday 14th of May 2023 03:00:27 PM
+Resize test to 1024
+
+Sunday 14th of May 2023 03:00:27 PM
+Convert test to jpg
+
+Sunday 14th of May 2023 03:00:27 PM
+Array
+(
+    [0] => image_1
+    [1] => image_1 (3e copie)
+    [2] => image_1 (4e copie)
+    [3] => image_1 (5e copie)
+    [4] => image_1 (6e copie)
+    [5] => image_1 (7e copie)
+    [6] => image_1 (8e copie)
+    [7] => image_1 (9e copie)
+    [8] => image_1 (10e copie)
+    [9] => image_1 (11e copie)
+    [10] => image_1 (autre copie)
+    [11] => image_1 (copie)
+    [12] => image_2
+    [13] => image_2 (3e copie)
+    [14] => image_2 (4e copie)
+    [15] => image_2 (5e copie)
+    [16] => image_2 (6e copie)
+    [17] => image_2 (7e copie)
+    [18] => image_2 (8e copie)
+    [19] => image_2 (9e copie)
+    [20] => image_2 (10e copie)
+    [21] => image_2 (11e copie)
+    [22] => image_2 (autre copie)
+    [23] => image_2 (copie)
+    [24] => image_3
+    [25] => image_3 (3e copie)
+    [26] => image_3 (4e copie)
+    [27] => image_3 (5e copie)
+    [28] => image_3 (6e copie)
+    [29] => image_3 (7e copie)
+    [30] => image_3 (8e copie)
+    [31] => image_3 (9e copie)
+    [32] => image_3 (10e copie)
+    [33] => image_3 (11e copie)
+    [34] => image_3 (autre copie)
+    [35] => image_3 (copie)
+    [36] => image_4
+    [37] => image_4 (3e copie)
+    [38] => image_4 (4e copie)
+    [39] => image_4 (5e copie)
+    [40] => image_4 (6e copie)
+    [41] => image_4 (7e copie)
+    [42] => image_4 (8e copie)
+    [43] => image_4 (9e copie)
+    [44] => image_4 (10e copie)
+    [45] => image_4 (11e copie)
+    [46] => image_4 (autre copie)
+    [47] => image_4 (copie)
+    [48] => image_5
+    [49] => image_5 (3e copie)
+    [50] => image_5 (4e copie)
+    [51] => image_5 (5e copie)
+    [52] => image_5 (6e copie)
+    [53] => image_5 (7e copie)
+    [54] => image_5 (8e copie)
+    [55] => image_5 (9e copie)
+    [56] => image_5 (10e copie)
+    [57] => image_5 (11e copie)
+    [58] => image_5 (autre copie)
+    [59] => image_5 (copie)
+    [60] => image_6
+    [61] => image_6 (3e copie)
+    [62] => image_6 (4e copie)
+    [63] => image_6 (5e copie)
+    [64] => image_6 (6e copie)
+    [65] => image_6 (7e copie)
+    [66] => image_6 (8e copie)
+    [67] => test
+)
+
+
+Sunday 14th of May 2023 03:00:28 PM
+Resize test to 1024
+
+Sunday 14th of May 2023 03:00:28 PM
+Convert test to jpg
+
+Sunday 14th of May 2023 03:00:28 PM
+Array
+(
+    [0] => image_1
+    [1] => image_1 (3e copie)
+    [2] => image_1 (4e copie)
+    [3] => image_1 (5e copie)
+    [4] => image_1 (6e copie)
+    [5] => image_1 (7e copie)
+    [6] => image_1 (8e copie)
+    [7] => image_1 (9e copie)
+    [8] => image_1 (10e copie)
+    [9] => image_1 (11e copie)
+    [10] => image_1 (autre copie)
+    [11] => image_1 (copie)
+    [12] => image_2
+    [13] => image_2 (3e copie)
+    [14] => image_2 (4e copie)
+    [15] => image_2 (5e copie)
+    [16] => image_2 (6e copie)
+    [17] => image_2 (7e copie)
+    [18] => image_2 (8e copie)
+    [19] => image_2 (9e copie)
+    [20] => image_2 (10e copie)
+    [21] => image_2 (11e copie)
+    [22] => image_2 (autre copie)
+    [23] => image_2 (copie)
+    [24] => image_3
+    [25] => image_3 (3e copie)
+    [26] => image_3 (4e copie)
+    [27] => image_3 (5e copie)
+    [28] => image_3 (6e copie)
+    [29] => image_3 (7e copie)
+    [30] => image_3 (8e copie)
+    [31] => image_3 (9e copie)
+    [32] => image_3 (10e copie)
+    [33] => image_3 (11e copie)
+    [34] => image_3 (autre copie)
+    [35] => image_3 (copie)
+    [36] => image_4
+    [37] => image_4 (3e copie)
+    [38] => image_4 (4e copie)
+    [39] => image_4 (5e copie)
+    [40] => image_4 (6e copie)
+    [41] => image_4 (7e copie)
+    [42] => image_4 (8e copie)
+    [43] => image_4 (9e copie)
+    [44] => image_4 (10e copie)
+    [45] => image_4 (11e copie)
+    [46] => image_4 (autre copie)
+    [47] => image_4 (copie)
+    [48] => image_5
+    [49] => image_5 (3e copie)
+    [50] => image_5 (4e copie)
+    [51] => image_5 (5e copie)
+    [52] => image_5 (6e copie)
+    [53] => image_5 (7e copie)
+    [54] => image_5 (8e copie)
+    [55] => image_5 (9e copie)
+    [56] => image_5 (10e copie)
+    [57] => image_5 (11e copie)
+    [58] => image_5 (autre copie)
+    [59] => image_5 (copie)
+    [60] => image_6
+    [61] => image_6 (3e copie)
+    [62] => image_6 (4e copie)
+    [63] => image_6 (5e copie)
+    [64] => image_6 (6e copie)
+    [65] => image_6 (7e copie)
+    [66] => image_6 (8e copie)
+    [67] => test
+)
+
+
+Sunday 14th of May 2023 03:00:29 PM
+Resize test to 1024
+
+Sunday 14th of May 2023 03:00:29 PM
+Convert test to jpg
+
+Sunday 14th of May 2023 03:00:29 PM
+Array
+(
+    [0] => image_1
+    [1] => image_1 (3e copie)
+    [2] => image_1 (4e copie)
+    [3] => image_1 (5e copie)
+    [4] => image_1 (6e copie)
+    [5] => image_1 (7e copie)
+    [6] => image_1 (8e copie)
+    [7] => image_1 (9e copie)
+    [8] => image_1 (10e copie)
+    [9] => image_1 (11e copie)
+    [10] => image_1 (autre copie)
+    [11] => image_1 (copie)
+    [12] => image_2
+    [13] => image_2 (3e copie)
+    [14] => image_2 (4e copie)
+    [15] => image_2 (5e copie)
+    [16] => image_2 (6e copie)
+    [17] => image_2 (7e copie)
+    [18] => image_2 (8e copie)
+    [19] => image_2 (9e copie)
+    [20] => image_2 (10e copie)
+    [21] => image_2 (11e copie)
+    [22] => image_2 (autre copie)
+    [23] => image_2 (copie)
+    [24] => image_3
+    [25] => image_3 (3e copie)
+    [26] => image_3 (4e copie)
+    [27] => image_3 (5e copie)
+    [28] => image_3 (6e copie)
+    [29] => image_3 (7e copie)
+    [30] => image_3 (8e copie)
+    [31] => image_3 (9e copie)
+    [32] => image_3 (10e copie)
+    [33] => image_3 (11e copie)
+    [34] => image_3 (autre copie)
+    [35] => image_3 (copie)
+    [36] => image_4
+    [37] => image_4 (3e copie)
+    [38] => image_4 (4e copie)
+    [39] => image_4 (5e copie)
+    [40] => image_4 (6e copie)
+    [41] => image_4 (7e copie)
+    [42] => image_4 (8e copie)
+    [43] => image_4 (9e copie)
+    [44] => image_4 (10e copie)
+    [45] => image_4 (11e copie)
+    [46] => image_4 (autre copie)
+    [47] => image_4 (copie)
+    [48] => image_5
+    [49] => image_5 (3e copie)
+    [50] => image_5 (4e copie)
+    [51] => image_5 (5e copie)
+    [52] => image_5 (6e copie)
+    [53] => image_5 (7e copie)
+    [54] => image_5 (8e copie)
+    [55] => image_5 (9e copie)
+    [56] => image_5 (10e copie)
+    [57] => image_5 (11e copie)
+    [58] => image_5 (autre copie)
+    [59] => image_5 (copie)
+    [60] => image_6
+    [61] => image_6 (3e copie)
+    [62] => image_6 (4e copie)
+    [63] => image_6 (5e copie)
+    [64] => image_6 (6e copie)
+    [65] => image_6 (7e copie)
+    [66] => image_6 (8e copie)
+    [67] => test
+)
+
+
+Sunday 14th of May 2023 03:00:30 PM
+Resize test to 1024
+
+Sunday 14th of May 2023 03:00:30 PM
+Convert test to jpg
+
+Sunday 14th of May 2023 03:00:30 PM
+Array
+(
+    [0] => image_1
+    [1] => image_1 (3e copie)
+    [2] => image_1 (4e copie)
+    [3] => image_1 (5e copie)
+    [4] => image_1 (6e copie)
+    [5] => image_1 (7e copie)
+    [6] => image_1 (8e copie)
+    [7] => image_1 (9e copie)
+    [8] => image_1 (10e copie)
+    [9] => image_1 (11e copie)
+    [10] => image_1 (autre copie)
+    [11] => image_1 (copie)
+    [12] => image_2
+    [13] => image_2 (3e copie)
+    [14] => image_2 (4e copie)
+    [15] => image_2 (5e copie)
+    [16] => image_2 (6e copie)
+    [17] => image_2 (7e copie)
+    [18] => image_2 (8e copie)
+    [19] => image_2 (9e copie)
+    [20] => image_2 (10e copie)
+    [21] => image_2 (11e copie)
+    [22] => image_2 (autre copie)
+    [23] => image_2 (copie)
+    [24] => image_3
+    [25] => image_3 (3e copie)
+    [26] => image_3 (4e copie)
+    [27] => image_3 (5e copie)
+    [28] => image_3 (6e copie)
+    [29] => image_3 (7e copie)
+    [30] => image_3 (8e copie)
+    [31] => image_3 (9e copie)
+    [32] => image_3 (10e copie)
+    [33] => image_3 (11e copie)
+    [34] => image_3 (autre copie)
+    [35] => image_3 (copie)
+    [36] => image_4
+    [37] => image_4 (3e copie)
+    [38] => image_4 (4e copie)
+    [39] => image_4 (5e copie)
+    [40] => image_4 (6e copie)
+    [41] => image_4 (7e copie)
+    [42] => image_4 (8e copie)
+    [43] => image_4 (9e copie)
+    [44] => image_4 (10e copie)
+    [45] => image_4 (11e copie)
+    [46] => image_4 (autre copie)
+    [47] => image_4 (copie)
+    [48] => image_5
+    [49] => image_5 (3e copie)
+    [50] => image_5 (4e copie)
+    [51] => image_5 (5e copie)
+    [52] => image_5 (6e copie)
+    [53] => image_5 (7e copie)
+    [54] => image_5 (8e copie)
+    [55] => image_5 (9e copie)
+    [56] => image_5 (10e copie)
+    [57] => image_5 (11e copie)
+    [58] => image_5 (autre copie)
+    [59] => image_5 (copie)
+    [60] => image_6
+    [61] => image_6 (3e copie)
+    [62] => image_6 (4e copie)
+    [63] => image_6 (5e copie)
+    [64] => image_6 (6e copie)
+    [65] => image_6 (7e copie)
+    [66] => image_6 (8e copie)
+    [67] => test
+)
+
+
+Sunday 14th of May 2023 03:00:31 PM
+Resize test to 1024
+
+Sunday 14th of May 2023 03:00:31 PM
+Convert test to jpg
+
+Sunday 14th of May 2023 03:00:31 PM
+Array
+(
+    [0] => image_1
+    [1] => image_1 (3e copie)
+    [2] => image_1 (4e copie)
+    [3] => image_1 (5e copie)
+    [4] => image_1 (6e copie)
+    [5] => image_1 (7e copie)
+    [6] => image_1 (8e copie)
+    [7] => image_1 (9e copie)
+    [8] => image_1 (10e copie)
+    [9] => image_1 (11e copie)
+    [10] => image_1 (autre copie)
+    [11] => image_1 (copie)
+    [12] => image_2
+    [13] => image_2 (3e copie)
+    [14] => image_2 (4e copie)
+    [15] => image_2 (5e copie)
+    [16] => image_2 (6e copie)
+    [17] => image_2 (7e copie)
+    [18] => image_2 (8e copie)
+    [19] => image_2 (9e copie)
+    [20] => image_2 (10e copie)
+    [21] => image_2 (11e copie)
+    [22] => image_2 (autre copie)
+    [23] => image_2 (copie)
+    [24] => image_3
+    [25] => image_3 (3e copie)
+    [26] => image_3 (4e copie)
+    [27] => image_3 (5e copie)
+    [28] => image_3 (6e copie)
+    [29] => image_3 (7e copie)
+    [30] => image_3 (8e copie)
+    [31] => image_3 (9e copie)
+    [32] => image_3 (10e copie)
+    [33] => image_3 (11e copie)
+    [34] => image_3 (autre copie)
+    [35] => image_3 (copie)
+    [36] => image_4
+    [37] => image_4 (3e copie)
+    [38] => image_4 (4e copie)
+    [39] => image_4 (5e copie)
+    [40] => image_4 (6e copie)
+    [41] => image_4 (7e copie)
+    [42] => image_4 (8e copie)
+    [43] => image_4 (9e copie)
+    [44] => image_4 (10e copie)
+    [45] => image_4 (11e copie)
+    [46] => image_4 (autre copie)
+    [47] => image_4 (copie)
+    [48] => image_5
+    [49] => image_5 (3e copie)
+    [50] => image_5 (4e copie)
+    [51] => image_5 (5e copie)
+    [52] => image_5 (6e copie)
+    [53] => image_5 (7e copie)
+    [54] => image_5 (8e copie)
+    [55] => image_5 (9e copie)
+    [56] => image_5 (10e copie)
+    [57] => image_5 (11e copie)
+    [58] => image_5 (autre copie)
+    [59] => image_5 (copie)
+    [60] => image_6
+    [61] => image_6 (3e copie)
+    [62] => image_6 (4e copie)
+    [63] => image_6 (5e copie)
+    [64] => image_6 (6e copie)
+    [65] => image_6 (7e copie)
+    [66] => image_6 (8e copie)
+    [67] => test
+)
+
+
+Sunday 14th of May 2023 03:00:32 PM
+Resize test to 1024
+
+Sunday 14th of May 2023 03:00:32 PM
+Convert test to jpg
+
+Sunday 14th of May 2023 03:00:33 PM
+Array
+(
+    [0] => image_1
+    [1] => image_1 (3e copie)
+    [2] => image_1 (4e copie)
+    [3] => image_1 (5e copie)
+    [4] => image_1 (6e copie)
+    [5] => image_1 (7e copie)
+    [6] => image_1 (8e copie)
+    [7] => image_1 (9e copie)
+    [8] => image_1 (10e copie)
+    [9] => image_1 (11e copie)
+    [10] => image_1 (autre copie)
+    [11] => image_1 (copie)
+    [12] => image_2
+    [13] => image_2 (3e copie)
+    [14] => image_2 (4e copie)
+    [15] => image_2 (5e copie)
+    [16] => image_2 (6e copie)
+    [17] => image_2 (7e copie)
+    [18] => image_2 (8e copie)
+    [19] => image_2 (9e copie)
+    [20] => image_2 (10e copie)
+    [21] => image_2 (11e copie)
+    [22] => image_2 (autre copie)
+    [23] => image_2 (copie)
+    [24] => image_3
+    [25] => image_3 (3e copie)
+    [26] => image_3 (4e copie)
+    [27] => image_3 (5e copie)
+    [28] => image_3 (6e copie)
+    [29] => image_3 (7e copie)
+    [30] => image_3 (8e copie)
+    [31] => image_3 (9e copie)
+    [32] => image_3 (10e copie)
+    [33] => image_3 (11e copie)
+    [34] => image_3 (autre copie)
+    [35] => image_3 (copie)
+    [36] => image_4
+    [37] => image_4 (3e copie)
+    [38] => image_4 (4e copie)
+    [39] => image_4 (5e copie)
+    [40] => image_4 (6e copie)
+    [41] => image_4 (7e copie)
+    [42] => image_4 (8e copie)
+    [43] => image_4 (9e copie)
+    [44] => image_4 (10e copie)
+    [45] => image_4 (11e copie)
+    [46] => image_4 (autre copie)
+    [47] => image_4 (copie)
+    [48] => image_5
+    [49] => image_5 (3e copie)
+    [50] => image_5 (4e copie)
+    [51] => image_5 (5e copie)
+    [52] => image_5 (6e copie)
+    [53] => image_5 (7e copie)
+    [54] => image_5 (8e copie)
+    [55] => image_5 (9e copie)
+    [56] => image_5 (10e copie)
+    [57] => image_5 (11e copie)
+    [58] => image_5 (autre copie)
+    [59] => image_5 (copie)
+    [60] => image_6
+    [61] => image_6 (3e copie)
+    [62] => image_6 (4e copie)
+    [63] => image_6 (5e copie)
+    [64] => image_6 (6e copie)
+    [65] => image_6 (7e copie)
+    [66] => image_6 (8e copie)
+    [67] => test
+)
+
+
+Sunday 14th of May 2023 03:00:34 PM
+Resize test to 1024
+
+Sunday 14th of May 2023 03:00:34 PM
+Convert test to jpg
+
+Sunday 14th of May 2023 03:00:34 PM
+Array
+(
+    [0] => image_1
+    [1] => image_1 (3e copie)
+    [2] => image_1 (4e copie)
+    [3] => image_1 (5e copie)
+    [4] => image_1 (6e copie)
+    [5] => image_1 (7e copie)
+    [6] => image_1 (8e copie)
+    [7] => image_1 (9e copie)
+    [8] => image_1 (10e copie)
+    [9] => image_1 (11e copie)
+    [10] => image_1 (autre copie)
+    [11] => image_1 (copie)
+    [12] => image_2
+    [13] => image_2 (3e copie)
+    [14] => image_2 (4e copie)
+    [15] => image_2 (5e copie)
+    [16] => image_2 (6e copie)
+    [17] => image_2 (7e copie)
+    [18] => image_2 (8e copie)
+    [19] => image_2 (9e copie)
+    [20] => image_2 (10e copie)
+    [21] => image_2 (11e copie)
+    [22] => image_2 (autre copie)
+    [23] => image_2 (copie)
+    [24] => image_3
+    [25] => image_3 (3e copie)
+    [26] => image_3 (4e copie)
+    [27] => image_3 (5e copie)
+    [28] => image_3 (6e copie)
+    [29] => image_3 (7e copie)
+    [30] => image_3 (8e copie)
+    [31] => image_3 (9e copie)
+    [32] => image_3 (10e copie)
+    [33] => image_3 (11e copie)
+    [34] => image_3 (autre copie)
+    [35] => image_3 (copie)
+    [36] => image_4
+    [37] => image_4 (3e copie)
+    [38] => image_4 (4e copie)
+    [39] => image_4 (5e copie)
+    [40] => image_4 (6e copie)
+    [41] => image_4 (7e copie)
+    [42] => image_4 (8e copie)
+    [43] => image_4 (9e copie)
+    [44] => image_4 (10e copie)
+    [45] => image_4 (11e copie)
+    [46] => image_4 (autre copie)
+    [47] => image_4 (copie)
+    [48] => image_5
+    [49] => image_5 (3e copie)
+    [50] => image_5 (4e copie)
+    [51] => image_5 (5e copie)
+    [52] => image_5 (6e copie)
+    [53] => image_5 (7e copie)
+    [54] => image_5 (8e copie)
+    [55] => image_5 (9e copie)
+    [56] => image_5 (10e copie)
+    [57] => image_5 (11e copie)
+    [58] => image_5 (autre copie)
+    [59] => image_5 (copie)
+    [60] => image_6
+    [61] => image_6 (3e copie)
+    [62] => image_6 (4e copie)
+    [63] => image_6 (5e copie)
+    [64] => image_6 (6e copie)
+    [65] => image_6 (7e copie)
+    [66] => image_6 (8e copie)
+    [67] => test
+)
+
+
+Sunday 14th of May 2023 03:00:35 PM
+Resize test to 1024
+
+Sunday 14th of May 2023 03:00:44 PM
+Warning: PHP max file uploads have this current limit: 30
+
+Sunday 14th of May 2023 03:00:44 PM
+Warning: PHP max input time have this current limit: 60
+
+Sunday 14th of May 2023 03:00:45 PM
+Array
+(
+    [0] => image_1
+    [1] => image_1 (3e copie)
+    [2] => image_1 (4e copie)
+    [3] => image_1 (5e copie)
+    [4] => image_1 (6e copie)
+    [5] => image_1 (7e copie)
+    [6] => image_1 (8e copie)
+    [7] => image_1 (9e copie)
+    [8] => image_1 (10e copie)
+    [9] => image_1 (11e copie)
+    [10] => image_1 (autre copie)
+    [11] => image_1 (copie)
+    [12] => image_2
+    [13] => image_2 (3e copie)
+    [14] => image_2 (4e copie)
+    [15] => image_2 (5e copie)
+    [16] => image_2 (6e copie)
+    [17] => image_2 (7e copie)
+    [18] => image_2 (8e copie)
+    [19] => image_2 (9e copie)
+    [20] => image_2 (10e copie)
+    [21] => image_2 (11e copie)
+    [22] => image_2 (autre copie)
+    [23] => image_2 (copie)
+    [24] => image_3
+    [25] => image_3 (3e copie)
+    [26] => image_3 (4e copie)
+    [27] => image_3 (5e copie)
+    [28] => image_3 (6e copie)
+    [29] => image_3 (7e copie)
+    [30] => image_3 (8e copie)
+    [31] => image_3 (9e copie)
+    [32] => image_3 (10e copie)
+    [33] => image_3 (11e copie)
+    [34] => image_3 (autre copie)
+    [35] => image_3 (copie)
+    [36] => image_4
+    [37] => image_4 (3e copie)
+    [38] => image_4 (4e copie)
+    [39] => image_4 (5e copie)
+    [40] => image_4 (6e copie)
+    [41] => image_4 (7e copie)
+    [42] => image_4 (8e copie)
+    [43] => image_4 (9e copie)
+    [44] => image_4 (10e copie)
+    [45] => image_4 (11e copie)
+    [46] => image_4 (autre copie)
+    [47] => image_4 (copie)
+    [48] => image_5
+    [49] => image_5 (3e copie)
+    [50] => image_5 (4e copie)
+    [51] => image_5 (5e copie)
+    [52] => image_5 (6e copie)
+    [53] => image_5 (7e copie)
+    [54] => image_5 (8e copie)
+    [55] => image_5 (9e copie)
+    [56] => image_5 (10e copie)
+    [57] => image_5 (11e copie)
+    [58] => image_5 (autre copie)
+    [59] => image_5 (copie)
+    [60] => image_6
+    [61] => image_6 (3e copie)
+    [62] => image_6 (4e copie)
+    [63] => image_6 (5e copie)
+    [64] => image_6 (6e copie)
+    [65] => image_6 (7e copie)
+    [66] => image_6 (8e copie)
+    [67] => image_6 (9e copie)
+    [68] => image_6 (10e copie)
+    [69] => image_6 (11e copie)
+    [70] => image_6 (autre copie)
+    [71] => image_6 (copie)
+    [72] => image_7
+    [73] => image_7 (3e copie)
+    [74] => image_7 (4e copie)
+    [75] => image_7 (5e copie)
+    [76] => image_7 (6e copie)
+    [77] => image_7 (7e copie)
+)
+
+
+Sunday 14th of May 2023 03:00:46 PM
+Resize test to 1024
+
+Sunday 14th of May 2023 03:00:46 PM
+Convert test to jpg
+
+Sunday 14th of May 2023 03:00:46 PM
+Array
+(
+    [0] => image_1
+    [1] => image_1 (3e copie)
+    [2] => image_1 (4e copie)
+    [3] => image_1 (5e copie)
+    [4] => image_1 (6e copie)
+    [5] => image_1 (7e copie)
+    [6] => image_1 (8e copie)
+    [7] => image_1 (9e copie)
+    [8] => image_1 (10e copie)
+    [9] => image_1 (11e copie)
+    [10] => image_1 (autre copie)
+    [11] => image_1 (copie)
+    [12] => image_2
+    [13] => image_2 (3e copie)
+    [14] => image_2 (4e copie)
+    [15] => image_2 (5e copie)
+    [16] => image_2 (6e copie)
+    [17] => image_2 (7e copie)
+    [18] => image_2 (8e copie)
+    [19] => image_2 (9e copie)
+    [20] => image_2 (10e copie)
+    [21] => image_2 (11e copie)
+    [22] => image_2 (autre copie)
+    [23] => image_2 (copie)
+    [24] => image_3
+    [25] => image_3 (3e copie)
+    [26] => image_3 (4e copie)
+    [27] => image_3 (5e copie)
+    [28] => image_3 (6e copie)
+    [29] => image_3 (7e copie)
+    [30] => image_3 (8e copie)
+    [31] => image_3 (9e copie)
+    [32] => image_3 (10e copie)
+    [33] => image_3 (11e copie)
+    [34] => image_3 (autre copie)
+    [35] => image_3 (copie)
+    [36] => image_4
+    [37] => image_4 (3e copie)
+    [38] => image_4 (4e copie)
+    [39] => image_4 (5e copie)
+    [40] => image_4 (6e copie)
+    [41] => image_4 (7e copie)
+    [42] => image_4 (8e copie)
+    [43] => image_4 (9e copie)
+    [44] => image_4 (10e copie)
+    [45] => image_4 (11e copie)
+    [46] => image_4 (autre copie)
+    [47] => image_4 (copie)
+    [48] => image_5
+    [49] => image_5 (3e copie)
+    [50] => image_5 (4e copie)
+    [51] => image_5 (5e copie)
+    [52] => image_5 (6e copie)
+    [53] => image_5 (7e copie)
+    [54] => image_5 (8e copie)
+    [55] => image_5 (9e copie)
+    [56] => image_5 (10e copie)
+    [57] => image_5 (11e copie)
+    [58] => image_5 (autre copie)
+    [59] => image_5 (copie)
+    [60] => image_6
+    [61] => image_6 (3e copie)
+    [62] => image_6 (4e copie)
+    [63] => image_6 (5e copie)
+    [64] => image_6 (6e copie)
+    [65] => image_6 (7e copie)
+    [66] => image_6 (8e copie)
+    [67] => image_6 (9e copie)
+    [68] => image_6 (10e copie)
+    [69] => image_6 (11e copie)
+    [70] => image_6 (autre copie)
+    [71] => image_6 (copie)
+    [72] => image_7
+    [73] => image_7 (3e copie)
+    [74] => image_7 (4e copie)
+    [75] => image_7 (5e copie)
+    [76] => image_7 (6e copie)
+    [77] => test
+)
+
+
+Sunday 14th of May 2023 03:00:47 PM
+Resize test to 1024
+
+Sunday 14th of May 2023 03:00:47 PM
+Convert test to jpg
+
+Sunday 14th of May 2023 03:00:47 PM
+Array
+(
+    [0] => image_1
+    [1] => image_1 (3e copie)
+    [2] => image_1 (4e copie)
+    [3] => image_1 (5e copie)
+    [4] => image_1 (6e copie)
+    [5] => image_1 (7e copie)
+    [6] => image_1 (8e copie)
+    [7] => image_1 (9e copie)
+    [8] => image_1 (10e copie)
+    [9] => image_1 (11e copie)
+    [10] => image_1 (autre copie)
+    [11] => image_1 (copie)
+    [12] => image_2
+    [13] => image_2 (3e copie)
+    [14] => image_2 (4e copie)
+    [15] => image_2 (5e copie)
+    [16] => image_2 (6e copie)
+    [17] => image_2 (7e copie)
+    [18] => image_2 (8e copie)
+    [19] => image_2 (9e copie)
+    [20] => image_2 (10e copie)
+    [21] => image_2 (11e copie)
+    [22] => image_2 (autre copie)
+    [23] => image_2 (copie)
+    [24] => image_3
+    [25] => image_3 (3e copie)
+    [26] => image_3 (4e copie)
+    [27] => image_3 (5e copie)
+    [28] => image_3 (6e copie)
+    [29] => image_3 (7e copie)
+    [30] => image_3 (8e copie)
+    [31] => image_3 (9e copie)
+    [32] => image_3 (10e copie)
+    [33] => image_3 (11e copie)
+    [34] => image_3 (autre copie)
+    [35] => image_3 (copie)
+    [36] => image_4
+    [37] => image_4 (3e copie)
+    [38] => image_4 (4e copie)
+    [39] => image_4 (5e copie)
+    [40] => image_4 (6e copie)
+    [41] => image_4 (7e copie)
+    [42] => image_4 (8e copie)
+    [43] => image_4 (9e copie)
+    [44] => image_4 (10e copie)
+    [45] => image_4 (11e copie)
+    [46] => image_4 (autre copie)
+    [47] => image_4 (copie)
+    [48] => image_5
+    [49] => image_5 (3e copie)
+    [50] => image_5 (4e copie)
+    [51] => image_5 (5e copie)
+    [52] => image_5 (6e copie)
+    [53] => image_5 (7e copie)
+    [54] => image_5 (8e copie)
+    [55] => image_5 (9e copie)
+    [56] => image_5 (10e copie)
+    [57] => image_5 (11e copie)
+    [58] => image_5 (autre copie)
+    [59] => image_5 (copie)
+    [60] => image_6
+    [61] => image_6 (3e copie)
+    [62] => image_6 (4e copie)
+    [63] => image_6 (5e copie)
+    [64] => image_6 (6e copie)
+    [65] => image_6 (7e copie)
+    [66] => image_6 (8e copie)
+    [67] => image_6 (9e copie)
+    [68] => image_6 (10e copie)
+    [69] => image_6 (11e copie)
+    [70] => image_6 (autre copie)
+    [71] => image_6 (copie)
+    [72] => image_7
+    [73] => image_7 (3e copie)
+    [74] => image_7 (4e copie)
+    [75] => image_7 (5e copie)
+    [76] => image_7 (6e copie)
+    [77] => test
+)
+
+
+Sunday 14th of May 2023 03:00:48 PM
+Resize test to 1024
+
+Sunday 14th of May 2023 03:00:48 PM
+Convert test to jpg
+
+Sunday 14th of May 2023 03:00:48 PM
+Array
+(
+    [0] => image_1
+    [1] => image_1 (3e copie)
+    [2] => image_1 (4e copie)
+    [3] => image_1 (5e copie)
+    [4] => image_1 (6e copie)
+    [5] => image_1 (7e copie)
+    [6] => image_1 (8e copie)
+    [7] => image_1 (9e copie)
+    [8] => image_1 (10e copie)
+    [9] => image_1 (11e copie)
+    [10] => image_1 (autre copie)
+    [11] => image_1 (copie)
+    [12] => image_2
+    [13] => image_2 (3e copie)
+    [14] => image_2 (4e copie)
+    [15] => image_2 (5e copie)
+    [16] => image_2 (6e copie)
+    [17] => image_2 (7e copie)
+    [18] => image_2 (8e copie)
+    [19] => image_2 (9e copie)
+    [20] => image_2 (10e copie)
+    [21] => image_2 (11e copie)
+    [22] => image_2 (autre copie)
+    [23] => image_2 (copie)
+    [24] => image_3
+    [25] => image_3 (3e copie)
+    [26] => image_3 (4e copie)
+    [27] => image_3 (5e copie)
+    [28] => image_3 (6e copie)
+    [29] => image_3 (7e copie)
+    [30] => image_3 (8e copie)
+    [31] => image_3 (9e copie)
+    [32] => image_3 (10e copie)
+    [33] => image_3 (11e copie)
+    [34] => image_3 (autre copie)
+    [35] => image_3 (copie)
+    [36] => image_4
+    [37] => image_4 (3e copie)
+    [38] => image_4 (4e copie)
+    [39] => image_4 (5e copie)
+    [40] => image_4 (6e copie)
+    [41] => image_4 (7e copie)
+    [42] => image_4 (8e copie)
+    [43] => image_4 (9e copie)
+    [44] => image_4 (10e copie)
+    [45] => image_4 (11e copie)
+    [46] => image_4 (autre copie)
+    [47] => image_4 (copie)
+    [48] => image_5
+    [49] => image_5 (3e copie)
+    [50] => image_5 (4e copie)
+    [51] => image_5 (5e copie)
+    [52] => image_5 (6e copie)
+    [53] => image_5 (7e copie)
+    [54] => image_5 (8e copie)
+    [55] => image_5 (9e copie)
+    [56] => image_5 (10e copie)
+    [57] => image_5 (11e copie)
+    [58] => image_5 (autre copie)
+    [59] => image_5 (copie)
+    [60] => image_6
+    [61] => image_6 (3e copie)
+    [62] => image_6 (4e copie)
+    [63] => image_6 (5e copie)
+    [64] => image_6 (6e copie)
+    [65] => image_6 (7e copie)
+    [66] => image_6 (8e copie)
+    [67] => image_6 (9e copie)
+    [68] => image_6 (10e copie)
+    [69] => image_6 (11e copie)
+    [70] => image_6 (autre copie)
+    [71] => image_6 (copie)
+    [72] => image_7
+    [73] => image_7 (3e copie)
+    [74] => image_7 (4e copie)
+    [75] => image_7 (5e copie)
+    [76] => image_7 (6e copie)
+    [77] => test
+)
+
+
+Sunday 14th of May 2023 03:00:49 PM
+Resize test to 1024
+
+Sunday 14th of May 2023 03:00:49 PM
+Convert test to jpg
+
+Sunday 14th of May 2023 03:00:49 PM
+Array
+(
+    [0] => image_1
+    [1] => image_1 (3e copie)
+    [2] => image_1 (4e copie)
+    [3] => image_1 (5e copie)
+    [4] => image_1 (6e copie)
+    [5] => image_1 (7e copie)
+    [6] => image_1 (8e copie)
+    [7] => image_1 (9e copie)
+    [8] => image_1 (10e copie)
+    [9] => image_1 (11e copie)
+    [10] => image_1 (autre copie)
+    [11] => image_1 (copie)
+    [12] => image_2
+    [13] => image_2 (3e copie)
+    [14] => image_2 (4e copie)
+    [15] => image_2 (5e copie)
+    [16] => image_2 (6e copie)
+    [17] => image_2 (7e copie)
+    [18] => image_2 (8e copie)
+    [19] => image_2 (9e copie)
+    [20] => image_2 (10e copie)
+    [21] => image_2 (11e copie)
+    [22] => image_2 (autre copie)
+    [23] => image_2 (copie)
+    [24] => image_3
+    [25] => image_3 (3e copie)
+    [26] => image_3 (4e copie)
+    [27] => image_3 (5e copie)
+    [28] => image_3 (6e copie)
+    [29] => image_3 (7e copie)
+    [30] => image_3 (8e copie)
+    [31] => image_3 (9e copie)
+    [32] => image_3 (10e copie)
+    [33] => image_3 (11e copie)
+    [34] => image_3 (autre copie)
+    [35] => image_3 (copie)
+    [36] => image_4
+    [37] => image_4 (3e copie)
+    [38] => image_4 (4e copie)
+    [39] => image_4 (5e copie)
+    [40] => image_4 (6e copie)
+    [41] => image_4 (7e copie)
+    [42] => image_4 (8e copie)
+    [43] => image_4 (9e copie)
+    [44] => image_4 (10e copie)
+    [45] => image_4 (11e copie)
+    [46] => image_4 (autre copie)
+    [47] => image_4 (copie)
+    [48] => image_5
+    [49] => image_5 (3e copie)
+    [50] => image_5 (4e copie)
+    [51] => image_5 (5e copie)
+    [52] => image_5 (6e copie)
+    [53] => image_5 (7e copie)
+    [54] => image_5 (8e copie)
+    [55] => image_5 (9e copie)
+    [56] => image_5 (10e copie)
+    [57] => image_5 (11e copie)
+    [58] => image_5 (autre copie)
+    [59] => image_5 (copie)
+    [60] => image_6
+    [61] => image_6 (3e copie)
+    [62] => image_6 (4e copie)
+    [63] => image_6 (5e copie)
+    [64] => image_6 (6e copie)
+    [65] => image_6 (7e copie)
+    [66] => image_6 (8e copie)
+    [67] => image_6 (9e copie)
+    [68] => image_6 (10e copie)
+    [69] => image_6 (11e copie)
+    [70] => image_6 (autre copie)
+    [71] => image_6 (copie)
+    [72] => image_7
+    [73] => image_7 (3e copie)
+    [74] => image_7 (4e copie)
+    [75] => image_7 (5e copie)
+    [76] => image_7 (6e copie)
+    [77] => test
+)
+
+
+Sunday 14th of May 2023 03:00:49 PM
+Resize test to 1024
+
+Sunday 14th of May 2023 03:00:49 PM
+Convert test to jpg
+
+Sunday 14th of May 2023 03:00:50 PM
+Array
+(
+    [0] => image_1
+    [1] => image_1 (3e copie)
+    [2] => image_1 (4e copie)
+    [3] => image_1 (5e copie)
+    [4] => image_1 (6e copie)
+    [5] => image_1 (7e copie)
+    [6] => image_1 (8e copie)
+    [7] => image_1 (9e copie)
+    [8] => image_1 (10e copie)
+    [9] => image_1 (11e copie)
+    [10] => image_1 (autre copie)
+    [11] => image_1 (copie)
+    [12] => image_2
+    [13] => image_2 (3e copie)
+    [14] => image_2 (4e copie)
+    [15] => image_2 (5e copie)
+    [16] => image_2 (6e copie)
+    [17] => image_2 (7e copie)
+    [18] => image_2 (8e copie)
+    [19] => image_2 (9e copie)
+    [20] => image_2 (10e copie)
+    [21] => image_2 (11e copie)
+    [22] => image_2 (autre copie)
+    [23] => image_2 (copie)
+    [24] => image_3
+    [25] => image_3 (3e copie)
+    [26] => image_3 (4e copie)
+    [27] => image_3 (5e copie)
+    [28] => image_3 (6e copie)
+    [29] => image_3 (7e copie)
+    [30] => image_3 (8e copie)
+    [31] => image_3 (9e copie)
+    [32] => image_3 (10e copie)
+    [33] => image_3 (11e copie)
+    [34] => image_3 (autre copie)
+    [35] => image_3 (copie)
+    [36] => image_4
+    [37] => image_4 (3e copie)
+    [38] => image_4 (4e copie)
+    [39] => image_4 (5e copie)
+    [40] => image_4 (6e copie)
+    [41] => image_4 (7e copie)
+    [42] => image_4 (8e copie)
+    [43] => image_4 (9e copie)
+    [44] => image_4 (10e copie)
+    [45] => image_4 (11e copie)
+    [46] => image_4 (autre copie)
+    [47] => image_4 (copie)
+    [48] => image_5
+    [49] => image_5 (3e copie)
+    [50] => image_5 (4e copie)
+    [51] => image_5 (5e copie)
+    [52] => image_5 (6e copie)
+    [53] => image_5 (7e copie)
+    [54] => image_5 (8e copie)
+    [55] => image_5 (9e copie)
+    [56] => image_5 (10e copie)
+    [57] => image_5 (11e copie)
+    [58] => image_5 (autre copie)
+    [59] => image_5 (copie)
+    [60] => image_6
+    [61] => image_6 (3e copie)
+    [62] => image_6 (4e copie)
+    [63] => image_6 (5e copie)
+    [64] => image_6 (6e copie)
+    [65] => image_6 (7e copie)
+    [66] => image_6 (8e copie)
+    [67] => image_6 (9e copie)
+    [68] => image_6 (10e copie)
+    [69] => image_6 (11e copie)
+    [70] => image_6 (autre copie)
+    [71] => image_6 (copie)
+    [72] => image_7
+    [73] => image_7 (3e copie)
+    [74] => image_7 (4e copie)
+    [75] => image_7 (5e copie)
+    [76] => image_7 (6e copie)
+    [77] => test
+)
+
+
+Sunday 14th of May 2023 03:00:50 PM
+Resize test to 1024
+
+Sunday 14th of May 2023 03:00:50 PM
+Convert test to jpg
+
+Sunday 14th of May 2023 03:00:50 PM
+Array
+(
+    [0] => image_1
+    [1] => image_1 (3e copie)
+    [2] => image_1 (4e copie)
+    [3] => image_1 (5e copie)
+    [4] => image_1 (6e copie)
+    [5] => image_1 (7e copie)
+    [6] => image_1 (8e copie)
+    [7] => image_1 (9e copie)
+    [8] => image_1 (10e copie)
+    [9] => image_1 (11e copie)
+    [10] => image_1 (autre copie)
+    [11] => image_1 (copie)
+    [12] => image_2
+    [13] => image_2 (3e copie)
+    [14] => image_2 (4e copie)
+    [15] => image_2 (5e copie)
+    [16] => image_2 (6e copie)
+    [17] => image_2 (7e copie)
+    [18] => image_2 (8e copie)
+    [19] => image_2 (9e copie)
+    [20] => image_2 (10e copie)
+    [21] => image_2 (11e copie)
+    [22] => image_2 (autre copie)
+    [23] => image_2 (copie)
+    [24] => image_3
+    [25] => image_3 (3e copie)
+    [26] => image_3 (4e copie)
+    [27] => image_3 (5e copie)
+    [28] => image_3 (6e copie)
+    [29] => image_3 (7e copie)
+    [30] => image_3 (8e copie)
+    [31] => image_3 (9e copie)
+    [32] => image_3 (10e copie)
+    [33] => image_3 (11e copie)
+    [34] => image_3 (autre copie)
+    [35] => image_3 (copie)
+    [36] => image_4
+    [37] => image_4 (3e copie)
+    [38] => image_4 (4e copie)
+    [39] => image_4 (5e copie)
+    [40] => image_4 (6e copie)
+    [41] => image_4 (7e copie)
+    [42] => image_4 (8e copie)
+    [43] => image_4 (9e copie)
+    [44] => image_4 (10e copie)
+    [45] => image_4 (11e copie)
+    [46] => image_4 (autre copie)
+    [47] => image_4 (copie)
+    [48] => image_5
+    [49] => image_5 (3e copie)
+    [50] => image_5 (4e copie)
+    [51] => image_5 (5e copie)
+    [52] => image_5 (6e copie)
+    [53] => image_5 (7e copie)
+    [54] => image_5 (8e copie)
+    [55] => image_5 (9e copie)
+    [56] => image_5 (10e copie)
+    [57] => image_5 (11e copie)
+    [58] => image_5 (autre copie)
+    [59] => image_5 (copie)
+    [60] => image_6
+    [61] => image_6 (3e copie)
+    [62] => image_6 (4e copie)
+    [63] => image_6 (5e copie)
+    [64] => image_6 (6e copie)
+    [65] => image_6 (7e copie)
+    [66] => image_6 (8e copie)
+    [67] => image_6 (9e copie)
+    [68] => image_6 (10e copie)
+    [69] => image_6 (11e copie)
+    [70] => image_6 (autre copie)
+    [71] => image_6 (copie)
+    [72] => image_7
+    [73] => image_7 (3e copie)
+    [74] => image_7 (4e copie)
+    [75] => image_7 (5e copie)
+    [76] => image_7 (6e copie)
+    [77] => test
+)
+
+
+Sunday 14th of May 2023 03:00:52 PM
+Resize test to 1024
+
+Sunday 14th of May 2023 03:00:52 PM
+Convert test to jpg
+
+Sunday 14th of May 2023 03:00:52 PM
+Array
+(
+    [0] => image_1
+    [1] => image_1 (3e copie)
+    [2] => image_1 (4e copie)
+    [3] => image_1 (5e copie)
+    [4] => image_1 (6e copie)
+    [5] => image_1 (7e copie)
+    [6] => image_1 (8e copie)
+    [7] => image_1 (9e copie)
+    [8] => image_1 (10e copie)
+    [9] => image_1 (11e copie)
+    [10] => image_1 (autre copie)
+    [11] => image_1 (copie)
+    [12] => image_2
+    [13] => image_2 (3e copie)
+    [14] => image_2 (4e copie)
+    [15] => image_2 (5e copie)
+    [16] => image_2 (6e copie)
+    [17] => image_2 (7e copie)
+    [18] => image_2 (8e copie)
+    [19] => image_2 (9e copie)
+    [20] => image_2 (10e copie)
+    [21] => image_2 (11e copie)
+    [22] => image_2 (autre copie)
+    [23] => image_2 (copie)
+    [24] => image_3
+    [25] => image_3 (3e copie)
+    [26] => image_3 (4e copie)
+    [27] => image_3 (5e copie)
+    [28] => image_3 (6e copie)
+    [29] => image_3 (7e copie)
+    [30] => image_3 (8e copie)
+    [31] => image_3 (9e copie)
+    [32] => image_3 (10e copie)
+    [33] => image_3 (11e copie)
+    [34] => image_3 (autre copie)
+    [35] => image_3 (copie)
+    [36] => image_4
+    [37] => image_4 (3e copie)
+    [38] => image_4 (4e copie)
+    [39] => image_4 (5e copie)
+    [40] => image_4 (6e copie)
+    [41] => image_4 (7e copie)
+    [42] => image_4 (8e copie)
+    [43] => image_4 (9e copie)
+    [44] => image_4 (10e copie)
+    [45] => image_4 (11e copie)
+    [46] => image_4 (autre copie)
+    [47] => image_4 (copie)
+    [48] => image_5
+    [49] => image_5 (3e copie)
+    [50] => image_5 (4e copie)
+    [51] => image_5 (5e copie)
+    [52] => image_5 (6e copie)
+    [53] => image_5 (7e copie)
+    [54] => image_5 (8e copie)
+    [55] => image_5 (9e copie)
+    [56] => image_5 (10e copie)
+    [57] => image_5 (11e copie)
+    [58] => image_5 (autre copie)
+    [59] => image_5 (copie)
+    [60] => image_6
+    [61] => image_6 (3e copie)
+    [62] => image_6 (4e copie)
+    [63] => image_6 (5e copie)
+    [64] => image_6 (6e copie)
+    [65] => image_6 (7e copie)
+    [66] => image_6 (8e copie)
+    [67] => image_6 (9e copie)
+    [68] => image_6 (10e copie)
+    [69] => image_6 (11e copie)
+    [70] => image_6 (autre copie)
+    [71] => image_6 (copie)
+    [72] => image_7
+    [73] => image_7 (3e copie)
+    [74] => image_7 (4e copie)
+    [75] => image_7 (5e copie)
+    [76] => image_7 (6e copie)
+    [77] => test
+)
+
+
+Sunday 14th of May 2023 03:00:53 PM
+Resize test to 1024
+
+Sunday 14th of May 2023 03:01:37 PM
+Warning: PHP max file uploads have this current limit: 30
+
+Sunday 14th of May 2023 03:01:37 PM
+Warning: PHP max input time have this current limit: 60
+
+Sunday 14th of May 2023 03:01:37 PM
+Array
+(
+    [0] => image_1
+    [1] => image_1 (3e copie)
+    [2] => image_1 (4e copie)
+    [3] => image_1 (5e copie)
+    [4] => image_1 (6e copie)
+    [5] => image_1 (7e copie)
+    [6] => image_1 (8e copie)
+    [7] => image_1 (9e copie)
+    [8] => image_1 (10e copie)
+    [9] => image_1 (11e copie)
+    [10] => image_1 (autre copie)
+    [11] => image_1 (copie)
+    [12] => image_2
+    [13] => image_2 (3e copie)
+    [14] => image_2 (4e copie)
+    [15] => image_2 (5e copie)
+    [16] => image_2 (6e copie)
+    [17] => image_2 (7e copie)
+    [18] => image_2 (8e copie)
+    [19] => image_2 (9e copie)
+    [20] => image_2 (10e copie)
+    [21] => image_2 (11e copie)
+    [22] => image_2 (autre copie)
+    [23] => image_2 (copie)
+    [24] => image_3
+    [25] => image_3 (3e copie)
+    [26] => image_3 (4e copie)
+    [27] => image_3 (5e copie)
+    [28] => image_3 (6e copie)
+    [29] => image_3 (7e copie)
+    [30] => image_3 (8e copie)
+    [31] => image_3 (9e copie)
+    [32] => image_3 (10e copie)
+    [33] => image_3 (11e copie)
+    [34] => image_3 (autre copie)
+    [35] => image_3 (copie)
+    [36] => image_4
+    [37] => image_4 (3e copie)
+    [38] => image_4 (4e copie)
+    [39] => image_4 (5e copie)
+    [40] => image_4 (6e copie)
+    [41] => image_4 (7e copie)
+    [42] => image_4 (8e copie)
+    [43] => image_4 (9e copie)
+    [44] => image_4 (10e copie)
+    [45] => image_4 (11e copie)
+    [46] => image_4 (autre copie)
+    [47] => image_4 (copie)
+    [48] => image_5
+    [49] => image_5 (3e copie)
+    [50] => image_5 (4e copie)
+    [51] => image_5 (5e copie)
+    [52] => image_5 (6e copie)
+    [53] => image_5 (7e copie)
+    [54] => image_5 (8e copie)
+    [55] => image_5 (9e copie)
+    [56] => image_5 (10e copie)
+    [57] => image_5 (11e copie)
+    [58] => image_5 (autre copie)
+    [59] => image_5 (copie)
+    [60] => image_6
+    [61] => image_6 (3e copie)
+    [62] => image_6 (4e copie)
+    [63] => image_6 (5e copie)
+    [64] => image_6 (6e copie)
+    [65] => image_6 (7e copie)
+    [66] => image_6 (8e copie)
+    [67] => image_6 (9e copie)
+    [68] => image_6 (10e copie)
+    [69] => image_6 (11e copie)
+    [70] => image_6 (autre copie)
+    [71] => image_6 (copie)
+    [72] => image_7
+    [73] => image_7 (3e copie)
+    [74] => image_7 (4e copie)
+    [75] => image_7 (5e copie)
+    [76] => image_7 (6e copie)
+    [77] => image_7 (7e copie)
+    [78] => image_7 (8e copie)
+    [79] => image_7 (9e copie)
+    [80] => image_7 (10e copie)
+)
+
+
+Sunday 14th of May 2023 03:01:37 PM
+Resize test to 1024
+
+Sunday 14th of May 2023 03:01:37 PM
+Convert test to jpg
+
+Sunday 14th of May 2023 03:01:37 PM
+Array
+(
+    [0] => image_1
+    [1] => image_1 (3e copie)
+    [2] => image_1 (4e copie)
+    [3] => image_1 (5e copie)
+    [4] => image_1 (6e copie)
+    [5] => image_1 (7e copie)
+    [6] => image_1 (8e copie)
+    [7] => image_1 (9e copie)
+    [8] => image_1 (10e copie)
+    [9] => image_1 (11e copie)
+    [10] => image_1 (autre copie)
+    [11] => image_1 (copie)
+    [12] => image_2
+    [13] => image_2 (3e copie)
+    [14] => image_2 (4e copie)
+    [15] => image_2 (5e copie)
+    [16] => image_2 (6e copie)
+    [17] => image_2 (7e copie)
+    [18] => image_2 (8e copie)
+    [19] => image_2 (9e copie)
+    [20] => image_2 (10e copie)
+    [21] => image_2 (11e copie)
+    [22] => image_2 (autre copie)
+    [23] => image_2 (copie)
+    [24] => image_3
+    [25] => image_3 (3e copie)
+    [26] => image_3 (4e copie)
+    [27] => image_3 (5e copie)
+    [28] => image_3 (6e copie)
+    [29] => image_3 (7e copie)
+    [30] => image_3 (8e copie)
+    [31] => image_3 (9e copie)
+    [32] => image_3 (10e copie)
+    [33] => image_3 (11e copie)
+    [34] => image_3 (autre copie)
+    [35] => image_3 (copie)
+    [36] => image_4
+    [37] => image_4 (3e copie)
+    [38] => image_4 (4e copie)
+    [39] => image_4 (5e copie)
+    [40] => image_4 (6e copie)
+    [41] => image_4 (7e copie)
+    [42] => image_4 (8e copie)
+    [43] => image_4 (9e copie)
+    [44] => image_4 (10e copie)
+    [45] => image_4 (11e copie)
+    [46] => image_4 (autre copie)
+    [47] => image_4 (copie)
+    [48] => image_5
+    [49] => image_5 (3e copie)
+    [50] => image_5 (4e copie)
+    [51] => image_5 (5e copie)
+    [52] => image_5 (6e copie)
+    [53] => image_5 (7e copie)
+    [54] => image_5 (8e copie)
+    [55] => image_5 (9e copie)
+    [56] => image_5 (10e copie)
+    [57] => image_5 (11e copie)
+    [58] => image_5 (autre copie)
+    [59] => image_5 (copie)
+    [60] => image_6
+    [61] => image_6 (3e copie)
+    [62] => image_6 (4e copie)
+    [63] => image_6 (5e copie)
+    [64] => image_6 (6e copie)
+    [65] => image_6 (7e copie)
+    [66] => image_6 (8e copie)
+    [67] => image_6 (9e copie)
+    [68] => image_6 (10e copie)
+    [69] => image_6 (11e copie)
+    [70] => image_6 (autre copie)
+    [71] => image_6 (copie)
+    [72] => image_7
+    [73] => image_7 (3e copie)
+    [74] => image_7 (4e copie)
+    [75] => image_7 (5e copie)
+    [76] => image_7 (6e copie)
+    [77] => image_7 (7e copie)
+    [78] => image_7 (8e copie)
+    [79] => image_7 (9e copie)
+    [80] => test
+)
+
+
+Sunday 14th of May 2023 03:01:38 PM
+Resize test to 1024
+
+Sunday 14th of May 2023 03:01:38 PM
+Convert test to jpg
+
+Sunday 14th of May 2023 03:01:38 PM
+Array
+(
+    [0] => image_1
+    [1] => image_1 (3e copie)
+    [2] => image_1 (4e copie)
+    [3] => image_1 (5e copie)
+    [4] => image_1 (6e copie)
+    [5] => image_1 (7e copie)
+    [6] => image_1 (8e copie)
+    [7] => image_1 (9e copie)
+    [8] => image_1 (10e copie)
+    [9] => image_1 (11e copie)
+    [10] => image_1 (autre copie)
+    [11] => image_1 (copie)
+    [12] => image_2
+    [13] => image_2 (3e copie)
+    [14] => image_2 (4e copie)
+    [15] => image_2 (5e copie)
+    [16] => image_2 (6e copie)
+    [17] => image_2 (7e copie)
+    [18] => image_2 (8e copie)
+    [19] => image_2 (9e copie)
+    [20] => image_2 (10e copie)
+    [21] => image_2 (11e copie)
+    [22] => image_2 (autre copie)
+    [23] => image_2 (copie)
+    [24] => image_3
+    [25] => image_3 (3e copie)
+    [26] => image_3 (4e copie)
+    [27] => image_3 (5e copie)
+    [28] => image_3 (6e copie)
+    [29] => image_3 (7e copie)
+    [30] => image_3 (8e copie)
+    [31] => image_3 (9e copie)
+    [32] => image_3 (10e copie)
+    [33] => image_3 (11e copie)
+    [34] => image_3 (autre copie)
+    [35] => image_3 (copie)
+    [36] => image_4
+    [37] => image_4 (3e copie)
+    [38] => image_4 (4e copie)
+    [39] => image_4 (5e copie)
+    [40] => image_4 (6e copie)
+    [41] => image_4 (7e copie)
+    [42] => image_4 (8e copie)
+    [43] => image_4 (9e copie)
+    [44] => image_4 (10e copie)
+    [45] => image_4 (11e copie)
+    [46] => image_4 (autre copie)
+    [47] => image_4 (copie)
+    [48] => image_5
+    [49] => image_5 (3e copie)
+    [50] => image_5 (4e copie)
+    [51] => image_5 (5e copie)
+    [52] => image_5 (6e copie)
+    [53] => image_5 (7e copie)
+    [54] => image_5 (8e copie)
+    [55] => image_5 (9e copie)
+    [56] => image_5 (10e copie)
+    [57] => image_5 (11e copie)
+    [58] => image_5 (autre copie)
+    [59] => image_5 (copie)
+    [60] => image_6
+    [61] => image_6 (3e copie)
+    [62] => image_6 (4e copie)
+    [63] => image_6 (5e copie)
+    [64] => image_6 (6e copie)
+    [65] => image_6 (7e copie)
+    [66] => image_6 (8e copie)
+    [67] => image_6 (9e copie)
+    [68] => image_6 (10e copie)
+    [69] => image_6 (11e copie)
+    [70] => image_6 (autre copie)
+    [71] => image_6 (copie)
+    [72] => image_7
+    [73] => image_7 (3e copie)
+    [74] => image_7 (4e copie)
+    [75] => image_7 (5e copie)
+    [76] => image_7 (6e copie)
+    [77] => image_7 (7e copie)
+    [78] => image_7 (8e copie)
+    [79] => image_7 (9e copie)
+    [80] => test
+)
+
+
+Sunday 14th of May 2023 03:01:39 PM
+Resize test to 1024
+
+Sunday 14th of May 2023 03:01:39 PM
+Convert test to jpg
+
+Sunday 14th of May 2023 03:01:39 PM
+Array
+(
+    [0] => image_1
+    [1] => image_1 (3e copie)
+    [2] => image_1 (4e copie)
+    [3] => image_1 (5e copie)
+    [4] => image_1 (6e copie)
+    [5] => image_1 (7e copie)
+    [6] => image_1 (8e copie)
+    [7] => image_1 (9e copie)
+    [8] => image_1 (10e copie)
+    [9] => image_1 (11e copie)
+    [10] => image_1 (autre copie)
+    [11] => image_1 (copie)
+    [12] => image_2
+    [13] => image_2 (3e copie)
+    [14] => image_2 (4e copie)
+    [15] => image_2 (5e copie)
+    [16] => image_2 (6e copie)
+    [17] => image_2 (7e copie)
+    [18] => image_2 (8e copie)
+    [19] => image_2 (9e copie)
+    [20] => image_2 (10e copie)
+    [21] => image_2 (11e copie)
+    [22] => image_2 (autre copie)
+    [23] => image_2 (copie)
+    [24] => image_3
+    [25] => image_3 (3e copie)
+    [26] => image_3 (4e copie)
+    [27] => image_3 (5e copie)
+    [28] => image_3 (6e copie)
+    [29] => image_3 (7e copie)
+    [30] => image_3 (8e copie)
+    [31] => image_3 (9e copie)
+    [32] => image_3 (10e copie)
+    [33] => image_3 (11e copie)
+    [34] => image_3 (autre copie)
+    [35] => image_3 (copie)
+    [36] => image_4
+    [37] => image_4 (3e copie)
+    [38] => image_4 (4e copie)
+    [39] => image_4 (5e copie)
+    [40] => image_4 (6e copie)
+    [41] => image_4 (7e copie)
+    [42] => image_4 (8e copie)
+    [43] => image_4 (9e copie)
+    [44] => image_4 (10e copie)
+    [45] => image_4 (11e copie)
+    [46] => image_4 (autre copie)
+    [47] => image_4 (copie)
+    [48] => image_5
+    [49] => image_5 (3e copie)
+    [50] => image_5 (4e copie)
+    [51] => image_5 (5e copie)
+    [52] => image_5 (6e copie)
+    [53] => image_5 (7e copie)
+    [54] => image_5 (8e copie)
+    [55] => image_5 (9e copie)
+    [56] => image_5 (10e copie)
+    [57] => image_5 (11e copie)
+    [58] => image_5 (autre copie)
+    [59] => image_5 (copie)
+    [60] => image_6
+    [61] => image_6 (3e copie)
+    [62] => image_6 (4e copie)
+    [63] => image_6 (5e copie)
+    [64] => image_6 (6e copie)
+    [65] => image_6 (7e copie)
+    [66] => image_6 (8e copie)
+    [67] => image_6 (9e copie)
+    [68] => image_6 (10e copie)
+    [69] => image_6 (11e copie)
+    [70] => image_6 (autre copie)
+    [71] => image_6 (copie)
+    [72] => image_7
+    [73] => image_7 (3e copie)
+    [74] => image_7 (4e copie)
+    [75] => image_7 (5e copie)
+    [76] => image_7 (6e copie)
+    [77] => image_7 (7e copie)
+    [78] => image_7 (8e copie)
+    [79] => image_7 (9e copie)
+    [80] => test
+)
+
+
+Sunday 14th of May 2023 03:01:39 PM
+Resize test to 1024
+
+Sunday 14th of May 2023 03:01:39 PM
+Convert test to jpg
+
+Sunday 14th of May 2023 03:01:40 PM
+Array
+(
+    [0] => image_1
+    [1] => image_1 (3e copie)
+    [2] => image_1 (4e copie)
+    [3] => image_1 (5e copie)
+    [4] => image_1 (6e copie)
+    [5] => image_1 (7e copie)
+    [6] => image_1 (8e copie)
+    [7] => image_1 (9e copie)
+    [8] => image_1 (10e copie)
+    [9] => image_1 (11e copie)
+    [10] => image_1 (autre copie)
+    [11] => image_1 (copie)
+    [12] => image_2
+    [13] => image_2 (3e copie)
+    [14] => image_2 (4e copie)
+    [15] => image_2 (5e copie)
+    [16] => image_2 (6e copie)
+    [17] => image_2 (7e copie)
+    [18] => image_2 (8e copie)
+    [19] => image_2 (9e copie)
+    [20] => image_2 (10e copie)
+    [21] => image_2 (11e copie)
+    [22] => image_2 (autre copie)
+    [23] => image_2 (copie)
+    [24] => image_3
+    [25] => image_3 (3e copie)
+    [26] => image_3 (4e copie)
+    [27] => image_3 (5e copie)
+    [28] => image_3 (6e copie)
+    [29] => image_3 (7e copie)
+    [30] => image_3 (8e copie)
+    [31] => image_3 (9e copie)
+    [32] => image_3 (10e copie)
+    [33] => image_3 (11e copie)
+    [34] => image_3 (autre copie)
+    [35] => image_3 (copie)
+    [36] => image_4
+    [37] => image_4 (3e copie)
+    [38] => image_4 (4e copie)
+    [39] => image_4 (5e copie)
+    [40] => image_4 (6e copie)
+    [41] => image_4 (7e copie)
+    [42] => image_4 (8e copie)
+    [43] => image_4 (9e copie)
+    [44] => image_4 (10e copie)
+    [45] => image_4 (11e copie)
+    [46] => image_4 (autre copie)
+    [47] => image_4 (copie)
+    [48] => image_5
+    [49] => image_5 (3e copie)
+    [50] => image_5 (4e copie)
+    [51] => image_5 (5e copie)
+    [52] => image_5 (6e copie)
+    [53] => image_5 (7e copie)
+    [54] => image_5 (8e copie)
+    [55] => image_5 (9e copie)
+    [56] => image_5 (10e copie)
+    [57] => image_5 (11e copie)
+    [58] => image_5 (autre copie)
+    [59] => image_5 (copie)
+    [60] => image_6
+    [61] => image_6 (3e copie)
+    [62] => image_6 (4e copie)
+    [63] => image_6 (5e copie)
+    [64] => image_6 (6e copie)
+    [65] => image_6 (7e copie)
+    [66] => image_6 (8e copie)
+    [67] => image_6 (9e copie)
+    [68] => image_6 (10e copie)
+    [69] => image_6 (11e copie)
+    [70] => image_6 (autre copie)
+    [71] => image_6 (copie)
+    [72] => image_7
+    [73] => image_7 (3e copie)
+    [74] => image_7 (4e copie)
+    [75] => image_7 (5e copie)
+    [76] => image_7 (6e copie)
+    [77] => image_7 (7e copie)
+    [78] => image_7 (8e copie)
+    [79] => image_7 (9e copie)
+    [80] => test
+)
+
+
+Sunday 14th of May 2023 03:01:40 PM
+Resize test to 1024
+
+Sunday 14th of May 2023 03:01:40 PM
+Convert test to jpg
+
+Sunday 14th of May 2023 03:01:40 PM
+Array
+(
+    [0] => image_1
+    [1] => image_1 (3e copie)
+    [2] => image_1 (4e copie)
+    [3] => image_1 (5e copie)
+    [4] => image_1 (6e copie)
+    [5] => image_1 (7e copie)
+    [6] => image_1 (8e copie)
+    [7] => image_1 (9e copie)
+    [8] => image_1 (10e copie)
+    [9] => image_1 (11e copie)
+    [10] => image_1 (autre copie)
+    [11] => image_1 (copie)
+    [12] => image_2
+    [13] => image_2 (3e copie)
+    [14] => image_2 (4e copie)
+    [15] => image_2 (5e copie)
+    [16] => image_2 (6e copie)
+    [17] => image_2 (7e copie)
+    [18] => image_2 (8e copie)
+    [19] => image_2 (9e copie)
+    [20] => image_2 (10e copie)
+    [21] => image_2 (11e copie)
+    [22] => image_2 (autre copie)
+    [23] => image_2 (copie)
+    [24] => image_3
+    [25] => image_3 (3e copie)
+    [26] => image_3 (4e copie)
+    [27] => image_3 (5e copie)
+    [28] => image_3 (6e copie)
+    [29] => image_3 (7e copie)
+    [30] => image_3 (8e copie)
+    [31] => image_3 (9e copie)
+    [32] => image_3 (10e copie)
+    [33] => image_3 (11e copie)
+    [34] => image_3 (autre copie)
+    [35] => image_3 (copie)
+    [36] => image_4
+    [37] => image_4 (3e copie)
+    [38] => image_4 (4e copie)
+    [39] => image_4 (5e copie)
+    [40] => image_4 (6e copie)
+    [41] => image_4 (7e copie)
+    [42] => image_4 (8e copie)
+    [43] => image_4 (9e copie)
+    [44] => image_4 (10e copie)
+    [45] => image_4 (11e copie)
+    [46] => image_4 (autre copie)
+    [47] => image_4 (copie)
+    [48] => image_5
+    [49] => image_5 (3e copie)
+    [50] => image_5 (4e copie)
+    [51] => image_5 (5e copie)
+    [52] => image_5 (6e copie)
+    [53] => image_5 (7e copie)
+    [54] => image_5 (8e copie)
+    [55] => image_5 (9e copie)
+    [56] => image_5 (10e copie)
+    [57] => image_5 (11e copie)
+    [58] => image_5 (autre copie)
+    [59] => image_5 (copie)
+    [60] => image_6
+    [61] => image_6 (3e copie)
+    [62] => image_6 (4e copie)
+    [63] => image_6 (5e copie)
+    [64] => image_6 (6e copie)
+    [65] => image_6 (7e copie)
+    [66] => image_6 (8e copie)
+    [67] => image_6 (9e copie)
+    [68] => image_6 (10e copie)
+    [69] => image_6 (11e copie)
+    [70] => image_6 (autre copie)
+    [71] => image_6 (copie)
+    [72] => image_7
+    [73] => image_7 (3e copie)
+    [74] => image_7 (4e copie)
+    [75] => image_7 (5e copie)
+    [76] => image_7 (6e copie)
+    [77] => image_7 (7e copie)
+    [78] => image_7 (8e copie)
+    [79] => image_7 (9e copie)
+    [80] => test
+)
+
+
+Sunday 14th of May 2023 03:01:41 PM
+Resize test to 1024
+
+Sunday 14th of May 2023 03:01:41 PM
+Convert test to jpg
+
+Sunday 14th of May 2023 03:01:41 PM
+Array
+(
+    [0] => image_1
+    [1] => image_1 (3e copie)
+    [2] => image_1 (4e copie)
+    [3] => image_1 (5e copie)
+    [4] => image_1 (6e copie)
+    [5] => image_1 (7e copie)
+    [6] => image_1 (8e copie)
+    [7] => image_1 (9e copie)
+    [8] => image_1 (10e copie)
+    [9] => image_1 (11e copie)
+    [10] => image_1 (autre copie)
+    [11] => image_1 (copie)
+    [12] => image_2
+    [13] => image_2 (3e copie)
+    [14] => image_2 (4e copie)
+    [15] => image_2 (5e copie)
+    [16] => image_2 (6e copie)
+    [17] => image_2 (7e copie)
+    [18] => image_2 (8e copie)
+    [19] => image_2 (9e copie)
+    [20] => image_2 (10e copie)
+    [21] => image_2 (11e copie)
+    [22] => image_2 (autre copie)
+    [23] => image_2 (copie)
+    [24] => image_3
+    [25] => image_3 (3e copie)
+    [26] => image_3 (4e copie)
+    [27] => image_3 (5e copie)
+    [28] => image_3 (6e copie)
+    [29] => image_3 (7e copie)
+    [30] => image_3 (8e copie)
+    [31] => image_3 (9e copie)
+    [32] => image_3 (10e copie)
+    [33] => image_3 (11e copie)
+    [34] => image_3 (autre copie)
+    [35] => image_3 (copie)
+    [36] => image_4
+    [37] => image_4 (3e copie)
+    [38] => image_4 (4e copie)
+    [39] => image_4 (5e copie)
+    [40] => image_4 (6e copie)
+    [41] => image_4 (7e copie)
+    [42] => image_4 (8e copie)
+    [43] => image_4 (9e copie)
+    [44] => image_4 (10e copie)
+    [45] => image_4 (11e copie)
+    [46] => image_4 (autre copie)
+    [47] => image_4 (copie)
+    [48] => image_5
+    [49] => image_5 (3e copie)
+    [50] => image_5 (4e copie)
+    [51] => image_5 (5e copie)
+    [52] => image_5 (6e copie)
+    [53] => image_5 (7e copie)
+    [54] => image_5 (8e copie)
+    [55] => image_5 (9e copie)
+    [56] => image_5 (10e copie)
+    [57] => image_5 (11e copie)
+    [58] => image_5 (autre copie)
+    [59] => image_5 (copie)
+    [60] => image_6
+    [61] => image_6 (3e copie)
+    [62] => image_6 (4e copie)
+    [63] => image_6 (5e copie)
+    [64] => image_6 (6e copie)
+    [65] => image_6 (7e copie)
+    [66] => image_6 (8e copie)
+    [67] => image_6 (9e copie)
+    [68] => image_6 (10e copie)
+    [69] => image_6 (11e copie)
+    [70] => image_6 (autre copie)
+    [71] => image_6 (copie)
+    [72] => image_7
+    [73] => image_7 (3e copie)
+    [74] => image_7 (4e copie)
+    [75] => image_7 (5e copie)
+    [76] => image_7 (6e copie)
+    [77] => image_7 (7e copie)
+    [78] => image_7 (8e copie)
+    [79] => image_7 (9e copie)
+    [80] => test
+)
+
+
+Sunday 14th of May 2023 03:01:41 PM
+Resize test to 1024
+
+Sunday 14th of May 2023 03:01:41 PM
+Convert test to jpg
+
+Sunday 14th of May 2023 03:01:42 PM
+Array
+(
+    [0] => image_1
+    [1] => image_1 (3e copie)
+    [2] => image_1 (4e copie)
+    [3] => image_1 (5e copie)
+    [4] => image_1 (6e copie)
+    [5] => image_1 (7e copie)
+    [6] => image_1 (8e copie)
+    [7] => image_1 (9e copie)
+    [8] => image_1 (10e copie)
+    [9] => image_1 (11e copie)
+    [10] => image_1 (autre copie)
+    [11] => image_1 (copie)
+    [12] => image_2
+    [13] => image_2 (3e copie)
+    [14] => image_2 (4e copie)
+    [15] => image_2 (5e copie)
+    [16] => image_2 (6e copie)
+    [17] => image_2 (7e copie)
+    [18] => image_2 (8e copie)
+    [19] => image_2 (9e copie)
+    [20] => image_2 (10e copie)
+    [21] => image_2 (11e copie)
+    [22] => image_2 (autre copie)
+    [23] => image_2 (copie)
+    [24] => image_3
+    [25] => image_3 (3e copie)
+    [26] => image_3 (4e copie)
+    [27] => image_3 (5e copie)
+    [28] => image_3 (6e copie)
+    [29] => image_3 (7e copie)
+    [30] => image_3 (8e copie)
+    [31] => image_3 (9e copie)
+    [32] => image_3 (10e copie)
+    [33] => image_3 (11e copie)
+    [34] => image_3 (autre copie)
+    [35] => image_3 (copie)
+    [36] => image_4
+    [37] => image_4 (3e copie)
+    [38] => image_4 (4e copie)
+    [39] => image_4 (5e copie)
+    [40] => image_4 (6e copie)
+    [41] => image_4 (7e copie)
+    [42] => image_4 (8e copie)
+    [43] => image_4 (9e copie)
+    [44] => image_4 (10e copie)
+    [45] => image_4 (11e copie)
+    [46] => image_4 (autre copie)
+    [47] => image_4 (copie)
+    [48] => image_5
+    [49] => image_5 (3e copie)
+    [50] => image_5 (4e copie)
+    [51] => image_5 (5e copie)
+    [52] => image_5 (6e copie)
+    [53] => image_5 (7e copie)
+    [54] => image_5 (8e copie)
+    [55] => image_5 (9e copie)
+    [56] => image_5 (10e copie)
+    [57] => image_5 (11e copie)
+    [58] => image_5 (autre copie)
+    [59] => image_5 (copie)
+    [60] => image_6
+    [61] => image_6 (3e copie)
+    [62] => image_6 (4e copie)
+    [63] => image_6 (5e copie)
+    [64] => image_6 (6e copie)
+    [65] => image_6 (7e copie)
+    [66] => image_6 (8e copie)
+    [67] => image_6 (9e copie)
+    [68] => image_6 (10e copie)
+    [69] => image_6 (11e copie)
+    [70] => image_6 (autre copie)
+    [71] => image_6 (copie)
+    [72] => image_7
+    [73] => image_7 (3e copie)
+    [74] => image_7 (4e copie)
+    [75] => image_7 (5e copie)
+    [76] => image_7 (6e copie)
+    [77] => image_7 (7e copie)
+    [78] => image_7 (8e copie)
+    [79] => image_7 (9e copie)
+    [80] => test
+)
+
+
+Sunday 14th of May 2023 03:01:42 PM
+Resize test to 1024
+
+Sunday 14th of May 2023 03:01:42 PM
+Convert test to jpg
+
+Sunday 14th of May 2023 03:01:42 PM
+Array
+(
+    [0] => image_1
+    [1] => image_1 (3e copie)
+    [2] => image_1 (4e copie)
+    [3] => image_1 (5e copie)
+    [4] => image_1 (6e copie)
+    [5] => image_1 (7e copie)
+    [6] => image_1 (8e copie)
+    [7] => image_1 (9e copie)
+    [8] => image_1 (10e copie)
+    [9] => image_1 (11e copie)
+    [10] => image_1 (autre copie)
+    [11] => image_1 (copie)
+    [12] => image_2
+    [13] => image_2 (3e copie)
+    [14] => image_2 (4e copie)
+    [15] => image_2 (5e copie)
+    [16] => image_2 (6e copie)
+    [17] => image_2 (7e copie)
+    [18] => image_2 (8e copie)
+    [19] => image_2 (9e copie)
+    [20] => image_2 (10e copie)
+    [21] => image_2 (11e copie)
+    [22] => image_2 (autre copie)
+    [23] => image_2 (copie)
+    [24] => image_3
+    [25] => image_3 (3e copie)
+    [26] => image_3 (4e copie)
+    [27] => image_3 (5e copie)
+    [28] => image_3 (6e copie)
+    [29] => image_3 (7e copie)
+    [30] => image_3 (8e copie)
+    [31] => image_3 (9e copie)
+    [32] => image_3 (10e copie)
+    [33] => image_3 (11e copie)
+    [34] => image_3 (autre copie)
+    [35] => image_3 (copie)
+    [36] => image_4
+    [37] => image_4 (3e copie)
+    [38] => image_4 (4e copie)
+    [39] => image_4 (5e copie)
+    [40] => image_4 (6e copie)
+    [41] => image_4 (7e copie)
+    [42] => image_4 (8e copie)
+    [43] => image_4 (9e copie)
+    [44] => image_4 (10e copie)
+    [45] => image_4 (11e copie)
+    [46] => image_4 (autre copie)
+    [47] => image_4 (copie)
+    [48] => image_5
+    [49] => image_5 (3e copie)
+    [50] => image_5 (4e copie)
+    [51] => image_5 (5e copie)
+    [52] => image_5 (6e copie)
+    [53] => image_5 (7e copie)
+    [54] => image_5 (8e copie)
+    [55] => image_5 (9e copie)
+    [56] => image_5 (10e copie)
+    [57] => image_5 (11e copie)
+    [58] => image_5 (autre copie)
+    [59] => image_5 (copie)
+    [60] => image_6
+    [61] => image_6 (3e copie)
+    [62] => image_6 (4e copie)
+    [63] => image_6 (5e copie)
+    [64] => image_6 (6e copie)
+    [65] => image_6 (7e copie)
+    [66] => image_6 (8e copie)
+    [67] => image_6 (9e copie)
+    [68] => image_6 (10e copie)
+    [69] => image_6 (11e copie)
+    [70] => image_6 (autre copie)
+    [71] => image_6 (copie)
+    [72] => image_7
+    [73] => image_7 (3e copie)
+    [74] => image_7 (4e copie)
+    [75] => image_7 (5e copie)
+    [76] => image_7 (6e copie)
+    [77] => image_7 (7e copie)
+    [78] => image_7 (8e copie)
+    [79] => image_7 (9e copie)
+    [80] => test
+)
+
+
+Sunday 14th of May 2023 03:01:43 PM
+Resize test to 1024
+
+Sunday 14th of May 2023 03:01:43 PM
+Convert test to jpg
+
+Sunday 14th of May 2023 03:01:43 PM
+Array
+(
+    [0] => image_1
+    [1] => image_1 (3e copie)
+    [2] => image_1 (4e copie)
+    [3] => image_1 (5e copie)
+    [4] => image_1 (6e copie)
+    [5] => image_1 (7e copie)
+    [6] => image_1 (8e copie)
+    [7] => image_1 (9e copie)
+    [8] => image_1 (10e copie)
+    [9] => image_1 (11e copie)
+    [10] => image_1 (autre copie)
+    [11] => image_1 (copie)
+    [12] => image_2
+    [13] => image_2 (3e copie)
+    [14] => image_2 (4e copie)
+    [15] => image_2 (5e copie)
+    [16] => image_2 (6e copie)
+    [17] => image_2 (7e copie)
+    [18] => image_2 (8e copie)
+    [19] => image_2 (9e copie)
+    [20] => image_2 (10e copie)
+    [21] => image_2 (11e copie)
+    [22] => image_2 (autre copie)
+    [23] => image_2 (copie)
+    [24] => image_3
+    [25] => image_3 (3e copie)
+    [26] => image_3 (4e copie)
+    [27] => image_3 (5e copie)
+    [28] => image_3 (6e copie)
+    [29] => image_3 (7e copie)
+    [30] => image_3 (8e copie)
+    [31] => image_3 (9e copie)
+    [32] => image_3 (10e copie)
+    [33] => image_3 (11e copie)
+    [34] => image_3 (autre copie)
+    [35] => image_3 (copie)
+    [36] => image_4
+    [37] => image_4 (3e copie)
+    [38] => image_4 (4e copie)
+    [39] => image_4 (5e copie)
+    [40] => image_4 (6e copie)
+    [41] => image_4 (7e copie)
+    [42] => image_4 (8e copie)
+    [43] => image_4 (9e copie)
+    [44] => image_4 (10e copie)
+    [45] => image_4 (11e copie)
+    [46] => image_4 (autre copie)
+    [47] => image_4 (copie)
+    [48] => image_5
+    [49] => image_5 (3e copie)
+    [50] => image_5 (4e copie)
+    [51] => image_5 (5e copie)
+    [52] => image_5 (6e copie)
+    [53] => image_5 (7e copie)
+    [54] => image_5 (8e copie)
+    [55] => image_5 (9e copie)
+    [56] => image_5 (10e copie)
+    [57] => image_5 (11e copie)
+    [58] => image_5 (autre copie)
+    [59] => image_5 (copie)
+    [60] => image_6
+    [61] => image_6 (3e copie)
+    [62] => image_6 (4e copie)
+    [63] => image_6 (5e copie)
+    [64] => image_6 (6e copie)
+    [65] => image_6 (7e copie)
+    [66] => image_6 (8e copie)
+    [67] => image_6 (9e copie)
+    [68] => image_6 (10e copie)
+    [69] => image_6 (11e copie)
+    [70] => image_6 (autre copie)
+    [71] => image_6 (copie)
+    [72] => image_7
+    [73] => image_7 (3e copie)
+    [74] => image_7 (4e copie)
+    [75] => image_7 (5e copie)
+    [76] => image_7 (6e copie)
+    [77] => image_7 (7e copie)
+    [78] => image_7 (8e copie)
+    [79] => image_7 (9e copie)
+    [80] => test
+)
+
+
+Sunday 14th of May 2023 03:01:44 PM
+Resize test to 1024
+
+Sunday 14th of May 2023 03:01:44 PM
+Convert test to jpg
+
+Sunday 14th of May 2023 03:01:44 PM
+Array
+(
+    [0] => image_1
+    [1] => image_1 (3e copie)
+    [2] => image_1 (4e copie)
+    [3] => image_1 (5e copie)
+    [4] => image_1 (6e copie)
+    [5] => image_1 (7e copie)
+    [6] => image_1 (8e copie)
+    [7] => image_1 (9e copie)
+    [8] => image_1 (10e copie)
+    [9] => image_1 (11e copie)
+    [10] => image_1 (autre copie)
+    [11] => image_1 (copie)
+    [12] => image_2
+    [13] => image_2 (3e copie)
+    [14] => image_2 (4e copie)
+    [15] => image_2 (5e copie)
+    [16] => image_2 (6e copie)
+    [17] => image_2 (7e copie)
+    [18] => image_2 (8e copie)
+    [19] => image_2 (9e copie)
+    [20] => image_2 (10e copie)
+    [21] => image_2 (11e copie)
+    [22] => image_2 (autre copie)
+    [23] => image_2 (copie)
+    [24] => image_3
+    [25] => image_3 (3e copie)
+    [26] => image_3 (4e copie)
+    [27] => image_3 (5e copie)
+    [28] => image_3 (6e copie)
+    [29] => image_3 (7e copie)
+    [30] => image_3 (8e copie)
+    [31] => image_3 (9e copie)
+    [32] => image_3 (10e copie)
+    [33] => image_3 (11e copie)
+    [34] => image_3 (autre copie)
+    [35] => image_3 (copie)
+    [36] => image_4
+    [37] => image_4 (3e copie)
+    [38] => image_4 (4e copie)
+    [39] => image_4 (5e copie)
+    [40] => image_4 (6e copie)
+    [41] => image_4 (7e copie)
+    [42] => image_4 (8e copie)
+    [43] => image_4 (9e copie)
+    [44] => image_4 (10e copie)
+    [45] => image_4 (11e copie)
+    [46] => image_4 (autre copie)
+    [47] => image_4 (copie)
+    [48] => image_5
+    [49] => image_5 (3e copie)
+    [50] => image_5 (4e copie)
+    [51] => image_5 (5e copie)
+    [52] => image_5 (6e copie)
+    [53] => image_5 (7e copie)
+    [54] => image_5 (8e copie)
+    [55] => image_5 (9e copie)
+    [56] => image_5 (10e copie)
+    [57] => image_5 (11e copie)
+    [58] => image_5 (autre copie)
+    [59] => image_5 (copie)
+    [60] => image_6
+    [61] => image_6 (3e copie)
+    [62] => image_6 (4e copie)
+    [63] => image_6 (5e copie)
+    [64] => image_6 (6e copie)
+    [65] => image_6 (7e copie)
+    [66] => image_6 (8e copie)
+    [67] => image_6 (9e copie)
+    [68] => image_6 (10e copie)
+    [69] => image_6 (11e copie)
+    [70] => image_6 (autre copie)
+    [71] => image_6 (copie)
+    [72] => image_7
+    [73] => image_7 (3e copie)
+    [74] => image_7 (4e copie)
+    [75] => image_7 (5e copie)
+    [76] => image_7 (6e copie)
+    [77] => image_7 (7e copie)
+    [78] => image_7 (8e copie)
+    [79] => image_7 (9e copie)
+    [80] => test
+)
+
+
+Sunday 14th of May 2023 03:01:44 PM
+Resize test to 1024
+
+Sunday 14th of May 2023 03:01:44 PM
+Convert test to jpg
+
+Sunday 14th of May 2023 03:01:44 PM
+Array
+(
+    [0] => image_1
+    [1] => image_1 (3e copie)
+    [2] => image_1 (4e copie)
+    [3] => image_1 (5e copie)
+    [4] => image_1 (6e copie)
+    [5] => image_1 (7e copie)
+    [6] => image_1 (8e copie)
+    [7] => image_1 (9e copie)
+    [8] => image_1 (10e copie)
+    [9] => image_1 (11e copie)
+    [10] => image_1 (autre copie)
+    [11] => image_1 (copie)
+    [12] => image_2
+    [13] => image_2 (3e copie)
+    [14] => image_2 (4e copie)
+    [15] => image_2 (5e copie)
+    [16] => image_2 (6e copie)
+    [17] => image_2 (7e copie)
+    [18] => image_2 (8e copie)
+    [19] => image_2 (9e copie)
+    [20] => image_2 (10e copie)
+    [21] => image_2 (11e copie)
+    [22] => image_2 (autre copie)
+    [23] => image_2 (copie)
+    [24] => image_3
+    [25] => image_3 (3e copie)
+    [26] => image_3 (4e copie)
+    [27] => image_3 (5e copie)
+    [28] => image_3 (6e copie)
+    [29] => image_3 (7e copie)
+    [30] => image_3 (8e copie)
+    [31] => image_3 (9e copie)
+    [32] => image_3 (10e copie)
+    [33] => image_3 (11e copie)
+    [34] => image_3 (autre copie)
+    [35] => image_3 (copie)
+    [36] => image_4
+    [37] => image_4 (3e copie)
+    [38] => image_4 (4e copie)
+    [39] => image_4 (5e copie)
+    [40] => image_4 (6e copie)
+    [41] => image_4 (7e copie)
+    [42] => image_4 (8e copie)
+    [43] => image_4 (9e copie)
+    [44] => image_4 (10e copie)
+    [45] => image_4 (11e copie)
+    [46] => image_4 (autre copie)
+    [47] => image_4 (copie)
+    [48] => image_5
+    [49] => image_5 (3e copie)
+    [50] => image_5 (4e copie)
+    [51] => image_5 (5e copie)
+    [52] => image_5 (6e copie)
+    [53] => image_5 (7e copie)
+    [54] => image_5 (8e copie)
+    [55] => image_5 (9e copie)
+    [56] => image_5 (10e copie)
+    [57] => image_5 (11e copie)
+    [58] => image_5 (autre copie)
+    [59] => image_5 (copie)
+    [60] => image_6
+    [61] => image_6 (3e copie)
+    [62] => image_6 (4e copie)
+    [63] => image_6 (5e copie)
+    [64] => image_6 (6e copie)
+    [65] => image_6 (7e copie)
+    [66] => image_6 (8e copie)
+    [67] => image_6 (9e copie)
+    [68] => image_6 (10e copie)
+    [69] => image_6 (11e copie)
+    [70] => image_6 (autre copie)
+    [71] => image_6 (copie)
+    [72] => image_7
+    [73] => image_7 (3e copie)
+    [74] => image_7 (4e copie)
+    [75] => image_7 (5e copie)
+    [76] => image_7 (6e copie)
+    [77] => image_7 (7e copie)
+    [78] => image_7 (8e copie)
+    [79] => image_7 (9e copie)
+    [80] => test
+)
+
+
+Sunday 14th of May 2023 03:01:45 PM
+Resize test to 1024
+
+Sunday 14th of May 2023 03:01:45 PM
+Convert test to jpg
+
+Sunday 14th of May 2023 03:01:45 PM
+Array
+(
+    [0] => image_1
+    [1] => image_1 (3e copie)
+    [2] => image_1 (4e copie)
+    [3] => image_1 (5e copie)
+    [4] => image_1 (6e copie)
+    [5] => image_1 (7e copie)
+    [6] => image_1 (8e copie)
+    [7] => image_1 (9e copie)
+    [8] => image_1 (10e copie)
+    [9] => image_1 (11e copie)
+    [10] => image_1 (autre copie)
+    [11] => image_1 (copie)
+    [12] => image_2
+    [13] => image_2 (3e copie)
+    [14] => image_2 (4e copie)
+    [15] => image_2 (5e copie)
+    [16] => image_2 (6e copie)
+    [17] => image_2 (7e copie)
+    [18] => image_2 (8e copie)
+    [19] => image_2 (9e copie)
+    [20] => image_2 (10e copie)
+    [21] => image_2 (11e copie)
+    [22] => image_2 (autre copie)
+    [23] => image_2 (copie)
+    [24] => image_3
+    [25] => image_3 (3e copie)
+    [26] => image_3 (4e copie)
+    [27] => image_3 (5e copie)
+    [28] => image_3 (6e copie)
+    [29] => image_3 (7e copie)
+    [30] => image_3 (8e copie)
+    [31] => image_3 (9e copie)
+    [32] => image_3 (10e copie)
+    [33] => image_3 (11e copie)
+    [34] => image_3 (autre copie)
+    [35] => image_3 (copie)
+    [36] => image_4
+    [37] => image_4 (3e copie)
+    [38] => image_4 (4e copie)
+    [39] => image_4 (5e copie)
+    [40] => image_4 (6e copie)
+    [41] => image_4 (7e copie)
+    [42] => image_4 (8e copie)
+    [43] => image_4 (9e copie)
+    [44] => image_4 (10e copie)
+    [45] => image_4 (11e copie)
+    [46] => image_4 (autre copie)
+    [47] => image_4 (copie)
+    [48] => image_5
+    [49] => image_5 (3e copie)
+    [50] => image_5 (4e copie)
+    [51] => image_5 (5e copie)
+    [52] => image_5 (6e copie)
+    [53] => image_5 (7e copie)
+    [54] => image_5 (8e copie)
+    [55] => image_5 (9e copie)
+    [56] => image_5 (10e copie)
+    [57] => image_5 (11e copie)
+    [58] => image_5 (autre copie)
+    [59] => image_5 (copie)
+    [60] => image_6
+    [61] => image_6 (3e copie)
+    [62] => image_6 (4e copie)
+    [63] => image_6 (5e copie)
+    [64] => image_6 (6e copie)
+    [65] => image_6 (7e copie)
+    [66] => image_6 (8e copie)
+    [67] => image_6 (9e copie)
+    [68] => image_6 (10e copie)
+    [69] => image_6 (11e copie)
+    [70] => image_6 (autre copie)
+    [71] => image_6 (copie)
+    [72] => image_7
+    [73] => image_7 (3e copie)
+    [74] => image_7 (4e copie)
+    [75] => image_7 (5e copie)
+    [76] => image_7 (6e copie)
+    [77] => image_7 (7e copie)
+    [78] => image_7 (8e copie)
+    [79] => image_7 (9e copie)
+    [80] => test
+)
+
+
+Sunday 14th of May 2023 03:01:46 PM
+Resize test to 1024
+
+Sunday 14th of May 2023 03:01:46 PM
+Convert test to jpg
+
+Sunday 14th of May 2023 03:01:46 PM
+Array
+(
+    [0] => image_1
+    [1] => image_1 (3e copie)
+    [2] => image_1 (4e copie)
+    [3] => image_1 (5e copie)
+    [4] => image_1 (6e copie)
+    [5] => image_1 (7e copie)
+    [6] => image_1 (8e copie)
+    [7] => image_1 (9e copie)
+    [8] => image_1 (10e copie)
+    [9] => image_1 (11e copie)
+    [10] => image_1 (autre copie)
+    [11] => image_1 (copie)
+    [12] => image_2
+    [13] => image_2 (3e copie)
+    [14] => image_2 (4e copie)
+    [15] => image_2 (5e copie)
+    [16] => image_2 (6e copie)
+    [17] => image_2 (7e copie)
+    [18] => image_2 (8e copie)
+    [19] => image_2 (9e copie)
+    [20] => image_2 (10e copie)
+    [21] => image_2 (11e copie)
+    [22] => image_2 (autre copie)
+    [23] => image_2 (copie)
+    [24] => image_3
+    [25] => image_3 (3e copie)
+    [26] => image_3 (4e copie)
+    [27] => image_3 (5e copie)
+    [28] => image_3 (6e copie)
+    [29] => image_3 (7e copie)
+    [30] => image_3 (8e copie)
+    [31] => image_3 (9e copie)
+    [32] => image_3 (10e copie)
+    [33] => image_3 (11e copie)
+    [34] => image_3 (autre copie)
+    [35] => image_3 (copie)
+    [36] => image_4
+    [37] => image_4 (3e copie)
+    [38] => image_4 (4e copie)
+    [39] => image_4 (5e copie)
+    [40] => image_4 (6e copie)
+    [41] => image_4 (7e copie)
+    [42] => image_4 (8e copie)
+    [43] => image_4 (9e copie)
+    [44] => image_4 (10e copie)
+    [45] => image_4 (11e copie)
+    [46] => image_4 (autre copie)
+    [47] => image_4 (copie)
+    [48] => image_5
+    [49] => image_5 (3e copie)
+    [50] => image_5 (4e copie)
+    [51] => image_5 (5e copie)
+    [52] => image_5 (6e copie)
+    [53] => image_5 (7e copie)
+    [54] => image_5 (8e copie)
+    [55] => image_5 (9e copie)
+    [56] => image_5 (10e copie)
+    [57] => image_5 (11e copie)
+    [58] => image_5 (autre copie)
+    [59] => image_5 (copie)
+    [60] => image_6
+    [61] => image_6 (3e copie)
+    [62] => image_6 (4e copie)
+    [63] => image_6 (5e copie)
+    [64] => image_6 (6e copie)
+    [65] => image_6 (7e copie)
+    [66] => image_6 (8e copie)
+    [67] => image_6 (9e copie)
+    [68] => image_6 (10e copie)
+    [69] => image_6 (11e copie)
+    [70] => image_6 (autre copie)
+    [71] => image_6 (copie)
+    [72] => image_7
+    [73] => image_7 (3e copie)
+    [74] => image_7 (4e copie)
+    [75] => image_7 (5e copie)
+    [76] => image_7 (6e copie)
+    [77] => image_7 (7e copie)
+    [78] => image_7 (8e copie)
+    [79] => image_7 (9e copie)
+    [80] => test
+)
+
+
+Sunday 14th of May 2023 03:01:46 PM
+Resize test to 1024
+
+Sunday 14th of May 2023 03:01:46 PM
+Convert test to jpg
+
+Sunday 14th of May 2023 03:01:47 PM
+Array
+(
+    [0] => image_1
+    [1] => image_1 (3e copie)
+    [2] => image_1 (4e copie)
+    [3] => image_1 (5e copie)
+    [4] => image_1 (6e copie)
+    [5] => image_1 (7e copie)
+    [6] => image_1 (8e copie)
+    [7] => image_1 (9e copie)
+    [8] => image_1 (10e copie)
+    [9] => image_1 (11e copie)
+    [10] => image_1 (autre copie)
+    [11] => image_1 (copie)
+    [12] => image_2
+    [13] => image_2 (3e copie)
+    [14] => image_2 (4e copie)
+    [15] => image_2 (5e copie)
+    [16] => image_2 (6e copie)
+    [17] => image_2 (7e copie)
+    [18] => image_2 (8e copie)
+    [19] => image_2 (9e copie)
+    [20] => image_2 (10e copie)
+    [21] => image_2 (11e copie)
+    [22] => image_2 (autre copie)
+    [23] => image_2 (copie)
+    [24] => image_3
+    [25] => image_3 (3e copie)
+    [26] => image_3 (4e copie)
+    [27] => image_3 (5e copie)
+    [28] => image_3 (6e copie)
+    [29] => image_3 (7e copie)
+    [30] => image_3 (8e copie)
+    [31] => image_3 (9e copie)
+    [32] => image_3 (10e copie)
+    [33] => image_3 (11e copie)
+    [34] => image_3 (autre copie)
+    [35] => image_3 (copie)
+    [36] => image_4
+    [37] => image_4 (3e copie)
+    [38] => image_4 (4e copie)
+    [39] => image_4 (5e copie)
+    [40] => image_4 (6e copie)
+    [41] => image_4 (7e copie)
+    [42] => image_4 (8e copie)
+    [43] => image_4 (9e copie)
+    [44] => image_4 (10e copie)
+    [45] => image_4 (11e copie)
+    [46] => image_4 (autre copie)
+    [47] => image_4 (copie)
+    [48] => image_5
+    [49] => image_5 (3e copie)
+    [50] => image_5 (4e copie)
+    [51] => image_5 (5e copie)
+    [52] => image_5 (6e copie)
+    [53] => image_5 (7e copie)
+    [54] => image_5 (8e copie)
+    [55] => image_5 (9e copie)
+    [56] => image_5 (10e copie)
+    [57] => image_5 (11e copie)
+    [58] => image_5 (autre copie)
+    [59] => image_5 (copie)
+    [60] => image_6
+    [61] => image_6 (3e copie)
+    [62] => image_6 (4e copie)
+    [63] => image_6 (5e copie)
+    [64] => image_6 (6e copie)
+    [65] => image_6 (7e copie)
+    [66] => image_6 (8e copie)
+    [67] => image_6 (9e copie)
+    [68] => image_6 (10e copie)
+    [69] => image_6 (11e copie)
+    [70] => image_6 (autre copie)
+    [71] => image_6 (copie)
+    [72] => image_7
+    [73] => image_7 (3e copie)
+    [74] => image_7 (4e copie)
+    [75] => image_7 (5e copie)
+    [76] => image_7 (6e copie)
+    [77] => image_7 (7e copie)
+    [78] => image_7 (8e copie)
+    [79] => image_7 (9e copie)
+    [80] => test
+)
+
+
+Sunday 14th of May 2023 03:01:47 PM
+Resize test to 1024
+
+Sunday 14th of May 2023 03:01:47 PM
+Convert test to jpg
+
+Sunday 14th of May 2023 03:01:47 PM
+Array
+(
+    [0] => image_1
+    [1] => image_1 (3e copie)
+    [2] => image_1 (4e copie)
+    [3] => image_1 (5e copie)
+    [4] => image_1 (6e copie)
+    [5] => image_1 (7e copie)
+    [6] => image_1 (8e copie)
+    [7] => image_1 (9e copie)
+    [8] => image_1 (10e copie)
+    [9] => image_1 (11e copie)
+    [10] => image_1 (autre copie)
+    [11] => image_1 (copie)
+    [12] => image_2
+    [13] => image_2 (3e copie)
+    [14] => image_2 (4e copie)
+    [15] => image_2 (5e copie)
+    [16] => image_2 (6e copie)
+    [17] => image_2 (7e copie)
+    [18] => image_2 (8e copie)
+    [19] => image_2 (9e copie)
+    [20] => image_2 (10e copie)
+    [21] => image_2 (11e copie)
+    [22] => image_2 (autre copie)
+    [23] => image_2 (copie)
+    [24] => image_3
+    [25] => image_3 (3e copie)
+    [26] => image_3 (4e copie)
+    [27] => image_3 (5e copie)
+    [28] => image_3 (6e copie)
+    [29] => image_3 (7e copie)
+    [30] => image_3 (8e copie)
+    [31] => image_3 (9e copie)
+    [32] => image_3 (10e copie)
+    [33] => image_3 (11e copie)
+    [34] => image_3 (autre copie)
+    [35] => image_3 (copie)
+    [36] => image_4
+    [37] => image_4 (3e copie)
+    [38] => image_4 (4e copie)
+    [39] => image_4 (5e copie)
+    [40] => image_4 (6e copie)
+    [41] => image_4 (7e copie)
+    [42] => image_4 (8e copie)
+    [43] => image_4 (9e copie)
+    [44] => image_4 (10e copie)
+    [45] => image_4 (11e copie)
+    [46] => image_4 (autre copie)
+    [47] => image_4 (copie)
+    [48] => image_5
+    [49] => image_5 (3e copie)
+    [50] => image_5 (4e copie)
+    [51] => image_5 (5e copie)
+    [52] => image_5 (6e copie)
+    [53] => image_5 (7e copie)
+    [54] => image_5 (8e copie)
+    [55] => image_5 (9e copie)
+    [56] => image_5 (10e copie)
+    [57] => image_5 (11e copie)
+    [58] => image_5 (autre copie)
+    [59] => image_5 (copie)
+    [60] => image_6
+    [61] => image_6 (3e copie)
+    [62] => image_6 (4e copie)
+    [63] => image_6 (5e copie)
+    [64] => image_6 (6e copie)
+    [65] => image_6 (7e copie)
+    [66] => image_6 (8e copie)
+    [67] => image_6 (9e copie)
+    [68] => image_6 (10e copie)
+    [69] => image_6 (11e copie)
+    [70] => image_6 (autre copie)
+    [71] => image_6 (copie)
+    [72] => image_7
+    [73] => image_7 (3e copie)
+    [74] => image_7 (4e copie)
+    [75] => image_7 (5e copie)
+    [76] => image_7 (6e copie)
+    [77] => image_7 (7e copie)
+    [78] => image_7 (8e copie)
+    [79] => image_7 (9e copie)
+    [80] => test
+)
+
+
+Sunday 14th of May 2023 03:01:48 PM
+Resize test to 1024
+
+Sunday 14th of May 2023 03:01:48 PM
+Convert test to jpg
+
+Sunday 14th of May 2023 03:01:48 PM
+Array
+(
+    [0] => image_1
+    [1] => image_1 (3e copie)
+    [2] => image_1 (4e copie)
+    [3] => image_1 (5e copie)
+    [4] => image_1 (6e copie)
+    [5] => image_1 (7e copie)
+    [6] => image_1 (8e copie)
+    [7] => image_1 (9e copie)
+    [8] => image_1 (10e copie)
+    [9] => image_1 (11e copie)
+    [10] => image_1 (autre copie)
+    [11] => image_1 (copie)
+    [12] => image_2
+    [13] => image_2 (3e copie)
+    [14] => image_2 (4e copie)
+    [15] => image_2 (5e copie)
+    [16] => image_2 (6e copie)
+    [17] => image_2 (7e copie)
+    [18] => image_2 (8e copie)
+    [19] => image_2 (9e copie)
+    [20] => image_2 (10e copie)
+    [21] => image_2 (11e copie)
+    [22] => image_2 (autre copie)
+    [23] => image_2 (copie)
+    [24] => image_3
+    [25] => image_3 (3e copie)
+    [26] => image_3 (4e copie)
+    [27] => image_3 (5e copie)
+    [28] => image_3 (6e copie)
+    [29] => image_3 (7e copie)
+    [30] => image_3 (8e copie)
+    [31] => image_3 (9e copie)
+    [32] => image_3 (10e copie)
+    [33] => image_3 (11e copie)
+    [34] => image_3 (autre copie)
+    [35] => image_3 (copie)
+    [36] => image_4
+    [37] => image_4 (3e copie)
+    [38] => image_4 (4e copie)
+    [39] => image_4 (5e copie)
+    [40] => image_4 (6e copie)
+    [41] => image_4 (7e copie)
+    [42] => image_4 (8e copie)
+    [43] => image_4 (9e copie)
+    [44] => image_4 (10e copie)
+    [45] => image_4 (11e copie)
+    [46] => image_4 (autre copie)
+    [47] => image_4 (copie)
+    [48] => image_5
+    [49] => image_5 (3e copie)
+    [50] => image_5 (4e copie)
+    [51] => image_5 (5e copie)
+    [52] => image_5 (6e copie)
+    [53] => image_5 (7e copie)
+    [54] => image_5 (8e copie)
+    [55] => image_5 (9e copie)
+    [56] => image_5 (10e copie)
+    [57] => image_5 (11e copie)
+    [58] => image_5 (autre copie)
+    [59] => image_5 (copie)
+    [60] => image_6
+    [61] => image_6 (3e copie)
+    [62] => image_6 (4e copie)
+    [63] => image_6 (5e copie)
+    [64] => image_6 (6e copie)
+    [65] => image_6 (7e copie)
+    [66] => image_6 (8e copie)
+    [67] => image_6 (9e copie)
+    [68] => image_6 (10e copie)
+    [69] => image_6 (11e copie)
+    [70] => image_6 (autre copie)
+    [71] => image_6 (copie)
+    [72] => image_7
+    [73] => image_7 (3e copie)
+    [74] => image_7 (4e copie)
+    [75] => image_7 (5e copie)
+    [76] => image_7 (6e copie)
+    [77] => image_7 (7e copie)
+    [78] => image_7 (8e copie)
+    [79] => image_7 (9e copie)
+    [80] => test
+)
+
+
+Sunday 14th of May 2023 03:01:49 PM
+Resize test to 1024
+
+Sunday 14th of May 2023 03:01:49 PM
+Convert test to jpg
+
+Sunday 14th of May 2023 03:01:49 PM
+Array
+(
+    [0] => image_1
+    [1] => image_1 (3e copie)
+    [2] => image_1 (4e copie)
+    [3] => image_1 (5e copie)
+    [4] => image_1 (6e copie)
+    [5] => image_1 (7e copie)
+    [6] => image_1 (8e copie)
+    [7] => image_1 (9e copie)
+    [8] => image_1 (10e copie)
+    [9] => image_1 (11e copie)
+    [10] => image_1 (autre copie)
+    [11] => image_1 (copie)
+    [12] => image_2
+    [13] => image_2 (3e copie)
+    [14] => image_2 (4e copie)
+    [15] => image_2 (5e copie)
+    [16] => image_2 (6e copie)
+    [17] => image_2 (7e copie)
+    [18] => image_2 (8e copie)
+    [19] => image_2 (9e copie)
+    [20] => image_2 (10e copie)
+    [21] => image_2 (11e copie)
+    [22] => image_2 (autre copie)
+    [23] => image_2 (copie)
+    [24] => image_3
+    [25] => image_3 (3e copie)
+    [26] => image_3 (4e copie)
+    [27] => image_3 (5e copie)
+    [28] => image_3 (6e copie)
+    [29] => image_3 (7e copie)
+    [30] => image_3 (8e copie)
+    [31] => image_3 (9e copie)
+    [32] => image_3 (10e copie)
+    [33] => image_3 (11e copie)
+    [34] => image_3 (autre copie)
+    [35] => image_3 (copie)
+    [36] => image_4
+    [37] => image_4 (3e copie)
+    [38] => image_4 (4e copie)
+    [39] => image_4 (5e copie)
+    [40] => image_4 (6e copie)
+    [41] => image_4 (7e copie)
+    [42] => image_4 (8e copie)
+    [43] => image_4 (9e copie)
+    [44] => image_4 (10e copie)
+    [45] => image_4 (11e copie)
+    [46] => image_4 (autre copie)
+    [47] => image_4 (copie)
+    [48] => image_5
+    [49] => image_5 (3e copie)
+    [50] => image_5 (4e copie)
+    [51] => image_5 (5e copie)
+    [52] => image_5 (6e copie)
+    [53] => image_5 (7e copie)
+    [54] => image_5 (8e copie)
+    [55] => image_5 (9e copie)
+    [56] => image_5 (10e copie)
+    [57] => image_5 (11e copie)
+    [58] => image_5 (autre copie)
+    [59] => image_5 (copie)
+    [60] => image_6
+    [61] => image_6 (3e copie)
+    [62] => image_6 (4e copie)
+    [63] => image_6 (5e copie)
+    [64] => image_6 (6e copie)
+    [65] => image_6 (7e copie)
+    [66] => image_6 (8e copie)
+    [67] => image_6 (9e copie)
+    [68] => image_6 (10e copie)
+    [69] => image_6 (11e copie)
+    [70] => image_6 (autre copie)
+    [71] => image_6 (copie)
+    [72] => image_7
+    [73] => image_7 (3e copie)
+    [74] => image_7 (4e copie)
+    [75] => image_7 (5e copie)
+    [76] => image_7 (6e copie)
+    [77] => image_7 (7e copie)
+    [78] => image_7 (8e copie)
+    [79] => image_7 (9e copie)
+    [80] => test
+)
+
+
+Sunday 14th of May 2023 03:01:50 PM
+Resize test to 1024
+
+Sunday 14th of May 2023 03:01:50 PM
+Convert test to jpg
+
+Sunday 14th of May 2023 03:01:50 PM
+Array
+(
+    [0] => image_1
+    [1] => image_1 (3e copie)
+    [2] => image_1 (4e copie)
+    [3] => image_1 (5e copie)
+    [4] => image_1 (6e copie)
+    [5] => image_1 (7e copie)
+    [6] => image_1 (8e copie)
+    [7] => image_1 (9e copie)
+    [8] => image_1 (10e copie)
+    [9] => image_1 (11e copie)
+    [10] => image_1 (autre copie)
+    [11] => image_1 (copie)
+    [12] => image_2
+    [13] => image_2 (3e copie)
+    [14] => image_2 (4e copie)
+    [15] => image_2 (5e copie)
+    [16] => image_2 (6e copie)
+    [17] => image_2 (7e copie)
+    [18] => image_2 (8e copie)
+    [19] => image_2 (9e copie)
+    [20] => image_2 (10e copie)
+    [21] => image_2 (11e copie)
+    [22] => image_2 (autre copie)
+    [23] => image_2 (copie)
+    [24] => image_3
+    [25] => image_3 (3e copie)
+    [26] => image_3 (4e copie)
+    [27] => image_3 (5e copie)
+    [28] => image_3 (6e copie)
+    [29] => image_3 (7e copie)
+    [30] => image_3 (8e copie)
+    [31] => image_3 (9e copie)
+    [32] => image_3 (10e copie)
+    [33] => image_3 (11e copie)
+    [34] => image_3 (autre copie)
+    [35] => image_3 (copie)
+    [36] => image_4
+    [37] => image_4 (3e copie)
+    [38] => image_4 (4e copie)
+    [39] => image_4 (5e copie)
+    [40] => image_4 (6e copie)
+    [41] => image_4 (7e copie)
+    [42] => image_4 (8e copie)
+    [43] => image_4 (9e copie)
+    [44] => image_4 (10e copie)
+    [45] => image_4 (11e copie)
+    [46] => image_4 (autre copie)
+    [47] => image_4 (copie)
+    [48] => image_5
+    [49] => image_5 (3e copie)
+    [50] => image_5 (4e copie)
+    [51] => image_5 (5e copie)
+    [52] => image_5 (6e copie)
+    [53] => image_5 (7e copie)
+    [54] => image_5 (8e copie)
+    [55] => image_5 (9e copie)
+    [56] => image_5 (10e copie)
+    [57] => image_5 (11e copie)
+    [58] => image_5 (autre copie)
+    [59] => image_5 (copie)
+    [60] => image_6
+    [61] => image_6 (3e copie)
+    [62] => image_6 (4e copie)
+    [63] => image_6 (5e copie)
+    [64] => image_6 (6e copie)
+    [65] => image_6 (7e copie)
+    [66] => image_6 (8e copie)
+    [67] => image_6 (9e copie)
+    [68] => image_6 (10e copie)
+    [69] => image_6 (11e copie)
+    [70] => image_6 (autre copie)
+    [71] => image_6 (copie)
+    [72] => image_7
+    [73] => image_7 (3e copie)
+    [74] => image_7 (4e copie)
+    [75] => image_7 (5e copie)
+    [76] => image_7 (6e copie)
+    [77] => image_7 (7e copie)
+    [78] => image_7 (8e copie)
+    [79] => image_7 (9e copie)
+    [80] => test
+)
+
+
+Sunday 14th of May 2023 03:01:52 PM
+Resize test to 1024
+
+Sunday 14th of May 2023 03:01:52 PM
+Convert test to jpg
+
+Sunday 14th of May 2023 03:01:52 PM
+Array
+(
+    [0] => image_1
+    [1] => image_1 (3e copie)
+    [2] => image_1 (4e copie)
+    [3] => image_1 (5e copie)
+    [4] => image_1 (6e copie)
+    [5] => image_1 (7e copie)
+    [6] => image_1 (8e copie)
+    [7] => image_1 (9e copie)
+    [8] => image_1 (10e copie)
+    [9] => image_1 (11e copie)
+    [10] => image_1 (autre copie)
+    [11] => image_1 (copie)
+    [12] => image_2
+    [13] => image_2 (3e copie)
+    [14] => image_2 (4e copie)
+    [15] => image_2 (5e copie)
+    [16] => image_2 (6e copie)
+    [17] => image_2 (7e copie)
+    [18] => image_2 (8e copie)
+    [19] => image_2 (9e copie)
+    [20] => image_2 (10e copie)
+    [21] => image_2 (11e copie)
+    [22] => image_2 (autre copie)
+    [23] => image_2 (copie)
+    [24] => image_3
+    [25] => image_3 (3e copie)
+    [26] => image_3 (4e copie)
+    [27] => image_3 (5e copie)
+    [28] => image_3 (6e copie)
+    [29] => image_3 (7e copie)
+    [30] => image_3 (8e copie)
+    [31] => image_3 (9e copie)
+    [32] => image_3 (10e copie)
+    [33] => image_3 (11e copie)
+    [34] => image_3 (autre copie)
+    [35] => image_3 (copie)
+    [36] => image_4
+    [37] => image_4 (3e copie)
+    [38] => image_4 (4e copie)
+    [39] => image_4 (5e copie)
+    [40] => image_4 (6e copie)
+    [41] => image_4 (7e copie)
+    [42] => image_4 (8e copie)
+    [43] => image_4 (9e copie)
+    [44] => image_4 (10e copie)
+    [45] => image_4 (11e copie)
+    [46] => image_4 (autre copie)
+    [47] => image_4 (copie)
+    [48] => image_5
+    [49] => image_5 (3e copie)
+    [50] => image_5 (4e copie)
+    [51] => image_5 (5e copie)
+    [52] => image_5 (6e copie)
+    [53] => image_5 (7e copie)
+    [54] => image_5 (8e copie)
+    [55] => image_5 (9e copie)
+    [56] => image_5 (10e copie)
+    [57] => image_5 (11e copie)
+    [58] => image_5 (autre copie)
+    [59] => image_5 (copie)
+    [60] => image_6
+    [61] => image_6 (3e copie)
+    [62] => image_6 (4e copie)
+    [63] => image_6 (5e copie)
+    [64] => image_6 (6e copie)
+    [65] => image_6 (7e copie)
+    [66] => image_6 (8e copie)
+    [67] => image_6 (9e copie)
+    [68] => image_6 (10e copie)
+    [69] => image_6 (11e copie)
+    [70] => image_6 (autre copie)
+    [71] => image_6 (copie)
+    [72] => image_7
+    [73] => image_7 (3e copie)
+    [74] => image_7 (4e copie)
+    [75] => image_7 (5e copie)
+    [76] => image_7 (6e copie)
+    [77] => image_7 (7e copie)
+    [78] => image_7 (8e copie)
+    [79] => image_7 (9e copie)
+    [80] => test
+)
+
+
+Sunday 14th of May 2023 03:01:53 PM
+Resize test to 1024
+
+Sunday 14th of May 2023 03:02:45 PM
+Warning: PHP max file uploads have this current limit: 30
+
+Sunday 14th of May 2023 03:02:45 PM
+Warning: PHP max input time have this current limit: 60
+
+Sunday 14th of May 2023 03:02:45 PM
+Array
+(
+    [0] => image_1 (3e copie)
+    [1] => image_1 (4e copie)
+    [2] => image_1 (5e copie)
+    [3] => image_1 (6e copie)
+    [4] => image_1 (7e copie)
+    [5] => image_1 (8e copie)
+    [6] => image_1 (9e copie)
+    [7] => image_1 (10e copie)
+    [8] => image_1 (11e copie)
+    [9] => image_1 (autre copie)
+    [10] => image_1 (copie)
+    [11] => image_2
+    [12] => image_2 (3e copie)
+    [13] => image_2 (4e copie)
+    [14] => image_2 (5e copie)
+    [15] => image_2 (6e copie)
+    [16] => image_2 (7e copie)
+    [17] => image_2 (8e copie)
+    [18] => image_2 (9e copie)
+    [19] => image_2 (10e copie)
+    [20] => image_2 (11e copie)
+    [21] => image_2 (autre copie)
+    [22] => image_2 (copie)
+    [23] => image_3
+    [24] => image_3 (3e copie)
+    [25] => image_3 (4e copie)
+    [26] => image_3 (5e copie)
+    [27] => image_3 (6e copie)
+    [28] => image_3 (7e copie)
+    [29] => image_3 (8e copie)
+    [30] => image_3 (9e copie)
+    [31] => image_3 (10e copie)
+    [32] => image_3 (11e copie)
+    [33] => image_3 (autre copie)
+    [34] => image_3 (copie)
+    [35] => image_4
+    [36] => image_4 (3e copie)
+    [37] => image_4 (4e copie)
+    [38] => image_4 (5e copie)
+    [39] => image_4 (6e copie)
+    [40] => image_4 (7e copie)
+    [41] => image_4 (8e copie)
+    [42] => image_4 (9e copie)
+    [43] => image_4 (10e copie)
+    [44] => image_4 (11e copie)
+    [45] => image_4 (autre copie)
+    [46] => image_4 (copie)
+    [47] => image_5
+    [48] => image_5 (3e copie)
+    [49] => image_5 (4e copie)
+    [50] => image_5 (5e copie)
+)
+
+
+Sunday 14th of May 2023 03:02:46 PM
+Resize test to 1024
+
+Sunday 14th of May 2023 03:02:46 PM
+Convert test to jpg
+
+Sunday 14th of May 2023 03:02:46 PM
+Array
+(
+    [0] => image_1 (3e copie)
+    [1] => image_1 (4e copie)
+    [2] => image_1 (5e copie)
+    [3] => image_1 (6e copie)
+    [4] => image_1 (7e copie)
+    [5] => image_1 (8e copie)
+    [6] => image_1 (9e copie)
+    [7] => image_1 (10e copie)
+    [8] => image_1 (11e copie)
+    [9] => image_1 (autre copie)
+    [10] => image_1 (copie)
+    [11] => image_2
+    [12] => image_2 (3e copie)
+    [13] => image_2 (4e copie)
+    [14] => image_2 (5e copie)
+    [15] => image_2 (6e copie)
+    [16] => image_2 (7e copie)
+    [17] => image_2 (8e copie)
+    [18] => image_2 (9e copie)
+    [19] => image_2 (10e copie)
+    [20] => image_2 (11e copie)
+    [21] => image_2 (autre copie)
+    [22] => image_2 (copie)
+    [23] => image_3
+    [24] => image_3 (3e copie)
+    [25] => image_3 (4e copie)
+    [26] => image_3 (5e copie)
+    [27] => image_3 (6e copie)
+    [28] => image_3 (7e copie)
+    [29] => image_3 (8e copie)
+    [30] => image_3 (9e copie)
+    [31] => image_3 (10e copie)
+    [32] => image_3 (11e copie)
+    [33] => image_3 (autre copie)
+    [34] => image_3 (copie)
+    [35] => image_4
+    [36] => image_4 (3e copie)
+    [37] => image_4 (4e copie)
+    [38] => image_4 (5e copie)
+    [39] => image_4 (6e copie)
+    [40] => image_4 (7e copie)
+    [41] => image_4 (8e copie)
+    [42] => image_4 (9e copie)
+    [43] => image_4 (10e copie)
+    [44] => image_4 (11e copie)
+    [45] => image_4 (autre copie)
+    [46] => image_4 (copie)
+    [47] => image_5
+    [48] => image_5 (3e copie)
+    [49] => image_5 (4e copie)
+    [50] => test
+)
+
+
+Sunday 14th of May 2023 03:02:47 PM
+Resize test to 1024
+
+Sunday 14th of May 2023 03:02:47 PM
+Convert test to jpg
+
+Sunday 14th of May 2023 03:02:47 PM
+Array
+(
+    [0] => image_1 (3e copie)
+    [1] => image_1 (4e copie)
+    [2] => image_1 (5e copie)
+    [3] => image_1 (6e copie)
+    [4] => image_1 (7e copie)
+    [5] => image_1 (8e copie)
+    [6] => image_1 (9e copie)
+    [7] => image_1 (10e copie)
+    [8] => image_1 (11e copie)
+    [9] => image_1 (autre copie)
+    [10] => image_1 (copie)
+    [11] => image_2
+    [12] => image_2 (3e copie)
+    [13] => image_2 (4e copie)
+    [14] => image_2 (5e copie)
+    [15] => image_2 (6e copie)
+    [16] => image_2 (7e copie)
+    [17] => image_2 (8e copie)
+    [18] => image_2 (9e copie)
+    [19] => image_2 (10e copie)
+    [20] => image_2 (11e copie)
+    [21] => image_2 (autre copie)
+    [22] => image_2 (copie)
+    [23] => image_3
+    [24] => image_3 (3e copie)
+    [25] => image_3 (4e copie)
+    [26] => image_3 (5e copie)
+    [27] => image_3 (6e copie)
+    [28] => image_3 (7e copie)
+    [29] => image_3 (8e copie)
+    [30] => image_3 (9e copie)
+    [31] => image_3 (10e copie)
+    [32] => image_3 (11e copie)
+    [33] => image_3 (autre copie)
+    [34] => image_3 (copie)
+    [35] => image_4
+    [36] => image_4 (3e copie)
+    [37] => image_4 (4e copie)
+    [38] => image_4 (5e copie)
+    [39] => image_4 (6e copie)
+    [40] => image_4 (7e copie)
+    [41] => image_4 (8e copie)
+    [42] => image_4 (9e copie)
+    [43] => image_4 (10e copie)
+    [44] => image_4 (11e copie)
+    [45] => image_4 (autre copie)
+    [46] => image_4 (copie)
+    [47] => image_5
+    [48] => image_5 (3e copie)
+    [49] => image_5 (4e copie)
+    [50] => test
+)
+
+
+Sunday 14th of May 2023 03:02:47 PM
+Resize test to 1024
+
+Sunday 14th of May 2023 03:02:47 PM
+Convert test to jpg
+
+Sunday 14th of May 2023 03:02:48 PM
+Array
+(
+    [0] => image_1 (3e copie)
+    [1] => image_1 (4e copie)
+    [2] => image_1 (5e copie)
+    [3] => image_1 (6e copie)
+    [4] => image_1 (7e copie)
+    [5] => image_1 (8e copie)
+    [6] => image_1 (9e copie)
+    [7] => image_1 (10e copie)
+    [8] => image_1 (11e copie)
+    [9] => image_1 (autre copie)
+    [10] => image_1 (copie)
+    [11] => image_2
+    [12] => image_2 (3e copie)
+    [13] => image_2 (4e copie)
+    [14] => image_2 (5e copie)
+    [15] => image_2 (6e copie)
+    [16] => image_2 (7e copie)
+    [17] => image_2 (8e copie)
+    [18] => image_2 (9e copie)
+    [19] => image_2 (10e copie)
+    [20] => image_2 (11e copie)
+    [21] => image_2 (autre copie)
+    [22] => image_2 (copie)
+    [23] => image_3
+    [24] => image_3 (3e copie)
+    [25] => image_3 (4e copie)
+    [26] => image_3 (5e copie)
+    [27] => image_3 (6e copie)
+    [28] => image_3 (7e copie)
+    [29] => image_3 (8e copie)
+    [30] => image_3 (9e copie)
+    [31] => image_3 (10e copie)
+    [32] => image_3 (11e copie)
+    [33] => image_3 (autre copie)
+    [34] => image_3 (copie)
+    [35] => image_4
+    [36] => image_4 (3e copie)
+    [37] => image_4 (4e copie)
+    [38] => image_4 (5e copie)
+    [39] => image_4 (6e copie)
+    [40] => image_4 (7e copie)
+    [41] => image_4 (8e copie)
+    [42] => image_4 (9e copie)
+    [43] => image_4 (10e copie)
+    [44] => image_4 (11e copie)
+    [45] => image_4 (autre copie)
+    [46] => image_4 (copie)
+    [47] => image_5
+    [48] => image_5 (3e copie)
+    [49] => image_5 (4e copie)
+    [50] => test
+)
+
+
+Sunday 14th of May 2023 03:02:48 PM
+Resize test to 1024
+
+Sunday 14th of May 2023 03:02:48 PM
+Convert test to jpg
+
+Sunday 14th of May 2023 03:02:48 PM
+Array
+(
+    [0] => image_1 (3e copie)
+    [1] => image_1 (4e copie)
+    [2] => image_1 (5e copie)
+    [3] => image_1 (6e copie)
+    [4] => image_1 (7e copie)
+    [5] => image_1 (8e copie)
+    [6] => image_1 (9e copie)
+    [7] => image_1 (10e copie)
+    [8] => image_1 (11e copie)
+    [9] => image_1 (autre copie)
+    [10] => image_1 (copie)
+    [11] => image_2
+    [12] => image_2 (3e copie)
+    [13] => image_2 (4e copie)
+    [14] => image_2 (5e copie)
+    [15] => image_2 (6e copie)
+    [16] => image_2 (7e copie)
+    [17] => image_2 (8e copie)
+    [18] => image_2 (9e copie)
+    [19] => image_2 (10e copie)
+    [20] => image_2 (11e copie)
+    [21] => image_2 (autre copie)
+    [22] => image_2 (copie)
+    [23] => image_3
+    [24] => image_3 (3e copie)
+    [25] => image_3 (4e copie)
+    [26] => image_3 (5e copie)
+    [27] => image_3 (6e copie)
+    [28] => image_3 (7e copie)
+    [29] => image_3 (8e copie)
+    [30] => image_3 (9e copie)
+    [31] => image_3 (10e copie)
+    [32] => image_3 (11e copie)
+    [33] => image_3 (autre copie)
+    [34] => image_3 (copie)
+    [35] => image_4
+    [36] => image_4 (3e copie)
+    [37] => image_4 (4e copie)
+    [38] => image_4 (5e copie)
+    [39] => image_4 (6e copie)
+    [40] => image_4 (7e copie)
+    [41] => image_4 (8e copie)
+    [42] => image_4 (9e copie)
+    [43] => image_4 (10e copie)
+    [44] => image_4 (11e copie)
+    [45] => image_4 (autre copie)
+    [46] => image_4 (copie)
+    [47] => image_5
+    [48] => image_5 (3e copie)
+    [49] => image_5 (4e copie)
+    [50] => test
+)
+
+
+Sunday 14th of May 2023 03:02:49 PM
+Resize test to 1024
+
+Sunday 14th of May 2023 03:02:49 PM
+Convert test to jpg
+
+Sunday 14th of May 2023 03:02:49 PM
+Array
+(
+    [0] => image_1 (3e copie)
+    [1] => image_1 (4e copie)
+    [2] => image_1 (5e copie)
+    [3] => image_1 (6e copie)
+    [4] => image_1 (7e copie)
+    [5] => image_1 (8e copie)
+    [6] => image_1 (9e copie)
+    [7] => image_1 (10e copie)
+    [8] => image_1 (11e copie)
+    [9] => image_1 (autre copie)
+    [10] => image_1 (copie)
+    [11] => image_2
+    [12] => image_2 (3e copie)
+    [13] => image_2 (4e copie)
+    [14] => image_2 (5e copie)
+    [15] => image_2 (6e copie)
+    [16] => image_2 (7e copie)
+    [17] => image_2 (8e copie)
+    [18] => image_2 (9e copie)
+    [19] => image_2 (10e copie)
+    [20] => image_2 (11e copie)
+    [21] => image_2 (autre copie)
+    [22] => image_2 (copie)
+    [23] => image_3
+    [24] => image_3 (3e copie)
+    [25] => image_3 (4e copie)
+    [26] => image_3 (5e copie)
+    [27] => image_3 (6e copie)
+    [28] => image_3 (7e copie)
+    [29] => image_3 (8e copie)
+    [30] => image_3 (9e copie)
+    [31] => image_3 (10e copie)
+    [32] => image_3 (11e copie)
+    [33] => image_3 (autre copie)
+    [34] => image_3 (copie)
+    [35] => image_4
+    [36] => image_4 (3e copie)
+    [37] => image_4 (4e copie)
+    [38] => image_4 (5e copie)
+    [39] => image_4 (6e copie)
+    [40] => image_4 (7e copie)
+    [41] => image_4 (8e copie)
+    [42] => image_4 (9e copie)
+    [43] => image_4 (10e copie)
+    [44] => image_4 (11e copie)
+    [45] => image_4 (autre copie)
+    [46] => image_4 (copie)
+    [47] => image_5
+    [48] => image_5 (3e copie)
+    [49] => image_5 (4e copie)
+    [50] => test
+)
+
+
+Sunday 14th of May 2023 03:02:50 PM
+Resize test to 1024
+
+Sunday 14th of May 2023 03:02:50 PM
+Convert test to jpg
+
+Sunday 14th of May 2023 03:02:50 PM
+Array
+(
+    [0] => image_1 (3e copie)
+    [1] => image_1 (4e copie)
+    [2] => image_1 (5e copie)
+    [3] => image_1 (6e copie)
+    [4] => image_1 (7e copie)
+    [5] => image_1 (8e copie)
+    [6] => image_1 (9e copie)
+    [7] => image_1 (10e copie)
+    [8] => image_1 (11e copie)
+    [9] => image_1 (autre copie)
+    [10] => image_1 (copie)
+    [11] => image_2
+    [12] => image_2 (3e copie)
+    [13] => image_2 (4e copie)
+    [14] => image_2 (5e copie)
+    [15] => image_2 (6e copie)
+    [16] => image_2 (7e copie)
+    [17] => image_2 (8e copie)
+    [18] => image_2 (9e copie)
+    [19] => image_2 (10e copie)
+    [20] => image_2 (11e copie)
+    [21] => image_2 (autre copie)
+    [22] => image_2 (copie)
+    [23] => image_3
+    [24] => image_3 (3e copie)
+    [25] => image_3 (4e copie)
+    [26] => image_3 (5e copie)
+    [27] => image_3 (6e copie)
+    [28] => image_3 (7e copie)
+    [29] => image_3 (8e copie)
+    [30] => image_3 (9e copie)
+    [31] => image_3 (10e copie)
+    [32] => image_3 (11e copie)
+    [33] => image_3 (autre copie)
+    [34] => image_3 (copie)
+    [35] => image_4
+    [36] => image_4 (3e copie)
+    [37] => image_4 (4e copie)
+    [38] => image_4 (5e copie)
+    [39] => image_4 (6e copie)
+    [40] => image_4 (7e copie)
+    [41] => image_4 (8e copie)
+    [42] => image_4 (9e copie)
+    [43] => image_4 (10e copie)
+    [44] => image_4 (11e copie)
+    [45] => image_4 (autre copie)
+    [46] => image_4 (copie)
+    [47] => image_5
+    [48] => image_5 (3e copie)
+    [49] => image_5 (4e copie)
+    [50] => test
+)
+
+
+Sunday 14th of May 2023 03:02:50 PM
+Resize test to 1024
+
+Sunday 14th of May 2023 03:02:50 PM
+Convert test to jpg
+
+Sunday 14th of May 2023 03:02:50 PM
+Array
+(
+    [0] => image_1 (3e copie)
+    [1] => image_1 (4e copie)
+    [2] => image_1 (5e copie)
+    [3] => image_1 (6e copie)
+    [4] => image_1 (7e copie)
+    [5] => image_1 (8e copie)
+    [6] => image_1 (9e copie)
+    [7] => image_1 (10e copie)
+    [8] => image_1 (11e copie)
+    [9] => image_1 (autre copie)
+    [10] => image_1 (copie)
+    [11] => image_2
+    [12] => image_2 (3e copie)
+    [13] => image_2 (4e copie)
+    [14] => image_2 (5e copie)
+    [15] => image_2 (6e copie)
+    [16] => image_2 (7e copie)
+    [17] => image_2 (8e copie)
+    [18] => image_2 (9e copie)
+    [19] => image_2 (10e copie)
+    [20] => image_2 (11e copie)
+    [21] => image_2 (autre copie)
+    [22] => image_2 (copie)
+    [23] => image_3
+    [24] => image_3 (3e copie)
+    [25] => image_3 (4e copie)
+    [26] => image_3 (5e copie)
+    [27] => image_3 (6e copie)
+    [28] => image_3 (7e copie)
+    [29] => image_3 (8e copie)
+    [30] => image_3 (9e copie)
+    [31] => image_3 (10e copie)
+    [32] => image_3 (11e copie)
+    [33] => image_3 (autre copie)
+    [34] => image_3 (copie)
+    [35] => image_4
+    [36] => image_4 (3e copie)
+    [37] => image_4 (4e copie)
+    [38] => image_4 (5e copie)
+    [39] => image_4 (6e copie)
+    [40] => image_4 (7e copie)
+    [41] => image_4 (8e copie)
+    [42] => image_4 (9e copie)
+    [43] => image_4 (10e copie)
+    [44] => image_4 (11e copie)
+    [45] => image_4 (autre copie)
+    [46] => image_4 (copie)
+    [47] => image_5
+    [48] => image_5 (3e copie)
+    [49] => image_5 (4e copie)
+    [50] => test
+)
+
+
+Sunday 14th of May 2023 03:02:51 PM
+Resize test to 1024
+
+Sunday 14th of May 2023 03:02:51 PM
+Convert test to jpg
+
+Sunday 14th of May 2023 03:02:51 PM
+Array
+(
+    [0] => image_1 (3e copie)
+    [1] => image_1 (4e copie)
+    [2] => image_1 (5e copie)
+    [3] => image_1 (6e copie)
+    [4] => image_1 (7e copie)
+    [5] => image_1 (8e copie)
+    [6] => image_1 (9e copie)
+    [7] => image_1 (10e copie)
+    [8] => image_1 (11e copie)
+    [9] => image_1 (autre copie)
+    [10] => image_1 (copie)
+    [11] => image_2
+    [12] => image_2 (3e copie)
+    [13] => image_2 (4e copie)
+    [14] => image_2 (5e copie)
+    [15] => image_2 (6e copie)
+    [16] => image_2 (7e copie)
+    [17] => image_2 (8e copie)
+    [18] => image_2 (9e copie)
+    [19] => image_2 (10e copie)
+    [20] => image_2 (11e copie)
+    [21] => image_2 (autre copie)
+    [22] => image_2 (copie)
+    [23] => image_3
+    [24] => image_3 (3e copie)
+    [25] => image_3 (4e copie)
+    [26] => image_3 (5e copie)
+    [27] => image_3 (6e copie)
+    [28] => image_3 (7e copie)
+    [29] => image_3 (8e copie)
+    [30] => image_3 (9e copie)
+    [31] => image_3 (10e copie)
+    [32] => image_3 (11e copie)
+    [33] => image_3 (autre copie)
+    [34] => image_3 (copie)
+    [35] => image_4
+    [36] => image_4 (3e copie)
+    [37] => image_4 (4e copie)
+    [38] => image_4 (5e copie)
+    [39] => image_4 (6e copie)
+    [40] => image_4 (7e copie)
+    [41] => image_4 (8e copie)
+    [42] => image_4 (9e copie)
+    [43] => image_4 (10e copie)
+    [44] => image_4 (11e copie)
+    [45] => image_4 (autre copie)
+    [46] => image_4 (copie)
+    [47] => image_5
+    [48] => image_5 (3e copie)
+    [49] => image_5 (4e copie)
+    [50] => test
+)
+
+
+Sunday 14th of May 2023 03:02:52 PM
+Resize test to 1024
+
+Sunday 14th of May 2023 03:02:52 PM
+Convert test to jpg
+
+Sunday 14th of May 2023 03:02:52 PM
+Array
+(
+    [0] => image_1 (3e copie)
+    [1] => image_1 (4e copie)
+    [2] => image_1 (5e copie)
+    [3] => image_1 (6e copie)
+    [4] => image_1 (7e copie)
+    [5] => image_1 (8e copie)
+    [6] => image_1 (9e copie)
+    [7] => image_1 (10e copie)
+    [8] => image_1 (11e copie)
+    [9] => image_1 (autre copie)
+    [10] => image_1 (copie)
+    [11] => image_2
+    [12] => image_2 (3e copie)
+    [13] => image_2 (4e copie)
+    [14] => image_2 (5e copie)
+    [15] => image_2 (6e copie)
+    [16] => image_2 (7e copie)
+    [17] => image_2 (8e copie)
+    [18] => image_2 (9e copie)
+    [19] => image_2 (10e copie)
+    [20] => image_2 (11e copie)
+    [21] => image_2 (autre copie)
+    [22] => image_2 (copie)
+    [23] => image_3
+    [24] => image_3 (3e copie)
+    [25] => image_3 (4e copie)
+    [26] => image_3 (5e copie)
+    [27] => image_3 (6e copie)
+    [28] => image_3 (7e copie)
+    [29] => image_3 (8e copie)
+    [30] => image_3 (9e copie)
+    [31] => image_3 (10e copie)
+    [32] => image_3 (11e copie)
+    [33] => image_3 (autre copie)
+    [34] => image_3 (copie)
+    [35] => image_4
+    [36] => image_4 (3e copie)
+    [37] => image_4 (4e copie)
+    [38] => image_4 (5e copie)
+    [39] => image_4 (6e copie)
+    [40] => image_4 (7e copie)
+    [41] => image_4 (8e copie)
+    [42] => image_4 (9e copie)
+    [43] => image_4 (10e copie)
+    [44] => image_4 (11e copie)
+    [45] => image_4 (autre copie)
+    [46] => image_4 (copie)
+    [47] => image_5
+    [48] => image_5 (3e copie)
+    [49] => image_5 (4e copie)
+    [50] => test
+)
+
+
+Sunday 14th of May 2023 03:02:54 PM
+Resize test to 1024
+
+Sunday 14th of May 2023 03:02:54 PM
+Convert test to jpg
+
+Sunday 14th of May 2023 03:02:54 PM
+Array
+(
+    [0] => image_1 (3e copie)
+    [1] => image_1 (4e copie)
+    [2] => image_1 (5e copie)
+    [3] => image_1 (6e copie)
+    [4] => image_1 (7e copie)
+    [5] => image_1 (8e copie)
+    [6] => image_1 (9e copie)
+    [7] => image_1 (10e copie)
+    [8] => image_1 (11e copie)
+    [9] => image_1 (autre copie)
+    [10] => image_1 (copie)
+    [11] => image_2
+    [12] => image_2 (3e copie)
+    [13] => image_2 (4e copie)
+    [14] => image_2 (5e copie)
+    [15] => image_2 (6e copie)
+    [16] => image_2 (7e copie)
+    [17] => image_2 (8e copie)
+    [18] => image_2 (9e copie)
+    [19] => image_2 (10e copie)
+    [20] => image_2 (11e copie)
+    [21] => image_2 (autre copie)
+    [22] => image_2 (copie)
+    [23] => image_3
+    [24] => image_3 (3e copie)
+    [25] => image_3 (4e copie)
+    [26] => image_3 (5e copie)
+    [27] => image_3 (6e copie)
+    [28] => image_3 (7e copie)
+    [29] => image_3 (8e copie)
+    [30] => image_3 (9e copie)
+    [31] => image_3 (10e copie)
+    [32] => image_3 (11e copie)
+    [33] => image_3 (autre copie)
+    [34] => image_3 (copie)
+    [35] => image_4
+    [36] => image_4 (3e copie)
+    [37] => image_4 (4e copie)
+    [38] => image_4 (5e copie)
+    [39] => image_4 (6e copie)
+    [40] => image_4 (7e copie)
+    [41] => image_4 (8e copie)
+    [42] => image_4 (9e copie)
+    [43] => image_4 (10e copie)
+    [44] => image_4 (11e copie)
+    [45] => image_4 (autre copie)
+    [46] => image_4 (copie)
+    [47] => image_5
+    [48] => image_5 (3e copie)
+    [49] => image_5 (4e copie)
+    [50] => test
+)
+
+
+Sunday 14th of May 2023 03:02:55 PM
+Resize test to 1024
+
+Sunday 14th of May 2023 03:03:26 PM
+Warning: PHP max file uploads have this current limit: 30
+
+Sunday 14th of May 2023 03:03:26 PM
+Warning: PHP max input time have this current limit: 60
+
+Sunday 14th of May 2023 03:03:26 PM
+Array
+(
+    [0] => image_1
+    [1] => image_1 (3e copie)
+    [2] => image_1 (4e copie)
+    [3] => image_1 (5e copie)
+    [4] => image_1 (6e copie)
+    [5] => image_1 (7e copie)
+    [6] => image_1 (8e copie)
+    [7] => image_1 (9e copie)
+    [8] => image_1 (10e copie)
+    [9] => image_1 (11e copie)
+    [10] => image_1 (autre copie)
+    [11] => image_1 (copie)
+    [12] => image_2
+    [13] => image_2 (3e copie)
+    [14] => image_2 (4e copie)
+    [15] => image_2 (5e copie)
+    [16] => image_2 (6e copie)
+    [17] => image_2 (7e copie)
+    [18] => image_2 (8e copie)
+    [19] => image_2 (9e copie)
+    [20] => image_2 (10e copie)
+    [21] => image_2 (11e copie)
+    [22] => image_2 (autre copie)
+    [23] => image_2 (copie)
+    [24] => image_3
+    [25] => image_3 (3e copie)
+    [26] => image_3 (4e copie)
+    [27] => image_3 (5e copie)
+    [28] => image_3 (6e copie)
+    [29] => image_3 (7e copie)
+    [30] => image_3 (8e copie)
+    [31] => image_3 (9e copie)
+    [32] => image_3 (10e copie)
+    [33] => image_3 (11e copie)
+    [34] => image_3 (autre copie)
+    [35] => image_3 (copie)
+    [36] => image_4
+    [37] => image_4 (3e copie)
+    [38] => image_4 (4e copie)
+    [39] => image_4 (5e copie)
+    [40] => image_4 (6e copie)
+    [41] => image_4 (7e copie)
+    [42] => image_4 (8e copie)
+    [43] => image_4 (9e copie)
+    [44] => image_4 (10e copie)
+    [45] => image_4 (11e copie)
+    [46] => image_4 (autre copie)
+    [47] => image_4 (copie)
+    [48] => image_5
+    [49] => image_5 (3e copie)
+)
+
+
+Sunday 14th of May 2023 03:03:26 PM
+Resize test to 1024
+
+Sunday 14th of May 2023 03:03:26 PM
+Convert test to jpg
+
+Sunday 14th of May 2023 03:03:27 PM
+Array
+(
+    [0] => image_1
+    [1] => image_1 (3e copie)
+    [2] => image_1 (4e copie)
+    [3] => image_1 (5e copie)
+    [4] => image_1 (6e copie)
+    [5] => image_1 (7e copie)
+    [6] => image_1 (8e copie)
+    [7] => image_1 (9e copie)
+    [8] => image_1 (10e copie)
+    [9] => image_1 (11e copie)
+    [10] => image_1 (autre copie)
+    [11] => image_1 (copie)
+    [12] => image_2
+    [13] => image_2 (3e copie)
+    [14] => image_2 (4e copie)
+    [15] => image_2 (5e copie)
+    [16] => image_2 (6e copie)
+    [17] => image_2 (7e copie)
+    [18] => image_2 (8e copie)
+    [19] => image_2 (9e copie)
+    [20] => image_2 (10e copie)
+    [21] => image_2 (11e copie)
+    [22] => image_2 (autre copie)
+    [23] => image_2 (copie)
+    [24] => image_3
+    [25] => image_3 (3e copie)
+    [26] => image_3 (4e copie)
+    [27] => image_3 (5e copie)
+    [28] => image_3 (6e copie)
+    [29] => image_3 (7e copie)
+    [30] => image_3 (8e copie)
+    [31] => image_3 (9e copie)
+    [32] => image_3 (10e copie)
+    [33] => image_3 (11e copie)
+    [34] => image_3 (autre copie)
+    [35] => image_3 (copie)
+    [36] => image_4
+    [37] => image_4 (3e copie)
+    [38] => image_4 (4e copie)
+    [39] => image_4 (5e copie)
+    [40] => image_4 (6e copie)
+    [41] => image_4 (7e copie)
+    [42] => image_4 (8e copie)
+    [43] => image_4 (9e copie)
+    [44] => image_4 (10e copie)
+    [45] => image_4 (11e copie)
+    [46] => image_4 (autre copie)
+    [47] => image_4 (copie)
+    [48] => image_5
+    [49] => test
+)
+
+
+Sunday 14th of May 2023 03:03:27 PM
+Resize test to 1024
+
+Sunday 14th of May 2023 03:03:27 PM
+Convert test to jpg
+
+Sunday 14th of May 2023 03:03:27 PM
+Array
+(
+    [0] => image_1
+    [1] => image_1 (3e copie)
+    [2] => image_1 (4e copie)
+    [3] => image_1 (5e copie)
+    [4] => image_1 (6e copie)
+    [5] => image_1 (7e copie)
+    [6] => image_1 (8e copie)
+    [7] => image_1 (9e copie)
+    [8] => image_1 (10e copie)
+    [9] => image_1 (11e copie)
+    [10] => image_1 (autre copie)
+    [11] => image_1 (copie)
+    [12] => image_2
+    [13] => image_2 (3e copie)
+    [14] => image_2 (4e copie)
+    [15] => image_2 (5e copie)
+    [16] => image_2 (6e copie)
+    [17] => image_2 (7e copie)
+    [18] => image_2 (8e copie)
+    [19] => image_2 (9e copie)
+    [20] => image_2 (10e copie)
+    [21] => image_2 (11e copie)
+    [22] => image_2 (autre copie)
+    [23] => image_2 (copie)
+    [24] => image_3
+    [25] => image_3 (3e copie)
+    [26] => image_3 (4e copie)
+    [27] => image_3 (5e copie)
+    [28] => image_3 (6e copie)
+    [29] => image_3 (7e copie)
+    [30] => image_3 (8e copie)
+    [31] => image_3 (9e copie)
+    [32] => image_3 (10e copie)
+    [33] => image_3 (11e copie)
+    [34] => image_3 (autre copie)
+    [35] => image_3 (copie)
+    [36] => image_4
+    [37] => image_4 (3e copie)
+    [38] => image_4 (4e copie)
+    [39] => image_4 (5e copie)
+    [40] => image_4 (6e copie)
+    [41] => image_4 (7e copie)
+    [42] => image_4 (8e copie)
+    [43] => image_4 (9e copie)
+    [44] => image_4 (10e copie)
+    [45] => image_4 (11e copie)
+    [46] => image_4 (autre copie)
+    [47] => image_4 (copie)
+    [48] => image_5
+    [49] => test
+)
+
+
+Sunday 14th of May 2023 03:03:28 PM
+Resize test to 1024
+
+Sunday 14th of May 2023 03:03:28 PM
+Convert test to jpg
+
+Sunday 14th of May 2023 03:03:28 PM
+Array
+(
+    [0] => image_1
+    [1] => image_1 (3e copie)
+    [2] => image_1 (4e copie)
+    [3] => image_1 (5e copie)
+    [4] => image_1 (6e copie)
+    [5] => image_1 (7e copie)
+    [6] => image_1 (8e copie)
+    [7] => image_1 (9e copie)
+    [8] => image_1 (10e copie)
+    [9] => image_1 (11e copie)
+    [10] => image_1 (autre copie)
+    [11] => image_1 (copie)
+    [12] => image_2
+    [13] => image_2 (3e copie)
+    [14] => image_2 (4e copie)
+    [15] => image_2 (5e copie)
+    [16] => image_2 (6e copie)
+    [17] => image_2 (7e copie)
+    [18] => image_2 (8e copie)
+    [19] => image_2 (9e copie)
+    [20] => image_2 (10e copie)
+    [21] => image_2 (11e copie)
+    [22] => image_2 (autre copie)
+    [23] => image_2 (copie)
+    [24] => image_3
+    [25] => image_3 (3e copie)
+    [26] => image_3 (4e copie)
+    [27] => image_3 (5e copie)
+    [28] => image_3 (6e copie)
+    [29] => image_3 (7e copie)
+    [30] => image_3 (8e copie)
+    [31] => image_3 (9e copie)
+    [32] => image_3 (10e copie)
+    [33] => image_3 (11e copie)
+    [34] => image_3 (autre copie)
+    [35] => image_3 (copie)
+    [36] => image_4
+    [37] => image_4 (3e copie)
+    [38] => image_4 (4e copie)
+    [39] => image_4 (5e copie)
+    [40] => image_4 (6e copie)
+    [41] => image_4 (7e copie)
+    [42] => image_4 (8e copie)
+    [43] => image_4 (9e copie)
+    [44] => image_4 (10e copie)
+    [45] => image_4 (11e copie)
+    [46] => image_4 (autre copie)
+    [47] => image_4 (copie)
+    [48] => image_5
+    [49] => test
+)
+
+
+Sunday 14th of May 2023 03:03:29 PM
+Resize test to 1024
+
+Sunday 14th of May 2023 03:03:29 PM
+Convert test to jpg
+
+Sunday 14th of May 2023 03:03:29 PM
+Array
+(
+    [0] => image_1
+    [1] => image_1 (3e copie)
+    [2] => image_1 (4e copie)
+    [3] => image_1 (5e copie)
+    [4] => image_1 (6e copie)
+    [5] => image_1 (7e copie)
+    [6] => image_1 (8e copie)
+    [7] => image_1 (9e copie)
+    [8] => image_1 (10e copie)
+    [9] => image_1 (11e copie)
+    [10] => image_1 (autre copie)
+    [11] => image_1 (copie)
+    [12] => image_2
+    [13] => image_2 (3e copie)
+    [14] => image_2 (4e copie)
+    [15] => image_2 (5e copie)
+    [16] => image_2 (6e copie)
+    [17] => image_2 (7e copie)
+    [18] => image_2 (8e copie)
+    [19] => image_2 (9e copie)
+    [20] => image_2 (10e copie)
+    [21] => image_2 (11e copie)
+    [22] => image_2 (autre copie)
+    [23] => image_2 (copie)
+    [24] => image_3
+    [25] => image_3 (3e copie)
+    [26] => image_3 (4e copie)
+    [27] => image_3 (5e copie)
+    [28] => image_3 (6e copie)
+    [29] => image_3 (7e copie)
+    [30] => image_3 (8e copie)
+    [31] => image_3 (9e copie)
+    [32] => image_3 (10e copie)
+    [33] => image_3 (11e copie)
+    [34] => image_3 (autre copie)
+    [35] => image_3 (copie)
+    [36] => image_4
+    [37] => image_4 (3e copie)
+    [38] => image_4 (4e copie)
+    [39] => image_4 (5e copie)
+    [40] => image_4 (6e copie)
+    [41] => image_4 (7e copie)
+    [42] => image_4 (8e copie)
+    [43] => image_4 (9e copie)
+    [44] => image_4 (10e copie)
+    [45] => image_4 (11e copie)
+    [46] => image_4 (autre copie)
+    [47] => image_4 (copie)
+    [48] => image_5
+    [49] => test
+)
+
+
+Sunday 14th of May 2023 03:03:30 PM
+Resize test to 1024
+
+Sunday 14th of May 2023 03:03:30 PM
+Convert test to jpg
+
+Sunday 14th of May 2023 03:03:30 PM
+Array
+(
+    [0] => image_1
+    [1] => image_1 (3e copie)
+    [2] => image_1 (4e copie)
+    [3] => image_1 (5e copie)
+    [4] => image_1 (6e copie)
+    [5] => image_1 (7e copie)
+    [6] => image_1 (8e copie)
+    [7] => image_1 (9e copie)
+    [8] => image_1 (10e copie)
+    [9] => image_1 (11e copie)
+    [10] => image_1 (autre copie)
+    [11] => image_1 (copie)
+    [12] => image_2
+    [13] => image_2 (3e copie)
+    [14] => image_2 (4e copie)
+    [15] => image_2 (5e copie)
+    [16] => image_2 (6e copie)
+    [17] => image_2 (7e copie)
+    [18] => image_2 (8e copie)
+    [19] => image_2 (9e copie)
+    [20] => image_2 (10e copie)
+    [21] => image_2 (11e copie)
+    [22] => image_2 (autre copie)
+    [23] => image_2 (copie)
+    [24] => image_3
+    [25] => image_3 (3e copie)
+    [26] => image_3 (4e copie)
+    [27] => image_3 (5e copie)
+    [28] => image_3 (6e copie)
+    [29] => image_3 (7e copie)
+    [30] => image_3 (8e copie)
+    [31] => image_3 (9e copie)
+    [32] => image_3 (10e copie)
+    [33] => image_3 (11e copie)
+    [34] => image_3 (autre copie)
+    [35] => image_3 (copie)
+    [36] => image_4
+    [37] => image_4 (3e copie)
+    [38] => image_4 (4e copie)
+    [39] => image_4 (5e copie)
+    [40] => image_4 (6e copie)
+    [41] => image_4 (7e copie)
+    [42] => image_4 (8e copie)
+    [43] => image_4 (9e copie)
+    [44] => image_4 (10e copie)
+    [45] => image_4 (11e copie)
+    [46] => image_4 (autre copie)
+    [47] => image_4 (copie)
+    [48] => image_5
+    [49] => test
+)
+
+
+Sunday 14th of May 2023 03:03:30 PM
+Resize test to 1024
+
+Sunday 14th of May 2023 03:03:30 PM
+Convert test to jpg
+
+Sunday 14th of May 2023 03:03:30 PM
+Array
+(
+    [0] => image_1
+    [1] => image_1 (3e copie)
+    [2] => image_1 (4e copie)
+    [3] => image_1 (5e copie)
+    [4] => image_1 (6e copie)
+    [5] => image_1 (7e copie)
+    [6] => image_1 (8e copie)
+    [7] => image_1 (9e copie)
+    [8] => image_1 (10e copie)
+    [9] => image_1 (11e copie)
+    [10] => image_1 (autre copie)
+    [11] => image_1 (copie)
+    [12] => image_2
+    [13] => image_2 (3e copie)
+    [14] => image_2 (4e copie)
+    [15] => image_2 (5e copie)
+    [16] => image_2 (6e copie)
+    [17] => image_2 (7e copie)
+    [18] => image_2 (8e copie)
+    [19] => image_2 (9e copie)
+    [20] => image_2 (10e copie)
+    [21] => image_2 (11e copie)
+    [22] => image_2 (autre copie)
+    [23] => image_2 (copie)
+    [24] => image_3
+    [25] => image_3 (3e copie)
+    [26] => image_3 (4e copie)
+    [27] => image_3 (5e copie)
+    [28] => image_3 (6e copie)
+    [29] => image_3 (7e copie)
+    [30] => image_3 (8e copie)
+    [31] => image_3 (9e copie)
+    [32] => image_3 (10e copie)
+    [33] => image_3 (11e copie)
+    [34] => image_3 (autre copie)
+    [35] => image_3 (copie)
+    [36] => image_4
+    [37] => image_4 (3e copie)
+    [38] => image_4 (4e copie)
+    [39] => image_4 (5e copie)
+    [40] => image_4 (6e copie)
+    [41] => image_4 (7e copie)
+    [42] => image_4 (8e copie)
+    [43] => image_4 (9e copie)
+    [44] => image_4 (10e copie)
+    [45] => image_4 (11e copie)
+    [46] => image_4 (autre copie)
+    [47] => image_4 (copie)
+    [48] => image_5
+    [49] => test
+)
+
+
+Sunday 14th of May 2023 03:03:31 PM
+Resize test to 1024
+
+Sunday 14th of May 2023 03:03:31 PM
+Convert test to jpg
+
+Sunday 14th of May 2023 03:03:31 PM
+Array
+(
+    [0] => image_1
+    [1] => image_1 (3e copie)
+    [2] => image_1 (4e copie)
+    [3] => image_1 (5e copie)
+    [4] => image_1 (6e copie)
+    [5] => image_1 (7e copie)
+    [6] => image_1 (8e copie)
+    [7] => image_1 (9e copie)
+    [8] => image_1 (10e copie)
+    [9] => image_1 (11e copie)
+    [10] => image_1 (autre copie)
+    [11] => image_1 (copie)
+    [12] => image_2
+    [13] => image_2 (3e copie)
+    [14] => image_2 (4e copie)
+    [15] => image_2 (5e copie)
+    [16] => image_2 (6e copie)
+    [17] => image_2 (7e copie)
+    [18] => image_2 (8e copie)
+    [19] => image_2 (9e copie)
+    [20] => image_2 (10e copie)
+    [21] => image_2 (11e copie)
+    [22] => image_2 (autre copie)
+    [23] => image_2 (copie)
+    [24] => image_3
+    [25] => image_3 (3e copie)
+    [26] => image_3 (4e copie)
+    [27] => image_3 (5e copie)
+    [28] => image_3 (6e copie)
+    [29] => image_3 (7e copie)
+    [30] => image_3 (8e copie)
+    [31] => image_3 (9e copie)
+    [32] => image_3 (10e copie)
+    [33] => image_3 (11e copie)
+    [34] => image_3 (autre copie)
+    [35] => image_3 (copie)
+    [36] => image_4
+    [37] => image_4 (3e copie)
+    [38] => image_4 (4e copie)
+    [39] => image_4 (5e copie)
+    [40] => image_4 (6e copie)
+    [41] => image_4 (7e copie)
+    [42] => image_4 (8e copie)
+    [43] => image_4 (9e copie)
+    [44] => image_4 (10e copie)
+    [45] => image_4 (11e copie)
+    [46] => image_4 (autre copie)
+    [47] => image_4 (copie)
+    [48] => image_5
+    [49] => test
+)
+
+
+Sunday 14th of May 2023 03:03:32 PM
+Resize test to 1024
+
+Sunday 14th of May 2023 03:03:32 PM
+Convert test to jpg
+
+Sunday 14th of May 2023 03:03:32 PM
+Array
+(
+    [0] => image_1
+    [1] => image_1 (3e copie)
+    [2] => image_1 (4e copie)
+    [3] => image_1 (5e copie)
+    [4] => image_1 (6e copie)
+    [5] => image_1 (7e copie)
+    [6] => image_1 (8e copie)
+    [7] => image_1 (9e copie)
+    [8] => image_1 (10e copie)
+    [9] => image_1 (11e copie)
+    [10] => image_1 (autre copie)
+    [11] => image_1 (copie)
+    [12] => image_2
+    [13] => image_2 (3e copie)
+    [14] => image_2 (4e copie)
+    [15] => image_2 (5e copie)
+    [16] => image_2 (6e copie)
+    [17] => image_2 (7e copie)
+    [18] => image_2 (8e copie)
+    [19] => image_2 (9e copie)
+    [20] => image_2 (10e copie)
+    [21] => image_2 (11e copie)
+    [22] => image_2 (autre copie)
+    [23] => image_2 (copie)
+    [24] => image_3
+    [25] => image_3 (3e copie)
+    [26] => image_3 (4e copie)
+    [27] => image_3 (5e copie)
+    [28] => image_3 (6e copie)
+    [29] => image_3 (7e copie)
+    [30] => image_3 (8e copie)
+    [31] => image_3 (9e copie)
+    [32] => image_3 (10e copie)
+    [33] => image_3 (11e copie)
+    [34] => image_3 (autre copie)
+    [35] => image_3 (copie)
+    [36] => image_4
+    [37] => image_4 (3e copie)
+    [38] => image_4 (4e copie)
+    [39] => image_4 (5e copie)
+    [40] => image_4 (6e copie)
+    [41] => image_4 (7e copie)
+    [42] => image_4 (8e copie)
+    [43] => image_4 (9e copie)
+    [44] => image_4 (10e copie)
+    [45] => image_4 (11e copie)
+    [46] => image_4 (autre copie)
+    [47] => image_4 (copie)
+    [48] => image_5
+    [49] => test
+)
+
+
+Sunday 14th of May 2023 03:03:32 PM
+Resize test to 1024
+
+Sunday 14th of May 2023 03:03:32 PM
+Convert test to jpg
+
+Sunday 14th of May 2023 03:03:33 PM
+Array
+(
+    [0] => image_1
+    [1] => image_1 (3e copie)
+    [2] => image_1 (4e copie)
+    [3] => image_1 (5e copie)
+    [4] => image_1 (6e copie)
+    [5] => image_1 (7e copie)
+    [6] => image_1 (8e copie)
+    [7] => image_1 (9e copie)
+    [8] => image_1 (10e copie)
+    [9] => image_1 (11e copie)
+    [10] => image_1 (autre copie)
+    [11] => image_1 (copie)
+    [12] => image_2
+    [13] => image_2 (3e copie)
+    [14] => image_2 (4e copie)
+    [15] => image_2 (5e copie)
+    [16] => image_2 (6e copie)
+    [17] => image_2 (7e copie)
+    [18] => image_2 (8e copie)
+    [19] => image_2 (9e copie)
+    [20] => image_2 (10e copie)
+    [21] => image_2 (11e copie)
+    [22] => image_2 (autre copie)
+    [23] => image_2 (copie)
+    [24] => image_3
+    [25] => image_3 (3e copie)
+    [26] => image_3 (4e copie)
+    [27] => image_3 (5e copie)
+    [28] => image_3 (6e copie)
+    [29] => image_3 (7e copie)
+    [30] => image_3 (8e copie)
+    [31] => image_3 (9e copie)
+    [32] => image_3 (10e copie)
+    [33] => image_3 (11e copie)
+    [34] => image_3 (autre copie)
+    [35] => image_3 (copie)
+    [36] => image_4
+    [37] => image_4 (3e copie)
+    [38] => image_4 (4e copie)
+    [39] => image_4 (5e copie)
+    [40] => image_4 (6e copie)
+    [41] => image_4 (7e copie)
+    [42] => image_4 (8e copie)
+    [43] => image_4 (9e copie)
+    [44] => image_4 (10e copie)
+    [45] => image_4 (11e copie)
+    [46] => image_4 (autre copie)
+    [47] => image_4 (copie)
+    [48] => image_5
+    [49] => test
+)
+
+
+Sunday 14th of May 2023 03:03:33 PM
+Resize test to 1024
+
+Sunday 14th of May 2023 03:03:33 PM
+Convert test to jpg
+
+Sunday 14th of May 2023 03:03:33 PM
+Array
+(
+    [0] => image_1
+    [1] => image_1 (3e copie)
+    [2] => image_1 (4e copie)
+    [3] => image_1 (5e copie)
+    [4] => image_1 (6e copie)
+    [5] => image_1 (7e copie)
+    [6] => image_1 (8e copie)
+    [7] => image_1 (9e copie)
+    [8] => image_1 (10e copie)
+    [9] => image_1 (11e copie)
+    [10] => image_1 (autre copie)
+    [11] => image_1 (copie)
+    [12] => image_2
+    [13] => image_2 (3e copie)
+    [14] => image_2 (4e copie)
+    [15] => image_2 (5e copie)
+    [16] => image_2 (6e copie)
+    [17] => image_2 (7e copie)
+    [18] => image_2 (8e copie)
+    [19] => image_2 (9e copie)
+    [20] => image_2 (10e copie)
+    [21] => image_2 (11e copie)
+    [22] => image_2 (autre copie)
+    [23] => image_2 (copie)
+    [24] => image_3
+    [25] => image_3 (3e copie)
+    [26] => image_3 (4e copie)
+    [27] => image_3 (5e copie)
+    [28] => image_3 (6e copie)
+    [29] => image_3 (7e copie)
+    [30] => image_3 (8e copie)
+    [31] => image_3 (9e copie)
+    [32] => image_3 (10e copie)
+    [33] => image_3 (11e copie)
+    [34] => image_3 (autre copie)
+    [35] => image_3 (copie)
+    [36] => image_4
+    [37] => image_4 (3e copie)
+    [38] => image_4 (4e copie)
+    [39] => image_4 (5e copie)
+    [40] => image_4 (6e copie)
+    [41] => image_4 (7e copie)
+    [42] => image_4 (8e copie)
+    [43] => image_4 (9e copie)
+    [44] => image_4 (10e copie)
+    [45] => image_4 (11e copie)
+    [46] => image_4 (autre copie)
+    [47] => image_4 (copie)
+    [48] => image_5
+    [49] => test
+)
+
+
+Sunday 14th of May 2023 03:03:34 PM
+Resize test to 1024
+
+Sunday 14th of May 2023 03:03:34 PM
+Convert test to jpg
+
+Sunday 14th of May 2023 03:03:34 PM
+Array
+(
+    [0] => image_1
+    [1] => image_1 (3e copie)
+    [2] => image_1 (4e copie)
+    [3] => image_1 (5e copie)
+    [4] => image_1 (6e copie)
+    [5] => image_1 (7e copie)
+    [6] => image_1 (8e copie)
+    [7] => image_1 (9e copie)
+    [8] => image_1 (10e copie)
+    [9] => image_1 (11e copie)
+    [10] => image_1 (autre copie)
+    [11] => image_1 (copie)
+    [12] => image_2
+    [13] => image_2 (3e copie)
+    [14] => image_2 (4e copie)
+    [15] => image_2 (5e copie)
+    [16] => image_2 (6e copie)
+    [17] => image_2 (7e copie)
+    [18] => image_2 (8e copie)
+    [19] => image_2 (9e copie)
+    [20] => image_2 (10e copie)
+    [21] => image_2 (11e copie)
+    [22] => image_2 (autre copie)
+    [23] => image_2 (copie)
+    [24] => image_3
+    [25] => image_3 (3e copie)
+    [26] => image_3 (4e copie)
+    [27] => image_3 (5e copie)
+    [28] => image_3 (6e copie)
+    [29] => image_3 (7e copie)
+    [30] => image_3 (8e copie)
+    [31] => image_3 (9e copie)
+    [32] => image_3 (10e copie)
+    [33] => image_3 (11e copie)
+    [34] => image_3 (autre copie)
+    [35] => image_3 (copie)
+    [36] => image_4
+    [37] => image_4 (3e copie)
+    [38] => image_4 (4e copie)
+    [39] => image_4 (5e copie)
+    [40] => image_4 (6e copie)
+    [41] => image_4 (7e copie)
+    [42] => image_4 (8e copie)
+    [43] => image_4 (9e copie)
+    [44] => image_4 (10e copie)
+    [45] => image_4 (11e copie)
+    [46] => image_4 (autre copie)
+    [47] => image_4 (copie)
+    [48] => image_5
+    [49] => test
+)
+
+
+Sunday 14th of May 2023 03:03:35 PM
+Resize test to 1024
+
+Sunday 14th of May 2023 03:03:35 PM
+Convert test to jpg
+
+Sunday 14th of May 2023 03:03:35 PM
+Array
+(
+    [0] => image_1
+    [1] => image_1 (3e copie)
+    [2] => image_1 (4e copie)
+    [3] => image_1 (5e copie)
+    [4] => image_1 (6e copie)
+    [5] => image_1 (7e copie)
+    [6] => image_1 (8e copie)
+    [7] => image_1 (9e copie)
+    [8] => image_1 (10e copie)
+    [9] => image_1 (11e copie)
+    [10] => image_1 (autre copie)
+    [11] => image_1 (copie)
+    [12] => image_2
+    [13] => image_2 (3e copie)
+    [14] => image_2 (4e copie)
+    [15] => image_2 (5e copie)
+    [16] => image_2 (6e copie)
+    [17] => image_2 (7e copie)
+    [18] => image_2 (8e copie)
+    [19] => image_2 (9e copie)
+    [20] => image_2 (10e copie)
+    [21] => image_2 (11e copie)
+    [22] => image_2 (autre copie)
+    [23] => image_2 (copie)
+    [24] => image_3
+    [25] => image_3 (3e copie)
+    [26] => image_3 (4e copie)
+    [27] => image_3 (5e copie)
+    [28] => image_3 (6e copie)
+    [29] => image_3 (7e copie)
+    [30] => image_3 (8e copie)
+    [31] => image_3 (9e copie)
+    [32] => image_3 (10e copie)
+    [33] => image_3 (11e copie)
+    [34] => image_3 (autre copie)
+    [35] => image_3 (copie)
+    [36] => image_4
+    [37] => image_4 (3e copie)
+    [38] => image_4 (4e copie)
+    [39] => image_4 (5e copie)
+    [40] => image_4 (6e copie)
+    [41] => image_4 (7e copie)
+    [42] => image_4 (8e copie)
+    [43] => image_4 (9e copie)
+    [44] => image_4 (10e copie)
+    [45] => image_4 (11e copie)
+    [46] => image_4 (autre copie)
+    [47] => image_4 (copie)
+    [48] => image_5
+    [49] => test
+)
+
+
+Sunday 14th of May 2023 03:03:35 PM
+Resize test to 1024
+
+Sunday 14th of May 2023 03:03:35 PM
+Convert test to jpg
+
+Sunday 14th of May 2023 03:03:35 PM
+Array
+(
+    [0] => image_1
+    [1] => image_1 (3e copie)
+    [2] => image_1 (4e copie)
+    [3] => image_1 (5e copie)
+    [4] => image_1 (6e copie)
+    [5] => image_1 (7e copie)
+    [6] => image_1 (8e copie)
+    [7] => image_1 (9e copie)
+    [8] => image_1 (10e copie)
+    [9] => image_1 (11e copie)
+    [10] => image_1 (autre copie)
+    [11] => image_1 (copie)
+    [12] => image_2
+    [13] => image_2 (3e copie)
+    [14] => image_2 (4e copie)
+    [15] => image_2 (5e copie)
+    [16] => image_2 (6e copie)
+    [17] => image_2 (7e copie)
+    [18] => image_2 (8e copie)
+    [19] => image_2 (9e copie)
+    [20] => image_2 (10e copie)
+    [21] => image_2 (11e copie)
+    [22] => image_2 (autre copie)
+    [23] => image_2 (copie)
+    [24] => image_3
+    [25] => image_3 (3e copie)
+    [26] => image_3 (4e copie)
+    [27] => image_3 (5e copie)
+    [28] => image_3 (6e copie)
+    [29] => image_3 (7e copie)
+    [30] => image_3 (8e copie)
+    [31] => image_3 (9e copie)
+    [32] => image_3 (10e copie)
+    [33] => image_3 (11e copie)
+    [34] => image_3 (autre copie)
+    [35] => image_3 (copie)
+    [36] => image_4
+    [37] => image_4 (3e copie)
+    [38] => image_4 (4e copie)
+    [39] => image_4 (5e copie)
+    [40] => image_4 (6e copie)
+    [41] => image_4 (7e copie)
+    [42] => image_4 (8e copie)
+    [43] => image_4 (9e copie)
+    [44] => image_4 (10e copie)
+    [45] => image_4 (11e copie)
+    [46] => image_4 (autre copie)
+    [47] => image_4 (copie)
+    [48] => image_5
+    [49] => test
+)
+
+
+Sunday 14th of May 2023 03:03:36 PM
+Resize test to 1024
+
+Sunday 14th of May 2023 03:03:36 PM
+Convert test to jpg
+
+Sunday 14th of May 2023 03:03:36 PM
+Array
+(
+    [0] => image_1
+    [1] => image_1 (3e copie)
+    [2] => image_1 (4e copie)
+    [3] => image_1 (5e copie)
+    [4] => image_1 (6e copie)
+    [5] => image_1 (7e copie)
+    [6] => image_1 (8e copie)
+    [7] => image_1 (9e copie)
+    [8] => image_1 (10e copie)
+    [9] => image_1 (11e copie)
+    [10] => image_1 (autre copie)
+    [11] => image_1 (copie)
+    [12] => image_2
+    [13] => image_2 (3e copie)
+    [14] => image_2 (4e copie)
+    [15] => image_2 (5e copie)
+    [16] => image_2 (6e copie)
+    [17] => image_2 (7e copie)
+    [18] => image_2 (8e copie)
+    [19] => image_2 (9e copie)
+    [20] => image_2 (10e copie)
+    [21] => image_2 (11e copie)
+    [22] => image_2 (autre copie)
+    [23] => image_2 (copie)
+    [24] => image_3
+    [25] => image_3 (3e copie)
+    [26] => image_3 (4e copie)
+    [27] => image_3 (5e copie)
+    [28] => image_3 (6e copie)
+    [29] => image_3 (7e copie)
+    [30] => image_3 (8e copie)
+    [31] => image_3 (9e copie)
+    [32] => image_3 (10e copie)
+    [33] => image_3 (11e copie)
+    [34] => image_3 (autre copie)
+    [35] => image_3 (copie)
+    [36] => image_4
+    [37] => image_4 (3e copie)
+    [38] => image_4 (4e copie)
+    [39] => image_4 (5e copie)
+    [40] => image_4 (6e copie)
+    [41] => image_4 (7e copie)
+    [42] => image_4 (8e copie)
+    [43] => image_4 (9e copie)
+    [44] => image_4 (10e copie)
+    [45] => image_4 (11e copie)
+    [46] => image_4 (autre copie)
+    [47] => image_4 (copie)
+    [48] => image_5
+    [49] => test
+)
+
+
+Sunday 14th of May 2023 03:03:37 PM
+Resize test to 1024
+
+Sunday 14th of May 2023 03:03:37 PM
+Convert test to jpg
+
+Sunday 14th of May 2023 03:03:37 PM
+Array
+(
+    [0] => image_1
+    [1] => image_1 (3e copie)
+    [2] => image_1 (4e copie)
+    [3] => image_1 (5e copie)
+    [4] => image_1 (6e copie)
+    [5] => image_1 (7e copie)
+    [6] => image_1 (8e copie)
+    [7] => image_1 (9e copie)
+    [8] => image_1 (10e copie)
+    [9] => image_1 (11e copie)
+    [10] => image_1 (autre copie)
+    [11] => image_1 (copie)
+    [12] => image_2
+    [13] => image_2 (3e copie)
+    [14] => image_2 (4e copie)
+    [15] => image_2 (5e copie)
+    [16] => image_2 (6e copie)
+    [17] => image_2 (7e copie)
+    [18] => image_2 (8e copie)
+    [19] => image_2 (9e copie)
+    [20] => image_2 (10e copie)
+    [21] => image_2 (11e copie)
+    [22] => image_2 (autre copie)
+    [23] => image_2 (copie)
+    [24] => image_3
+    [25] => image_3 (3e copie)
+    [26] => image_3 (4e copie)
+    [27] => image_3 (5e copie)
+    [28] => image_3 (6e copie)
+    [29] => image_3 (7e copie)
+    [30] => image_3 (8e copie)
+    [31] => image_3 (9e copie)
+    [32] => image_3 (10e copie)
+    [33] => image_3 (11e copie)
+    [34] => image_3 (autre copie)
+    [35] => image_3 (copie)
+    [36] => image_4
+    [37] => image_4 (3e copie)
+    [38] => image_4 (4e copie)
+    [39] => image_4 (5e copie)
+    [40] => image_4 (6e copie)
+    [41] => image_4 (7e copie)
+    [42] => image_4 (8e copie)
+    [43] => image_4 (9e copie)
+    [44] => image_4 (10e copie)
+    [45] => image_4 (11e copie)
+    [46] => image_4 (autre copie)
+    [47] => image_4 (copie)
+    [48] => image_5
+    [49] => test
+)
+
+
+Sunday 14th of May 2023 03:03:37 PM
+Resize test to 1024
+
+Sunday 14th of May 2023 03:03:37 PM
+Convert test to jpg
+
+Sunday 14th of May 2023 03:03:37 PM
+Array
+(
+    [0] => image_1
+    [1] => image_1 (3e copie)
+    [2] => image_1 (4e copie)
+    [3] => image_1 (5e copie)
+    [4] => image_1 (6e copie)
+    [5] => image_1 (7e copie)
+    [6] => image_1 (8e copie)
+    [7] => image_1 (9e copie)
+    [8] => image_1 (10e copie)
+    [9] => image_1 (11e copie)
+    [10] => image_1 (autre copie)
+    [11] => image_1 (copie)
+    [12] => image_2
+    [13] => image_2 (3e copie)
+    [14] => image_2 (4e copie)
+    [15] => image_2 (5e copie)
+    [16] => image_2 (6e copie)
+    [17] => image_2 (7e copie)
+    [18] => image_2 (8e copie)
+    [19] => image_2 (9e copie)
+    [20] => image_2 (10e copie)
+    [21] => image_2 (11e copie)
+    [22] => image_2 (autre copie)
+    [23] => image_2 (copie)
+    [24] => image_3
+    [25] => image_3 (3e copie)
+    [26] => image_3 (4e copie)
+    [27] => image_3 (5e copie)
+    [28] => image_3 (6e copie)
+    [29] => image_3 (7e copie)
+    [30] => image_3 (8e copie)
+    [31] => image_3 (9e copie)
+    [32] => image_3 (10e copie)
+    [33] => image_3 (11e copie)
+    [34] => image_3 (autre copie)
+    [35] => image_3 (copie)
+    [36] => image_4
+    [37] => image_4 (3e copie)
+    [38] => image_4 (4e copie)
+    [39] => image_4 (5e copie)
+    [40] => image_4 (6e copie)
+    [41] => image_4 (7e copie)
+    [42] => image_4 (8e copie)
+    [43] => image_4 (9e copie)
+    [44] => image_4 (10e copie)
+    [45] => image_4 (11e copie)
+    [46] => image_4 (autre copie)
+    [47] => image_4 (copie)
+    [48] => image_5
+    [49] => test
+)
+
+
+Sunday 14th of May 2023 03:03:38 PM
+Resize test to 1024
+
+Sunday 14th of May 2023 03:03:38 PM
+Convert test to jpg
+
+Sunday 14th of May 2023 03:03:38 PM
+Array
+(
+    [0] => image_1
+    [1] => image_1 (3e copie)
+    [2] => image_1 (4e copie)
+    [3] => image_1 (5e copie)
+    [4] => image_1 (6e copie)
+    [5] => image_1 (7e copie)
+    [6] => image_1 (8e copie)
+    [7] => image_1 (9e copie)
+    [8] => image_1 (10e copie)
+    [9] => image_1 (11e copie)
+    [10] => image_1 (autre copie)
+    [11] => image_1 (copie)
+    [12] => image_2
+    [13] => image_2 (3e copie)
+    [14] => image_2 (4e copie)
+    [15] => image_2 (5e copie)
+    [16] => image_2 (6e copie)
+    [17] => image_2 (7e copie)
+    [18] => image_2 (8e copie)
+    [19] => image_2 (9e copie)
+    [20] => image_2 (10e copie)
+    [21] => image_2 (11e copie)
+    [22] => image_2 (autre copie)
+    [23] => image_2 (copie)
+    [24] => image_3
+    [25] => image_3 (3e copie)
+    [26] => image_3 (4e copie)
+    [27] => image_3 (5e copie)
+    [28] => image_3 (6e copie)
+    [29] => image_3 (7e copie)
+    [30] => image_3 (8e copie)
+    [31] => image_3 (9e copie)
+    [32] => image_3 (10e copie)
+    [33] => image_3 (11e copie)
+    [34] => image_3 (autre copie)
+    [35] => image_3 (copie)
+    [36] => image_4
+    [37] => image_4 (3e copie)
+    [38] => image_4 (4e copie)
+    [39] => image_4 (5e copie)
+    [40] => image_4 (6e copie)
+    [41] => image_4 (7e copie)
+    [42] => image_4 (8e copie)
+    [43] => image_4 (9e copie)
+    [44] => image_4 (10e copie)
+    [45] => image_4 (11e copie)
+    [46] => image_4 (autre copie)
+    [47] => image_4 (copie)
+    [48] => image_5
+    [49] => test
+)
+
+
+Sunday 14th of May 2023 03:03:39 PM
+Resize test to 1024
+
+Sunday 14th of May 2023 03:03:39 PM
+Convert test to jpg
+
+Sunday 14th of May 2023 03:03:39 PM
+Array
+(
+    [0] => image_1
+    [1] => image_1 (3e copie)
+    [2] => image_1 (4e copie)
+    [3] => image_1 (5e copie)
+    [4] => image_1 (6e copie)
+    [5] => image_1 (7e copie)
+    [6] => image_1 (8e copie)
+    [7] => image_1 (9e copie)
+    [8] => image_1 (10e copie)
+    [9] => image_1 (11e copie)
+    [10] => image_1 (autre copie)
+    [11] => image_1 (copie)
+    [12] => image_2
+    [13] => image_2 (3e copie)
+    [14] => image_2 (4e copie)
+    [15] => image_2 (5e copie)
+    [16] => image_2 (6e copie)
+    [17] => image_2 (7e copie)
+    [18] => image_2 (8e copie)
+    [19] => image_2 (9e copie)
+    [20] => image_2 (10e copie)
+    [21] => image_2 (11e copie)
+    [22] => image_2 (autre copie)
+    [23] => image_2 (copie)
+    [24] => image_3
+    [25] => image_3 (3e copie)
+    [26] => image_3 (4e copie)
+    [27] => image_3 (5e copie)
+    [28] => image_3 (6e copie)
+    [29] => image_3 (7e copie)
+    [30] => image_3 (8e copie)
+    [31] => image_3 (9e copie)
+    [32] => image_3 (10e copie)
+    [33] => image_3 (11e copie)
+    [34] => image_3 (autre copie)
+    [35] => image_3 (copie)
+    [36] => image_4
+    [37] => image_4 (3e copie)
+    [38] => image_4 (4e copie)
+    [39] => image_4 (5e copie)
+    [40] => image_4 (6e copie)
+    [41] => image_4 (7e copie)
+    [42] => image_4 (8e copie)
+    [43] => image_4 (9e copie)
+    [44] => image_4 (10e copie)
+    [45] => image_4 (11e copie)
+    [46] => image_4 (autre copie)
+    [47] => image_4 (copie)
+    [48] => image_5
+    [49] => test
+)
+
+
+Sunday 14th of May 2023 03:03:39 PM
+Resize test to 1024
+
+Sunday 14th of May 2023 03:03:39 PM
+Convert test to jpg
+
+Sunday 14th of May 2023 03:03:40 PM
+Array
+(
+    [0] => image_1
+    [1] => image_1 (3e copie)
+    [2] => image_1 (4e copie)
+    [3] => image_1 (5e copie)
+    [4] => image_1 (6e copie)
+    [5] => image_1 (7e copie)
+    [6] => image_1 (8e copie)
+    [7] => image_1 (9e copie)
+    [8] => image_1 (10e copie)
+    [9] => image_1 (11e copie)
+    [10] => image_1 (autre copie)
+    [11] => image_1 (copie)
+    [12] => image_2
+    [13] => image_2 (3e copie)
+    [14] => image_2 (4e copie)
+    [15] => image_2 (5e copie)
+    [16] => image_2 (6e copie)
+    [17] => image_2 (7e copie)
+    [18] => image_2 (8e copie)
+    [19] => image_2 (9e copie)
+    [20] => image_2 (10e copie)
+    [21] => image_2 (11e copie)
+    [22] => image_2 (autre copie)
+    [23] => image_2 (copie)
+    [24] => image_3
+    [25] => image_3 (3e copie)
+    [26] => image_3 (4e copie)
+    [27] => image_3 (5e copie)
+    [28] => image_3 (6e copie)
+    [29] => image_3 (7e copie)
+    [30] => image_3 (8e copie)
+    [31] => image_3 (9e copie)
+    [32] => image_3 (10e copie)
+    [33] => image_3 (11e copie)
+    [34] => image_3 (autre copie)
+    [35] => image_3 (copie)
+    [36] => image_4
+    [37] => image_4 (3e copie)
+    [38] => image_4 (4e copie)
+    [39] => image_4 (5e copie)
+    [40] => image_4 (6e copie)
+    [41] => image_4 (7e copie)
+    [42] => image_4 (8e copie)
+    [43] => image_4 (9e copie)
+    [44] => image_4 (10e copie)
+    [45] => image_4 (11e copie)
+    [46] => image_4 (autre copie)
+    [47] => image_4 (copie)
+    [48] => image_5
+    [49] => test
+)
+
+
+Sunday 14th of May 2023 03:03:40 PM
+Resize test to 1024
+
+Sunday 14th of May 2023 03:03:40 PM
+Convert test to jpg
+
+Sunday 14th of May 2023 03:03:40 PM
+Array
+(
+    [0] => image_1
+    [1] => image_1 (3e copie)
+    [2] => image_1 (4e copie)
+    [3] => image_1 (5e copie)
+    [4] => image_1 (6e copie)
+    [5] => image_1 (7e copie)
+    [6] => image_1 (8e copie)
+    [7] => image_1 (9e copie)
+    [8] => image_1 (10e copie)
+    [9] => image_1 (11e copie)
+    [10] => image_1 (autre copie)
+    [11] => image_1 (copie)
+    [12] => image_2
+    [13] => image_2 (3e copie)
+    [14] => image_2 (4e copie)
+    [15] => image_2 (5e copie)
+    [16] => image_2 (6e copie)
+    [17] => image_2 (7e copie)
+    [18] => image_2 (8e copie)
+    [19] => image_2 (9e copie)
+    [20] => image_2 (10e copie)
+    [21] => image_2 (11e copie)
+    [22] => image_2 (autre copie)
+    [23] => image_2 (copie)
+    [24] => image_3
+    [25] => image_3 (3e copie)
+    [26] => image_3 (4e copie)
+    [27] => image_3 (5e copie)
+    [28] => image_3 (6e copie)
+    [29] => image_3 (7e copie)
+    [30] => image_3 (8e copie)
+    [31] => image_3 (9e copie)
+    [32] => image_3 (10e copie)
+    [33] => image_3 (11e copie)
+    [34] => image_3 (autre copie)
+    [35] => image_3 (copie)
+    [36] => image_4
+    [37] => image_4 (3e copie)
+    [38] => image_4 (4e copie)
+    [39] => image_4 (5e copie)
+    [40] => image_4 (6e copie)
+    [41] => image_4 (7e copie)
+    [42] => image_4 (8e copie)
+    [43] => image_4 (9e copie)
+    [44] => image_4 (10e copie)
+    [45] => image_4 (11e copie)
+    [46] => image_4 (autre copie)
+    [47] => image_4 (copie)
+    [48] => image_5
+    [49] => test
+)
+
+
+Sunday 14th of May 2023 03:03:41 PM
+Resize test to 1024
+
+Sunday 14th of May 2023 03:03:41 PM
+Convert test to jpg
+
+Sunday 14th of May 2023 03:03:41 PM
+Array
+(
+    [0] => image_1
+    [1] => image_1 (3e copie)
+    [2] => image_1 (4e copie)
+    [3] => image_1 (5e copie)
+    [4] => image_1 (6e copie)
+    [5] => image_1 (7e copie)
+    [6] => image_1 (8e copie)
+    [7] => image_1 (9e copie)
+    [8] => image_1 (10e copie)
+    [9] => image_1 (11e copie)
+    [10] => image_1 (autre copie)
+    [11] => image_1 (copie)
+    [12] => image_2
+    [13] => image_2 (3e copie)
+    [14] => image_2 (4e copie)
+    [15] => image_2 (5e copie)
+    [16] => image_2 (6e copie)
+    [17] => image_2 (7e copie)
+    [18] => image_2 (8e copie)
+    [19] => image_2 (9e copie)
+    [20] => image_2 (10e copie)
+    [21] => image_2 (11e copie)
+    [22] => image_2 (autre copie)
+    [23] => image_2 (copie)
+    [24] => image_3
+    [25] => image_3 (3e copie)
+    [26] => image_3 (4e copie)
+    [27] => image_3 (5e copie)
+    [28] => image_3 (6e copie)
+    [29] => image_3 (7e copie)
+    [30] => image_3 (8e copie)
+    [31] => image_3 (9e copie)
+    [32] => image_3 (10e copie)
+    [33] => image_3 (11e copie)
+    [34] => image_3 (autre copie)
+    [35] => image_3 (copie)
+    [36] => image_4
+    [37] => image_4 (3e copie)
+    [38] => image_4 (4e copie)
+    [39] => image_4 (5e copie)
+    [40] => image_4 (6e copie)
+    [41] => image_4 (7e copie)
+    [42] => image_4 (8e copie)
+    [43] => image_4 (9e copie)
+    [44] => image_4 (10e copie)
+    [45] => image_4 (11e copie)
+    [46] => image_4 (autre copie)
+    [47] => image_4 (copie)
+    [48] => image_5
+    [49] => test
+)
+
+
+Sunday 14th of May 2023 03:03:42 PM
+Resize test to 1024
+
+Sunday 14th of May 2023 03:03:42 PM
+Convert test to jpg
+
+Sunday 14th of May 2023 03:03:42 PM
+Array
+(
+    [0] => image_1
+    [1] => image_1 (3e copie)
+    [2] => image_1 (4e copie)
+    [3] => image_1 (5e copie)
+    [4] => image_1 (6e copie)
+    [5] => image_1 (7e copie)
+    [6] => image_1 (8e copie)
+    [7] => image_1 (9e copie)
+    [8] => image_1 (10e copie)
+    [9] => image_1 (11e copie)
+    [10] => image_1 (autre copie)
+    [11] => image_1 (copie)
+    [12] => image_2
+    [13] => image_2 (3e copie)
+    [14] => image_2 (4e copie)
+    [15] => image_2 (5e copie)
+    [16] => image_2 (6e copie)
+    [17] => image_2 (7e copie)
+    [18] => image_2 (8e copie)
+    [19] => image_2 (9e copie)
+    [20] => image_2 (10e copie)
+    [21] => image_2 (11e copie)
+    [22] => image_2 (autre copie)
+    [23] => image_2 (copie)
+    [24] => image_3
+    [25] => image_3 (3e copie)
+    [26] => image_3 (4e copie)
+    [27] => image_3 (5e copie)
+    [28] => image_3 (6e copie)
+    [29] => image_3 (7e copie)
+    [30] => image_3 (8e copie)
+    [31] => image_3 (9e copie)
+    [32] => image_3 (10e copie)
+    [33] => image_3 (11e copie)
+    [34] => image_3 (autre copie)
+    [35] => image_3 (copie)
+    [36] => image_4
+    [37] => image_4 (3e copie)
+    [38] => image_4 (4e copie)
+    [39] => image_4 (5e copie)
+    [40] => image_4 (6e copie)
+    [41] => image_4 (7e copie)
+    [42] => image_4 (8e copie)
+    [43] => image_4 (9e copie)
+    [44] => image_4 (10e copie)
+    [45] => image_4 (11e copie)
+    [46] => image_4 (autre copie)
+    [47] => image_4 (copie)
+    [48] => image_5
+    [49] => test
+)
+
+
+Sunday 14th of May 2023 03:03:42 PM
+Resize test to 1024
+
+Sunday 14th of May 2023 03:03:42 PM
+Convert test to jpg
+
+Sunday 14th of May 2023 03:03:42 PM
+Array
+(
+    [0] => image_1
+    [1] => image_1 (3e copie)
+    [2] => image_1 (4e copie)
+    [3] => image_1 (5e copie)
+    [4] => image_1 (6e copie)
+    [5] => image_1 (7e copie)
+    [6] => image_1 (8e copie)
+    [7] => image_1 (9e copie)
+    [8] => image_1 (10e copie)
+    [9] => image_1 (11e copie)
+    [10] => image_1 (autre copie)
+    [11] => image_1 (copie)
+    [12] => image_2
+    [13] => image_2 (3e copie)
+    [14] => image_2 (4e copie)
+    [15] => image_2 (5e copie)
+    [16] => image_2 (6e copie)
+    [17] => image_2 (7e copie)
+    [18] => image_2 (8e copie)
+    [19] => image_2 (9e copie)
+    [20] => image_2 (10e copie)
+    [21] => image_2 (11e copie)
+    [22] => image_2 (autre copie)
+    [23] => image_2 (copie)
+    [24] => image_3
+    [25] => image_3 (3e copie)
+    [26] => image_3 (4e copie)
+    [27] => image_3 (5e copie)
+    [28] => image_3 (6e copie)
+    [29] => image_3 (7e copie)
+    [30] => image_3 (8e copie)
+    [31] => image_3 (9e copie)
+    [32] => image_3 (10e copie)
+    [33] => image_3 (11e copie)
+    [34] => image_3 (autre copie)
+    [35] => image_3 (copie)
+    [36] => image_4
+    [37] => image_4 (3e copie)
+    [38] => image_4 (4e copie)
+    [39] => image_4 (5e copie)
+    [40] => image_4 (6e copie)
+    [41] => image_4 (7e copie)
+    [42] => image_4 (8e copie)
+    [43] => image_4 (9e copie)
+    [44] => image_4 (10e copie)
+    [45] => image_4 (11e copie)
+    [46] => image_4 (autre copie)
+    [47] => image_4 (copie)
+    [48] => image_5
+    [49] => test
+)
+
+
+Sunday 14th of May 2023 03:03:43 PM
+Resize test to 1024
+
+Sunday 14th of May 2023 03:03:43 PM
+Convert test to jpg
+
+Sunday 14th of May 2023 03:03:43 PM
+Array
+(
+    [0] => image_1
+    [1] => image_1 (3e copie)
+    [2] => image_1 (4e copie)
+    [3] => image_1 (5e copie)
+    [4] => image_1 (6e copie)
+    [5] => image_1 (7e copie)
+    [6] => image_1 (8e copie)
+    [7] => image_1 (9e copie)
+    [8] => image_1 (10e copie)
+    [9] => image_1 (11e copie)
+    [10] => image_1 (autre copie)
+    [11] => image_1 (copie)
+    [12] => image_2
+    [13] => image_2 (3e copie)
+    [14] => image_2 (4e copie)
+    [15] => image_2 (5e copie)
+    [16] => image_2 (6e copie)
+    [17] => image_2 (7e copie)
+    [18] => image_2 (8e copie)
+    [19] => image_2 (9e copie)
+    [20] => image_2 (10e copie)
+    [21] => image_2 (11e copie)
+    [22] => image_2 (autre copie)
+    [23] => image_2 (copie)
+    [24] => image_3
+    [25] => image_3 (3e copie)
+    [26] => image_3 (4e copie)
+    [27] => image_3 (5e copie)
+    [28] => image_3 (6e copie)
+    [29] => image_3 (7e copie)
+    [30] => image_3 (8e copie)
+    [31] => image_3 (9e copie)
+    [32] => image_3 (10e copie)
+    [33] => image_3 (11e copie)
+    [34] => image_3 (autre copie)
+    [35] => image_3 (copie)
+    [36] => image_4
+    [37] => image_4 (3e copie)
+    [38] => image_4 (4e copie)
+    [39] => image_4 (5e copie)
+    [40] => image_4 (6e copie)
+    [41] => image_4 (7e copie)
+    [42] => image_4 (8e copie)
+    [43] => image_4 (9e copie)
+    [44] => image_4 (10e copie)
+    [45] => image_4 (11e copie)
+    [46] => image_4 (autre copie)
+    [47] => image_4 (copie)
+    [48] => image_5
+    [49] => test
+)
+
+
+Sunday 14th of May 2023 03:03:44 PM
+Resize test to 1024
+
+Sunday 14th of May 2023 03:04:06 PM
+Warning: PHP max file uploads have this current limit: 30
+
+Sunday 14th of May 2023 03:04:06 PM
+Warning: PHP max input time have this current limit: 60
+
+Sunday 14th of May 2023 03:04:06 PM
+Array
+(
+    [0] => Capture d’écran du 2023-03-03 08-39-12
+    [1] => Capture d’écran du 2023-03-03 15-10-46
+    [2] => Capture d’écran du 2023-03-12 16-44-59
+    [3] => Capture d’écran du 2023-03-17 15-23-11
+    [4] => Capture d’écran du 2023-04-14 11-45-58
+)
+
+
+Sunday 14th of May 2023 03:04:06 PM
+Resize test to 768
+
+Sunday 14th of May 2023 03:04:06 PM
+Convert test to jpg
+
+Sunday 14th of May 2023 03:04:06 PM
+Array
+(
+    [0] => Capture d’écran du 2023-03-03 08-39-12
+    [1] => Capture d’écran du 2023-03-03 15-10-46
+    [2] => Capture d’écran du 2023-03-12 16-44-59
+    [3] => Capture d’écran du 2023-03-17 15-23-11
+    [4] => test
+)
+
+
+Sunday 14th of May 2023 03:04:07 PM
+Resize test to 768
+
+Sunday 14th of May 2023 03:04:07 PM
+Convert test to jpg
+
+Sunday 14th of May 2023 03:04:07 PM
+Array
+(
+    [0] => Capture d’écran du 2023-03-03 08-39-12
+    [1] => Capture d’écran du 2023-03-03 15-10-46
+    [2] => Capture d’écran du 2023-03-12 16-44-59
+    [3] => Capture d’écran du 2023-03-17 15-23-11
+    [4] => test
+)
+
+
+Sunday 14th of May 2023 03:04:07 PM
+Resize test to 768
+
+Sunday 14th of May 2023 03:04:07 PM
+Convert test to jpg
+
+Sunday 14th of May 2023 03:04:07 PM
+Array
+(
+    [0] => Capture d’écran du 2023-03-03 08-39-12
+    [1] => Capture d’écran du 2023-03-03 15-10-46
+    [2] => Capture d’écran du 2023-03-12 16-44-59
+    [3] => Capture d’écran du 2023-03-17 15-23-11
+    [4] => test
+)
+
+
+Sunday 14th of May 2023 03:04:07 PM
+Resize test to 768
+
+Sunday 14th of May 2023 03:04:07 PM
+Convert test to jpg
+
+Sunday 14th of May 2023 03:04:08 PM
+Array
+(
+    [0] => Capture d’écran du 2023-03-03 08-39-12
+    [1] => Capture d’écran du 2023-03-03 15-10-46
+    [2] => Capture d’écran du 2023-03-12 16-44-59
+    [3] => Capture d’écran du 2023-03-17 15-23-11
+    [4] => test
+)
+
+
+Sunday 14th of May 2023 03:04:08 PM
+Resize test to 768
+
+Sunday 14th of May 2023 03:04:08 PM
+Convert test to jpg
+
+Sunday 14th of May 2023 03:05:36 PM
+Warning: PHP max file uploads have this current limit: 30
+
+Sunday 14th of May 2023 03:05:36 PM
+Warning: PHP max input time have this current limit: 60
+
+Sunday 14th of May 2023 03:05:36 PM
+Array
+(
+    [0] => Capture d’écran du 2023-03-03 08-39-12
+    [1] => Capture d’écran du 2023-03-03 15-10-46
+    [2] => Capture d’écran du 2023-03-12 16-44-59
+    [3] => Capture d’écran du 2023-03-17 15-23-11
+    [4] => Capture d’écran du 2023-04-14 11-45-58
+    [5] => kasa-collapse
+)
+
+
+Sunday 14th of May 2023 03:05:36 PM
+Resize Capture d’écran du 2023-03-03 08-39-12 to 1024
+
+Sunday 14th of May 2023 03:05:36 PM
+Convert Capture d’écran du 2023-03-03 08-39-12 to jpg
+
+Sunday 14th of May 2023 03:05:36 PM
+Array
+(
+    [0] => Capture d’écran du 2023-03-03 08-39-12
+    [1] => Capture d’écran du 2023-03-03 15-10-46
+    [2] => Capture d’écran du 2023-03-12 16-44-59
+    [3] => Capture d’écran du 2023-03-17 15-23-11
+    [4] => Capture d’écran du 2023-04-14 11-45-58
+    [5] => kasa-collapse
+)
+
+
+Sunday 14th of May 2023 03:05:36 PM
+Resize Capture d’écran du 2023-03-03 15-10-46 to 1024
+
+Sunday 14th of May 2023 03:05:36 PM
+Convert Capture d’écran du 2023-03-03 15-10-46 to jpg
+
+Sunday 14th of May 2023 03:05:37 PM
+Array
+(
+    [0] => Capture d’écran du 2023-03-03 08-39-12
+    [1] => Capture d’écran du 2023-03-03 15-10-46
+    [2] => Capture d’écran du 2023-03-12 16-44-59
+    [3] => Capture d’écran du 2023-03-17 15-23-11
+    [4] => Capture d’écran du 2023-04-14 11-45-58
+    [5] => kasa-collapse
+)
+
+
+Sunday 14th of May 2023 03:05:37 PM
+Resize Capture d’écran du 2023-03-12 16-44-59 to 1024
+
+Sunday 14th of May 2023 03:05:37 PM
+Convert Capture d’écran du 2023-03-12 16-44-59 to jpg
+
+Sunday 14th of May 2023 03:05:37 PM
+Array
+(
+    [0] => Capture d’écran du 2023-03-03 08-39-12
+    [1] => Capture d’écran du 2023-03-03 15-10-46
+    [2] => Capture d’écran du 2023-03-12 16-44-59
+    [3] => Capture d’écran du 2023-03-17 15-23-11
+    [4] => Capture d’écran du 2023-04-14 11-45-58
+    [5] => kasa-collapse
+)
+
+
+Sunday 14th of May 2023 03:05:37 PM
+Resize Capture d’écran du 2023-03-17 15-23-11 to 1024
+
+Sunday 14th of May 2023 03:05:37 PM
+Convert Capture d’écran du 2023-03-17 15-23-11 to jpg
+
+Sunday 14th of May 2023 03:05:37 PM
+Array
+(
+    [0] => Capture d’écran du 2023-03-03 08-39-12
+    [1] => Capture d’écran du 2023-03-03 15-10-46
+    [2] => Capture d’écran du 2023-03-12 16-44-59
+    [3] => Capture d’écran du 2023-03-17 15-23-11
+    [4] => Capture d’écran du 2023-04-14 11-45-58
+    [5] => kasa-collapse
+)
+
+
+Sunday 14th of May 2023 03:05:37 PM
+Resize Capture d’écran du 2023-04-14 11-45-58 to 1024
+
+Sunday 14th of May 2023 03:05:37 PM
+Convert Capture d’écran du 2023-04-14 11-45-58 to jpg
+
+Sunday 14th of May 2023 03:05:38 PM
+Array
+(
+    [0] => Capture d’écran du 2023-03-03 08-39-12
+    [1] => Capture d’écran du 2023-03-03 15-10-46
+    [2] => Capture d’écran du 2023-03-12 16-44-59
+    [3] => Capture d’écran du 2023-03-17 15-23-11
+    [4] => Capture d’écran du 2023-04-14 11-45-58
+    [5] => kasa-collapse
+)
+
+
+Sunday 14th of May 2023 03:05:38 PM
+Resize kasa-collapse to 1024
+
+Sunday 14th of May 2023 03:05:38 PM
+Convert kasa-collapse to jpg
+
