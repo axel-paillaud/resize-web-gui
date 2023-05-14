@@ -184,7 +184,8 @@ const resetForm = () => {
     imgContainer.classList.remove(...classList);
     imgContainer.classList.add("add-img-container");
     showLabelImgContainer();
-    form.reset();
+    /* form.reset(); */
+    userInput.value = "";
     deleteChildren(document.getElementById("js-container"));
     displaySubmitBtn();
     userInput.addEventListener('change', updateImgContainer);
