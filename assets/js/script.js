@@ -382,12 +382,7 @@ function fetchDataToApi(formData) {
 
                   // empty buffer
                   buffer = "";
-/*                   messageContainer.classList.add("fade-top-animation");
-                  setTimeout(() => {
-                    messageContainer.classList.remove("fade-top-animation");
-                  }, 200); */
                   buffer = textDecoder.decode(value);
-                  /* messageContainer.innerHTML = buffer; */
                   textInfo(messageContainer, buffer);
 
                   // Check if we have to delete one thumbnail image or not
