@@ -422,9 +422,6 @@ const triggerDownload = function (event) {
 
 form.addEventListener('change', checkInput);
 
-// We also want to check if input is valid when we reload the page
-window.addEventListener('DOMContentLoaded', checkInput);
-
 // On every reload, we want to flush user images input
 window.addEventListener('DOMContentLoaded', () => {
     userInput.value = "";
