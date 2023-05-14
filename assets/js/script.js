@@ -162,7 +162,7 @@ function showValidMessage() {
  * We don't set the same CSS class if we have one or more images added by user
  */
 
-function updateThumbnail(imgContainer, numberOfImg, userImg) {
+function updateThumbnail(numberOfImg, userImg) {
     for (let i = 0; i < numberOfImg; i++) {
         let img = document.createElement('img');
         img.setAttribute("alt", "");
@@ -174,6 +174,17 @@ function updateThumbnail(imgContainer, numberOfImg, userImg) {
         };
         reader.readAsDataURL(userImg.files[i]);
     }
+}
+
+function textInfo(message) {
+    if (imgContainer.lastElementChild.tagName === "P") {
+        imgContainer.lastElementChild.remove();
+    }
+    let p = document.createElement("p");
+    p.innerHTML = message;
+    p.classList.add("fade-top-animation");
+
+    imgContainer.appendChild(p);
 }
 
 const resetForm = () => {
@@ -221,7 +232,7 @@ const updateImgContainer = function () {
     
     if (numberOfImg === 1) {
         imgContainer.classList.add("single-img-container");
-        updateThumbnail(imgContainer, numberOfImg, userInput);
+        updateThumbnail(numberOfImg, userInput);
     }
     else if (numberOfImg < 32) {
         imgContainer.classList.add("list-img-container");
@@ -231,10 +242,11 @@ const updateImgContainer = function () {
         else if (numberOfImg > 9) {
             imgContainer.style.gridTemplateColumns = "repeat(auto-fit,minmax(20%, 1fr))";
         }
-        updateThumbnail(imgContainer, numberOfImg, userInput);
+        updateThumbnail(numberOfImg, userInput);
     }
     else {
         imgContainer.classList.add("text-img-container");
+        textInfo(`${numberOfImg} images added`);
     }
 }
 
@@ -342,6 +354,12 @@ function fetchDataToApi(formData) {
             const reader = res.body.getReader();
             let buffer = "";
             let stackFilename = "";
+            let numberOfImg = countImage("image-file");
+            let tooMuchImage = false;
+            if (numberOfImg > 32) {
+                textInfo(`${numberOfImg} images left`);
+                tooMuchImage = true;
+            };
             let textDecoder = new TextDecoder();
             let messageContainer = document.getElementById("js-message");
             messageContainer.style.display = "block";
@@ -372,11 +390,17 @@ function fetchDataToApi(formData) {
                   messageContainer.innerHTML = buffer;
 
                   // Check if we have to delete one thumbnail image or not
-                  // To do this, we check wether the name of the file has changed or not
+                  // To do this, we check wether the name of the current file has changed or not
 
                   let actualFilename = getActualFilename(buffer);
                   if (actualFilename !== stackFilename && stackFilename !== "") {
-                    deleteThumbnail();
+                    if (tooMuchImage) {
+                        numberOfImg--;
+                        textInfo(`${numberOfImg} images left`);
+                    }
+                    else {
+                        deleteThumbnail();
+                    }
                   }
 
                   stackFilename = getActualFilename(buffer);
@@ -428,7 +452,6 @@ window.addEventListener('DOMContentLoaded', () => {
 })
 
 // Update thumbnail when user add images
-
 userInput.addEventListener('change', updateImgContainer);
 
 submitBtn.addEventListener('click', triggerSubmit);

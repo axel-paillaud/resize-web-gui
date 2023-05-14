@@ -71,7 +71,7 @@ function check_php_config()
             . $max_execution_time);
     }
     if ($max_input_time != -1) {
-        print_log("Warning: PHP max ipnut time have this current limit: "
+        print_log("Warning: PHP max input time have this current limit: "
             . $max_input_time);
     }
 }

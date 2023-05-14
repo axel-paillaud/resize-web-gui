@@ -52,9 +52,13 @@ Inno setup for Windows, Appimage for Linux
 
 - [ ] Rework animation of error message : do the same animation of information text on resize image (remove absolute position)
 
-- [ ] If we first resize img, not download but reload the page, then download, we don't have thumbnail
-but we can resize. If we resize, we have a display bug with "add picture's" btn + success message.
-Maybe we can empty form on reload ? I have to find a solution to reset only input file.
+- [ ] Verify maximum PHP execution time, show error if we have one
+
+- [ ] If we have error, like empty form because too much files, in front we see "Done" message, we have to display error.
+
+- [x] ~~If we first resize img, not download but reload the page, then download, we don't have thumbnail~~
+~~but we can resize. If we resize, we have a display bug with "add picture's" btn + success message.~~
+~~Maybe we can empty form on reload ? I have to find a solution to reset only input file.~~
 
 - [x] ~~After resize, we have to flush input files~~
 
