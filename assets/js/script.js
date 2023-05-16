@@ -162,6 +162,10 @@ function showValidMessage() {
  * We don't set the same CSS class if we have one or more images added by user
  */
 
+function sortImages(userImg) {
+    console.log(userImg);
+}
+
 function updateThumbnail(numberOfImg, userImg) {
     for (let i = 0; i < numberOfImg; i++) {
         let img = document.createElement('img');

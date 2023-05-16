@@ -58,6 +58,8 @@ Inno setup for Windows, Appimage for Linux
 
 - [ ] Verify maximum PHP execution time, show error if we have one
 
+- [ ] Refacto imgUpdateContainer js function (so ugly) 
+
 - [ ] If we have error, like empty form because too much files, in front we see "Done" message, we have to display error.
 
 - [x] ~~If we first resize img, not download but reload the page, then download, we don't have thumbnail~~
