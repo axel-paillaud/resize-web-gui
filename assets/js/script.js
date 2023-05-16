@@ -225,7 +225,7 @@ const updateImgContainer = function () {
     if (!isValidImage) {
         return;
     }
-    
+
     userInput.removeEventListener('change', updateImgContainer);
     form.removeEventListener('change', updateImgContainer);
     let classList = imgContainer.classList;

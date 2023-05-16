@@ -46,13 +46,15 @@ Inno setup for Windows, Appimage for Linux
 
 - [ ] Make "add picture's" btn focusable 
 
+- [ ] 
+
 - [x] ~~Sometime, the window "move" when the text take two line instead of one.~~
 
 - [x] ~~Play text animation on resize info to each new text~~
 
 - [ ] Rework animation of error message : do the same animation of information text on resize image (remove absolute position)
 
-- [ ] We have to check if input file is correct image, before update thumbnail. If we add, for example, pdf, we have an empty square
+- [x] ~~We have to check if input file is correct image, before update thumbnail. If we add, for example, pdf, we have an empty square~~
 
 - [ ] Verify maximum PHP execution time, show error if we have one
 
