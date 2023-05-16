@@ -99,7 +99,7 @@ if ($single_file)
     
     if ($files["error"][0] !== 0) 
     {
-        print_log($phpFileUploadErrors[$files["error"][$i]]);
+        print_log($phpFileUploadErrors[$files["error"][0]]);
         die();
     }
     $image = new Imagick($files["tmp_name"]);

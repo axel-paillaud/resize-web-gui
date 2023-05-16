@@ -103,7 +103,7 @@ function countImage(name) {
     return fileLength;
 }
 
-function checkImage(name) {
+function checkFile(name) {
     let isFile = false;
     if (!form[name]) {
         return false;
@@ -221,6 +221,11 @@ function deleteImgContainer() {
 }
 
 const updateImgContainer = function () {
+    let isValidImage = validateImage("image-file");
+    if (!isValidImage) {
+        return;
+    }
+    
     userInput.removeEventListener('change', updateImgContainer);
     form.removeEventListener('change', updateImgContainer);
     let classList = imgContainer.classList;
@@ -285,7 +290,7 @@ function enableSubmit(submitBtn, isCheckSize, isCheckFormat, isFile) {
 const checkInput = function () {
     let isCheckSize = validateCheckbox("size");
     let isCheckFormat = validateCheckbox("format");
-    let isFile = checkImage("image-file");
+    let isFile = checkFile("image-file");
     enableSubmit(submitBtn, isCheckSize, isCheckFormat, isFile);
 }
 
@@ -295,7 +300,7 @@ const checkInput = function () {
 function validateInput() {
     let isCheckSize = validateCheckbox("size");
     let isCheckFormat = validateCheckbox("format");
-    let isFile = checkImage("image-file");
+    let isFile = checkFile("image-file");
     let isValidImage = validateImage("image-file");
     if (!isCheckSize) {
         displayErrorMsg("Error : You need to check at least one image size");
