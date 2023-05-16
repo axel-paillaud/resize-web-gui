@@ -259,6 +259,9 @@ function getActualFilename(message) {
     if (message === "resize_images.zip") {
         return;
     }
+    if (!message.includes("<b>")) {
+        return;
+    }
     let filename = message.split("<b>")[1].split("</b>")[0];
     return filename;
 }
