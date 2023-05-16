@@ -70,8 +70,8 @@ Inno setup for Windows, Appimage for Linux
 
 - [ ] Sometime, the image is not on the same order between PHP file and imgContainer  
 
-- [x] Sometime, width is not checked. See that, and by default in PHP api, check it.
-  - [ ] Note : checked by default OK. Now see PHP API
+- [x] ~~Sometime, width is not checked. See that, and by default in PHP api, check it.~~
+  - [x] ~~Note : checked by default OK. Now see PHP API~~
 
 
 If not, throw an error. 
