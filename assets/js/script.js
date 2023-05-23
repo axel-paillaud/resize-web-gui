@@ -14,7 +14,7 @@ function displayErrorMsg(message) {
     let msgErrorContainer = document.getElementById("js-container");
     let closeIcon = createXmark();
 
-    hideSubmitBtn(submitBtn);
+    removeSubmitBtn();
     msgErrorContainer.classList.add("error-msg");
     msgErrorContainer.style.opacity = 1;
     msgErrorContainer.textContent = message;
@@ -41,7 +41,7 @@ const closeMsgError = function(event) {
         setTimeout(function() {
             msgErrorContainer.classList.remove("error-msg");
             msgErrorContainer.replaceChildren();
-            showSubmitBtn();
+            displaySubmitBtn();
 
             closeIcon.removeEventListener('click', closeMsgError);
             window.removeEventListener('keydown', closeMsgError);
@@ -49,9 +49,13 @@ const closeMsgError = function(event) {
     }
 }
 
-function hideSubmitBtn(submitBtn) {
+function hideSubmitBtn() {
     submitBtn.style.opacity = 0;
     submitBtn.style.visibility = "hidden";
+}
+
+function removeSubmitBtn() {
+    submitBtn.style.display = "none";
 }
 
 function showSubmitBtn() {

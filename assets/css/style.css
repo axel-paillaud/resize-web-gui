@@ -1,5 +1,5 @@
 /* reset default style */
-body, h1 {
+body, h1, p {
     margin: 0;
 }
 
@@ -124,15 +124,14 @@ input[type=checkbox], input[type=radio] {
     background-color: #b51e24;
     padding: 8px 40px 8px 8px;
     border-radius: 8px;
-    text-align: center;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: 75px;
     color: white;
     max-width: 476px;
-    transition: all 0.3s;
+    animation: fadeInTop 0.3s;
     white-space: nowrap;
+    position: relative;
+    justify-content: center;
+    transition: opacity 0.3s;
+    margin-top: 32px;
 }
 
 .fa-mark {
