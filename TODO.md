@@ -38,7 +38,7 @@ Inno setup for Windows, Appimage for Linux
 
 - [ ] Find also all "set_timeout" parameters, to set it to infinite 
 
-- [x] Add code to check if `upload_max_filesize` and `post_max_size` are set to infinite.
+- [x] ~~Add code to check if `upload_max_filesize` and `post_max_size` are set to infinite.~~
 
 - ~~[x] Resize by width or height -> only added in HTML, handle it in JavaScript and PHP.~~
 
@@ -52,7 +52,7 @@ Inno setup for Windows, Appimage for Linux
 
 - [x] ~~Play text animation on resize info to each new text~~
 
-- [ ] Rework animation of error message : do the same animation of information text on resize image (remove absolute position)
+- [x] ~~Rework animation of error message : do the same animation of information text on resize image (remove absolute position)~~
 
 - [x] ~~We have to check if input file is correct image, before update thumbnail. If we add, for example, pdf, we have an empty square~~
 
