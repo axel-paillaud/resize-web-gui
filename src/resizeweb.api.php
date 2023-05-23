@@ -167,8 +167,6 @@ else
                 $image->setImageCompressionQuality($quality);
                 $image->setCompressionQuality($quality);
 
-                print_log($filenames); // TODO original filenames after loop ??
-
                 if (isset($rename) && !empty($rename)) {
                     $filename = $rename;
                 }

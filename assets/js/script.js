@@ -163,10 +163,21 @@ function showValidMessage() {
  */
 
 function sortImages(userImg) {
-    console.log(userImg);
+    let fileArray = Array.from(userImg.files);
+
+    fileArray.sort((a, b) => {
+        const nameA = a.name.toLowerCase();
+        const nameB = b.name.toLowerCase();
+
+        if (nameA < nameB) return -1;
+        if (nameA > nameB) return 1;
+        return 0
+    });
+    return fileArray;
 }
 
 function updateThumbnail(numberOfImg, userImg) {
+    let sortedImages = sortImages(userImg);
     for (let i = 0; i < numberOfImg; i++) {
         let img = document.createElement('img');
         img.setAttribute("alt", "");
@@ -176,7 +187,7 @@ function updateThumbnail(numberOfImg, userImg) {
             img.src = e.target.result;
             imgContainer.appendChild(img);
         };
-        reader.readAsDataURL(userImg.files[i]);
+        reader.readAsDataURL(sortedImages[i]);
     }
 }
 
