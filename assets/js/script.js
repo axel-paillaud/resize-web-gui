@@ -412,7 +412,7 @@ function fetchDataToApi(formData) {
                   // To do this, we check wether the name of the current file has changed or not
 
                   let actualFilename = getActualFilename(buffer);
-                  if (actualFilename !== stackFilename && stackFilename !== "") {
+                  if (actualFilename !== stackFilename) {
                     if (tooMuchImage) {
                         numberOfImg--;
                         textInfo(imgContainer, `${numberOfImg} images left`);
