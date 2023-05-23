@@ -72,7 +72,7 @@ Inno setup for Windows, Appimage for Linux
 
 - [x] ~~Sometime, the image is not on the same order between PHP file and imgContainer~~  
 
-- [ ] Thumbnails are not deleted in the same order than PHP files 
+- [x] ~~Thumbnails are not deleted in the same order than PHP files~~ 
 
 - [x] ~~Sometime, width is not checked. See that, and by default in PHP api, check it.~~
   - [x] ~~Note : checked by default OK. Now see PHP API~~
