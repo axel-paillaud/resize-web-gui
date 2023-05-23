@@ -6,6 +6,8 @@ function print_log($string)
 {
     $folder =  "../log/error.log";
     $string = print_r($string, true);
+    $date = date("F j, Y, H:i:s");
+    $string = $date . " " . $string;
     error_log($string . "\n\n", 3, $folder);
 }
 
