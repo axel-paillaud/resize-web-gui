@@ -239,37 +239,46 @@ function deleteImgContainer() {
     }
 }
 
-const updateImgContainer = function () {
-    let isValidImage = validateImage("image-file");
-    if (!isValidImage) {
-        return;
-    }
-
-    userInput.removeEventListener('change', updateImgContainer);
-    form.removeEventListener('change', updateImgContainer);
-    let classList = imgContainer.classList;
-    imgContainer.classList.remove(...classList);
-    indexToDelete = 2;
-    hideLabelImgContainer();
-
-    let numberOfImg = countImage("image-file");
-    
+/**
+ * 
+ * This function set the right class, in regards to the number of images
+ */
+function putTheRightClass(numberOfImg, imgContainer) {
     if (numberOfImg === 1) {
         imgContainer.classList.add("single-img-container");
-        updateThumbnail(numberOfImg, userInput);
     }
-    else if (numberOfImg < 32) {
+    else if (numberOfImg > 1 && numberOfImg < 9) {
         imgContainer.classList.add("list-img-container");
-        if (numberOfImg > 12) {
-            imgContainer.style.gridTemplateColumns = "repeat(auto-fit,minmax(15%, 1fr))";
-        }
-        else if (numberOfImg > 9) {
-            imgContainer.style.gridTemplateColumns = "repeat(auto-fit,minmax(20%, 1fr))";
-        }
-        updateThumbnail(numberOfImg, userInput);
+    }
+    else if (numberOfImg >= 9 && numberOfImg < 12) {
+        imgContainer.classList.add("list-img-container");
+        imgContainer.style.gridTemplateColumns = "repeat(auto-fit, minmax(20%, 1fr)";
+    }
+    else if (numberOfImg >= 12 &&  numberOfImg < 32) {
+        imgContainer.classList.add("list-img-container");
+        imgContainer.style.gridTemplateColumns = "repeat(auto-fit,minmax(15%, 1fr))";
     }
     else {
         imgContainer.classList.add("text-img-container");
+    }
+}
+
+const updateImgContainer = function () {
+    if (!validateImage("image-file")) return;
+
+    userInput.removeEventListener('change', updateImgContainer);
+    form.removeEventListener('change', updateImgContainer);
+    imgContainer.classList.remove(...imgContainer.classList);
+    indexToDelete = 2;
+    hideLabelImgContainer();
+
+    const numberOfImg = countImage("image-file");
+    putTheRightClass(numberOfImg, imgContainer);
+
+    if (numberOfImg < 32) {
+        updateThumbnail(numberOfImg, userInput);
+    }
+    else {
         textInfo(imgContainer, `${numberOfImg} images added`);
     }
 }
