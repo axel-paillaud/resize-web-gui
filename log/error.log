@@ -428,3 +428,23 @@ May 28, 2023, 16:57:51 Warning: PHP max file uploads have this current limit: 30
 
 May 28, 2023, 16:57:51 Warning: PHP max input time have this current limit: 60
 
+May 28, 2023, 17:03:13 Warning: PHP upload max filesize have this current limit: 2M
+
+May 28, 2023, 17:03:13 Warning: PHP post max size have this current limit: 8M
+
+May 28, 2023, 17:03:13 Warning: PHP max file uploads have this current limit: 20
+
+May 28, 2023, 17:03:13 Warning: PHP max file uploads have this current limit: 30
+
+May 28, 2023, 17:03:13 Warning: PHP max input time have this current limit: 60
+
+May 28, 2023, 17:03:19 Warning: PHP upload max filesize have this current limit: 2M
+
+May 28, 2023, 17:03:19 Warning: PHP post max size have this current limit: 8M
+
+May 28, 2023, 17:03:19 Warning: PHP max file uploads have this current limit: 20
+
+May 28, 2023, 17:03:19 Warning: PHP max file uploads have this current limit: 30
+
+May 28, 2023, 17:03:19 Warning: PHP max input time have this current limit: 60
+
