@@ -425,7 +425,6 @@ function fetchDataToApi(formData) {
                     messageContainer.style.display = "none";
                     loader.classList.remove("loader");
                     setBtnStyleToEnable(submitBtn, "Download");
-                    // when PHP script is over, the buffer correspond to the name of the file we want to download.
                     updateBtnToDownload(submitBtn, "src/resize_images/" + getResizeFileName(), getResizeFileName());
                     document.getElementById("download-btn").addEventListener("click", resetForm);
                     form.addEventListener('change', updateImgContainer);
