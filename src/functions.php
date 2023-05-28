@@ -91,10 +91,6 @@ function count_lines(string $file_path)
 
         return $number_of_lines;
     }
-    else
-    {
-        echo "Unable to open file in $file_path, cannot count lines";
-    }
 }
 
 function reset_file(string $file_path)
@@ -106,9 +102,5 @@ function reset_file(string $file_path)
         fwrite($file, '');
 
         fclose($file);
-    }
-    else
-    {
-        echo "Unable to open file in $file_path";
     }
 }

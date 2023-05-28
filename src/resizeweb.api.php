@@ -34,7 +34,7 @@ $side = $_POST["side"];
 $sizes = $_POST["size"];
 $filenames = $files["name"];
 $quality = intval($_POST["quality"]);
-$error_file_path = "log/error.log";
+$error_file_path = "../log/error.log";
 
 if (count_lines($error_file_path) > 1000)
 {
