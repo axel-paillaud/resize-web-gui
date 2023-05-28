@@ -380,6 +380,23 @@ function getFormData(form) {
     return formData;
 }
 
+/* If user add multiples images, it will create resize_images.zip, else,
+we have to retrieve single image filename */
+
+function getResizeFilePath() {
+    if (countImage("image-file") > 1) {
+        return "src/resize_images/resize_images.zip"
+    }
+    else {
+        const filenameWithExt = userInput.files[0].name;
+        const formData = getFormData(form);
+        const filename = filenameWithExt.substring(0, filenameWithExt.lastIndexOf("."));
+        const size = formData.get("size[]");
+        const format = formData.get("format[]");
+        return "src/resize_images/" + filename + "-" + size + "." + format;
+    }
+}
+
 function fetchDataToApi(formData) {
     fetch("src/resizeweb.api.php", {
         method: "POST",
@@ -409,7 +426,7 @@ function fetchDataToApi(formData) {
                     loader.classList.remove("loader");
                     setBtnStyleToEnable(submitBtn, "Download");
                     // when PHP script is over, the buffer correspond to the name of the file we want to download.
-                    updateBtnToDownload(submitBtn, "src/resize_images/" + buffer, buffer);
+                    updateBtnToDownload(submitBtn, getResizeFilePath());
                     document.getElementById("download-btn").addEventListener("click", resetForm);
                     form.addEventListener('change', updateImgContainer);
                     window.addEventListener('keydown', triggerDownload);
