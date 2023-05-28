@@ -28,7 +28,7 @@ Inno setup for Windows, Appimage for Linux
 
 - [x] ~~We don't only want zip for multiple images, but also for multiple size or format ( = multiple images also)~~
   
-- [ ] Find a solution to don't have 109239082398232 line of error.log (maybe create error<date>.log)
+- [x] ~~Find a solution to don't have 109239082398232 line of error.log (maybe create error<date>.log)~~
 
 - [ ] We also have to send message to front if errors appear 
 
