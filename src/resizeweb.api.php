@@ -34,6 +34,12 @@ $side = $_POST["side"];
 $sizes = $_POST["size"];
 $filenames = $files["name"];
 $quality = intval($_POST["quality"]);
+$error_file_path = "log/error.log";
+
+if (count_lines($error_file_path) > 1000)
+{
+    reset_file($error_file_path);
+}
 
 if ($side === 'width' || !isset($side) || empty($side))
 {
@@ -65,7 +71,6 @@ function resizeImg($image, int $width, int $height, string $filename)
     $cloneImage->resizeImage($width, $height, imagick::FILTER_LANCZOS, 0.5);
     if ($width != 0) $size = $width;
     else $size = $height;
-    print_log("Resize $filename to $size");
     ob_flush();
     return $cloneImage;
 }
@@ -73,7 +78,6 @@ function resizeImg($image, int $width, int $height, string $filename)
 function convertImg($image, string $quality, string $format, string $fileName)
 {
     $image->setImageFormat($format);
-    print_log("Convert $fileName to $format");
     return $image;
 }
 

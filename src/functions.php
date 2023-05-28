@@ -75,3 +75,40 @@ function check_php_config()
             . $max_input_time);
     }
 }
+
+function count_lines(string $file_path)
+{
+    $file = fopen($file_path, 'r');
+
+    if ($file)
+    {
+        $number_of_lines = 0;
+        while (!feof($file))
+        {
+            fgets($file);
+            $number_of_lines++;
+        }
+
+        return $number_of_lines;
+    }
+    else
+    {
+        echo "Unable to open file in $file_path, cannot count lines";
+    }
+}
+
+function reset_file(string $file_path)
+{
+    $file = fopen($file_path, 'w');
+
+    if ($file)
+    {
+        fwrite($file, '');
+
+        fclose($file);
+    }
+    else
+    {
+        echo "Unable to open file in $file_path";
+    }
+}
