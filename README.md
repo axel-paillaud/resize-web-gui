@@ -18,7 +18,7 @@ You can resize one or more images :
     <img width="400" src="/assets/images/screenshot/resize-web-single-image.png" alt="Only one image added by the user">
     <img width="400" src="/assets/images/screenshot/resize-web-more-images.png" alt="A lot of images added by the user">
 </p>
-<sup>Thanks to Laracasts for the pictures</sub>
+<sup>Thanks to Laracasts for the pictures</sup>
 
 Once you click on the "Resize and convert" button, you have a dynamic refresh of images grid, for each images being resized
 
