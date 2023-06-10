@@ -5,7 +5,7 @@ Resize one or more images with standard web format. GUI version, can be launched
 ---
 
 <p align="center">
-    <img width=100% src="/assets/images/screenshot/resize-web-gui-screenshot.png">
+    <img width=90% src="/assets/images/screenshot/resize-web-gui-screenshot.png">
 </p>
 
 > Resize web GUI is a onepage application which can convert one or mores images with
