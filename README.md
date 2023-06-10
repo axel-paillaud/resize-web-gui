@@ -23,6 +23,7 @@ You can resize one or more images :
 Once you click on the "Resize and convert" button, you have a dynamic refresh of images grid, for each images being resized
 
 <p align="center">
+    <img width="400" src="/assets/images/screenshot/resize-web-start-resize.png" alt="Only one image added by the user">
     <img width="400" src="/assets/images/screenshot/resize-web-start-resize-2.png" alt="Only one image added by the user">
 </p>
 
