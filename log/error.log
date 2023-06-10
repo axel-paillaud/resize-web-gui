@@ -448,3 +448,49 @@ May 28, 2023, 17:03:19 Warning: PHP max file uploads have this current limit: 30
 
 May 28, 2023, 17:03:19 Warning: PHP max input time have this current limit: 60
 
+June 10, 2023, 07:27:51 Warning: PHP upload max filesize have this current limit: 2M
+
+June 10, 2023, 07:27:51 Warning: PHP post max size have this current limit: 8M
+
+June 10, 2023, 07:27:51 Warning: PHP max file uploads have this current limit: 20
+
+June 10, 2023, 07:27:51 Warning: PHP max file uploads have this current limit: 30
+
+June 10, 2023, 07:27:51 Warning: PHP max input time have this current limit: 60
+
+June 10, 2023, 07:28:36 Warning: PHP upload max filesize have this current limit: 2M
+
+June 10, 2023, 07:28:36 Warning: PHP post max size have this current limit: 8M
+
+June 10, 2023, 07:28:36 Warning: PHP max file uploads have this current limit: 20
+
+June 10, 2023, 07:28:36 Warning: PHP max file uploads have this current limit: 30
+
+June 10, 2023, 07:28:36 Warning: PHP max input time have this current limit: 60
+
+June 10, 2023, 07:28:36 Error: Form data is empty. Abort
+
+June 10, 2023, 07:28:44 Warning: PHP upload max filesize have this current limit: 2M
+
+June 10, 2023, 07:28:44 Warning: PHP post max size have this current limit: 8M
+
+June 10, 2023, 07:28:44 Warning: PHP max file uploads have this current limit: 20
+
+June 10, 2023, 07:28:44 Warning: PHP max file uploads have this current limit: 30
+
+June 10, 2023, 07:28:44 Warning: PHP max input time have this current limit: 60
+
+June 10, 2023, 07:28:44 Error: Form data is empty. Abort
+
+June 10, 2023, 07:29:04 Warning: PHP upload max filesize have this current limit: 2M
+
+June 10, 2023, 07:29:04 Warning: PHP post max size have this current limit: 8M
+
+June 10, 2023, 07:29:04 Warning: PHP max file uploads have this current limit: 20
+
+June 10, 2023, 07:29:04 Warning: PHP max file uploads have this current limit: 30
+
+June 10, 2023, 07:29:04 Warning: PHP max input time have this current limit: 60
+
+June 10, 2023, 07:29:04 Error: Form data is empty. Abort
+

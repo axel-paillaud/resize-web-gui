@@ -40,6 +40,8 @@ Inno setup for Windows, Appimage for Linux
 
 - [ ] Add favicon 
 
+- [ ] Actual PHP Warning/Error have to be save in error.log file 
+
 - [x] ~~Add code to check if `upload_max_filesize` and `post_max_size` are set to infinite.~~
 
 - ~~[x] Resize by width or height -> only added in HTML, handle it in JavaScript and PHP.~~
