@@ -73,4 +73,4 @@ To avoid that, you can install Apache server locally, then add the path to the p
 
 - Add **drag-and-drop** interface in HTML form.
 - Setup a php.ini file locally to the project, add `extension=imagick` and set all the php configuration file to maximum (file upload, timeout ...)
-- The PHP script is OK but the JavaScript is messy.
+- The PHP script is OK but the JavaScript is quite messy.
