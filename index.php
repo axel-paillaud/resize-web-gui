@@ -130,6 +130,7 @@
             <div id="js-message" class="message" style="display: none;"></div>
         </form>
     </main>
+    <script src="assets/js/functions.js"></script>
     <script src="assets/js/script.js"></script>
 </body>
 
