@@ -60,7 +60,7 @@ Go to the root folder of the project, and run :
 
 `php -S localhost:8080`
 
-(You can change the port to you need) Then go to `http://localhost:8080`
+(You can change the port to your need) Then go to `http://localhost:8080`
 
 You should see the application page. If you have problem to load Imagick library, you get error message when you start resize some images.
 
