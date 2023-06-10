@@ -16,7 +16,7 @@ function fetchDataToApi(formData) {
             let buffer = "";
             let stackFilename = "";
             let numberOfImg = countImage("image-file");
-            if (tooMuchImage(countImage("image-file"))) {
+            if (tooMuchImage(numberOfImg)) {
                 textInfo(imgContainer, `${numberOfImg} images left`);
             };
             let textDecoder = new TextDecoder();
@@ -56,9 +56,7 @@ function fetchDataToApi(formData) {
                         deleteThumbnail();
                     }
                   }
-
                   stackFilename = getActualFilename(buffer);
-
                   return read();
                 });
               };
