@@ -9,6 +9,8 @@ header('Content-type: application/json');
 if (!extension_loaded('imagick')) 
 {
     print_log("Error : imagick extension is not loaded.");
+    echo "Error : imagick extension is not loaded.";
+    http_response_code(503);
     die();
 }
 
@@ -19,7 +21,8 @@ check_php_config();
 
 if (empty($_POST) || empty($_FILES))
 {
-    print_log("Error: Form data is empty. Abort");
+    echo "Error: Form data on PHP script is empty. Check error.log file for more information";
+    http_response_code(400);
     die();
 }
 
@@ -197,5 +200,6 @@ else
     $zip->close();
 
     ob_clean();
+    http_response_code(200);
     echo $zipFilename;
 }

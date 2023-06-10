@@ -30,6 +30,9 @@ function createXmark() {
     xIcon.id = "js-close-icon";
     xIcon.classList.add("fa-mark");
     xIcon.addEventListener('click', closeMsgError);
+    xIcon.addEventListener("click", () => {
+        setTimeout(() => {resetForm()}, 300);
+    });
     return xIcon;
 }
 
@@ -402,12 +405,16 @@ function tooMuchImage(numberOfImg) {
     return (numberOfImg > 32);
 }
 
+function removeLoader(loader) {
+    loader.classList.remove("loader");
+}
+
 function resetComputeForm() {
     deleteImgContainer();
     imgContainer.classList.add("light-text-img-container");
     showValidMessage();
     messageContainer.style.display = "none";
-    loader.classList.remove("loader");
+    removeLoader(loader);
     setBtnStyleToEnable(submitBtn, "Download");
     updateBtnToDownload(submitBtn, "src/resize_images/" + getResizeFileName(), getResizeFileName());
     document.getElementById("download-btn").addEventListener("click", resetForm);

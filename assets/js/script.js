@@ -47,6 +47,13 @@ function fetchDataToApi(formData) {
 
             return read();
         }
+        else {
+            return res.text().then(errorMsg => {
+                displayErrorMsg(errorMsg);
+                removeLoader(loader);
+                throw new Error(errorMsg);
+              });
+        }
     })
     .catch((error) => {
         console.log(error);
