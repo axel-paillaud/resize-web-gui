@@ -560,3 +560,13 @@ June 10, 2023, 07:26:56 Warning: PHP max file uploads have this current limit: 3
 
 June 10, 2023, 07:26:56 Warning: PHP max input time have this current limit: 60
 
+June 10, 2023, 07:41:36 Warning: PHP upload max filesize have this current limit: 2M
+
+June 10, 2023, 07:41:36 Warning: PHP post max size have this current limit: 8M
+
+June 10, 2023, 07:41:36 Warning: PHP max file uploads have this current limit: 20
+
+June 10, 2023, 07:41:36 Warning: PHP max file uploads have this current limit: 30
+
+June 10, 2023, 07:41:36 Warning: PHP max input time have this current limit: 60
+

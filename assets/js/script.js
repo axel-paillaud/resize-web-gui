@@ -16,7 +16,7 @@ function fetchDataToApi(formData) {
             let buffer = "";
             let stackFilename = "";
             let numberOfImg = countImage("image-file");
-            if (tooMuchImage(numberOfImg)) {
+            if (tooMuchImage(countImage("image-file"))) {
                 textInfo(imgContainer, `${numberOfImg} images left`);
             };
             let textDecoder = new TextDecoder();
@@ -48,7 +48,7 @@ function fetchDataToApi(formData) {
 
                   let actualFilename = getActualFilename(buffer);
                   if (actualFilename !== stackFilename) {
-                    if (tooMuchImage(numberOfImg)) {
+                    if (tooMuchImage(countImage("image-file"))) {
                         numberOfImg--;
                         textInfo(imgContainer, `${numberOfImg} images left`);
                     }
