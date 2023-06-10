@@ -23,8 +23,17 @@ You can resize one or more images :
 Once you click on the "Resize and convert" button, you have a dynamic refresh of images grid, for each images being resized
 
 <p align="center">
-    <img width="400" src="/assets/images/screenshot/resize-web-start-resize.png" alt="Only one image added by the user">
-    <img width="400" src="/assets/images/screenshot/resize-web-start-resize-2.png" alt="Only one image added by the user">
+    <img width="400" src="/assets/images/screenshot/resize-web-start-resize.png" alt="Images start resizing">
+    <img width="400" src="/assets/images/screenshot/resize-web-start-resize-2.png" alt="Images start resizing">
+</p>
+
+After that, you have a zip file if you resize multiples images, or directy a single image if you add only one.
+
+For multiple images: All images are stored in separate folders. In these folders: one folder per format, then all sizes in the format folder.
+
+<p align="center">
+    <img width="400" src="/assets/images/screenshot/resize-web-all-folder.png" alt="Example of image organization">
+    <img width="400" src="/assets/images/screenshot/resize-web-all-format.png" alt="Example of image organization">
 </p>
 
 ### Installation
