@@ -32,6 +32,8 @@ Inno setup for Windows, Appimage for Linux
 
 - [ ] We also have to send message to front if errors appear 
 
+- [ ] Problem with PHP Timeout set to 30s 
+
 - [x] ~~Catch error file for single image too~~
   
 - [x] ~~Instead of output-768.jpg, I thinks its better to keep the original image name~~
