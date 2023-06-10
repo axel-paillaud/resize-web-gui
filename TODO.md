@@ -50,7 +50,7 @@ Inno setup for Windows, Appimage for Linux
 
 - [ ] Make "add picture's" btn focusable 
 
-- [ ] 
+- [ ] Issues : When add a lot of images and PHP script abort, resetForm don't remove images in the DOM (or maybe its CSS class ?)
 
 - [x] ~~Sometime, the window "move" when the text take two line instead of one.~~
 
