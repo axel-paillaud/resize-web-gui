@@ -2,4 +2,4 @@
 /phpdesktop
 /phpdesktop.bak
 src/resize_images
-error.log
+/log/error.log
