@@ -36,12 +36,37 @@ For multiple images: All images are stored in separate folders. In these folders
     <img width="400" src="/assets/images/screenshot/resize-web-all-format.png" alt="Example of image organization">
 </p>
 
-### Installation
+### Installation on Linux
 
 If you want to setup this locally, you basically need to install `php-imagick` package, and launch a PHP server.
 
 On debian :
 
-`sudp apt install php php-imagick`
+`sudo apt install php php-imagick`
+
+(php only if you don't already have php on your machine)
+
+You also have to install Image magick :
+
+`sudo apt install imagemagick`
+
+Then add this line to your `/etc/php/php.ini` config file, below all the `;extention=foobar` section (the path can be different, im on arch linux btw) :
+
+`extension=imagick`
+
+The quickest way is to start PHP CLI server (development php server).
+
+Go to the root folder of the project, and run :
+
+`php -S localhost:8080`
+
+(You can change the port to you need) Then go to `http://localhost:8080`
+
+You should see the application page. If you have problem to load Imagick library, you get error message when you start resize some images.
+
+The problem with this setup is, you have to restart the development server every time you restart your machine.
+
+To avoid that, you can install Apache server locally, then add the path to the project in apache configuration file. You will also have to edit the `/etc/hosts` file. (more on that later).
+
 
 ### What can be added and improved
