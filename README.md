@@ -15,8 +15,8 @@ Resize one or more images with standard web format. GUI version, can be launched
 You can resize one or more images :
 
 <p align="center">
-    <img src="/assets/images/screenshot/resize-web-single-image.png" alt="Only one image added by the user">
-    <img src="/assets/images/screenshot/resize-web-more-images" alt="A lot of images added by the user">
+    <img width="400" src="/assets/images/screenshot/resize-web-single-image.png" alt="Only one image added by the user">
+    <img width="400" src="/assets/images/screenshot/resize-web-more-images.png" alt="A lot of images added by the user">
 </p>
 <small>Thanks to Laracasts for the pictures</small>
 
