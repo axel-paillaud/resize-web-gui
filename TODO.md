@@ -30,8 +30,6 @@ Inno setup for Windows, Appimage for Linux
   
 - [x] ~~Find a solution to don't have 109239082398232 line of error.log (maybe create error<date>.log)~~
 
-- [ ] We also have to send message to front if errors appear 
-
 - [ ] Problem with PHP Timeout set to 30s 
 
 - [x] ~~Catch error file for single image too~~
