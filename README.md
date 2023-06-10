@@ -27,7 +27,7 @@ Once you click on the "Resize and convert" button, you have a dynamic refresh of
     <img width="400" src="/assets/images/screenshot/resize-web-start-resize-2.png" alt="Images start resizing">
 </p>
 
-After that, you have a zip file if you resize multiples images, or directy a single image if you add only one.
+After that, you have a zip file if you upload multiples images, or directy a single image if you add only one.
 
 For multiple images: All images are stored in separate folders. In these folders: one folder per format, then all sizes in the format folder.
 
