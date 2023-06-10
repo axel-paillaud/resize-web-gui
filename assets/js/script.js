@@ -1,10 +1,3 @@
-let form = document.getElementById("form");
-let submitBtn = document.getElementById("submit");
-const loader = document.getElementById("js-loader");
-const userInput = document.getElementById("image-file");
-let imgContainer = document.getElementById("js-add-img-container");
-let indexToDelete = 2;
-
 function fetchDataToApi(formData) {
     fetch("src/resizeweb.api.php", {
         method: "POST",
@@ -20,21 +13,12 @@ function fetchDataToApi(formData) {
                 textInfo(imgContainer, `${numberOfImg} images left`);
             };
             let textDecoder = new TextDecoder();
-            let messageContainer = document.getElementById("js-message");
             messageContainer.style.display = "block";
             const read = () => {
                 return reader.read().then(({ done, value }) => {
                   if (done) {
-                    deleteImgContainer();
-                    imgContainer.classList.add("light-text-img-container");
-                    showValidMessage();
-                    messageContainer.style.display = "none";
-                    loader.classList.remove("loader");
-                    setBtnStyleToEnable(submitBtn, "Download");
-                    updateBtnToDownload(submitBtn, "src/resize_images/" + getResizeFileName(), getResizeFileName());
-                    document.getElementById("download-btn").addEventListener("click", resetForm);
-                    form.addEventListener('change', updateImgContainer);
-                    window.addEventListener('keydown', triggerDownload);
+                    // computeForm = when the form resizes images dynamically
+                    resetComputeForm();
                     return;
                   }
 
