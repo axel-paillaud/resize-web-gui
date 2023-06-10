@@ -4,4 +4,6 @@ Resize one or more images with standard web format. GUI version, can be launched
 
 ---
 
-<img width=400 src="/assets/images/resize-web-gui-screenshot.png">
+<p align="center">
+    <img width=100% src="/assets/images/resize-web-gui-screenshot.png">
+</p>
