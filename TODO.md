@@ -60,8 +60,6 @@ Inno setup for Windows, Appimage for Linux
 
 - [x] ~~We have to check if input file is correct image, before update thumbnail. If we add, for example, pdf, we have an empty square~~
 
-- [ ] Verify maximum PHP execution time, show error if we have one
-
 - [x] ~~Refacto imgUpdateContainer js function (so ugly)~~ 
 
 - [x] ~~If we have error, like empty form because too much files, in front we see "Done" message, we have to display error.~~
