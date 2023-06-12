@@ -52,6 +52,8 @@ Inno setup for Windows, Appimage for Linux
 
 - [ ] Issues : When add a lot of images and PHP script abort, resetForm don't remove images in the DOM (or maybe its CSS class ?)
 
+? Can't reproduce this bug ?
+
 - [x] ~~Sometime, the window "move" when the text take two line instead of one.~~
 
 - [x] ~~Play text animation on resize info to each new text~~
