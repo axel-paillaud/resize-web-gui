@@ -64,7 +64,7 @@ Inno setup for Windows, Appimage for Linux
 
 - [x] ~~Refacto imgUpdateContainer js function (so ugly)~~ 
 
-- [ ] If we have error, like empty form because too much files, in front we see "Done" message, we have to display error.
+- [x] ~~If we have error, like empty form because too much files, in front we see "Done" message, we have to display error.~~
 
 - [x] ~~If we first resize img, not download but reload the page, then download, we don't have thumbnail~~
 ~~but we can resize. If we resize, we have a display bug with "add picture's" btn + success message.~~
