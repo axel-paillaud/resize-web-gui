@@ -51,7 +51,7 @@ function fetchDataToApi(formData) {
             return res.text().then(errorMsg => {
                 displayErrorMsg(errorMsg);
                 removeLoader(loader);
-                throw new Error(errorMsg);
+                //throw new Error(errorMsg);
               });
         }
     })

@@ -1,29 +1,5 @@
 # TODO List
 
-- Grid system to display thumbnails images inside the light red container
-" Add picture(s)".
-    - When only one image, display one big image that take all the height of the
-    container
-    - When we have multiple image, display all in a grid that fit inside the
-    light red container
-
-When we click on submit button :
-    - Do again a checkInput to see if at least one checkbox in each field is checked,
-    and if at least one image is upload.
-    - Add a check valid image to see if the file is really an image file
-    - create formData object, add all form field inside the formData
-    - Send it to PHP backend
-
-We need to set in php.ini file `upload_max_filesize` to infinite value (0),
-but also dont forget `post_max_size` , which is about upload multiple file
-
-Check if we can add an entire folder with file to zipArchive. If, create zipArchive
-at the end of the php script, and add the folder and subfolders to it.
-If not, create zipArchive at the beginning of nested loop to convert img, and add
-each new folder and file to zipArchive.
-
-To get only data image, instead of write on disk : $imageData = $image->getImageBlob();
-
 Inno setup for Windows, Appimage for Linux
 
 - [x] ~~We don't only want zip for multiple images, but also for multiple size or format ( = multiple images also)~~
@@ -50,9 +26,9 @@ Inno setup for Windows, Appimage for Linux
 
 - [ ] Make "add picture's" btn focusable 
 
-- [ ] Issues : When add a lot of images and PHP script abort, resetForm don't remove images in the DOM (or maybe its CSS class ?)
+- [x] ~~Issues : When add a lot of images and PHP script abort, resetForm don't remove images in the DOM (or maybe its CSS class ?)~~
 
-? Can't reproduce this bug ? -> Its when we have red error message
+~~? Can't reproduce this bug ? -> Its when we have red error message~~
 
 - [x] ~~Sometime, the window "move" when the text take two line instead of one.~~
 
@@ -80,6 +56,3 @@ Inno setup for Windows, Appimage for Linux
 
 - [x] ~~Sometime, width is not checked. See that, and by default in PHP api, check it.~~
   - [x] ~~Note : checked by default OK. Now see PHP API~~
-
-
-If not, throw an error. 

@@ -31,7 +31,7 @@ function createXmark() {
     xIcon.classList.add("fa-mark");
     xIcon.addEventListener('click', closeMsgError);
     xIcon.addEventListener("click", () => {
-        setTimeout(() => {resetForm()}, 300);
+        setTimeout(() => {resetForm}, 300);
     });
     return xIcon;
 }
@@ -214,6 +214,7 @@ const resetForm = () => {
     // We have to reset this index, because it is still increment by the number of delete img
     indexToDelete = 2;
     imgContainer.children[imgContainer.children.length - 1].remove();
+    console.log("hello");
     let classList = imgContainer.classList;
     imgContainer.classList.remove(...classList);
     imgContainer.classList.add("add-img-container");
