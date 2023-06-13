@@ -38,7 +38,7 @@ For multiple images: All images are stored in separate folders. In these folders
 
 ### Quick installation on Linux
 
-If you want to setup this locally, you basically need to install `php-imagick` package, and launch a PHP server.
+If you want to setup this locally, you basically need to install `php`, `imagemagick` and `php-imagick` package, and launch a PHP server.
 
 On debian :
 
