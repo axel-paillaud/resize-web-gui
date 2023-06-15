@@ -56,3 +56,5 @@ Inno setup for Windows, Appimage for Linux
 
 - [x] ~~Sometime, width is not checked. See that, and by default in PHP api, check it.~~
   - [x] ~~Note : checked by default OK. Now see PHP API~~
+
+- [ ] When we resize image, make all checkbox and radio disable 
