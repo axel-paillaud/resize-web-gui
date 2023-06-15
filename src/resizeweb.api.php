@@ -74,6 +74,7 @@ function resizeImg($image, int $width, int $height, string $filename)
     $cloneImage->resizeImage($width, $height, imagick::FILTER_LANCZOS, 0.5);
     if ($width != 0) $size = $width;
     else $size = $height;
+    ob_flush();
     return $cloneImage;
 }
 
