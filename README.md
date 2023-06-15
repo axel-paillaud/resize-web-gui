@@ -60,16 +60,14 @@ Then, you can run :
 
 `./dev-start.sh`
 
-If browser window does not open automatically, go to `http://localhost:8085`
+If browser window does not open automatically, go to `http://localhost:8090`
 
 You should see the application page. If you have problem to load Imagick library, you get error message when you start resize some images.
 
 The problem with this setup is, you have to restart the development server every time you restart your machine.
 
-To avoid that, you can install Apache server locally, then add the path to the project in apache configuration file. You will also have to edit the `/etc/hosts` file. (more on that later).
+To avoid that, you can install Apache server locally, then add the path to the project in apache configuration file (`etc/apache2/sites-available` on Debian). You will also have to edit the `/etc/hosts` file.
 
 ### What can be added and improved
 
 - Add **drag-and-drop** interface in HTML form.
-- Setup a php.ini file locally to the project, add `extension=imagick` and set all the php configuration file to maximum (file upload, timeout ...)
-- The PHP script is OK but the JavaScript is quite messy.
