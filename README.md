@@ -42,7 +42,7 @@ If you want to setup this locally, you basically need to install `php`, `imagema
 
 On debian :
 
-`sudo apt install php php-imagick`
+`sudo apt install php php-imagick php-zip`
 
 (php only if you don't already have php on your machine)
 
