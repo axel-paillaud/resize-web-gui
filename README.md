@@ -60,7 +60,7 @@ Then, you can run :
 
 `./dev-start.sh`
 
-If browser window does not open automatically, go to `http://localhost:8090`
+And go to the url : `http://localhost:8090`
 
 You should see the application page. If you have problem to load Imagick library, you get error message when you start resize some images.
 
@@ -71,3 +71,4 @@ To avoid that, you can install Apache server locally, then add the path to the p
 ### What can be added and improved
 
 - Add **drag-and-drop** interface in HTML form.
+- Make embedded window, like the Electron framework, but with PHP
